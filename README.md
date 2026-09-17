@@ -1,3 +1,5 @@
+![Iconaut: one shape each, sharp at every size](.github/readme-banner.png)
+
 # Iconaut icons
 
 1,059 free icons in **line, solid and duotone**, drawn on one 24px grid, with a real
