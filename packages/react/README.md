@@ -57,4 +57,4 @@ licensed separately — see <https://iconaut.design/terms>.
 Source: <https://github.com/iconaut-design/icons> · Browse: <https://iconaut.design/icons>
 
 ---
-Generated from the Iconaut source of truth by `scripts/gen-react.mjs`. Do not hand-edit.
+Generated from the Iconaut source of truth by `scripts/gen-react.mjs --tier free`. Do not hand-edit.

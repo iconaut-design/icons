@@ -2,7 +2,7 @@
 import { createElement } from "react";
 
 const M0 = "<path d=\"M12 4.5 L 12 14\"/><path d=\"M8 10.5 L11.29 13.79 Q12 14.5 12.71 13.79 L16 10.5\"/><path d=\"M5.5 19 L 18.5 19\"/>";
-const M1 = "<path d=\"M12 4 L 12 15\"/><path d=\"M7.5 10.5 L11.29 14.29 Q12 15 12.71 14.29 L16.5 10.5\"/><path d=\"M5 19.5 L 19 19.5\"/>";
+const M1 = "<path d=\"M12 4 L12 14.65\"/><path d=\"M7.5 10.5 L11.29 14.29 Q12 15 12.71 14.29 L16.5 10.5\"/><path d=\"M5 19.5 L19 19.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
   12: [M0, 2],
