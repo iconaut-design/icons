@@ -2,7 +2,7 @@
 import { createElement } from "react";
 
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M8.6 18.8 A7.5 7.5 0 1 0 5.4 15.6 L4.29 18.62 Q3.6 20.5 5.49 19.86 L8.6 18.8 Z\"/><g class=\"primary\"><path d=\"M8.6 18.8 A7.5 7.5 0 1 0 5.4 15.6 L4.29 18.62 Q3.6 20.5 5.49 19.86 L8.6 18.8 Z\"/><path d=\"M8 12 L 8.01 12\"/><path d=\"M12 12 L 12.01 12\"/><path d=\"M16 12 L 16.01 12\"/></g>";
-const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M8.7 19.4 A8 8 0 1 0 5.1 16 L3.89 19.32 Q3.2 21.2 5.1 20.58 L8.7 19.4 Z\"/><g class=\"primary\"><path d=\"M8.7 19.4 A8 8 0 1 0 5.1 16 L3.89 19.32 Q3.2 21.2 5.1 20.58 L8.7 19.4 Z\"/><path d=\"M8 12 L 8.01 12\"/><path d=\"M12 12 L 12.01 12\"/><path d=\"M16 12 L 16.01 12\"/></g>";
+const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M8.7 19.4 A8 8 0 1 0 5.1 16 L3.89 19.32 Q3.2 21.2 5.1 20.58 L8.7 19.4 Z\"/><g class=\"primary\"><path d=\"M8.7 19.4 A8 8 0 1 0 5.1 16 L3.89 19.32 Q3.2 21.2 5.1 20.58 L8.7 19.4 Z\"/><path d=\"M8.4 12 L 8.41 12\"/><path d=\"M12 12 L 12.01 12\"/><path d=\"M15.6 12 L 15.61 12\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
   12: [M0, 2],

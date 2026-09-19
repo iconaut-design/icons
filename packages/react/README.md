@@ -10,13 +10,13 @@ npm i iconaut-react
 ```
 
 ```jsx
-import { Bell, BellSolid, BellDuo } from "iconaut-react";
+import { Rocket, RocketSolid, RocketDuo } from "iconaut-react";
 
-<Bell />                    // the 24px fit
-<Bell size={12} />          // the REAL 12px fit, not the 24px drawing scaled down
-<Bell size={18} />          // nearest fit (16) rendered at 18px
-<Bell strokeWidth={1.25} /> // override the fit's optical stroke
-<Bell className="text-blue-500" />
+<Rocket />                    // the 24px fit
+<Rocket size={12} />          // the REAL 12px fit, not the 24px drawing scaled down
+<Rocket size={18} />          // nearest fit (16) rendered at 18px
+<Rocket strokeWidth={1.25} /> // override the fit's optical stroke
+<Rocket className="text-blue-500" />
 ```
 
 ## A real drawing at every size
@@ -41,7 +41,7 @@ Pass any other number and the nearest fit renders at that pixel size.
 plane) under `.primary` (the line). Target either with CSS:
 
 ```jsx
-<BellDuo className="[&_.secondary]:fill-blue-500/20 [&_.primary]:stroke-blue-600" />
+<RocketDuo className="[&_.secondary]:fill-blue-500/20 [&_.primary]:stroke-blue-600" />
 ```
 
 ## Colour
