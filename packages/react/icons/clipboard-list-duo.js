@@ -2,7 +2,7 @@
 import { createElement } from "react";
 
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M5.5 7.5 Q5.5 5.5 7.5 5.5 L16.5 5.5 Q18.5 5.5 18.5 7.5 L18.5 18.5 Q18.5 20.5 16.5 20.5 L7.5 20.5 Q5.5 20.5 5.5 18.5 Z\"/><g class=\"primary\"><path d=\"M5.5 7.5 Q5.5 5.5 7.5 5.5 L16.5 5.5 Q18.5 5.5 18.5 7.5 L18.5 18.5 Q18.5 20.5 16.5 20.5 L7.5 20.5 Q5.5 20.5 5.5 18.5 Z\"/><path d=\"M9.5 5.5 L9.5 4.5 Q9.5 3.5 10.5 3.5 L13.5 3.5 Q14.5 3.5 14.5 4.5 L14.5 5.5\"/><path d=\"M10 11 L 15 11 M10 14.5 L 15 14.5\"/><path d=\"M7.5 11 L 7.51 11 M7.5 14.5 L 7.51 14.5\"/></g>";
-const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M5 7 Q5 5 7 5 L17 5 Q19 5 19 7 L19 19 Q19 21 17 21 L7 21 Q5 21 5 19 Z\"/><g class=\"primary\"><path d=\"M5 7 Q5 5 7 5 L17 5 Q19 5 19 7 L19 19 Q19 21 17 21 L7 21 Q5 21 5 19 Z\"/><path d=\"M9 5 L9 4 Q9 3 10 3 L14 3 Q15 3 15 4 L15 5\"/><path d=\"M10 11 L 15.5 11 M10 14.5 L 15.5 14.5\"/><path d=\"M7.3 11 L 7.31 11 M7.3 14.5 L 7.31 14.5\"/></g>";
+const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M5 7 Q5 5 7 5 L17 5 Q19 5 19 7 L19 19 Q19 21 17 21 L7 21 Q5 21 5 19 Z\"/><g class=\"primary\"><path d=\"M5 7 Q5 5 7 5 L17 5 Q19 5 19 7 L19 19 Q19 21 17 21 L7 21 Q5 21 5 19 Z\"/><path d=\"M9 5 L9 4 Q9 3 10 3 L14 3 Q15 3 15 4 L15 5\"/><path d=\"M11.8 11 L 15.6 11 M11.8 14.5 L 15.6 14.5\"/><path d=\"M8.4 11 L 8.41 11 M8.4 14.5 L 8.41 14.5\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
   12: [M0, 2],
