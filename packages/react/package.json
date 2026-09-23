@@ -4828,42 +4828,6 @@
       "types": "./icons/file-json-duo.d.ts",
       "default": "./icons/file-json-duo.js"
     },
-    "./file-archive": {
-      "types": "./icons/file-archive.d.ts",
-      "default": "./icons/file-archive.js"
-    },
-    "./file-archive-solid": {
-      "types": "./icons/file-archive-solid.d.ts",
-      "default": "./icons/file-archive-solid.js"
-    },
-    "./file-archive-duo": {
-      "types": "./icons/file-archive-duo.d.ts",
-      "default": "./icons/file-archive-duo.js"
-    },
-    "./file-key": {
-      "types": "./icons/file-key.d.ts",
-      "default": "./icons/file-key.js"
-    },
-    "./file-key-solid": {
-      "types": "./icons/file-key-solid.d.ts",
-      "default": "./icons/file-key-solid.js"
-    },
-    "./file-key-duo": {
-      "types": "./icons/file-key-duo.d.ts",
-      "default": "./icons/file-key-duo.js"
-    },
-    "./file-cog": {
-      "types": "./icons/file-cog.d.ts",
-      "default": "./icons/file-cog.js"
-    },
-    "./file-cog-solid": {
-      "types": "./icons/file-cog-solid.d.ts",
-      "default": "./icons/file-cog-solid.js"
-    },
-    "./file-cog-duo": {
-      "types": "./icons/file-cog-duo.d.ts",
-      "default": "./icons/file-cog-duo.js"
-    },
     "./file-question": {
       "types": "./icons/file-question.d.ts",
       "default": "./icons/file-question.js"
@@ -4911,18 +4875,6 @@
     "./file-symlink-duo": {
       "types": "./icons/file-symlink-duo.d.ts",
       "default": "./icons/file-symlink-duo.js"
-    },
-    "./file-diff": {
-      "types": "./icons/file-diff.d.ts",
-      "default": "./icons/file-diff.js"
-    },
-    "./file-diff-solid": {
-      "types": "./icons/file-diff-solid.d.ts",
-      "default": "./icons/file-diff-solid.js"
-    },
-    "./file-diff-duo": {
-      "types": "./icons/file-diff-duo.d.ts",
-      "default": "./icons/file-diff-duo.js"
     },
     "./file-spreadsheet": {
       "types": "./icons/file-spreadsheet.d.ts",
@@ -5008,18 +4960,6 @@
       "types": "./icons/file-stack-duo.d.ts",
       "default": "./icons/file-stack-duo.js"
     },
-    "./file-scan": {
-      "types": "./icons/file-scan.d.ts",
-      "default": "./icons/file-scan.js"
-    },
-    "./file-scan-solid": {
-      "types": "./icons/file-scan-solid.d.ts",
-      "default": "./icons/file-scan-solid.js"
-    },
-    "./file-scan-duo": {
-      "types": "./icons/file-scan-duo.d.ts",
-      "default": "./icons/file-scan-duo.js"
-    },
     "./file-digit": {
       "types": "./icons/file-digit.d.ts",
       "default": "./icons/file-digit.js"
@@ -5031,18 +4971,6 @@
     "./file-digit-duo": {
       "types": "./icons/file-digit-duo.d.ts",
       "default": "./icons/file-digit-duo.js"
-    },
-    "./file-box": {
-      "types": "./icons/file-box.d.ts",
-      "default": "./icons/file-box.js"
-    },
-    "./file-box-solid": {
-      "types": "./icons/file-box-solid.d.ts",
-      "default": "./icons/file-box-solid.js"
-    },
-    "./file-box-duo": {
-      "types": "./icons/file-box-duo.d.ts",
-      "default": "./icons/file-box-duo.js"
     },
     "./file-chart-column": {
       "types": "./icons/file-chart-column.d.ts",
@@ -5068,18 +4996,6 @@
       "types": "./icons/file-chart-line-duo.d.ts",
       "default": "./icons/file-chart-line-duo.js"
     },
-    "./file-warning": {
-      "types": "./icons/file-warning.d.ts",
-      "default": "./icons/file-warning.js"
-    },
-    "./file-warning-solid": {
-      "types": "./icons/file-warning-solid.d.ts",
-      "default": "./icons/file-warning-solid.js"
-    },
-    "./file-warning-duo": {
-      "types": "./icons/file-warning-duo.d.ts",
-      "default": "./icons/file-warning-duo.js"
-    },
     "./file-user": {
       "types": "./icons/file-user.d.ts",
       "default": "./icons/file-user.js"
@@ -5103,30 +5019,6 @@
     "./folder-open-duo": {
       "types": "./icons/folder-open-duo.d.ts",
       "default": "./icons/folder-open-duo.js"
-    },
-    "./folder-key": {
-      "types": "./icons/folder-key.d.ts",
-      "default": "./icons/folder-key.js"
-    },
-    "./folder-key-solid": {
-      "types": "./icons/folder-key-solid.d.ts",
-      "default": "./icons/folder-key-solid.js"
-    },
-    "./folder-key-duo": {
-      "types": "./icons/folder-key-duo.d.ts",
-      "default": "./icons/folder-key-duo.js"
-    },
-    "./folder-cog": {
-      "types": "./icons/folder-cog.d.ts",
-      "default": "./icons/folder-cog.js"
-    },
-    "./folder-cog-solid": {
-      "types": "./icons/folder-cog-solid.d.ts",
-      "default": "./icons/folder-cog-solid.js"
-    },
-    "./folder-cog-duo": {
-      "types": "./icons/folder-cog-duo.d.ts",
-      "default": "./icons/folder-cog-duo.js"
     },
     "./folder-clock": {
       "types": "./icons/folder-clock.d.ts",
@@ -5187,18 +5079,6 @@
     "./folder-symlink-duo": {
       "types": "./icons/folder-symlink-duo.d.ts",
       "default": "./icons/folder-symlink-duo.js"
-    },
-    "./folder-archive": {
-      "types": "./icons/folder-archive.d.ts",
-      "default": "./icons/folder-archive.js"
-    },
-    "./folder-archive-solid": {
-      "types": "./icons/folder-archive-solid.d.ts",
-      "default": "./icons/folder-archive-solid.js"
-    },
-    "./folder-archive-duo": {
-      "types": "./icons/folder-archive-duo.d.ts",
-      "default": "./icons/folder-archive-duo.js"
     },
     "./folder-tree": {
       "types": "./icons/folder-tree.d.ts",
@@ -6783,18 +6663,6 @@
     "./calendar-days-duo": {
       "types": "./icons/calendar-days-duo.d.ts",
       "default": "./icons/calendar-days-duo.js"
-    },
-    "./calendar-range": {
-      "types": "./icons/calendar-range.d.ts",
-      "default": "./icons/calendar-range.js"
-    },
-    "./calendar-range-solid": {
-      "types": "./icons/calendar-range-solid.d.ts",
-      "default": "./icons/calendar-range-solid.js"
-    },
-    "./calendar-range-duo": {
-      "types": "./icons/calendar-range-duo.d.ts",
-      "default": "./icons/calendar-range-duo.js"
     },
     "./calendar-clock": {
       "types": "./icons/calendar-clock.d.ts",

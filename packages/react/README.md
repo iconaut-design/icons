@@ -1,6 +1,6 @@
 # iconaut-react
 
-1059 Iconaut icons as React components. One shape per icon; line, solid and duotone
+1048 Iconaut icons as React components. One shape per icon; line, solid and duotone
 are derived from that same shape by the build, so the three styles can never drift apart —
 and neither can these components, which are generated from the very SVGs the Figma plugin
 inserts.
@@ -50,7 +50,7 @@ Everything is `currentColor`, so icons inherit whatever text colour is in scope.
 
 ## Licence
 
-MIT. These are the 1059 free Iconaut icons: use them in personal and commercial
+MIT. These are the 1048 free Iconaut icons: use them in personal and commercial
 work, modify them, ship them. The specialised Pro packs are not in this package and are
 licensed separately — see <https://iconaut.design/terms>.
 

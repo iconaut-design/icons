@@ -7906,24 +7906,6 @@
           "added": "2026-07-02"
         },
         {
-          "name": "file-archive",
-          "keywords": [
-            "zip",
-            "compressed",
-            "rar",
-            "backup",
-            "package",
-            "tar",
-            "store"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-05"
-        },
-        {
           "name": "file-audio",
           "keywords": [
             "sound",
@@ -7933,24 +7915,6 @@
             "mp3",
             "recording",
             "voice"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-05"
-        },
-        {
-          "name": "file-box",
-          "keywords": [
-            "package",
-            "container",
-            "archive",
-            "storage",
-            "3d",
-            "object",
-            "bundle"
           ],
           "styles": [
             "line",
@@ -8027,42 +7991,6 @@
             "deadline",
             "pending",
             "log"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-05"
-        },
-        {
-          "name": "file-cog",
-          "keywords": [
-            "settings",
-            "config",
-            "preferences",
-            "options",
-            "gear",
-            "system",
-            "setup"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-05"
-        },
-        {
-          "name": "file-diff",
-          "keywords": [
-            "compare",
-            "changes",
-            "git",
-            "patch",
-            "delta",
-            "difference",
-            "merge"
           ],
           "styles": [
             "line",
@@ -8178,24 +8106,6 @@
             "developer",
             "braces",
             "api"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-05"
-        },
-        {
-          "name": "file-key",
-          "keywords": [
-            "secure",
-            "password",
-            "access",
-            "credential",
-            "encrypt",
-            "private",
-            "pem"
           ],
           "styles": [
             "line",
@@ -8343,24 +8253,6 @@
             "support",
             "faq",
             "what"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-05"
-        },
-        {
-          "name": "file-scan",
-          "keywords": [
-            "ocr",
-            "digitize",
-            "read",
-            "capture",
-            "detect",
-            "analyze",
-            "recognize"
           ],
           "styles": [
             "line",
@@ -8575,24 +8467,6 @@
           "added": "2026-07-05"
         },
         {
-          "name": "file-warning",
-          "keywords": [
-            "alert",
-            "error",
-            "caution",
-            "attention",
-            "important",
-            "issue",
-            "danger"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-05"
-        },
-        {
           "name": "file-x",
           "keywords": [
             "document",
@@ -8652,25 +8526,6 @@
             "duo"
           ],
           "added": "2026-07-02"
-        },
-        {
-          "name": "folder-archive",
-          "keywords": [
-            "directory",
-            "zip",
-            "compressed",
-            "backup",
-            "store",
-            "package",
-            "old",
-            "file"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-05"
         },
         {
           "name": "folder-check",
@@ -8741,25 +8596,6 @@
             "repository",
             "programming",
             "scripts",
-            "file"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-05"
-        },
-        {
-          "name": "folder-cog",
-          "keywords": [
-            "directory",
-            "settings",
-            "config",
-            "options",
-            "gear",
-            "manage",
-            "setup",
             "file"
           ],
           "styles": [
@@ -8879,25 +8715,6 @@
             "columns",
             "agile",
             "workflow",
-            "file"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-05"
-        },
-        {
-          "name": "folder-key",
-          "keywords": [
-            "directory",
-            "secure",
-            "access",
-            "password",
-            "private",
-            "credential",
-            "locked",
             "file"
           ],
           "styles": [
@@ -11797,24 +11614,6 @@
             "duo"
           ],
           "added": "2026-07-02"
-        },
-        {
-          "name": "calendar-range",
-          "keywords": [
-            "date",
-            "schedule",
-            "period",
-            "span",
-            "duration",
-            "from to",
-            "booking"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-05"
         },
         {
           "name": "calendar-search",
