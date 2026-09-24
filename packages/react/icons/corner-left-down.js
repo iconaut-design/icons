@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M15 14 L10.71 18.29 Q10 19 9.29 18.29 L5 14\"/><path d=\"M19 5 L13 5 A3 3 0 0 0 10 8 L10 18.64\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function CornerLeftDown({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

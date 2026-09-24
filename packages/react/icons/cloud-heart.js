@@ -5,12 +5,11 @@ const M0 = "<path d=\"M7.5 18.5 L16.8 18.5 A3.7 4.14 0 0 0 17 10.21 A5.2 5.82 0 
 const M1 = "<path d=\"M7 19 L17.2 19 A4 4.48 0 0 0 17.4 10.15 A5.6 6.27 0 0 0 6.7 8.92 A4.3 4.82 0 0 0 7 19 Z\"/><path d=\"M11.68 15.57 C11.28 15.31 9.01 13.86 9.01 12 A1.51 1.51 0 0 1 11.68 11.12 A1.51 1.51 0 0 1 14.37 12 C14.37 13.86 12.09 15.31 11.68 15.57 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function CloudHeart({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

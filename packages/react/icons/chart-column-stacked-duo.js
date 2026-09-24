@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M7.5 11.5 Q7.5 10 9 10 L9 10 Q10.5 10 10.5 11.5 L10.5 18.5 Q10.5 20 9 20 L9 20 Q7.5 20 7.5 18.5 Z M13.5 13.5 Q13.5 12 15 12 L15 12 Q16.5 12 16.5 13.5 L16.5 18.5 Q16.5 20 15 20 L15 20 Q13.5 20 13.5 18.5 Z\"/><g class=\"primary\"><path d=\"M4 4 L4 19 Q4 20 5 20 L20 20\"/><path d=\"M7.5 20 L7.5 15.5 Q7.5 14.5 8.5 14.5 L9.5 14.5 Q10.5 14.5 10.5 15.5 L10.5 20\"/><path d=\"M7.75 14.75 L7.5 11 Q7.5 10 8.5 10 L9.5 10 Q10.5 10 10.5 11 L10.25 14.75\"/><path d=\"M13.5 20 L13.5 16.5 Q13.5 15.5 14.5 15.5 L15.5 15.5 Q16.5 15.5 16.5 16.5 L16.5 20\"/><path d=\"M13.75 15.75 L13.5 13 Q13.5 12 14.5 12 L15.5 12 Q16.5 12 16.5 13 L16.25 15.75\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ChartColumnStackedDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M2.5 7 Q2.5 5 4.5 5 L7.4 5 Q9 5 10 6.25 L10 6.25 Q11 7.5 12.6 7.5 L19.5 7.5 Q21.5 7.5 21.5 9.5 L21.5 19 Q21.5 21 19.5 21 L4.5 21 Q2.5 21 2.5 19 Z M10.76 13.46L13.24 13.46A1.82 1.82 0 0 1 15.06 15.28L15.06 17.51L8.94 17.51L8.94 15.28A1.82 1.82 0 0 1 10.76 13.46Z\"/><g class=\"primary\"><path d=\"M2.5 7 Q2.5 5 4.5 5 L7.4 5 Q9 5 10 6.25 L10 6.25 Q11 7.5 12.6 7.5 L19.5 7.5 Q21.5 7.5 21.5 9.5 L21.5 19 Q21.5 21 19.5 21 L4.5 21 Q2.5 21 2.5 19 Z\"/><path d=\"M8.94 15.46 Q8.94 13.46 10.94 13.46 L13.06 13.46 Q15.06 13.46 15.06 15.46 L15.06 15.51 Q15.06 17.51 13.06 17.51 L10.94 17.51 Q8.94 17.51 8.94 15.51 Z\"/><path d=\"M10.51 13.46 L10.51 12.47 A1.49 1.49 0 0 1 13.49 12.47 L13.49 13.46\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function FolderLockDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M5.64 7.62 L5.53 6.02 Q5.42 4.42 7.02 4.53 L8.62 4.64 A7.2 7.2 0 0 1 15.38 4.64 L16.98 4.53 Q18.58 4.42 18.47 6.02 L18.36 7.62 A7.2 7.2 0 0 1 7.87 16.9 C10 19.6 8.6 19.9 7.2 19.3 C7.9 18.6 8.1 17.9 8.1 17.2 A7.2 7.2 0 0 1 5.64 7.62 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Github({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

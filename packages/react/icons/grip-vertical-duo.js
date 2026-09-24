@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M7.7 5.5 A1.3 1.3 0 1 0 10.3 5.5 A1.3 1.3 0 1 0 7.7 5.5 Z M7.7 12 A1.3 1.3 0 1 0 10.3 12 A1.3 1.3 0 1 0 7.7 12 Z M7.7 18.5 A1.3 1.3 0 1 0 10.3 18.5 A1.3 1.3 0 1 0 7.7 18.5 Z M13.7 5.5 A1.3 1.3 0 1 0 16.3 5.5 A1.3 1.3 0 1 0 13.7 5.5 Z M13.7 12 A1.3 1.3 0 1 0 16.3 12 A1.3 1.3 0 1 0 13.7 12 Z M13.7 18.5 A1.3 1.3 0 1 0 16.3 18.5 A1.3 1.3 0 1 0 13.7 18.5 Z\"/><g class=\"primary\"><path d=\"M7.7 5.5 A1.3 1.3 0 1 0 10.3 5.5 A1.3 1.3 0 1 0 7.7 5.5 Z\"/><path d=\"M7.7 12 A1.3 1.3 0 1 0 10.3 12 A1.3 1.3 0 1 0 7.7 12 Z\"/><path d=\"M7.7 18.5 A1.3 1.3 0 1 0 10.3 18.5 A1.3 1.3 0 1 0 7.7 18.5 Z\"/><path d=\"M13.7 5.5 A1.3 1.3 0 1 0 16.3 5.5 A1.3 1.3 0 1 0 13.7 5.5 Z\"/><path d=\"M13.7 12 A1.3 1.3 0 1 0 16.3 12 A1.3 1.3 0 1 0 13.7 12 Z\"/><path d=\"M13.7 18.5 A1.3 1.3 0 1 0 16.3 18.5 A1.3 1.3 0 1 0 13.7 18.5 Z\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function GripVerticalDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M9.5 18 A2.5 2.5 0 1 0 14.5 18 A2.5 2.5 0 1 0 9.5 18 Z\"/><path d=\"M3.5 6 A2.5 2.5 0 1 0 8.5 6 A2.5 2.5 0 1 0 3.5 6 Z\"/><path d=\"M15.5 6 A2.5 2.5 0 1 0 20.5 6 A2.5 2.5 0 1 0 15.5 6 Z\"/><path d=\"M6 8.5 L6 10 A3 3 0 0 0 9 13 L15 13 A3 3 0 0 0 18 10 L18 8.5\"/><path d=\"M12 13 L 12 15.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function GitFork({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M8 3 L 8 21 M16 3 L 16 21\"/><path d=\"M6 7 L 10 7 M6 12 L 10 12 M6 17 L 10 17 M14 6 L 18 6 M14 11 L 18 11 M14 16 L 18 16\"/><path d=\"M10 5 L 13 3 M14 8 L 11 6\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function BambooDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

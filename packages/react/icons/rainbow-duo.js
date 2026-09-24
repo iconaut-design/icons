@@ -5,12 +5,11 @@ const M0 = "<path d=\"M3 17 A9 9 0 0 1 21 17\"/><path d=\"M6.5 17 A5.5 5.5 0 0 1
 const M1 = "<path d=\"M2.5 17 A9.5 9.5 0 0 1 21.5 17\"/><path d=\"M6.3 17 A5.7 5.7 0 0 1 17.7 17\"/><path d=\"M10 17 A2 2 0 0 1 14 17\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function RainbowDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

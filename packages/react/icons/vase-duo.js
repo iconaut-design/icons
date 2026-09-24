@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M11 4 L13 4 Q15 4 14.51 5.94 L14 8 A4 6 0 0 1 14 20 L10 20 A4 6 0 0 1 10 8 L9.49 5.94 Q9 4 11 4 Z\"/><g class=\"primary\"><path d=\"M11 4 L13 4 Q15 4 14.51 5.94 L14 8 A4 6 0 0 1 14 20 L10 20 A4 6 0 0 1 10 8 L9.49 5.94 Q9 4 11 4 Z\"/><path d=\"M9 6 L 15 6\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function VaseDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

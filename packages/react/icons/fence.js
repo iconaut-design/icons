@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M7 4 L 7 20 M12 4 L 12 20 M17 4 L 17 20\"/><path d=\"M4 9 L 20 9 M4 15 L 20 15\"/><path d=\"M6 4 L6.5 3.5 Q7 3 7.5 3.5 L8 4 M11 4 L11.5 3.5 Q12 3 12.5 3.5 L13 4 M16 4 L16.5 3.5 Q17 3 17.5 3.5 L18 4\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Fence({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M6.5 18.5 Q4.5 18.5 5.91 17.09 L15.59 7.41 Q17 6 18.41 7.41 L18.59 7.59 Q20 9 18.59 10.41 L11.91 17.09 Q10.5 18.5 8.5 18.5 Z\"/><g class=\"primary\"><path d=\"M6.5 18.5 Q4.5 18.5 5.91 17.09 L15.59 7.41 Q17 6 18.41 7.41 L18.59 7.59 Q20 9 18.59 10.41 L11.91 17.09 Q10.5 18.5 8.5 18.5 Z\"/><path d=\"M12.5 10.5 L 15.5 13.5\"/><path d=\"M10.35 18.15 L 20 18.5\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function EraserDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

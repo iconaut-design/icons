@@ -5,12 +5,11 @@ const M0 = "<path d=\"M8.5 12 L15 12 A3.5 3.5 0 0 1 15 19 L8.5 19 Q7.5 19 7.5 18
 const M1 = "<path d=\"M8 12 L15.2 12 A3.75 3.75 0 0 1 15.2 19.5 L8 19.5 Q7 19.5 7 18.5 L7 13 Q7 12 8 12 Z\"/><path d=\"M8 4.5 L14.2 4.5 A3.75 3.75 0 0 1 14.2 12 L8 12 Q7 12 7 11 L7 5.5 Q7 4.5 8 4.5 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Bold({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -5,12 +5,11 @@ const M0 = "<path d=\"M12 3 L 12 21\"/><path d=\"M16 6.5 L10.2 6.5 A3 3 0 0 0 10
 const M1 = "<path d=\"M12 2.5 L 12 21.5\"/><path d=\"M16.5 6 L10 6 A3.2 3.2 0 0 0 10 12.4 L14 12.4 A3.2 3.2 0 0 1 14 18.8 L7 18.8\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function DollarSign({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

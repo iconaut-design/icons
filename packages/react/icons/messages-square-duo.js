@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M3 9.5 A2 2 0 0 1 5 7.5 L13 7.5 A2 2 0 0 1 15 9.5 L15 15 A2 2 0 0 1 13 17 L9 17 Q7 17 5.59 18.41 L4.41 19.59 Q3 21 3 19 L3 9.5 Z\"/><g class=\"primary\"><path d=\"M3 9.5 A2 2 0 0 1 5 7.5 L13 7.5 A2 2 0 0 1 15 9.5 L15 15 A2 2 0 0 1 13 17 L9 17 Q7 17 5.59 18.41 L4.41 19.59 Q3 21 3 19 L3 9.5 Z\"/><path d=\"M9 7.5 L9 5 A2 2 0 0 1 11 3 L19 3 A2 2 0 0 1 21 5 L21 12 A2 2 0 0 1 19 14 L15 14\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function MessagesSquareDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

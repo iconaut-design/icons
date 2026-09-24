@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M4.6 8.9 A1.1 1.1 0 0 1 5.7 7.8 L7.1 7.8 A1.1 1.1 0 0 1 8.2 8.9 L8.2 15.1 A1.1 1.1 0 0 1 7.1 16.2 L5.7 16.2 A1.1 1.1 0 0 1 4.6 15.1 Z\"/><path d=\"M15.8 8.9 A1.1 1.1 0 0 1 16.9 7.8 L18.3 7.8 A1.1 1.1 0 0 1 19.4 8.9 L19.4 15.1 A1.1 1.1 0 0 1 18.3 16.2 L16.9 16.2 A1.1 1.1 0 0 1 15.8 15.1 Z\"/><path d=\"M8 12 L 16 12\"/><path d=\"M2.5 12 L 4.6 12 M19.4 12 L 21.5 12\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Dumbbell({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

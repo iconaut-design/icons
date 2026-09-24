@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M6.48 7.93 Q7 6 9 6 L15 6 Q17 6 16.48 7.93 L14.02 17.07 Q13.5 19 11.5 19 L5.5 19 Q3.5 19 4.02 17.07 Z\"/><g class=\"primary\"><path d=\"M6.48 7.93 Q7 6 9 6 L15 6 Q17 6 17.52 7.93 L19.98 17.07 Q20.5 19 18.5 19 L5.5 19 Q3.5 19 4.02 17.07 Z\"/><path d=\"M16.63 6.48 L 13.5 19\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function FoldableTentDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

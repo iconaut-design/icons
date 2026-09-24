@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M6 6.75 L7.75 6.75 A2.5 2.5 0 0 1 12.75 6.75 L15.5 6.75 Q17.25 6.75 17.25 8.5 L17.25 10.25 A2.5 2.5 0 0 1 17.25 15.25 L17.25 17.75 Q17.25 19.75 15.25 19.75 L6.25 19.75 Q4.25 19.75 4.25 17.75 L4.25 8.5 Q4.25 6.75 6 6.75 Z\"/><g class=\"primary\"><path d=\"M6 6.75 L7.75 6.75 A2.5 2.5 0 0 1 12.75 6.75 L15.5 6.75 Q17.25 6.75 17.25 8.5 L17.25 10.25 A2.5 2.5 0 0 1 17.25 15.25 L17.25 17.75 Q17.25 19.75 15.25 19.75 L6.25 19.75 Q4.25 19.75 4.25 17.75 L4.25 8.5 Q4.25 6.75 6 6.75 Z\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function PuzzleDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

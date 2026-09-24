@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M3 7 Q3 5 5 5 L13 5 Q15 5 15 7 L15 7 Q15 9 13 9 L5 9 Q3 9 3 7 Z M12.5 14 Q11 14 9.5 14 L9.5 14 Q8 14 8 15.5 L8 19 Q8 21 10 21 L12 21 Q14 21 14 19 L14 15.5 Q14 14 12.5 14 Z\"/><g class=\"primary\"><path d=\"M3 6 Q3 5 4 5 L14 5 Q15 5 15 6 L15 8 Q15 9 14 9 L4 9 Q3 9 3 8 Z\"/><path d=\"M15 7 L17 7 Q18 7 18 8 L18 10 Q18 11 17 11 L12 11 Q11 11 11 12 L11 14\"/><path d=\"M12 14 Q11 14 10 14 L9 14 Q8 14 8 15 L8 20 Q8 21 9 21 L13 21 Q14 21 14 20 L14 15 Q14 14 13 14 Z\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function PaintRollerDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

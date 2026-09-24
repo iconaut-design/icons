@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M4 6 Q4 4 6 4 L18 4 Q20 4 20 6 L20 12.5 Q20 14.5 18.59 15.91 L15.91 18.59 Q14.5 20 12.5 20 L6 20 Q4 20 4 18 Z\"/><path d=\"M14.35 19.65  L14.5 16.5   Q14.5 14.5 16.5 14.5   L19.65 14.35\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function StickyNote({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

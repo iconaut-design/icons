@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M8 6 L16 6 A6 6 0 0 1 16 18 L8 18 A6 6 0 0 1 8 6 Z M12.7 12a3.3 3.3 0 1 0 6.6 0a3.3 3.3 0 1 0 -6.6 0Z\"/><g class=\"primary\"><path d=\"M8 6 L16 6 A6 6 0 0 1 16 18 L8 18 A6 6 0 0 1 8 6 Z\"/><path d=\"M12.7 12 A3.3 3.3 0 1 0 19.3 12 A3.3 3.3 0 1 0 12.7 12 Z\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ToggleRightDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

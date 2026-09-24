@@ -5,12 +5,11 @@ const M0 = "<path d=\"M6.5 6.25 L11.32 11.51 Q12 12.25 12.68 11.51 L17.5 6.25\"/
 const M1 = "<path d=\"M6 5.75 L11.35 11.99 Q12 12.75 12.65 11.99 L18 5.75\"/><path d=\"M6 11.25 L11.35 17.49 Q12 18.25 12.65 17.49 L18 11.25\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ChevronDoubleDownDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

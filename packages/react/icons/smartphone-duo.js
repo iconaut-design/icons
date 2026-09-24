@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M6 4.5 Q6 2.5 8 2.5 L16 2.5 Q18 2.5 18 4.5 L18 19.5 Q18 21.5 16 21.5 L8 21.5 Q6 21.5 6 19.5 Z\"/><g class=\"primary\"><path d=\"M6 4.5 Q6 2.5 8 2.5 L16 2.5 Q18 2.5 18 4.5 L18 19.5 Q18 21.5 16 21.5 L8 21.5 Q6 21.5 6 19.5 Z\"/><path d=\"M12 18.3 L 12.01 18.3\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function SmartphoneDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M3 7 Q3 5 5 5 L19 5 Q21 5 21 7 L21 17 Q21 19 19 19 L5 19 Q3 19 3 17 Z M8.86 5L9.14 5A1.26 1.26 0 0 1 10.4 6.26L10.4 11.68A0.32 0.32 0 0 1 10.08 12L10.02 12A0.32 0.32 0 0 0 9.7 12.32L9.7 17.6L8.3 17.6L8.3 12.32A0.32 0.32 0 0 0 7.99 12L7.92 12A0.32 0.32 0 0 1 7.6 11.68L7.6 6.26A1.26 1.26 0 0 1 8.86 5Z M14.86 5L15.14 5A1.26 1.26 0 0 1 16.4 6.26L16.4 11.69A0.31 0.31 0 0 1 16.08 12L16.02 12A0.31 0.31 0 0 0 15.7 12.32L15.7 17.6L14.3 17.6L14.3 12.32A0.32 0.32 0 0 0 13.99 12L13.92 12A0.32 0.32 0 0 1 13.6 11.68L13.6 6.26A1.26 1.26 0 0 1 14.86 5Z\"/><g class=\"primary\"><path d=\"M3 7 Q3 5 5 5 L19 5 Q21 5 21 7 L21 17 Q21 19 19 19 L5 19 Q3 19 3 17 Z\"/><path d=\"M9 19 L 9 12\"/><path d=\"M15 19 L 15 12\"/><path d=\"M8.4 5 L 8.4 12 M9.6 5 L 9.6 12\"/><path d=\"M14.4 5 L 14.4 12 M15.6 5 L 15.6 12\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function PianoDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -5,12 +5,11 @@ const M0 = "<path fill-rule=\"evenodd\" d=\"M2.5 12 A9.5 9.5 0 1 0 21.5 12 A9.5 
 const M1 = "<path fill-rule=\"evenodd\" d=\"M1.95 12 A10.05 10.05 0 1 0 22.05 12 A10.05 10.05 0 1 0 1.95 12 M4.05 12 A7.95 7.95 0 1 0 19.95 12 A7.95 7.95 0 1 0 4.05 12 M5.95 12 A6.05 6.05 0 1 0 18.05 12 A6.05 6.05 0 1 0 5.95 12 M8.05 12 A3.95 3.95 0 1 0 15.95 12 A3.95 3.95 0 1 0 8.05 12 M10.4 12 A1.6 1.6 0 1 0 13.6 12 A1.6 1.6 0 1 0 10.4 12\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, null],
   16: [M0, null],
   20: [M1, null],
   24: [M1, null]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function TargetSolid({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

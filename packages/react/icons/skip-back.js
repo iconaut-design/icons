@@ -5,12 +5,11 @@ const M0 = "<path d=\"M18.5 6 Q18.5 5 17.71 5.61 L10.29 11.39 Q9.5 12 10.29 12.6
 const M1 = "<path d=\"M19 5.5 Q19 4.5 18.22 5.12 L10.28 11.38 Q9.5 12 10.28 12.62 L18.22 18.88 Q19 19.5 19 18.5 Z\"/><path d=\"M5.5 4.5 L 5.5 19.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function SkipBack({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

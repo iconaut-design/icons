@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M4.5 7.91 Q4.5 6.5 5.5 5.5 L5.5 5.5 Q6.5 4.5 7.91 4.5 L17.5 4.5 Q19.5 4.5 19.5 6.5 L19.5 11.5 Q19.5 13.5 18.09 14.91 L16.38 16.62 Q15.5 17.5 14.25 17.5 L14.25 17.5 Q13 17.5 12.12 18.38 L11.38 19.12 Q10.5 20 10.5 18.75 L10.5 18.75 Q10.5 17.5 9.25 17.5 L6.5 17.5 Q4.5 17.5 4.5 15.5 Z\"/><path d=\"M10.5 8.5 L 10.5 12 M15 8.5 L 15 12\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Twitch({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M17.75 11.4 A2 2 0 1 0 21.75 11.4 A2 2 0 1 0 17.75 11.4 Z\"/><g class=\"primary\"><path d=\"M4.25 2.5 L4.25 8 A4.5 4.5 0 0 0 13.25 8 L13.25 2.5\"/><path d=\"M4.25 2.5 L 4.26 2.5 M13.25 2.5 L 13.26 2.5\"/><path d=\"M8.75 12.5 L8.75 15 A5.5 5.5 0 0 0 19.75 15 L19.75 13.4\"/><path d=\"M17.75 11.4 A2 2 0 1 0 21.75 11.4 A2 2 0 1 0 17.75 11.4 Z\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function StethoscopeDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M8.99 4.74 Q8 3 7.01 4.74 L4.5 9.13 Q4 10 5 10 L5 10 Q6 10 5.49 10.86 L4.03 13.29 Q3 15 5 15 L11 15 Q13 15 11.97 13.29 L10.51 10.86 Q10 10 11 10 L11 10 Q12 10 11.5 9.13 Z\"/><path d=\"M13 9 A4 4 0 1 0 21 9 A4 4 0 1 0 13 9 Z\"/><path d=\"M8 15 L 8 20\"/><path d=\"M17 13 L 17 20\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Trees({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

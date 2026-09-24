@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M7 12 A5 5 0 1 0 17 12 A5 5 0 1 0 7 12 Z\"/><g class=\"primary\"><path d=\"M7 12 A5 5 0 1 0 17 12 A5 5 0 1 0 7 12 Z\"/><path d=\"M12 2.5 L 12 4 M12 20 L 12 21.5 M2.5 12 L 4 12 M20 12 L 21.5 12 M4.9 4.9 L 5.9 5.9 M18.1 18.1 L 19.1 19.1 M4.9 19.1 L 5.9 18.1 M18.1 5.9 L 19.1 4.9\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function SunMediumDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

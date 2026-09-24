@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M7 19 L17.2 19 A4 4.48 0 0 0 17.4 10.15 A5.6 6.27 0 0 0 6.7 8.92 A4.3 4.82 0 0 0 7 19 Z M11.68 15.57C11.28 15.31 9.01 13.86 9.01 12A1.51 1.51 0 0 1 11.68 11.12A1.51 1.51 0 0 1 14.37 12C14.37 13.86 12.09 15.31 11.68 15.57Z\"/><g class=\"primary\"><path d=\"M7 19 L17.2 19 A4 4.48 0 0 0 17.4 10.15 A5.6 6.27 0 0 0 6.7 8.92 A4.3 4.82 0 0 0 7 19 Z\"/><path d=\"M11.68 15.57 C11.28 15.31 9.01 13.86 9.01 12 A1.51 1.51 0 0 1 11.68 11.12 A1.51 1.51 0 0 1 14.37 12 C14.37 13.86 12.09 15.31 11.68 15.57 Z\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function CloudHeartDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

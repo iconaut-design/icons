@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M6.5 11.5 L11.35 5.76 Q12 5 12.65 5.76 L17.5 11.5\"/><path d=\"M12 21 L12 5.38\"/><path d=\"M5 3 L19 3\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ArrowUpToLineDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

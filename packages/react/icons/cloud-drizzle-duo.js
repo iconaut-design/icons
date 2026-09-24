@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M7.9 15.5 L17.7 15.5 A3.8 3.8 0 0 0 17.9 8.4 A5.3 5.3 0 0 0 7.6 7.3 A4 4 0 0 0 7.9 15.5 Z\"/><g class=\"primary\"><path d=\"M7.9 15.5 L17.7 15.5 A3.8 3.8 0 0 0 17.9 8.4 A5.3 5.3 0 0 0 7.6 7.3 A4 4 0 0 0 7.9 15.5 Z\"/><path d=\"M9.4 18 L 8.9 19.5 M12.9 18 L 12.4 19.5 M16.4 18 L 15.9 19.5 M11.1 20.5 L 10.6 22 M14.7 20.5 L 14.2 22\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function CloudDrizzleDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

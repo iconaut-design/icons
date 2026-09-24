@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M16.69 6.41 A7.3 7.3 0 1 0 17.59 16.69\"/><path d=\"M14.9 13.2 A2.9 2.9 0 1 1 14.9 11.2 C14.9 8.9 15.7 7.2 17.3 6.1\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Threads({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

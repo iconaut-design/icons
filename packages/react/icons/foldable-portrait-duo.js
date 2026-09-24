@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M5 5.5 Q5 3.5 7 3.5 L17 3.5 Q19 3.5 19 5.5 L19 18.5 Q19 20.5 17 20.5 L7 20.5 Q5 20.5 5 18.5 Z M7 12L17 12A2 2 0 0 1 19 14L19 20.5L5 20.5L5 14A2 2 0 0 1 7 12Z\"/><g class=\"primary\"><path d=\"M5 5.5 Q5 3.5 7 3.5 L17 3.5 Q19 3.5 19 5.5 L19 18.5 Q19 20.5 17 20.5 L7 20.5 Q5 20.5 5 18.5 Z\"/><path d=\"M5 12 L 19 12\"/><path d=\"M15.5 7.5 L 15.51 7.5\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function FoldablePortraitDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

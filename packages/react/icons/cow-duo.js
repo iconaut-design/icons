@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M5 11 A5 5 0 0 1 8 6.5 A4 4 0 0 1 16 6.5 A5 5 0 0 1 19 11 C19 15 16 18 12 18 S5 15 5 11 Z\"/><g class=\"primary\"><path d=\"M5 11 A5 5 0 0 1 8 6.5 A4 4 0 0 1 16 6.5 A5 5 0 0 1 19 11 C19 15 16 18 12 18 S5 15 5 11 Z\"/><path d=\"M5 9 L 2.5 8 M19 9 L 21.5 8\"/><path d=\"M8 6 L 7.5 3.5 M16 6 L 16.5 3.5\"/><path d=\"M9.5 10 L 9.51 10 M14.5 10 L 14.51 10\"/><path d=\"M9 14.5 A3 2 0 0 0 15 14.5\"/><path d=\"M10.5 14 L 10.51 14 M13.5 14 L 13.51 14\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function CowDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

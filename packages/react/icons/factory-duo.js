@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M5.5 20.5 Q3.5 20.5 3.5 18.5 L3.5 6 Q3.5 4.5 5 4.5 L5 4.5 Q6.5 4.5 6.5 6 L6.5 11 Q6.5 13 8.19 11.93 L10.52 10.44 Q12 9.5 12 11.25 L12 11.25 Q12 13 13.47 12.05 L18.82 8.59 Q20.5 7.5 20.5 9.5 L20.5 18.5 Q20.5 20.5 18.5 20.5 Z M10.5 20.5L10.5 17.35A1.35 1.35 0 0 1 11.85 16L12.15 16A1.35 1.35 0 0 1 13.5 17.35L13.5 20.5L10.5 20.5Z\"/><g class=\"primary\"><path d=\"M5.5 20.5 Q3.5 20.5 3.5 18.5 L3.5 6 Q3.5 4.5 5 4.5 L5 4.5 Q6.5 4.5 6.5 6 L6.5 11 Q6.5 13 8.19 11.93 L10.52 10.44 Q12 9.5 12 11.25 L12 11.25 Q12 13 13.47 12.05 L18.82 8.59 Q20.5 7.5 20.5 9.5 L20.5 18.5 Q20.5 20.5 18.5 20.5 Z\"/><path d=\"M10.5 20.5 L10.5 17.5 Q10.5 16 12 16 L12 16 Q13.5 16 13.5 17.5 L13.5 20.5\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function FactoryDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

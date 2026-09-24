@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M7.45 8.1 A3.9 3.9 0 1 0 7.45 15.9 C10.7 15.9 13.3 8.1 16.55 8.1 A3.9 3.9 0 1 1 16.55 15.9 C13.3 15.9 10.7 8.1 7.45 8.1 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Infinity({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

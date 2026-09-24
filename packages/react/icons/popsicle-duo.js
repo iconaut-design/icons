@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M8 7 A4 4 0 0 1 16 7 L16 11 Q16 13 14 13 L10 13 Q8 13 8 11 L8 7 Z\"/><g class=\"primary\"><path d=\"M8 7 A4 4 0 0 1 16 7 L16 11 Q16 13 14 13 L10 13 Q8 13 8 11 L8 7 Z\"/><path d=\"M12 13 L 12 21\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function PopsicleDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

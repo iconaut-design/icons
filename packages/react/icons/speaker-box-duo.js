@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M6 5 Q6 3 8 3 L16 3 Q18 3 18 5 L18 19 Q18 21 16 21 L8 21 Q6 21 6 19 Z M10.5 7.5a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0Z M9 15a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z\"/><g class=\"primary\"><path d=\"M6 5 Q6 3 8 3 L16 3 Q18 3 18 5 L18 19 Q18 21 16 21 L8 21 Q6 21 6 19 Z\"/><path d=\"M10.5 7.5 A1.5 1.5 0 1 0 13.5 7.5 A1.5 1.5 0 1 0 10.5 7.5 Z\"/><path d=\"M9 15 A3 3 0 1 0 15 15 A3 3 0 1 0 9 15 Z\"/><path d=\"M12 15 L 12.01 15\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function SpeakerBoxDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

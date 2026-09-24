@@ -5,12 +5,11 @@ const M0 = "<path d=\"M17.3 10.7 L14.3 10.7 Q13.3 10.7 13.3 9.7 L13.3 6.7\"/><pa
 const M1 = "<path d=\"M18.2 10.5 L14.5 10.5 Q13.5 10.5 13.5 9.5 L13.5 5.8\"/><path d=\"M5.8 13.5 L9.5 13.5 Q10.5 13.5 10.5 14.5 L10.5 18.2\"/><path d=\"M13.75 10.25 L19 5\"/><path d=\"M10.25 13.75 L5 19\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Collapse({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

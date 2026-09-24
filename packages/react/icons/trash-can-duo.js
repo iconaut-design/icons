@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M8 7 L16 7 Q18 7 17.85 8.99 L17 20 A1 1 0 0 1 16 20.92 L8 21 A1 1 0 0 1 6.99 20.08 L6.15 8.99 Q6 7 8 7 Z\"/><g class=\"primary\"><path d=\"M7 7 L17 7 Q18 7 17.92 8 L17 20 A1 1 0 0 1 16 20.92 L8 21 A1 1 0 0 1 6.99 20.08 L6.08 8 Q6 7 7 7 Z\"/><path d=\"M4 7 L 20 7\"/><path d=\"M9 7 L9 6 Q9 5 10 5 L14 5 Q15 5 15 6 L15 7\"/><path d=\"M10 11 L 10 17 M14 11 L 14 17\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function TrashCanDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

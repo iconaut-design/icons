@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M12 4.6 C10.7 3.4 8.9 2.9 7.3 3.5 C5.2 4.3 4 6.5 4.4 8.7 L6.7 19.2 A1.4 1.4 0 0 0 9.4 19 L10.3 14.9 A1.75 1.75 0 0 1 13.72 14.9 L14.6 19 A1.4 1.4 0 0 0 17.3 19.2 L19.6 8.7 C20 6.5 18.8 4.3 16.7 3.5 C15.1 2.9 13.3 3.4 12 4.6 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Tooth({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M13.14 5.14 L16.5 10 A5.8 5.8 0 1 1 7.5 10 L10.86 5.14 Q12 3.5 13.14 5.14 Z\"/><g class=\"primary\"><path d=\"M13.14 5.14 L16.5 10 A5.8 5.8 0 1 1 7.5 10 L10.86 5.14 Q12 3.5 13.14 5.14 Z\"/><path d=\"M12 12 L 12 16 M10 14 L 14 14\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function BloodDropDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M5 4.85 L5 19.14\"/><path d=\"M2.6 6.9 L4.29 5.21 Q5 4.5 5.71 5.21 L7.4 6.9\"/><path d=\"M2.6 17.1 L4.29 18.79 Q5 19.5 5.71 18.79 L7.4 17.1\"/><path d=\"M11 5 L21 5 M11 9 L21 9\"/><path d=\"M11 15.5 L21 15.5 M11 19.5 L21 19.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ParagraphSpacingDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

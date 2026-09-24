@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M3 12 A9 9 0 1 0 21 12 A9 9 0 1 0 3 12 Z\"/><path d=\"M12 6.5 L 12 17.5\"/><path d=\"M15.2 8.6 L10.8 8.6 A1.95 1.95 0 0 0 10.8 12.5 L13.2 12.5 A1.95 1.95 0 0 1 13.2 16.4 L8.8 16.4\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function DollarCircle({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

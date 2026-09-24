@@ -5,12 +5,11 @@ const M0 = "<path d=\"M5.4 9.6 L8.6 9.6 Q9.6 9.6 9.6 8.6 L9.6 5.4\"/><path d=\"M
 const M1 = "<path d=\"M5.5 10.2 L9.2 10.2 Q10.2 10.2 10.2 9.2 L10.2 5.5\"/><path d=\"M18.5 10.2 L14.8 10.2 Q13.8 10.2 13.8 9.2 L13.8 5.5\"/><path d=\"M5.5 13.8 L9.2 13.8 Q10.2 13.8 10.2 14.8 L10.2 18.5\"/><path d=\"M18.5 13.8 L14.8 13.8 Q13.8 13.8 13.8 14.8 L13.8 18.5\"/><path d=\"M9.95 9.95 L5 5\"/><path d=\"M14.05 9.95 L19 5\"/><path d=\"M9.95 14.05 L5 19\"/><path d=\"M14.05 14.05 L19 19\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Minimize({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

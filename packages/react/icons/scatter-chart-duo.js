@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M4 4 L4 19 Q4 20 5 20 L20 20\"/><path d=\"M8 14 L 8.01 14 M11 9 L 11.01 9 M14 15 L 14.01 15 M16.5 8 L 16.51 8 M9 17 L 9.01 17 M17.5 12 L 17.51 12\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ScatterChartDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -5,12 +5,11 @@ const M0 = "<path d=\"M3.5 6.5 Q3.5 4.5 5.41 5.09 L10.09 6.51 Q12 7.1 13.91 6.51
 const M1 = "<path d=\"M3 6 Q3 4 4.91 4.59 L10.09 6.21 Q12 6.8 13.91 6.21 L19.09 4.59 Q21 4 21 6 L21 15.2 Q21 17.2 19.09 17.79 L13.91 19.41 Q12 20 10.09 19.41 L4.91 17.79 Q3 17.2 3 15.2 Z\"/><path d=\"M12 6.51  L12 19.71\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function FoldableBook({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

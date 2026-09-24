@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M9 6 L15 6 Q17 6 17 8 L17 17 A2 2 0 0 1 15 19 L9 19 A2 2 0 0 1 7 17 L7 8 Q7 6 9 6 Z M10 12a1 1 0 1 1 2 0a1 1 0 1 1 -2 0Z\"/><g class=\"primary\"><path d=\"M9 6 L15 6 Q17 6 17 8 L17 17 A2 2 0 0 1 15 19 L9 19 A2 2 0 0 1 7 17 L7 8 Q7 6 9 6 Z\"/><path d=\"M12 8 L 15 3\"/><path d=\"M10 12 A1 1 0 1 1 12 12 A1 1 0 1 1 10 12 Z\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function CocktailDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

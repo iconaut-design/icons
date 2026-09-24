@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M5 4 L 5 20 M14 4 L 14 20 M5 12 L 14 12\"/><path d=\"M17.8 10.5 L18.91 9.95 Q19.8 9.5 19.8 10.5 L19.8 15.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Heading1Duo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

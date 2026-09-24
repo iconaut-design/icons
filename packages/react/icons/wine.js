@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M12 14.9 A4.9 4.9 0 0 0 16.9 10 C16.9 8.1 16.4 6.2 15 3.4 L9 3.4 C7.6 6.2 7.1 8.1 7.1 10 A4.9 4.9 0 0 0 12 14.9 Z\"/><path d=\"M12 14.9 L 12 20.6\"/><path d=\"M8.4 20.6 L 15.6 20.6\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Wine({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

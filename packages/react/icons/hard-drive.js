@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M3.5 8.5 Q3.5 6.5 5.5 6.5 L18.5 6.5 Q20.5 6.5 20.5 8.5 L20.5 15.5 Q20.5 17.5 18.5 17.5 L5.5 17.5 Q3.5 17.5 3.5 15.5 Z\"/><path d=\"M3.5 12 L 20.5 12\"/><path d=\"M16.5 14.75 L 16.51 14.75\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function HardDrive({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M9.4 3.6 A3.7 3.7 0 1 0 9.4 11 A3.7 3.7 0 0 0 9.4 3.6 Z M9.4 13.3 C5.8 13.3 3.3 15.8 3.3 19.2 A1.1 1.1 0 0 0 4.4 20.3 L14.4 20.3 A1.1 1.1 0 0 0 15.5 19.2 C15.5 15.8 13 13.3 9.4 13.3 Z\"/><g class=\"primary\"><path d=\"M9.4 3.6 A3.7 3.7 0 1 0 9.4 11 A3.7 3.7 0 0 0 9.4 3.6 Z M9.4 13.3 C5.8 13.3 3.3 15.8 3.3 19.2 A1.1 1.1 0 0 0 4.4 20.3 L14.4 20.3 A1.1 1.1 0 0 0 15.5 19.2 C15.5 15.8 13 13.3 9.4 13.3 Z\"/><path d=\"M16.85 8.6 A1.55 1.55 0 1 0 19.95 8.6 A1.55 1.55 0 1 0 16.85 8.6 Z\"/><path d=\"M20.45 8.6 L 21.35 8.6 M19.43 10.38 L 19.88 11.15 M17.38 10.38 L 16.93 11.15 M16.35 8.6 L 15.45 8.6 M17.38 6.82 L 16.93 6.05 M19.43 6.82 L 19.88 6.05\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function UserCogDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

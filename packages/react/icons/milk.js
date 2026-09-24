@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M10 20 Q8 20 8 18 L8 10 Q8 8 8.89 6.21 L9.11 5.79 Q10 4 12 4 L12 4 Q14 4 14.89 5.79 L15.11 6.21 Q16 8 16 10 L16 18 Q16 20 14 20 Z\"/><path d=\"M11.03 4.13  L11 5   Q11 6 12 6   L12 6   Q13 6 13 5   L12.97 4.13\"/><path d=\"M8 12 L 16 12\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Milk({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

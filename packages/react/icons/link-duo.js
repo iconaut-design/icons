@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M11.43 18.23 L18.23 11.43 A4 4 0 0 0 12.57 5.77 L5.77 12.57 A4 4 0 0 0 11.43 18.23 Z\"/><g class=\"primary\"><path d=\"M10.3 13.7 A4 4 0 0 0 16 13.7 L19 10.7 A4 4 0 0 0 13.3 5 L11.8 6.5\"/><path d=\"M13.7 10.3 A4 4 0 0 0 8 10.3 L5 13.3 A4 4 0 0 0 10.7 19 L12.2 17.5\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function LinkDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M3.5 11.5 Q3.5 9.5 5.5 9.5 L18.5 9.5 Q20.5 9.5 20.5 11.5 L20.5 17 Q20.5 19 18.5 19 L5.5 19 Q3.5 19 3.5 17 Z M15.6 14.2a1.4 1.4 0 1 1 2.8 0a1.4 1.4 0 1 1 -2.8 0Z\"/><g class=\"primary\"><path d=\"M3.5 7.5 Q3.5 5.5 5.5 5.5 L18.5 5.5 Q20.5 5.5 20.5 7.5 L20.5 17 Q20.5 19 18.5 19 L5.5 19 Q3.5 19 3.5 17 Z\"/><path d=\"M3.5 9.5 L 20.5 9.5\"/><circle cx=\"17\" cy=\"14.2\" r=\"1.4\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function WalletDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

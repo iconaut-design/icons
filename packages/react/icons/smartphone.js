@@ -5,12 +5,11 @@ const M0 = "<path d=\"M6.5 5 Q6.5 3 8.5 3 L15.5 3 Q17.5 3 17.5 5 L17.5 19 Q17.5 
 const M1 = "<path d=\"M6 4.5 Q6 2.5 8 2.5 L16 2.5 Q18 2.5 18 4.5 L18 19.5 Q18 21.5 16 21.5 L8 21.5 Q6 21.5 6 19.5 Z\"/><path d=\"M12 18.3 L 12.01 18.3\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Smartphone({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

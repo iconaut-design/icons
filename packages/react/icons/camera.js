@@ -5,12 +5,11 @@ const M0 = "<path d=\"M3 10 Q3 8 5 8 L6.57 8 Q8 8 8.7 6.75 L8.7 6.75 Q9.4 5.5 10
 const M1 = "<path d=\"M3 9.5 Q3 7.5 5 7.5 L6.34 7.5 Q7.8 7.5 8.55 6.25 L8.55 6.25 Q9.3 5 10.76 5 L13.24 5 Q14.7 5 15.45 6.25 L15.45 6.25 Q16.2 7.5 17.66 7.5 L19 7.5 Q21 7.5 21 9.5 L21 17.5 Q21 19.5 19 19.5 L5 19.5 Q3 19.5 3 17.5 Z\"/><path d=\"M8.7 13.2 A3.3 3.3 0 1 0 15.3 13.2 A3.3 3.3 0 1 0 8.7 13.2 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Camera({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M5.45 9.55 Q5.28 7.56 7.28 7.56 L16.72 7.56 Q18.72 7.56 18.55 9.55 L17.77 19.01 Q17.6 21 15.6 21 L8.4 21 Q6.4 21 6.23 19.01 Z\"/><g class=\"primary\"><path d=\"M5.45 9.55 Q5.28 7.56 7.28 7.56 L16.72 7.56 Q18.72 7.56 18.55 9.55 L17.77 19.01 Q17.6 21 15.6 21 L8.4 21 Q6.4 21 6.23 19.01 Z\"/><path d=\"M9.2 7.56 L 8.64 21 M14.8 7.56 L 15.36 21\"/><path d=\"M5.28 7.56 A2.24 2.24 0 0 1 8.64 5.32 A2.24 2.24 0 0 1 12 6.44 A2.24 2.24 0 0 1 15.36 5.32 A2.24 2.24 0 0 1 18.72 7.56\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function PopcornDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

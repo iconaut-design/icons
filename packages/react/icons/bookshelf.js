@@ -5,12 +5,11 @@ const M0 = "<path d=\"M4.5 5.5 Q4.5 3.5 6.5 3.5 L17.5 3.5 Q19.5 3.5 19.5 5.5 L19
 const M1 = "<path d=\"M4.5 5.5 Q4.5 3.5 6.5 3.5 L17.5 3.5 Q19.5 3.5 19.5 5.5 L19.5 18.5 Q19.5 20.5 17.5 20.5 L6.5 20.5 Q4.5 20.5 4.5 18.5 Z\"/><path d=\"M4.5 12 L 19.5 12\"/><path d=\"M8.25 12 L 8.25 6.5 M11.25 12 L 11.25 6.5 M14 6.9 L 16.4 12\"/><path d=\"M8.25 20.5 L 8.25 15 M11.75 20.5 L 11.75 14.5 M15.25 20.5 L 15.25 15\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Bookshelf({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

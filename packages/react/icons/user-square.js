@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M3.5 5.5 Q3.5 3.5 5.5 3.5 L18.5 3.5 Q20.5 3.5 20.5 5.5 L20.5 18.5 Q20.5 20.5 18.5 20.5 L5.5 20.5 Q3.5 20.5 3.5 18.5 Z\"/><circle cx=\"12\" cy=\"9.3\" r=\"3.1\"/><path d=\"M5.7 20.5 C6.4 17.3 8.9 15.3 12 15.3 S17.6 17.3 18.3 20.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function UserSquare({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

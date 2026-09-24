@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M6 18 Q4 18 4 16 L4 13 Q4 11 5.88 10.33 L16.12 6.67 Q18 6 18.74 7.86 L19.26 9.14 Q20 11 20 13 L20 16 Q20 18 18 18 Z\"/><g class=\"primary\"><path d=\"M6 18 Q4 18 4 16 L4 13 Q4 11 5.88 10.33 L16.12 6.67 Q18 6 18.74 7.86 L19.26 9.14 Q20 11 20 13 L20 16 Q20 18 18 18 Z\"/><path d=\"M8 14 L 8.01 14 M13 12.5 L 13.01 12.5 M16 15 L 16.01 15\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function CheeseDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

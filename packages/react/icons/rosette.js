@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M7 8.5 A5 5 0 1 0 17 8.5 A5 5 0 1 0 7 8.5 Z\"/><path d=\"M10.3 8.5 A1.7 1.7 0 1 0 13.7 8.5 A1.7 1.7 0 1 0 10.3 8.5 Z\"/><path d=\"M9.5 12.8 L8.34 19.45 Q8.1 20.8 9.25 20.05 L9.51 19.88 Q10.4 19.3 11.2 20 L11.2 20 Q12 20.7 12.8 20 L12.8 20 Q13.6 19.3 14.49 19.88 L14.75 20.05 Q15.9 20.8 15.66 19.45 L14.5 12.8\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Rosette({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

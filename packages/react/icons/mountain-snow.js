@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M4.5 19.5 Q2.5 19.5 3.48 17.76 L8.02 9.74 Q9 8 10.01 9.73 L11.49 12.27 Q12.5 14 13.56 12.3 L13.94 11.7 Q15 10 16.13 11.65 L20.37 17.85 Q21.5 19.5 19.5 19.5 Z\"/><path d=\"M7.4 11.1 L7.8 11.7 Q8.2 12.3 8.59 11.7 L8.63 11.65 Q9.05 11 9.48 11.65 L9.51 11.7 Q9.9 12.3 10.3 11.7 L10.7 11.1\"/><path d=\"M13.8 12.1 L14.15 12.6 Q14.5 13.1 14.77 12.55 L14.78 12.55 Q15.05 12 15.36 12.53 L15.39 12.57 Q15.7 13.1 16.05 12.6 L16.4 12.1\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function MountainSnow({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -5,12 +5,11 @@ const M0 = "<path d=\"M2.6 12 A9.4 9.4 0 1 0 21.4 12 A9.4 9.4 0 1 0 2.6 12 M11.2
 const M1 = "<path d=\"M2.25 12 A9.75 9.75 0 1 0 21.75 12 A9.75 9.75 0 1 0 2.25 12 M11.25 7.35 Q11.25 6.6 12 6.6 L12 6.6 Q12.75 6.6 12.75 7.35 L12.75 9.77 Q12.75 11.57 14.31 12.46 L15.22 12.98 Q15.87 13.35 15.5 14 L15.5 14 Q15.13 14.65 14.48 14.28 L12.99 13.42 Q11.25 12.43 11.25 10.43 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, null],
   16: [M0, null],
   20: [M1, null],
   24: [M1, null]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ClockSolid({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

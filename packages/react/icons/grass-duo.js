@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M12 20 L 12 10\"/><path d=\"M8 20 C8 15 6 13 5 12 M16 20 C16 15 18 13 19 12 M10 20 C10 16 9 14 8 13 M14 20 C14 16 15 14 16 13\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function GrassDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

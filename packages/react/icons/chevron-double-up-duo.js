@@ -5,12 +5,11 @@ const M0 = "<path d=\"M6.5 12.25 L11.32 6.99 Q12 6.25 12.68 6.99 L17.5 12.25\"/>
 const M1 = "<path d=\"M6 12.75 L11.35 6.51 Q12 5.75 12.65 6.51 L18 12.75\"/><path d=\"M6 18.25 L11.35 12.01 Q12 11.25 12.65 12.01 L18 18.25\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ChevronDoubleUpDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

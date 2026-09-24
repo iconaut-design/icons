@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M7.5 3.5 L 7.51 3.5\"/><path d=\"M3.5 6.5 L 11.5 6.5\"/><path d=\"M5.5 9.5 L 11 15\"/><path d=\"M4.5 14.5 L8.79 10.21 Q9.5 9.5 9.76 8.53 L10.3 6.5\"/><path d=\"M12.7 20 L16.13 11.43 Q16.5 10.5 16.87 11.43 L20.3 20\"/><path d=\"M13.9 17 L 19.1 17\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function TranslateDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

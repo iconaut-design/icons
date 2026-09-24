@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M12 3 C8 5 8 12 12 21 C16 12 16 5 12 3 Z\"/><path d=\"M9 8 L 15 8 M9.5 11 L 14.5 11 M10 14 L 14 14 M10.5 17 L 13.5 17\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Pinecone({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

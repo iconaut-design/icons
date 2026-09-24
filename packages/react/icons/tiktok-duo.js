@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M6.6 15.6 A3.6 3.6 0 1 0 13.8 15.6 A3.6 3.6 0 1 0 6.6 15.6 Z\"/><g class=\"primary\"><path d=\"M13.8 15.6 L13.8 4 A6.2 6.2 0 0 0 20 10.2\"/><path d=\"M6.6 15.6 A3.6 3.6 0 1 0 13.8 15.6 A3.6 3.6 0 1 0 6.6 15.6 Z\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function TiktokDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

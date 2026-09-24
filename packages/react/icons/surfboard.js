@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M12 2.9 C15.4 5.4 17.2 9.3 17.2 12.9 C17.2 16.6 15.3 19.9 12 21.1 C8.7 19.9 6.8 16.6 6.8 12.9 C6.8 9.3 8.6 5.4 12 2.9 Z\"/><path d=\"M12 7 L 12 17\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Surfboard({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

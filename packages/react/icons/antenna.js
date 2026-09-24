@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M12 13.5 L 12 21\"/><path d=\"M5.2 6.94 A9.45 9.45 0 0 1 18.8 6.94\"/><path d=\"M8.19 9.82 A5.3 5.3 0 0 1 15.81 9.82\"/><path d=\"M10.85 13.5 A1.15 1.15 0 1 0 13.15 13.5 A1.15 1.15 0 1 0 10.85 13.5 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Antenna({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

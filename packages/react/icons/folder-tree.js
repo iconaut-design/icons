@@ -5,12 +5,11 @@ const M0 = "<path d=\"M3 7.5 Q3 5.5 5 5.5 L7.38 5.5 Q8.8 5.5 9.7 6.6 L9.7 6.6 Q1
 const M1 = "<path d=\"M2.5 7 Q2.5 5 4.5 5 L7.4 5 Q9 5 10 6.25 L10 6.25 Q11 7.5 12.6 7.5 L19.5 7.5 Q21.5 7.5 21.5 9.5 L21.5 19 Q21.5 21 19.5 21 L4.5 21 Q2.5 21 2.5 19 Z\"/><path d=\"M11 11.5 L 16 11.5 M11 14.5 L 16 14.5 M11 17.5 L 16 17.5\"/><path d=\"M8 10.5 L8 16.5 A1 1 0 0 0 9 17.5 L10.5 17.5\"/><path d=\"M8 14.5 L 10.5 14.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function FolderTree({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

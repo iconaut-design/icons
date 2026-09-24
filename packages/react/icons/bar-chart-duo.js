@@ -5,12 +5,11 @@ const M0 = "<path d=\"M4 4.5 L4 18.5 Q4 19.5 5 19.5 L20 19.5\"/><path d=\"M8.5 1
 const M1 = "<path d=\"M4 4 L4 19 Q4 20 5 20 L20 20\"/><path d=\"M8.5 20 L 8.5 12.5 M13 20 L 13 8 M17.5 20 L 17.5 15\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function BarChartDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

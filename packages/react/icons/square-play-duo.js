@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M4 6 Q4 4 6 4 L18 4 Q20 4 20 6 L20 18 Q20 20 18 20 L6 20 Q4 20 4 18 Z M12.25 10.07L12.75 10.43A1.92 1.92 0 0 1 12.75 13.58L10 15.5L10 11.25A1.43 1.43 0 0 1 12.25 10.07Z\"/><g class=\"primary\"><path d=\"M4 6 Q4 4 6 4 L18 4 Q20 4 20 6 L20 18 Q20 20 18 20 L6 20 Q4 20 4 18 Z\"/><path d=\"M10 10.5 Q10 8.5 11.64 9.65 L13.36 10.85 Q15 12 13.36 13.15 L11.64 14.35 Q10 15.5 10 13.5 Z\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function SquarePlayDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

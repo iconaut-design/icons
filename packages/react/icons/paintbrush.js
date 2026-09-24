@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M17.29 3.71 Q18 3 18.71 3.71 L20.29 5.29 Q21 6 20.29 6.71 L12.71 14.29 Q12 15 11.29 14.29 L9.71 12.71 Q9 12 9.71 11.29 Z\"/><path d=\"M9 12 L5 16 A3 3 0 0 0 8 19 L12 14.65\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Paintbrush({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

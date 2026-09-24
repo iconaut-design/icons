@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M3 12 A9 9 0 1 0 21 12 A9 9 0 1 0 3 12 Z\"/><path d=\"M8.8 12 A3.2 3.2 0 1 1 15.2 12 A3.2 3.2 0 1 1 8.8 12 Z\"/><path d=\"M8 8 L 8.01 8 M15.5 8 L 15.51 8 M9 16 L 9.01 16 M16 15 L 16.01 15\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Bagel({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

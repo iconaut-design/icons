@@ -5,12 +5,11 @@ const M0 = "<path d=\"M11 4.4 A6.6 6.6 0 1 0 11 17.6 A6.6 6.6 0 0 0 11 4.4 Z\"/>
 const M1 = "<path d=\"M10.5 3.9 A6.6 6.6 0 1 0 10.5 17.1 A6.6 6.6 0 0 0 10.5 3.9 Z\"/><path d=\"M15.3 15.3 L 20.5 20.5\"/><path d=\"M7.5 10.5 L 13.5 10.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ZoomOut({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -5,12 +5,11 @@ const M0 = "<path d=\"M3 16.5 L8.29 11.21 Q9 10.5 9.71 11.21 L12.29 13.79 Q13 14
 const M1 = "<path d=\"M3 17 L8.29 11.71 Q9 11 9.71 11.71 L12.29 14.29 Q13 15 13.71 14.29 L20.75 7.25\"/><path d=\"M15.5 7 L20 7 Q21 7 21 8 L21 12.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function TrendingUpDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

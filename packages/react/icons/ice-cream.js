@@ -5,12 +5,11 @@ const M0 = "<path d=\"M5.8 9.6 A6.2 6.2 0 0 1 18.2 9.6 Z\"/><path d=\"M6.76 11.3
 const M1 = "<path d=\"M5.8 9.6 A6.2 6.2 0 0 1 18.2 9.6 Z\"/><path d=\"M6.76 11.36 Q5.8 9.6 7.8 9.6 L16.2 9.6 Q18.2 9.6 17.24 11.36 L12.96 19.24 Q12 21 11.04 19.24 Z\"/><path d=\"M9.94 10.4 L 13.85 17.6\"/><path d=\"M13.24 10.4 L 15.5 14.56\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function IceCream({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

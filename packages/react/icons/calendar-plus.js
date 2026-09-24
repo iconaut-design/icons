@@ -5,12 +5,11 @@ const M0 = "<path d=\"M4 7.5 Q4 5.5 6 5.5 L18 5.5 Q20 5.5 20 7.5 L20 19.3 Q20 21
 const M1 = "<path d=\"M3.5 7.5 Q3.5 5.5 5.5 5.5 L18.5 5.5 Q20.5 5.5 20.5 7.5 L20.5 19.4 Q20.5 21.4 18.5 21.4 L5.5 21.4 Q3.5 21.4 3.5 19.4 Z\"/><path d=\"M7 9.3 L 17 9.3 M8 3.5 L 8 5.5 M16 3.5 L 16 5.5\"/><path d=\"M12 12.7 L 12 18 M9.35 15.35 L 14.65 15.35\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function CalendarPlus({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

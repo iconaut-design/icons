@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M5.7 13.5 A6.3 6.3 0 1 0 18.3 13.5 A6.3 6.3 0 1 0 5.7 13.5 Z\"/><g class=\"primary\"><path d=\"M5.7 13.5 A6.3 6.3 0 1 0 18.3 13.5 A6.3 6.3 0 1 0 5.7 13.5 Z\"/><path d=\"M9.2 13.3 L 9.21 13.3\"/><path d=\"M14.8 13.3 L 14.81 13.3\"/><path d=\"M9 16 Q12 17.8 15 16\"/><path d=\"M12 7.2 L 12 4\"/><path d=\"M12 3.6 L 12.01 3.6\"/><path d=\"M6.59 10.27 A1.7 1.7 0 1 1 8.56 8.22\"/><path d=\"M15.44 8.22 A1.7 1.7 0 1 1 17.41 10.27\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function RedditDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

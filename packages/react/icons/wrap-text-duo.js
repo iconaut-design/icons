@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M4 6 L20 6\"/><path d=\"M4 12 L17 12 A3 3 0 0 1 17 18 L13.36 18\"/><path d=\"M15 16 L13.71 17.29 Q13 18 13.71 18.71 L15 20\"/><path d=\"M4 18 L10 18\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function WrapTextDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M4 6 L 16 6 M4 10 L 12 10 M4 14 L 9 14\"/><path d=\"M12.5 15 A3 3 0 1 0 18.5 15 A3 3 0 1 0 12.5 15 Z\"/><path d=\"M17.6 17.1 L 20 19.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function TextSearch({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

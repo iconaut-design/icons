@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M8 3.8 A9 9 0 0 0 3.8 8\"/><path d=\"M3.8 16 A9 9 0 0 0 8 20.2\"/><path d=\"M16 20.2 A9 9 0 0 0 20.2 16\"/><path d=\"M20.2 8 A9 9 0 0 0 16 3.8\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function CircleDashed({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

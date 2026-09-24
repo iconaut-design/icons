@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M5 5 Q5 3 7 3 L17 3 Q19 3 19 5 L19 19.7 Q19 21 17.85 20.4 L17.85 20.4 Q16.7 19.8 15.55 20.4 L15.55 20.4 Q14.4 21 13.24 20.42 L13.2 20.4 Q12 19.8 10.8 20.4 L10.76 20.42 Q9.6 21 8.45 20.4 L8.45 20.4 Q7.3 19.8 6.15 20.4 L6.15 20.4 Q5 21 5 19.7 Z\"/><g class=\"primary\"><path d=\"M5 5 Q5 3 7 3 L17 3 Q19 3 19 5 L19 19.7 Q19 21 17.85 20.4 L17.85 20.4 Q16.7 19.8 15.55 20.4 L15.55 20.4 Q14.4 21 13.24 20.42 L13.2 20.4 Q12 19.8 10.8 20.4 L10.76 20.42 Q9.6 21 8.45 20.4 L8.45 20.4 Q7.3 19.8 6.15 20.4 L6.15 20.4 Q5 21 5 19.7 Z\"/><path d=\"M8 8 L 16 8\"/><path d=\"M8 11.5 L 16 11.5\"/><path d=\"M8 15 L 13 15\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ReceiptDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

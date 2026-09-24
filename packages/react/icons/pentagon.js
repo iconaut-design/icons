@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M10.39 3.68 Q12 2.5 13.61 3.68 L19.39 7.92 Q21 9.1 20.39 11 L18.21 17.8 Q17.6 19.7 15.6 19.7 L8.4 19.7 Q6.4 19.7 5.79 17.8 L3.61 11 Q3 9.1 4.61 7.92 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Pentagon({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

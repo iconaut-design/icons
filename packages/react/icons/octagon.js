@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M6.94 4.61 Q8.35 3.2 10.35 3.2 L13.65 3.2 Q15.65 3.2 17.06 4.61 L19.39 6.94 Q20.8 8.35 20.8 10.35 L20.8 13.65 Q20.8 15.65 19.39 17.06 L17.06 19.39 Q15.65 20.8 13.65 20.8 L10.35 20.8 Q8.35 20.8 6.94 19.39 L4.61 17.06 Q3.2 15.65 3.2 13.65 L3.2 10.35 Q3.2 8.35 4.61 6.94 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Octagon({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

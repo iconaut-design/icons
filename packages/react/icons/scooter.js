@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M3 18 A2.5 2.5 0 1 0 8 18 A2.5 2.5 0 1 0 3 18 Z\"/><path d=\"M15 18 A2.5 2.5 0 1 0 20 18 A2.5 2.5 0 1 0 15 18 Z\"/><path d=\"M8 18 L 15 18\"/><path d=\"M14 18 L 16.5 6\"/><path d=\"M13.5 6 L 19 6\"/><path d=\"M16.5 8 L 17.5 15.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Scooter({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

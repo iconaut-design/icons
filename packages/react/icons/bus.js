@@ -5,12 +5,11 @@ const M0 = "<path d=\"M6 17.3 Q4 17.3 4 15.3 L4 5.3 Q4 3.3 6 3.3 L18 3.3 Q20 3.3
 const M1 = "<path d=\"M6 17.3 Q4 17.3 4 15.3 L4 5.3 Q4 3.3 6 3.3 L18 3.3 Q20 3.3 20 5.3 L20 15.3 Q20 17.3 18 17.3 Z\"/><path d=\"M5.2 8.3 L 18.8 8.3\"/><path d=\"M12 3.3 L 12 8.3\"/><circle cx=\"7.4\" cy=\"19\" r=\"1.7\"/><circle cx=\"16.6\" cy=\"19\" r=\"1.7\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Bus({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

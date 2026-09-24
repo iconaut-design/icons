@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M10.28 5.51 Q12 4.5 13.72 5.51 L18.78 8.49 Q20.5 9.5 18.78 10.51 L13.72 13.49 Q12 14.5 10.28 13.49 L5.22 10.51 Q3.5 9.5 5.22 8.49 Z\"/><path d=\"M7 11.56 L7 16.2 C7 17.8 9.1 19 12 19 C14.9 19 17 17.8 17 16.2 L17 11.56\"/><path d=\"M19.77 9.72 L 20.5 13.6\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function GraduationCap({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

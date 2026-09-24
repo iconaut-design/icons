@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M4 6 L 20 6 M4 10 L 20 10 M4 14 L 20 14 M4 18 L 20 18\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function AlignJustifyDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

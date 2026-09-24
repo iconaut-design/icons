@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M3 12 A9 9 0 1 0 21 12 A9 9 0 1 0 3 12 Z\"/><path d=\"M10.43 8 L13.58 10.7 Q15.1 12 13.58 13.3 L10.43 16\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ChevronRightCircle({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

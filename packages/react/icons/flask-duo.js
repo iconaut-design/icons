@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M10 5.5 Q10 3.5 12 3.5 L12 3.5 Q14 3.5 14 5.5 L14 7.5 Q14 9.5 15.03 11.21 L18.97 17.79 Q20 19.5 18 19.5 L6 19.5 Q4 19.5 5.03 17.79 L8.97 11.21 Q10 9.5 10 7.5 Z M11.8 3.5L12.2 3.5A1.8 1.8 0 0 1 14 5.3L14 8.95A2 2 0 0 0 14.29 9.98L17 14.5L7 14.5L9.71 9.98A2 2 0 0 0 10 8.95L10 5.3A1.8 1.8 0 0 1 11.8 3.5Z\"/><g class=\"primary\"><path d=\"M10 5.5 Q10 3.5 12 3.5 L12 3.5 Q14 3.5 14 5.5 L14 7.5 Q14 9.5 15.03 11.21 L18.97 17.79 Q20 19.5 18 19.5 L6 19.5 Q4 19.5 5.03 17.79 L8.97 11.21 Q10 9.5 10 7.5 Z\"/><path d=\"M8.5 3.5 L 15.5 3.5\"/><path d=\"M7 14.5 L 17 14.5\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function FlaskDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

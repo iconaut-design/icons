@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M12 3 A6 6 0 0 0 6 9 L6 12.61 Q6 14.2 5.25 15.6 L5.24 15.63 Q4.5 17 6.05 16.85 L6.5 16.81 Q7.6 16.7 8.3 17.55 L8.3 17.55 Q9 18.4 10.05 18.08 L10.5 17.95 Q12 17.5 13.5 17.95 L13.95 18.08 Q15 18.4 15.7 17.55 L15.7 17.55 Q16.4 16.7 17.5 16.81 L17.95 16.85 Q19.5 17 18.76 15.63 L18.75 15.6 Q18 14.2 18 12.61 L18 9 A6 6 0 0 0 12 3 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Snapchat({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

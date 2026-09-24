@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M12 3 A6 6 0 0 0 8.3 13.7 L8.65 15.05 Q9 16.4 10.39 16.4 L13.61 16.4 Q15 16.4 15.35 15.05 L15.7 13.7 A6 6 0 0 0 12 3 Z\"/><g class=\"primary\"><path d=\"M12 3 A6 6 0 0 0 8.3 13.7 L8.65 15.05 Q9 16.4 10.39 16.4 L13.61 16.4 Q15 16.4 15.35 15.05 L15.7 13.7 A6 6 0 0 0 12 3 Z\"/><path d=\"M9.4 19.3 L 14.6 19.3\"/><path d=\"M10.3 21.6 L 13.7 21.6\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function LightbulbDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

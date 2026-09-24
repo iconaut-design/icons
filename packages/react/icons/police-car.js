@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M2.5 15 L3.65 11.94 Q4 11 5 11 L17 11 Q18 11 18.45 11.89 L20 15\"/><path d=\"M6.5 11 L7.55 8.89 Q8 8 9 8 L13 8 Q14 8 14.55 8.83 L16 11\"/><path d=\"M10 7 Q10 6 11 6 L13 6 Q14 6 14 7 L14 7 Q14 8 13 8 L11 8 Q10 8 10 7 Z\"/><path d=\"M4.5 15 A2 2 0 1 0 8.5 15 A2 2 0 1 0 4.5 15 Z\"/><path d=\"M14 15 A2 2 0 1 0 18 15 A2 2 0 1 0 14 15 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function PoliceCar({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

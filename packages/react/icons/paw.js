@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M7 16.6 A5 3.9 0 1 0 17 16.6 A5 3.9 0 1 0 7 16.6 Z\"/><path d=\"M5.05 10 A1.35 1.6 0 1 0 7.75 10 A1.35 1.6 0 1 0 5.05 10 Z\"/><path d=\"M8.2 6.8 A1.4 1.7 0 1 0 11 6.8 A1.4 1.7 0 1 0 8.2 6.8 Z\"/><path d=\"M13 6.8 A1.4 1.7 0 1 0 15.8 6.8 A1.4 1.7 0 1 0 13 6.8 Z\"/><path d=\"M16.25 10 A1.35 1.6 0 1 0 18.95 10 A1.35 1.6 0 1 0 16.25 10 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Paw({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

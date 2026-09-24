@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M3 12 A9 9 0 1 0 21 12 A9 9 0 1 0 3 12 Z\"/><path d=\"M8.8 12 A3.2 3.2 0 1 0 15.2 12 A3.2 3.2 0 1 0 8.8 12 Z\"/><path d=\"M8 8.5 L 8.01 8.5 M15 9 L 15.01 9 M9 15.5 L 9.01 15.5 M15.5 14.5 L 15.51 14.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Donut({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

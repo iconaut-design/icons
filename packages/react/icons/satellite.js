@@ -5,12 +5,11 @@ const M0 = "<path d=\"M9 13 Q9 11 11 11 L13 11 Q15 11 15 13 L15 15 Q15 17 13 17 
 const M1 = "<path d=\"M9 13 Q9 11 11 11 L13 11 Q15 11 15 13 L15 15 Q15 17 13 17 L11 17 Q9 17 9 15 Z\"/><path d=\"M3 12.25 Q3 10.5 4.75 10.5 L4.75 10.5 Q6.5 10.5 6.5 12.25 L6.5 15.75 Q6.5 17.5 4.75 17.5 L4.75 17.5 Q3 17.5 3 15.75 Z\"/><path d=\"M17.5 12.25 Q17.5 10.5 19.25 10.5 L19.25 10.5 Q21 10.5 21 12.25 L21 15.75 Q21 17.5 19.25 17.5 L19.25 17.5 Q17.5 17.5 17.5 15.75 Z\"/><path d=\"M3 14 L 9 14\"/><path d=\"M15 14 L 21 14\"/><path d=\"M12 11 L 12 9\"/><path d=\"M8.8 6.2 A3.2 3.2 0 0 0 15.2 6.2\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Satellite({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

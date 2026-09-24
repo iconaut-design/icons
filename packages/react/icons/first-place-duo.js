@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M4.5 7.5 Q4.5 5.5 6.43 4.98 L10.07 4.02 Q12 3.5 13.93 4.02 L17.57 4.98 Q19.5 5.5 19.5 7.5 L19.5 9.5 Q19.5 11.5 18.22 13.04 L13.28 18.96 Q12 20.5 10.72 18.96 L5.78 13.04 Q4.5 11.5 4.5 9.5 Z\"/><g class=\"primary\"><path d=\"M4.5 7.5 Q4.5 5.5 6.43 4.98 L10.07 4.02 Q12 3.5 13.93 4.02 L17.57 4.98 Q19.5 5.5 19.5 7.5 L19.5 9.5 Q19.5 11.5 18.22 13.04 L13.28 18.96 Q12 20.5 10.72 18.96 L5.78 13.04 Q4.5 11.5 4.5 9.5 Z\"/><path d=\"M12 8 L 10.6 9 M12 8 L 12 15\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function FirstPlaceDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

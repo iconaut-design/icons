@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M7 3 L7.22 13.25\"/><path d=\"M7 10 L17 10\"/><path d=\"M17 10 L16.78 13.25\"/><path d=\"M6 21 L6.88 13.99 Q7 13 8 13 L16 13 Q17 13 17.12 13.99 L18 21\"/><path d=\"M6.5 17 L17.5 17\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Chair({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

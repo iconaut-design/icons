@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M5 5 Q5 3 7 3 L11.4 3 Q13.4 3 14.81 4.41 L17.59 7.19 Q19 8.6 19 10.6 L19 19 Q19 21 17 21 L7 21 Q5 21 5 19 Z M15.18 4.78L19 8.6L13.4 8.6L13.4 5.52A1.04 1.04 0 0 1 15.18 4.78Z M10.6 14.5L13.4 14.5A2 2 0 0 1 15.4 16.5L15.4 19L8.6 19L8.6 16.5A2 2 0 0 1 10.6 14.5Z\"/><g class=\"primary\"><path d=\"M5 5 Q5 3 7 3 L11.4 3 Q13.4 3 14.81 4.41 L17.59 7.19 Q19 8.6 19 10.6 L19 19 Q19 21 17 21 L7 21 Q5 21 5 19 Z\"/><path d=\"M13.25 3.35 L13.4 6.6  Q13.4 8.6 15.4 8.6  L18.4 8.6\"/><path d=\"M8.6 16.5 Q8.6 14.5 10.6 14.5 L13.4 14.5 Q15.4 14.5 15.4 16.5 L15.4 17 Q15.4 19 13.4 19 L10.6 19 Q8.6 19 8.6 17 Z\"/><path d=\"M10.35 14.5 L10.35 13.2 A1.65 1.65 0 0 1 13.65 13.2 L13.65 14.5\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function FileLockDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

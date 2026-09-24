@@ -5,12 +5,11 @@ const M0 = "<path d=\"M5.5 7 L5.5 6 Q5.5 5 6.5 5 L17.5 5 Q18.5 5 18.5 6 L18.5 7\
 const M1 = "<path d=\"M5 7 L5 5.5 Q5 4.5 6 4.5 L18 4.5 Q19 4.5 19 5.5 L19 7\"/><path d=\"M12 4.5 L 12 19.5\"/><path d=\"M9 19.5 L 15 19.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function TypeDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

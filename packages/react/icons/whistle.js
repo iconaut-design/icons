@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M9 6.8 L19 6.8 Q21 6.8 21 8.8 L21 8.8 Q21 10.8 19 10.8 L14.66 10.8 A6 6 0 1 1 9 6.8 Z\"/><path d=\"M17 6.8 L 17 10.8\"/><path d=\"M9 12.8 L 9.01 12.8\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Whistle({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

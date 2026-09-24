@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M7 5 L17 5 Q19 5 19 7 L19 19 A1.5 1.5 0 0 1 17.5 20.5 L16.75 20.5 Q16 20.5 16 19.75 L16 19.75 Q16 19 15.25 19 L8.75 19 Q8 19 8 19.75 L8 19.75 Q8 20.5 7.25 20.5 L6.5 20.5 A1.5 1.5 0 0 1 5 19 L5 7 Q5 5 7 5 Z\"/><path d=\"M5 8 L 19 8 M12 5 L 12 15\"/><path d=\"M5 15 L 19 15\"/><path d=\"M8 17.5 L 8.01 17.5 M16 17.5 L 16.01 17.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function BusFront({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

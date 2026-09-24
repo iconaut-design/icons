@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M5.25 14 L5.25 14 Q6.5 14 6.5 15.25 L6.5 18.75 Q6.5 19.5 5.75 19.5 L5 19.5 A1 1 0 0 1 4 18.5 L4 15.25 Q4 14 5.25 14 Z M18.75 14 L18.75 14 Q17.5 14 17.5 15.25 L17.5 18.75 Q17.5 19.5 18.25 19.5 L19 19.5 A1 1 0 0 0 20 18.5 L20 15.25 Q20 14 18.75 14 Z\"/><g class=\"primary\"><path d=\"M4 14 L4 12 A8 8 0 0 1 20 12 L20 14\"/><path d=\"M5 14 L5.5 14 Q6.5 14 6.5 15 L6.5 18.75 Q6.5 19.5 5.75 19.5 L5 19.5 A1 1 0 0 1 4 18.5 L4 15 Q4 14 5 14 Z\"/><path d=\"M19 14 L18.5 14 Q17.5 14 17.5 15 L17.5 18.75 Q17.5 19.5 18.25 19.5 L19 19.5 A1 1 0 0 0 20 18.5 L20 15 Q20 14 19 14 Z\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function HeadphonesDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

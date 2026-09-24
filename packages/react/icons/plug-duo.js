@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M7.75 7.5 L16.25 7.5 Q17.5 7.5 17.5 8.75 L17.5 10 A5.5 5.5 0 0 1 6.5 10 L6.5 8.75 Q6.5 7.5 7.75 7.5 Z\"/><g class=\"primary\"><path d=\"M7.5 7.5 L16.5 7.5 Q17.5 7.5 17.5 8.5 L17.5 10 A5.5 5.5 0 0 1 6.5 10 L6.5 8.5 Q6.5 7.5 7.5 7.5 Z\"/><path d=\"M9.5 7.5 L 9.5 3.5 M14.5 7.5 L 14.5 3.5\"/><path d=\"M12 15.5 L 12 20.5\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function PlugDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M4.71 8.39 L8.39 4.71 A2.9 2.9 0 0 1 12.49 8.81 L8.81 12.49 A2.9 2.9 0 0 1 4.71 8.39 Z M13.3 17.2 A3.9 3.9 0 1 0 21.1 17.2 A3.9 3.9 0 1 0 13.3 17.2 Z M6.55 6.55L10.65 10.65L8.81 12.49A2.9 2.9 0 0 1 4.71 8.39Z M13.3 17.2a3.9 3.9 0 1 1 7.8 0a3.9 3.9 0 1 1 -7.8 0Z\"/><g class=\"primary\"><path d=\"M4.71 8.39 L8.39 4.71 A2.9 2.9 0 0 1 12.49 8.81 L8.81 12.49 A2.9 2.9 0 0 1 4.71 8.39 Z\"/><path d=\"M13.3 17.2 A3.9 3.9 0 1 0 21.1 17.2 A3.9 3.9 0 1 0 13.3 17.2 Z\"/><path d=\"M6.55 6.55 L 10.65 10.65\"/><path d=\"M19.29 15.11 L 15.11 19.29\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function PillsDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

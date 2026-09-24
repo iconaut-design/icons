@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M3 12 A9 9 0 1 0 21 12 A9 9 0 1 0 3 12 Z\"/><circle cx=\"12\" cy=\"9.6\" r=\"3.1\"/><path d=\"M5.9 18.6 C6.8 15.7 9.1 14 12 14 S17.2 15.7 18.1 18.6\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function UserCircle({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

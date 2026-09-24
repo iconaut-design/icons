@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M9 7.7 L4.76 11.35 Q4 12 4.76 12.65 L9 16.3\"/><path d=\"M15 7.7 L19.24 11.35 Q20 12 19.24 12.65 L15 16.3\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ChevronsLeftRight({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M4 10 Q4 11 5 11 L13 11 Q14 11 14 10 L14 10 Q14 9 13 9 L5 9 Q4 9 4 10 Z\"/><g class=\"primary\"><path d=\"M4 10 Q4 11 5 11 L13 11 Q14 11 14 10 L14 10 Q14 9 13 9 L5 9 Q4 9 4 10 Z\"/><path d=\"M6 9 L6 7 Q6 6 7 6 L9 6 Q10 6 10 7 L10 9\"/><path d=\"M14 10 L16 10 Q17 10 17 11 L17 14\"/><path d=\"M17 14 L 17 17\"/><path d=\"M4 20 L 20 20\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function FaucetDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

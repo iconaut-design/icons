@@ -5,12 +5,11 @@ const M0 = "<path d=\"M4 4.5 L4 18.5 Q4 19.5 5 19.5 L20 19.5\"/><path d=\"M7 15 
 const M1 = "<path d=\"M4 4 L4 19 Q4 20 5 20 L20 20\"/><path d=\"M6.5 15 L9.34 11.75 Q10 11 10.77 11.64 L12.23 12.86 Q13 13.5 13.61 12.71 L18 7\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function LineChart({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

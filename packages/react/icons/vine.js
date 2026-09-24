@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M6 21 C6 17 10 16 10 12 C10 8 14 7 14 3\"/><path d=\"M10 12 L 6 11 M10 12 L 6 14 M14 7 L 18 6 M14 7 L 18 8\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Vine({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

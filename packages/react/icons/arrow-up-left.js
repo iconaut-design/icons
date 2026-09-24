@@ -5,12 +5,11 @@ const M0 = "<path d=\"M16.95 16.95 L8.01 8.01\"/><path d=\"M7.76 15.57 L7.76 8.7
 const M1 = "<path d=\"M16.95 16.95 L7.3 7.3\"/><path d=\"M7.05 15.57 L7.05 8.05 Q7.05 7.05 8.05 7.05 L15.57 7.05\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ArrowUpLeft({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

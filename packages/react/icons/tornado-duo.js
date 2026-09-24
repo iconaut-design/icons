@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M6 5.2 A8 3 0 1 1 18.5 7.5 A6.2 2.4 0 0 0 6.8 11 A5 2.1 0 0 1 16.5 14 A3.6 1.8 0 0 0 8.5 17 A2.2 1.4 0 0 1 13.5 19.4 A1 0.9 0 0 0 11.5 21\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function TornadoDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -5,12 +5,11 @@ const M0 = "<path d=\"M8.6 18.8 A7.5 7.5 0 1 0 5.4 15.6 L4.29 18.62 Q3.6 20.5 5.
 const M1 = "<path d=\"M8.7 19.4 A8 8 0 1 0 5.1 16 L3.89 19.32 Q3.2 21.2 5.1 20.58 L8.7 19.4 Z\"/><path d=\"M10 10.3 A2 2 0 0 1 14 10.8 C14 12.3 12 12.5 12 13.9\"/><path d=\"M12 16.4 L 12.01 16.4\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function MessageCircleQuestion({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

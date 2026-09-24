@@ -5,12 +5,11 @@ const M0 = "<path d=\"M4.5 14.5 L4.5 12 A7.5 7.5 0 0 1 19.5 12 L19.5 14.5\"/><pa
 const M1 = "<path d=\"M4.5 14.5 L4.5 12 A7.5 7.5 0 0 1 19.5 12 L19.5 14.5\"/><path d=\"M7.5 16.5 L7.5 12 A4.5 4.5 0 0 1 16.5 12 L16.5 16.5\"/><path d=\"M10.5 18.5 L10.5 12.5 A1.5 1.5 0 0 1 13.5 12.5 L13.5 18.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function FingerprintDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

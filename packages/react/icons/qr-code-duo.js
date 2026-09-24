@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M7 8.5 Q7 7 8.5 7 L8.5 7 Q10 7 10 8.5 L10 8.5 Q10 10 8.5 10 L8.5 10 Q7 10 7 8.5 Z M14 8.5 Q14 7 15.5 7 L15.5 7 Q17 7 17 8.5 L17 8.5 Q17 10 15.5 10 L15.5 10 Q14 10 14 8.5 Z M7 15.5 Q7 14 8.5 14 L8.5 14 Q10 14 10 15.5 L10 15.5 Q10 17 8.5 17 L8.5 17 Q7 17 7 15.5 Z M14.5 15.5 Q14.5 14.5 15.5 14.5 L15.5 14.5 Q16.5 14.5 16.5 15.5 L16.5 15.5 Q16.5 16.5 15.5 16.5 L15.5 16.5 Q14.5 16.5 14.5 15.5 Z\"/><g class=\"primary\"><path d=\"M4.5 9 L4.5 6.5 A2 2 0 0 1 6.5 4.5 L9 4.5\"/><path d=\"M15 4.5 L17.5 4.5 A2 2 0 0 1 19.5 6.5 L19.5 9\"/><path d=\"M19.5 15 L19.5 17.5 A2 2 0 0 1 17.5 19.5 L15 19.5\"/><path d=\"M9 19.5 L6.5 19.5 A2 2 0 0 1 4.5 17.5 L4.5 15\"/><path d=\"M7 8 Q7 7 8 7 L9 7 Q10 7 10 8 L10 9 Q10 10 9 10 L8 10 Q7 10 7 9 Z\"/><path d=\"M14 8 Q14 7 15 7 L16 7 Q17 7 17 8 L17 9 Q17 10 16 10 L15 10 Q14 10 14 9 Z\"/><path d=\"M7 15 Q7 14 8 14 L9 14 Q10 14 10 15 L10 16 Q10 17 9 17 L8 17 Q7 17 7 16 Z\"/><path d=\"M14.5 15.5 Q14.5 14.5 15.5 14.5 L15.5 14.5 Q16.5 14.5 16.5 15.5 L16.5 15.5 Q16.5 16.5 15.5 16.5 L15.5 16.5 Q14.5 16.5 14.5 15.5 Z\"/><path d=\"M12 12 L 12.01 12\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function QrCodeDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

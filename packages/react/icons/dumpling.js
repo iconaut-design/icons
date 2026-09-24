@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M4 15 A8 7 0 0 1 20 15 Z\"/><path d=\"M7 11.5 L 7 15 M10 9.5 L 10 15 M14 9.5 L 14 15 M17 11.5 L 17 15\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Dumpling({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

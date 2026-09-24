@@ -5,12 +5,11 @@ const M0 = "<path d=\"M12 8.4 A3.6 3.6 0 1 0 12 15.6 A3.6 3.6 0 0 0 12 8.4 Z\"/>
 const M1 = "<path d=\"M12 8 A4 4 0 1 0 12 16 A4 4 0 0 0 12 8 Z\"/><path d=\"M16 8 L16 13.5 A2.5 2.5 0 0 0 21 13.5 L21 12 A9 9 0 1 0 17.4 19.2\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function AtSign({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -5,12 +5,11 @@ const M0 = "<path d=\"M15.5 8 A3 3 0 0 0 9.5 8 L9.5 19\"/><path d=\"M7 19 L 17 1
 const M1 = "<path d=\"M16 7.5 A3.5 3.5 0 0 0 9 7.5 L9 19.5\"/><path d=\"M6.5 19.5 L 17.5 19.5\"/><path d=\"M6.5 13 L 14 13\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function PoundSterling({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

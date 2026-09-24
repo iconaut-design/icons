@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M5 6 Q5 4 7 4 L13 4 Q15 4 15 6 L15 18 Q15 20 13 20 L7 20 Q5 20 5 18 Z\"/><g class=\"primary\"><path d=\"M5 6 Q5 4 7 4 L13 4 Q15 4 15 6 L15 18 Q15 20 13 20 L7 20 Q5 20 5 18 Z\"/><path d=\"M18.5 7 L 18.5 17\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function GalleryHorizontalEndDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

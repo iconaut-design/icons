@@ -5,12 +5,11 @@ const M0 = "<path d=\"M7 4 L11.39 9.71 Q12 10.5 12.61 9.71 L17 4\"/><path d=\"M1
 const M1 = "<path d=\"M6.5 3.5 L11.41 10.19 Q12 11 12.59 10.19 L17.5 3.5\"/><path d=\"M12 10.6 L12 20.5\"/><path d=\"M7 13 L17 13\"/><path d=\"M7 16.5 L17 16.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Yen({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

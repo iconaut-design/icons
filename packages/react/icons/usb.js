@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M12 21 L12 4.35\"/><path d=\"M9 7 L11.29 4.71 Q12 4 12.71 4.71 L15 7\"/><path d=\"M12 10 L8 12\"/><path d=\"M6.1 12.7 A1.3 1.3 0 1 0 8.7 12.7 A1.3 1.3 0 1 0 6.1 12.7 Z\"/><path d=\"M12 14 L16 12\"/><path d=\"M16 12 L16.26 10.97 Q16.5 10 17.5 10 L18.5 10\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Usb({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

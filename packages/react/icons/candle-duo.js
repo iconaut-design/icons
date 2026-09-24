@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M11.5 21 Q9.5 21 9.5 19 L9.5 11 Q9.5 9 11.5 9 L12.5 9 Q14.5 9 14.5 11 L14.5 19 Q14.5 21 12.5 21 Z\"/><g class=\"primary\"><path d=\"M11.5 21 Q9.5 21 9.5 19 L9.5 11 Q9.5 9 11.5 9 L12.5 9 Q14.5 9 14.5 11 L14.5 19 Q14.5 21 12.5 21 Z\"/><path d=\"M12 9 C10.5 7.5 11.5 5 12 4 C12.5 5 13.5 7.5 12 9 Z\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function CandleDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

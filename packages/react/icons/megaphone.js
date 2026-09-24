@@ -5,12 +5,11 @@ const M0 = "<path d=\"M4.5 11.5 Q4.5 10.5 5.46 10.2 L18.04 6.3 Q19 6 19 7 L19 17
 const M1 = "<path d=\"M4 12 Q4 11 4.95 10.7 L19.05 6.3 Q20 6 20 7 L20 17 Q20 18 19.05 17.7 L4.95 13.3 Q4 13 4 12 Z\"/><path d=\"M7 13.95 L7 17.5 A1.6 1.6 0 0 0 10.2 17.5 L10.2 14.95\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Megaphone({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

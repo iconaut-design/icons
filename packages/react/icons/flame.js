@@ -5,12 +5,11 @@ const M0 = "<path d=\"M12 2.8 C12 2.8 6.5 7 6.5 13 A5.5 5.5 0 0 0 17.5 13 C17.5 
 const M1 = "<path d=\"M12 2.8 C12 2.8 6.5 7 6.5 13 A5.5 5.5 0 0 0 17.5 13 C17.5 9.6 14.6 8.2 14 5.6 C11.8 8.4 10.5 8.2 12 2.8 Z\"/><path d=\"M12 15.2 C11 15.2 10.1 14.45 10.1 13.5 C10.1 12.4 11.05 11.7 12 10.5 C12.95 11.7 13.9 12.4 13.9 13.5 C13.9 14.45 13 15.2 12 15.2 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Flame({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

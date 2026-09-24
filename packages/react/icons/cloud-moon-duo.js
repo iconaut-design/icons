@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M9 20 L17 20 A3.3 3.3 0 0 0 17.2 13.5 A4.6 4.6 0 0 0 8.2 12.7 A3.4 3.4 0 0 0 9 20 Z\"/><g class=\"primary\"><path d=\"M9.8 6 A3.1 3.1 0 1 1 6 2.7 A2.5 2.5 0 0 0 9.8 6 Z\"/><path d=\"M9 20 L17 20 A3.3 3.3 0 0 0 17.2 13.5 A4.6 4.6 0 0 0 8.2 12.7 A3.4 3.4 0 0 0 9 20 Z\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function CloudMoonDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

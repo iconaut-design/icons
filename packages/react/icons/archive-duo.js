@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M4.5 10 Q4.5 8 6.5 8 L17.5 8 Q19.5 8 19.5 10 L19.5 18 Q19.5 20 17.5 20 L6.5 20 Q4.5 20 4.5 18 Z\"/><g class=\"primary\"><path d=\"M3 6 Q3 4 5 4 L19 4 Q21 4 21 6 L21 7.25 Q21 8 20.25 8 L20.25 8 Q19.5 8 19.5 8.75 L19.5 18 Q19.5 20 17.5 20 L6.5 20 Q4.5 20 4.5 18 L4.5 8.75 Q4.5 8 3.75 8 L3.75 8 Q3 8 3 7.25 Z\"/><path d=\"M4.31 8.19  L19.69 8.19\"/><path d=\"M10 13 L 14 13\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ArchiveDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

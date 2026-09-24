@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M3 18 L7.12 7.93 Q7.5 7 7.88 7.93 L12 18 M4.5 14.3 L 10.5 14.3\"/><path d=\"M20 11.5 A2.5 2.5 0 0 0 15 12 L15 15 A2.5 2.5 0 0 0 20 15.5\"/><path d=\"M20 11.5 L 20 18\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function CaseSensitive({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

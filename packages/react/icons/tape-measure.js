@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M3 15 A6 6 0 1 0 15 15 A6 6 0 1 0 3 15 Z\"/><path d=\"M7 15 A2 2 0 1 0 11 15 A2 2 0 1 0 7 15 Z\"/><path d=\"M14 13 L19.5 13 Q21 13 21 14.5 L21 14.5 Q21 16 19.5 16 L15 16\"/><path d=\"M20 13 L 20 16\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function TapeMeasure({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

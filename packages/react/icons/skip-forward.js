@@ -5,12 +5,11 @@ const M0 = "<path d=\"M5.5 6 Q5.5 5 6.29 5.61 L13.71 11.39 Q14.5 12 13.71 12.61 
 const M1 = "<path d=\"M5 5.5 Q5 4.5 5.78 5.12 L13.72 11.38 Q14.5 12 13.72 12.62 L5.78 18.88 Q5 19.5 5 18.5 Z\"/><path d=\"M18.5 4.5 L 18.5 19.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function SkipForward({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

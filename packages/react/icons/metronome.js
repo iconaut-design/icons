@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M9.18 5.43 Q9.7 3.5 11.7 3.5 L12.3 3.5 Q14.3 3.5 14.82 5.43 L18.38 18.57 Q18.9 20.5 16.9 20.5 L7.1 20.5 Q5.1 20.5 5.62 18.57 Z\"/><path d=\"M5.9 17.5 L 18.1 17.5\"/><path d=\"M12 17.5 L 18.9 5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Metronome({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

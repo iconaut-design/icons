@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M5.5 6 Q5.5 4 7.5 4 L16.5 4 Q18.5 4 18.5 6 L18.5 11.5 Q18.5 13.5 19.09 15.41 L19.91 18.09 Q20.5 20 18.5 20 L5.5 20 Q3.5 20 4.09 18.09 L4.91 15.41 Q5.5 13.5 5.5 11.5 Z M6.98 13.5L17.02 13.5A2 2 0 0 1 18.93 14.91L20.5 20L3.5 20L5.07 14.91A2 2 0 0 1 6.98 13.5Z\"/><g class=\"primary\"><path d=\"M5.5 6 Q5.5 4 7.5 4 L16.5 4 Q18.5 4 18.5 6 L18.5 11.5 Q18.5 13.5 19.09 15.41 L19.91 18.09 Q20.5 20 18.5 20 L5.5 20 Q3.5 20 4.09 18.09 L4.91 15.41 Q5.5 13.5 5.5 11.5 Z\"/><path d=\"M5.35 13.48  L18.65 13.48\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function FoldableStandDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

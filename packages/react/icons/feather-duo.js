@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M4.8 19.2 C4.8 11 12 4.8 19.2 4.8 C19.2 12 13 19.2 4.8 19.2 Z\"/><g class=\"primary\"><path d=\"M4.8 19.2 C4.8 11 12 4.8 19.2 4.8 C19.2 12 13 19.2 4.8 19.2 Z\"/><path d=\"M4 20 L 18.5 5.5\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function FeatherDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -5,12 +5,11 @@ const M0 = "<path d=\"M4.5 6 L 4.5 18 M7 6 L 7 18 M9.5 6 L 9.5 18 M12 6 L 12 18 
 const M1 = "<path d=\"M4.5 5.5 L 4.5 18.5 M7 5.5 L 7 18.5 M9.5 5.5 L 9.5 18.5 M12 5.5 L 12 18.5 M14.5 5.5 L 14.5 18.5 M17 5.5 L 17 18.5 M19.5 5.5 L 19.5 18.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function BarcodeDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

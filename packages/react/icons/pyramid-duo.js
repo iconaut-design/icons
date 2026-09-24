@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M11.06 4.77 Q12 3 12.94 4.77 L20.06 18.23 Q21 20 19 20 L5 20 Q3 20 3.94 18.23 Z\"/><g class=\"primary\"><path d=\"M11.06 4.77 Q12 3 12.94 4.77 L20.06 18.23 Q21 20 19 20 L5 20 Q3 20 3.94 18.23 Z\"/><path d=\"M12 3.89 L 12 20\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function PyramidDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

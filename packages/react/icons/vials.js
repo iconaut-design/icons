@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M10 4.2 L10 4.2 Q12 4.2 12 6.2 L12 17.2 A2 2 0 0 1 8 17.2 L8 6.2 Q8 4.2 10 4.2 Z\"/><path d=\"M16 4.2 L16 4.2 Q18 4.2 18 6.2 L18 17.2 A2 2 0 0 1 14 17.2 L14 6.2 Q14 4.2 16 4.2 Z\"/><path d=\"M8 9.2 L 12 9.2 M14 9.2 L 18 9.2\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Vials({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

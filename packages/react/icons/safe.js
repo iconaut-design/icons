@@ -5,12 +5,11 @@ const M0 = "<path d=\"M3.5 5.5 Q3.5 3.5 5.5 3.5 L18.5 3.5 Q20.5 3.5 20.5 5.5 L20
 const M1 = "<path d=\"M3.5 5.5 Q3.5 3.5 5.5 3.5 L18.5 3.5 Q20.5 3.5 20.5 5.5 L20.5 17.5 Q20.5 19.5 18.5 19.5 L5.5 19.5 Q3.5 19.5 3.5 17.5 Z\"/><circle cx=\"12\" cy=\"11.5\" r=\"3.2\"/><path d=\"M12 11.5 L 12.01 11.5\"/><path d=\"M7 6.8 L 7.01 6.8\"/><path d=\"M17 6.8 L 17.01 6.8\"/><path d=\"M7 16.2 L 7.01 16.2\"/><path d=\"M17 16.2 L 17.01 16.2\"/><path d=\"M7.5 19.5 L 7.5 21 M16.5 19.5 L 16.5 21\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Safe({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

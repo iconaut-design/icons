@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M5.5 7.5 L18.5 7.5 Q20.5 7.5 20.5 9.5 L20.5 14.5 Q20.5 16.5 18.5 16.5 L14.5 16.5 A2.5 2.5 0 0 0 9.5 16.5 L5.5 16.5 Q3.5 16.5 3.5 14.5 L3.5 9.5 Q3.5 7.5 5.5 7.5 Z\"/><path d=\"M7.5 11.5 L 7.51 11.5\"/><path d=\"M16.5 11.5 L 16.51 11.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function VrHeadset({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

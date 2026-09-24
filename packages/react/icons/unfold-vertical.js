@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M2 12 L4 12 M8 12 L10 12 M14 12 L16 12 M20 12 L22 12\"/><path d=\"M12 8 L12 3.38 M9.1 6.4 L11.35 3.76 Q12 3 12.65 3.76 L14.9 6.4\"/><path d=\"M12 16 L12 20.62 M9.1 17.6 L11.35 20.24 Q12 21 12.65 20.24 L14.9 17.6\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function UnfoldVertical({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

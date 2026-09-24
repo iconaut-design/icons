@@ -5,12 +5,11 @@ const M0 = "<path d=\"M10.6 13.4 A3.5 3.5 0 0 0 15.6 13.4 L18 11 A3.5 3.5 0 0 0 
 const M1 = "<path d=\"M10.3 13.7 A4 4 0 0 0 16 13.7 L19 10.7 A4 4 0 0 0 13.3 5 L11.8 6.5\"/><path d=\"M13.7 10.3 A4 4 0 0 0 8 10.3 L5 13.3 A4 4 0 0 0 10.7 19 L12.2 17.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Link({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

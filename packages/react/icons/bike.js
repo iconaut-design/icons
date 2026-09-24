@@ -5,12 +5,11 @@ const M0 = "<path d=\"M2.8 16 A3.2 3.2 0 1 0 9.2 16 A3.2 3.2 0 1 0 2.8 16 Z\"/><
 const M1 = "<path d=\"M2.8 16 A3.2 3.2 0 1 0 9.2 16 A3.2 3.2 0 1 0 2.8 16 Z\"/><path d=\"M14.8 16 A3.2 3.2 0 1 0 21.2 16 A3.2 3.2 0 1 0 14.8 16 Z\"/><path d=\"M9.2 16 L11 16 Q12 16 11.67 15.06 L10.23 10.94 Q9.9 10 9.35 10.83 L7.7 13.3\"/><path d=\"M9.84 10.44 L14.4 10 Q15.4 10 14.91 10.87 L11.67 15.77\"/><path d=\"M9.7 7.8 L9.84 10.44\"/><path d=\"M8.3 7.8 L11.1 7.8\"/><path d=\"M15.03 10.22 L16.7 13.1\"/><path d=\"M15.9 7.8 L15.03 10.22\"/><path d=\"M15.9 7.8 L17.9 7.8\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Bike({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

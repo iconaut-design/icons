@@ -5,12 +5,11 @@ const M0 = "<path d=\"M13.05 5.2 L16 10 A5.6 5.6 0 1 1 8 10 L10.95 5.2 Q12 3.5 1
 const M1 = "<path d=\"M13.08 4.68 L16.5 10 A5.8 5.8 0 1 1 7.5 10 L10.92 4.68 Q12 3 13.08 4.68 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Droplet({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

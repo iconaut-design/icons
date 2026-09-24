@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M12 20.5 C10.69 19.67 3.3 15 3.3 9.1 A4.8 4.8 0 0 1 12 6.3 A4.8 4.8 0 0 1 20.7 9.1 C20.7 15 13.31 19.67 12 20.5 Z\"/><g class=\"primary\"><path d=\"M12 20.5 C10.69 19.67 3.3 15 3.3 9.1 A4.8 4.8 0 0 1 12 6.3 A4.8 4.8 0 0 1 20.7 9.1 C20.7 15 13.31 19.67 12 20.5 Z\"/><path d=\"M2.9 11.4 L5.75 11.4 Q7.4 11.4 8.35 10.05 L8.35 10.05 Q9.3 8.7 10.05 10.17 L11.47 12.96 Q12.3 14.6 13.2 13 L13.2 13 Q14.1 11.4 15.94 11.4 L21.1 11.4\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function HeartPulseDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

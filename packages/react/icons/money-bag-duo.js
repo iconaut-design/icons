@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M10.4 3.5 L13.6 3.5 Q15.5 3.5 14.75 5.25 L14 7 A7 7 0 1 1 10 7 L9.25 5.25 Q8.5 3.5 10.4 3.5 Z\"/><g class=\"primary\"><path d=\"M10.4 3.5 L13.6 3.5 Q15.5 3.5 14.75 5.25 L14 7 A7 7 0 1 1 10 7 L9.25 5.25 Q8.5 3.5 10.4 3.5 Z\"/><path d=\"M12 9.6 L 12 17.9\"/><path d=\"M14.6 10.4 L11.25 10.4 A1.75 1.75 0 0 0 11.25 13.9 L12.75 13.9 A1.75 1.75 0 0 1 12.75 17.4 L9.4 17.4\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function MoneyBagDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

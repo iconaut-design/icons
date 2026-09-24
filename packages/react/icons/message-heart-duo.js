@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M8.7 19.4 A8 8 0 1 0 5.1 16 L3.89 19.32 Q3.2 21.2 5.1 20.58 L8.7 19.4 Z M12 15.25C11.47 14.92 8.47 13.02 8.47 10.57A1.98 1.98 0 0 1 12 9.41a1.98 1.98 0 0 1 3.53 1.16c0 2.45 -3 4.35 -3.53 4.69Z\"/><g class=\"primary\"><path d=\"M8.7 19.4 A8 8 0 1 0 5.1 16 L3.89 19.32 Q3.2 21.2 5.1 20.58 L8.7 19.4 Z\"/><path d=\"M12 15.25 C11.47 14.92 8.47 13.02 8.47 10.57 A1.98 1.98 0 0 1 12 9.41 A1.98 1.98 0 0 1 15.53 10.57 C15.53 13.02 12.53 14.92 12 15.26 Z\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function MessageHeartDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

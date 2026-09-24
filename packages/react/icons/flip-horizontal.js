@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M7 3.5 L5 3.5 A1.5 1.5 0 0 0 3.5 5 L3.5 19 A1.5 1.5 0 0 0 5 20.5 L7 20.5 Q8 20.5 8 19.5 L8 4.5 Q8 3.5 7 3.5 Z\"/><path d=\"M16 3.5 L19 3.5 A1.5 1.5 0 0 1 20.5 5 L20.5 19 A1.5 1.5 0 0 1 19 20.5 L16 20.5\"/><path d=\"M12 2 L 12 4 M12 8 L 12 10 M12 14 L 12 16 M12 20 L 12 22\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function FlipHorizontal({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

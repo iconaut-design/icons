@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M4 6 L9.3 6 M4 12 L7 12 M4 18 L9.3 18\"/><path d=\"M20.9 13 A4.4 4.4 0 1 1 16.5 8.6 L19.14 8.6\"/><path d=\"M17.4 6.6 L18.78 7.91 Q19.5 8.6 18.78 9.29 L17.4 10.6\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ListRestart({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

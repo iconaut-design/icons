@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M6 21 L 10 3\"/><path d=\"M18 21 L 14 3\"/><path d=\"M6 18 L 18 18\"/><path d=\"M6.9 14 L 17.1 14\"/><path d=\"M7.8 10 L 16.2 10\"/><path d=\"M8.7 6 L 15.3 6\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function TrainTrack({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M3 8.5 Q3 6.5 5 6.5 L19 6.5 Q21 6.5 21 8.5 L21 15.5 Q21 17.5 19 17.5 L5 17.5 Q3 17.5 3 15.5 Z\"/><g class=\"primary\"><path d=\"M3 8.5 Q3 6.5 5 6.5 L19 6.5 Q21 6.5 21 8.5 L21 15.5 Q21 17.5 19 17.5 L5 17.5 Q3 17.5 3 15.5 Z\"/><circle cx=\"12\" cy=\"12\" r=\"2.4\"/><path d=\"M6.3 12 L 6.31 12\"/><path d=\"M17.7 12 L 17.71 12\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function BanknoteDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

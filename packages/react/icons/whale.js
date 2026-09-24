@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M2.7 14.33 C2.7 10.61 6.42 9.68 10.14 9.68 C14.79 9.68 18.51 11.54 18.51 14.33 C18.51 17.12 14.79 18.05 10.14 18.05 C6.42 18.05 3.63 17.12 2.7 14.33 Z\"/><path d=\"M18.51 14.33 L 21.3 11.54\"/><path d=\"M18.51 14.33 L 21.3 17.12\"/><path d=\"M8.28 9.68 L 8.28 5.96\"/><path d=\"M8.28 5.96 L 6.42 6.89\"/><path d=\"M8.28 5.96 L 10.14 6.89\"/><path d=\"M6.42 13.4 L 6.43 13.4\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Whale({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

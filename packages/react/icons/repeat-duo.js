@@ -5,12 +5,11 @@ const M0 = "<path d=\"M4.5 11 L4.5 10 A2.5 2.5 0 0 1 7 7.5 L19.14 7.5\"/><path d
 const M1 = "<path d=\"M4 11 L4 9.5 A3 3 0 0 1 7 6.5 L19.64 6.5\"/><path d=\"M16.5 3 L19.29 5.79 Q20 6.5 19.29 7.21 L16.5 10\"/><path d=\"M20 13 L20 14.5 A3 3 0 0 1 17 17.5 L4.35 17.5\"/><path d=\"M7.5 14 L4.71 16.79 Q4 17.5 4.71 18.21 L7.5 21\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function RepeatDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

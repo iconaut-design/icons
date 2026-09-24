@@ -5,12 +5,11 @@ const M0 = "<circle cx=\"12\" cy=\"12\" r=\"8.5\"/><path d=\"M12 7 L12 11 Q12 12
 const M1 = "<circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 6.8 L12 11 Q12 12 12.87 12.5 L15.5 14\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Clock({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

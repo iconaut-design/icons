@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M8 8 L16 8 Q18 8 17.83 9.99 L17 20 A1 1 0 0 1 16 21 L8 21 A1 1 0 0 1 7 20 L6.17 9.99 Q6 8 8 8 Z\"/><g class=\"primary\"><path d=\"M8 8 L16 8 Q18 8 17.83 9.99 L17 20 A1 1 0 0 1 16 21 L8 21 A1 1 0 0 1 7 20 L6.17 9.99 Q6 8 8 8 Z\"/><path d=\"M5 8 L 19 8\"/><path d=\"M13 8 L 15 3\"/><path d=\"M6.5 12 L 17.5 12\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function CupSodaDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M10 9 A2.9 2.9 0 1 1 14 9 L15.81 15.78 Q16 16.5 16.75 16.5 L16.75 16.5 Q17.5 16.5 17.5 17.25 L17.5 18.5 Q17.5 20.5 15.5 20.5 L8.5 20.5 Q6.5 20.5 6.5 18.5 L6.5 17.25 Q6.5 16.5 7.25 16.5 L7.25 16.5 Q8 16.5 8.19 15.78 L10 9 Z\"/><path d=\"M6.69 16.69  L17.31 16.69\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ChessPawn({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

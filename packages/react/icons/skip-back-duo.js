@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M19 6.5 Q19 4.5 17.43 5.74 L11.07 10.76 Q9.5 12 11.07 13.24 L17.43 18.26 Q19 19.5 19 17.5 Z\"/><g class=\"primary\"><path d=\"M19 5.5 Q19 4.5 18.22 5.12 L10.28 11.38 Q9.5 12 10.28 12.62 L18.22 18.88 Q19 19.5 19 18.5 Z\"/><path d=\"M5.5 4.5 L 5.5 19.5\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function SkipBackDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

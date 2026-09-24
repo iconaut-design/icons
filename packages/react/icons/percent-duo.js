@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M5.5 7.6a2.1 2.1 0 1 0 4.2 0a2.1 2.1 0 1 0 -4.2 0M14.299999999999999 16.4a2.1 2.1 0 1 0 4.2 0a2.1 2.1 0 1 0 -4.2 0\"/><g class=\"primary\"><path d=\"M18.5 5.5 L 5.5 18.5\"/><circle cx=\"7.6\" cy=\"7.6\" r=\"2.1\"/><circle cx=\"16.4\" cy=\"16.4\" r=\"2.1\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function PercentDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M10.76 4.77 Q12 3.2 13.24 4.77 L16.25 8.56 Q17 9.5 15.8 9.5 L15.8 9.5 Q14.6 9.5 15.24 10.52 L17.94 14.81 Q19 16.5 17 16.5 L7 16.5 Q5 16.5 6.06 14.81 L8.76 10.52 Q9.4 9.5 8.2 9.5 L8.2 9.5 Q7 9.5 7.75 8.56 Z\"/><path d=\"M12 16.5 L 12 20.8\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function PineTree({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -13,7 +13,7 @@ npm i iconaut-react
 import { Rocket, RocketSolid, RocketDuo } from "iconaut-react";
 
 <Rocket />                    // the 24px fit
-<Rocket size={12} />          // the REAL 12px fit, not the 24px drawing scaled down
+<Rocket size={16} />          // the REAL 16px fit, not the 24px drawing scaled down
 <Rocket size={18} />          // nearest fit (16) rendered at 18px
 <Rocket strokeWidth={1.25} /> // override the fit's optical stroke
 <Rocket className="text-blue-500" />
@@ -21,14 +21,13 @@ import { Rocket, RocketSolid, RocketDuo } from "iconaut-react";
 
 ## A real drawing at every size
 
-Most icon libraries ship one drawing and scale it, so a 12px icon is a 24px icon with
-hairline strokes and detail too fine to read. Iconaut authors **native fits**: each of
-12 / 16 / 20 / 24 has its own stroke token and, below 17px, a simplified *compact* drawing
+Most icon libraries ship one drawing and scale it, so a 16px icon is a 24px icon with
+detail too fine to read. Iconaut authors **native fits**: each of
+16 / 20 / 24 has its own stroke token and, at 16px, a simplified *compact* drawing
 that drops repeated or secondary detail rather than letting it turn to mud.
 
 | `size` | tier | stroke |
 |---|---|---|
-| 12 | compact | 1 |
 | 16 | compact | 1.125 |
 | 20 | default | 1.4 |
 | 24 | default | 1.7 |

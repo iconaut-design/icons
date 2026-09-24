@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M14 9 L18.29 13.29 Q19 14 18.29 14.71 L14 19\"/><path d=\"M5 5 L5 11 A3 3 0 0 0 8 14 L18.64 14\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function CornerDownRightDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

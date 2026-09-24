@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M12 3 A5 5 0 0 0 7 9 C7 15 8 20 12 20 C16 20 17 15 17 9 A5 5 0 0 0 12 3 Z M9.4 14a2.6 2.6 0 1 1 5.2 0a2.6 2.6 0 1 1 -5.2 0Z\"/><g class=\"primary\"><path d=\"M12 3 A5 5 0 0 0 7 9 C7 15 8 20 12 20 C16 20 17 15 17 9 A5 5 0 0 0 12 3 Z\"/><path d=\"M9.4 14 A2.6 2.6 0 1 1 14.6 14 A2.6 2.6 0 1 1 9.4 14 Z\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function AvocadoDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

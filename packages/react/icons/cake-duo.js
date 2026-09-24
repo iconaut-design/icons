@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M6 21 L18 21 Q20 21 20 19 L20 13 A2 2 0 0 0 18 11 L6 11 A2 2 0 0 0 4 13 L4 19 Q4 21 6 21 Z\"/><g class=\"primary\"><path d=\"M6 21 L18 21 Q20 21 20 19 L20 13 A2 2 0 0 0 18 11 L6 11 A2 2 0 0 0 4 13 L4 19 Q4 21 6 21 Z\"/><path d=\"M4 16 L 20 16\"/><path d=\"M12 11 L 12 7.5\"/><path d=\"M12 6.5 L 12.01 6.5\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function CakeDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

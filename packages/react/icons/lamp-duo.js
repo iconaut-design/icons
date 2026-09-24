@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M7.3 4.87 Q8 3 10 3 L14 3 Q16 3 16.7 4.87 L18.3 9.13 Q19 11 17 11 L7 11 Q5 11 5.7 9.13 Z\"/><g class=\"primary\"><path d=\"M7.3 4.87 Q8 3 10 3 L14 3 Q16 3 16.7 4.87 L18.3 9.13 Q19 11 17 11 L7 11 Q5 11 5.7 9.13 Z\"/><path d=\"M12 11 L 12 19\"/><path d=\"M9 19 L 15 19\"/><path d=\"M10 21 L 14 21\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function LampDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

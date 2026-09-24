@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M6.5 4 Q6.5 3.5 7 3.5 L17 3.5 Q17.5 3.5 17.5 4 L17.5 4 Q17.5 4.5 17.24 4.93 L14.03 10.29 Q13 12 14.03 13.71 L17.24 19.07 Q17.5 19.5 17.5 20 L17.5 20 Q17.5 20.5 17 20.5 L7 20.5 Q6.5 20.5 6.5 20 L6.5 20 Q6.5 19.5 6.76 19.07 L9.97 13.71 Q11 12 9.97 10.29 L6.76 4.93 Q6.5 4.5 6.5 4 Z\"/><g class=\"primary\"><path d=\"M6.5 4 Q6.5 3.5 7 3.5 L17 3.5 Q17.5 3.5 17.5 4 L17.5 4 Q17.5 4.5 17.24 4.93 L14.03 10.29 Q13 12 14.03 13.71 L17.24 19.07 Q17.5 19.5 17.5 20 L17.5 20 Q17.5 20.5 17 20.5 L7 20.5 Q6.5 20.5 6.5 20 L6.5 20 Q6.5 19.5 6.76 19.07 L9.97 13.71 Q11 12 9.97 10.29 L6.76 4.93 Q6.5 4.5 6.5 4 Z\"/><path d=\"M12 13 L 12 17.2\"/><path d=\"M8.7 20.5 L10.59 18.61 Q12 17.2 13.41 18.61 L15.3 20.5\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function HourglassDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

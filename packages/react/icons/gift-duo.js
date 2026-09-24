@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M4 9.5 Q4 7.5 6 7.5 L18 7.5 Q20 7.5 20 9.5 L20 18 Q20 20 18 20 L6 20 Q4 20 4 18 Z M5.8 7.5L18.2 7.5A1.8 1.8 0 0 1 20 9.3L20 11.5L4 11.5L4 9.3A1.8 1.8 0 0 1 5.8 7.5Z\"/><g class=\"primary\"><path d=\"M4 9.5 Q4 7.5 6 7.5 L18 7.5 Q20 7.5 20 9.5 L20 18 Q20 20 18 20 L6 20 Q4 20 4 18 Z\"/><path d=\"M4 11.5 L 20 11.5\"/><path d=\"M12 7.5 L 12 20\"/><path d=\"M7.6 7.5 A2.3 2.3 0 0 1 7.6 3 A4.5 7.5 0 0 1 12 7.5 A4.5 7.5 0 0 1 16.4 3 A2.3 2.3 0 0 1 16.4 7.5\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function GiftDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

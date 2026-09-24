@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M16.29 3.71 Q17 3 17.71 3.71 L20.29 6.29 Q21 7 20.29 7.71 L18.21 9.79 Q17.5 10.5 16.79 9.79 L14.21 7.21 Q13.5 6.5 14.21 5.79 Z\"/><path d=\"M15 8 L6.5 16.5 A1.5 1.5 0 0 0 8.5 18.5 L17 10\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Screwdriver({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

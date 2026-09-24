@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M8 7 L8.5 7 Q10.5 7 10.5 9 L10.5 12.5 A4 4 0 0 1 6 17 L6 14.7 A1.8 1.8 0 0 0 8.2 12.5 L7.1 12.5 Q6 12.5 6 11.4 L6 9 Q6 7 8 7 Z\"/><path d=\"M15.5 7 L16 7 Q18 7 18 9 L18 12.5 A4 4 0 0 1 13.5 17 L13.5 14.7 A1.8 1.8 0 0 0 15.7 12.5 L14.6 12.5 Q13.5 12.5 13.5 11.4 L13.5 9 Q13.5 7 15.5 7 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Quote({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

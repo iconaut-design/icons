@@ -5,12 +5,11 @@ const M0 = "<path d=\"M4 13 A5 5 0 1 0 14 13 A5 5 0 1 0 4 13 Z\"/><path d=\"M10.
 const M1 = "<path d=\"M3.7 13.2 A5.3 5.3 0 1 0 14.3 13.2 A5.3 5.3 0 1 0 3.7 13.2 Z\"/><path d=\"M10.5 8.1 A5.3 5.3 0 1 1 14.1 14.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Coins({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

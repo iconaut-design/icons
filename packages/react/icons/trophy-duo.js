@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M9.5 3.5 L14.5 3.5 Q16.5 3.5 16.5 5.5 L16.5 9.5 A4.5 4.5 0 0 1 7.5 9.5 L7.5 5.5 Q7.5 3.5 9.5 3.5 Z\"/><g class=\"primary\"><path d=\"M9.5 3.5 L14.5 3.5 Q16.5 3.5 16.5 5.5 L16.5 9.5 A4.5 4.5 0 0 1 7.5 9.5 L7.5 5.5 Q7.5 3.5 9.5 3.5 Z\"/><path d=\"M7.5 5.5 L6.1 5.5 A2 2 0 0 0 6.1 9.5 L7.5 9.5\"/><path d=\"M16.5 5.5 L17.9 5.5 A2 2 0 0 1 17.9 9.5 L16.5 9.5\"/><path d=\"M12 14 L 12 20.5\"/><path d=\"M8.5 20.5 L 15.5 20.5\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function TrophyDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

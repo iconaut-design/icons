@@ -5,12 +5,11 @@ const M0 = "<path d=\"M5.5 7.5 Q5.5 5.5 7.5 5.5 L16.5 5.5 Q18.5 5.5 18.5 7.5 L18
 const M1 = "<path d=\"M5 7 Q5 5 7 5 L17 5 Q19 5 19 7 L19 19 Q19 21 17 21 L7 21 Q5 21 5 19 Z\"/><path d=\"M9 5 L9 4 Q9 3 10 3 L14 3 Q15 3 15 4 L15 5\"/><path d=\"M9.5 10.5 L 14.5 15.5 M14.5 10.5 L 9.5 15.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ClipboardX({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

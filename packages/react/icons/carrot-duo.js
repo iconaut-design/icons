@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M11.21 19.16 L7.5 10.5 A5 5 0 0 1 16.5 10.5 L12.79 19.16 Q12 21 11.21 19.16 Z\"/><g class=\"primary\"><path d=\"M11.21 19.16 L7.5 10.5 A5 5 0 0 1 16.5 10.5 L12.79 19.16 Q12 21 11.21 19.16 Z\"/><path d=\"M12 9 L 12 4.5\"/><path d=\"M12 6.5 L 8.5 4.5 M12 6.5 L 15.5 4.5\"/><path d=\"M10.5 13 L 10.51 13 M12.5 16 L 12.51 16\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function CarrotDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

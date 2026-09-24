@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M15.44 6.06 Q16.5 5 18 5 L18 5 Q19.5 5 19.5 6.5 L19.5 6.5 Q19.5 8 18.44 9.06 L11.41 16.09 Q10 17.5 8.59 16.09 L8.41 15.91 Q7 14.5 8.41 13.09 Z\"/><g class=\"primary\"><path d=\"M15.44 6.06 Q16.5 5 18 5 L18 5 Q19.5 5 19.5 6.5 L19.5 6.5 Q19.5 8 18.44 9.06 L11.41 16.09 Q10 17.5 8.59 16.09 L8.41 15.91 Q7 14.5 8.41 13.09 Z\"/><path d=\"M5.5 13 L 11.5 19\"/><path d=\"M8.5 16 L 5 19.5\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function SwordDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

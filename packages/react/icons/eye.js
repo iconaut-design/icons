@@ -5,12 +5,11 @@ const M0 = "<path d=\"M12 6 C6.5 6 3 12 3 12 S6.5 18 12 18 S21 12 21 12 S17.5 6 
 const M1 = "<path d=\"M12 5.5 C5.8 5.5 2.5 12 2.5 12 S5.8 18.5 12 18.5 S21.5 12 21.5 12 S18.2 5.5 12 5.5 Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Eye({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

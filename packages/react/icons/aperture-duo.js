@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M3 12 A9 9 0 1 0 21 12 A9 9 0 1 0 3 12 Z\"/><g class=\"primary\"><path d=\"M3 12 A9 9 0 1 0 21 12 A9 9 0 1 0 3 12 Z\"/><path d=\"M15.6 9.92 L 15.6 20.25\"/><path d=\"M15.6 14.08 L 6.66 19.24\"/><path d=\"M12 16.16 L 3.06 10.99\"/><path d=\"M8.4 14.08 L 8.4 3.75\"/><path d=\"M8.4 9.92 L 17.34 4.76\"/><path d=\"M12 7.84 L 20.94 13.01\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ApertureDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

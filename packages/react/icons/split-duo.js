@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M12 21 L 12 12\"/><path d=\"M12 12 L 6.5 6.5\"/><path d=\"M12 12 L 17.5 6.5\"/><path d=\"M4 8 L4 5.5 Q4 4.5 5 4.5 L7.5 4.5\"/><path d=\"M20 8 L20 5.5 Q20 4.5 19 4.5 L16.5 4.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function SplitDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

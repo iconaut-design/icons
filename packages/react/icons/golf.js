@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M10 4 L 10 16\"/><path d=\"M10 4 L16.04 5.73 Q17 6 16.04 6.27 L10 8\"/><path d=\"M10.2 18 A1.8 1.8 0 1 0 13.8 18 A1.8 1.8 0 1 0 10.2 18 Z\"/><path d=\"M7 20 A5 1.5 0 0 0 17 20\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Golf({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

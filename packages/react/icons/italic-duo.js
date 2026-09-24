@@ -5,12 +5,11 @@ const M0 = "<path d=\"M10 5 L 18.5 5\"/><path d=\"M5.5 19 L 14 19\"/><path d=\"M
 const M1 = "<path d=\"M10 4.5 L 19 4.5\"/><path d=\"M5 19.5 L 14 19.5\"/><path d=\"M14.5 4.5 L 9.5 19.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ItalicDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

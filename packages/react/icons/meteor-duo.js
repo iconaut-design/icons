@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M3.5 16.5 A4 4 0 1 0 11.5 16.5 A4 4 0 1 0 3.5 16.5 Z\"/><g class=\"primary\"><path d=\"M3.5 16.5 A4 4 0 1 0 11.5 16.5 A4 4 0 1 0 3.5 16.5 Z\"/><path d=\"M10.33 13.67 L 19.5 4.5\"/><path d=\"M15 14.5 L 19 10.5\"/><path d=\"M9.5 8.5 L 13 5\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function MeteorDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

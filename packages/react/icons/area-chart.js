@@ -5,12 +5,11 @@ const M0 = "<path d=\"M9.6 16 Q8 16 8 14.4 L8 14.4 Q8 12.8 9.13 11.67 L9.8 11 Q1
 const M1 = "<path d=\"M9.25 16.5 Q7.5 16.5 7.5 14.75 L7.5 14.75 Q7.5 13 8.74 11.76 L9.59 10.91 Q11 9.5 12.41 10.91 L12.59 11.09 Q14 12.5 15.23 10.92 L16.41 9.4 Q17.5 8 18.75 9.25 L18.75 9.25 Q20 10.5 20 12.27 L20 14.5 Q20 16.5 18 16.5 Z\"/><path d=\"M4 4 L4 18 Q4 20 6 20 L20 20\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function AreaChart({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

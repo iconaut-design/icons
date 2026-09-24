@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M10.2 20.5 Q9.5 20.5 9.5 19.8 L9.5 14.5 Q9.5 12.5 7.5 12.5 L6.2 12.5 Q5.5 12.5 5.94 11.96 L11.56 5.04 Q12 4.5 12.44 5.04 L18.06 11.96 Q18.5 12.5 17.8 12.5 L16.5 12.5 Q14.5 12.5 14.5 14.5 L14.5 19.8 Q14.5 20.5 13.8 20.5 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ArrowBigUp({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

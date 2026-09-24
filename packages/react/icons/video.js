@@ -5,12 +5,11 @@ const M0 = "<path d=\"M3.5 9 Q3.5 7 5.5 7 L12 7 Q14 7 14 9 L14 15 Q14 17 12 17 L
 const M1 = "<path d=\"M3 8.5 Q3 6.5 5 6.5 L12.5 6.5 Q14.5 6.5 14.5 8.5 L14.5 15.5 Q14.5 17.5 12.5 17.5 L5 17.5 Q3 17.5 3 15.5 Z\"/><path d=\"M14.5 10.3 L18.77 7.81 Q20.5 6.8 20.5 8.8 L20.5 15.2 Q20.5 17.2 18.77 16.19 L14.5 13.7\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Video({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

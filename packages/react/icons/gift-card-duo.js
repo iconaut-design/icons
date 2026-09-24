@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M2.5 10 Q2.5 8 4.5 8 L19.5 8 Q21.5 8 21.5 10 L21.5 16 Q21.5 18 19.5 18 L4.5 18 Q2.5 18 2.5 16 Z\"/><g class=\"primary\"><path d=\"M2.5 10 Q2.5 8 4.5 8 L19.5 8 Q21.5 8 21.5 10 L21.5 16 Q21.5 18 19.5 18 L4.5 18 Q2.5 18 2.5 16 Z\"/><path d=\"M8.5 8 L 8.5 18\"/><path d=\"M5.1 8 A1.8 1.8 0 0 1 5.1 4.5 A3.4 5.8 0 0 1 8.5 8 A3.4 5.8 0 0 1 11.9 4.5 A1.8 1.8 0 0 1 11.9 8\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function GiftCardDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

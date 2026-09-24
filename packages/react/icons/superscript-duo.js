@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M4 9 L 12 18 M12 9 L 4 18\"/><path d=\"M16 5.5 A1.1 1.1 0 0 1 18 6 C18 6.9 16 7.6 16 8.5 L18.2 8.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function SuperscriptDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

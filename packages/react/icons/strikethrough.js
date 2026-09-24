@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M4 12 L 20 12\"/><path d=\"M16 5 L9 5 A3 3 0 0 0 6.2 9\"/><path d=\"M14 12 A4 4 0 0 1 14 20 L6 20\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Strikethrough({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

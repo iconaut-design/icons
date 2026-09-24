@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M5.5 11 L18.5 11 Q20 11 20 12.5 L20 14 A4 4 0 0 1 16 18 L8 18 A4 4 0 0 1 4 14 L4 12.5 Q4 11 5.5 11 Z\"/><g class=\"primary\"><path d=\"M5.5 11 L18.5 11 Q20 11 20 12.5 L20 14 A4 4 0 0 1 16 18 L8 18 A4 4 0 0 1 4 14 L4 12.5 Q4 11 5.5 11 Z\"/><path d=\"M12 11 L12 8.5 Q12 7 13.5 7 L14 7 Q15 7 15 6 L15 5\"/><path d=\"M11 5 L 15 5\"/><path d=\"M12 14 L 12.01 14\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function SinkDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

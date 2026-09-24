@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M19.5 8 L19.5 5 Q19.5 4 18.5 4 L4 4 Q3 4 3 5 L3 17.5 Q3 18.5 4 18.5 L8 18.5\"/><path d=\"M11 12 Q11 11 12 11 L20 11 Q21 11 21 12 L21 19 Q21 20 20 20 L12 20 Q11 20 11 19 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function PictureInPicture({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

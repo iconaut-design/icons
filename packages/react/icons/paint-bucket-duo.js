@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M6.33 9.97 Q6 8 8 8 L16 8 Q18 8 17.67 9.97 L16.33 18.03 Q16 20 14 20 L10 20 Q8 20 7.67 18.03 Z\"/><g class=\"primary\"><path d=\"M6.33 9.97 Q6 8 8 8 L16 8 Q18 8 17.67 9.97 L16.33 18.03 Q16 20 14 20 L10 20 Q8 20 7.67 18.03 Z\"/><path d=\"M5 8 L 19 8\"/><path d=\"M7 8 A5 4 0 0 1 17 8\"/><path d=\"M18.5 13 A1.5 1.5 0 1 0 21.5 13 A1.5 1.5 0 1 0 18.5 13 Z\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function PaintBucketDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

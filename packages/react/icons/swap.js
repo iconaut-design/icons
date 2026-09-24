@@ -5,12 +5,11 @@ const M0 = "<path d=\"M8 6.36 L8 18\"/><path d=\"M5 9 L7.29 6.71 Q8 6 8.71 6.71 
 const M1 = "<path d=\"M8 5.36 L8 19\"/><path d=\"M4.5 8.5 L7.29 5.71 Q8 5 8.71 5.71 L11.5 8.5\"/><path d=\"M16 18.64 L16 5\"/><path d=\"M12.5 15.5 L15.29 18.29 Q16 19 16.71 18.29 L19.5 15.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Swap({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

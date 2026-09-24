@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M3 10 Q3 8 5 8 L19 8 Q21 8 21 10 L21 17.5 Q21 19.5 19 19.5 L5 19.5 Q3 19.5 3 17.5 Z M5.8 13.75a2.4 2.4 0 1 0 4.8 0a2.4 2.4 0 1 0 -4.8 0Z M13.4 13.75a2.4 2.4 0 1 0 4.8 0a2.4 2.4 0 1 0 -4.8 0Z\"/><g class=\"primary\"><path d=\"M3 10 Q3 8 5 8 L19 8 Q21 8 21 10 L21 17.5 Q21 19.5 19 19.5 L5 19.5 Q3 19.5 3 17.5 Z\"/><path d=\"M8.5 8 L8.5 6.75 Q8.5 5.5 9.75 5.5 L14.25 5.5 Q15.5 5.5 15.5 6.75 L15.5 8\"/><path d=\"M5.8 13.75 A2.4 2.4 0 1 0 10.6 13.75 A2.4 2.4 0 1 0 5.8 13.75 Z\"/><path d=\"M13.4 13.75 A2.4 2.4 0 1 0 18.2 13.75 A2.4 2.4 0 1 0 13.4 13.75 Z\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function BoomboxDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

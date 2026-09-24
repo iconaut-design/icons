@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M8 15.5 L16 15.5 A5 5 0 0 0 17 7.5 A5.3 5.3 0 0 0 7 7.5 A5 5 0 0 0 8 15.5 Z\"/><g class=\"primary\"><path d=\"M8 15.5 L16 15.5 A5 5 0 0 0 17 7.5 A5.3 5.3 0 0 0 7 7.5 A5 5 0 0 0 8 15.5 Z\"/><path d=\"M12 15.5 L 12 21\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function TreeDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

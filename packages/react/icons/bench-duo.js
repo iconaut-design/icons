@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M3 12 Q3 11 4 11 L20 11 Q21 11 21 12 L21 12 Q21 13 20 13 L4 13 Q3 13 3 12 Z\"/><g class=\"primary\"><path d=\"M3 12 Q3 11 4 11 L20 11 Q21 11 21 12 L21 12 Q21 13 20 13 L4 13 Q3 13 3 12 Z\"/><path d=\"M5 13 L 5 19 M19 13 L 19 19\"/><path d=\"M3 15.5 L 21 15.5\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function BenchDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

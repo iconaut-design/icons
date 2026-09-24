@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M4 6 Q4 4 6 4 L18 4 Q20 4 20 6 L20 14.8 Q20 16.8 18 16.8 L9.8 16.8 Q7.8 16.8 6.39 18.21 L5.41 19.19 Q4 20.6 4 18.6 Z\"/><g class=\"primary\"><path d=\"M4 6 Q4 4 6 4 L18 4 Q20 4 20 6 L20 14.8 Q20 16.8 18 16.8 L9.8 16.8 Q7.8 16.8 6.39 18.21 L5.41 19.19 Q4 20.6 4 18.6 Z\"/><path d=\"M10.34 8.41 L9.51 9.45 Q8.68 10.48 9.51 11.52 L10.34 12.56 M13.66 8.41 L14.49 9.45 Q15.32 10.48 14.49 11.52 L13.66 12.56\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function MessageSquareCodeDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

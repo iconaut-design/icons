@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M5 12 A7 7 0 1 0 19 12 A7 7 0 1 0 5 12 Z\"/><path d=\"M7 6 L 5 3 M17 6 L 19 3\"/><path d=\"M9.5 14 A2.5 2.5 0 1 1 14.5 14 A2.5 2.5 0 1 1 9.5 14 Z\"/><path d=\"M11 14 L 11.01 14 M13 14 L 13.01 14\"/><path d=\"M9 10 L 9.01 10 M15 10 L 15.01 10\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Pig({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

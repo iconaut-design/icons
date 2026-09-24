@@ -5,12 +5,11 @@ const M0 = "<path d=\"M4 6 Q4 4 6 4 L18 4 Q20 4 20 6 L20 14.8 Q20 16.8 18 16.8 L
 const M1 = "<path d=\"M4 6 Q4 4 6 4 L18 4 Q20 4 20 6 L20 14.8 Q20 16.8 18 16.8 L9.8 16.8 Q7.8 16.8 6.39 18.21 L5.41 19.19 Q4 20.6 4 18.6 Z\"/><path d=\"M12 12.81 C11.63 12.57 9.51 11.23 9.51 9.65 A1.41 1.41 0 0 1 12 8.82 A1.41 1.41 0 0 1 14.49 9.65 C14.49 11.23 12.37 12.57 12 12.81 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function MessageSquareHeart({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

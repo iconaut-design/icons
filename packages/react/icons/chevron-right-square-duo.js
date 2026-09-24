@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M3.5 5.5 Q3.5 3.5 5.5 3.5 L18.5 3.5 Q20.5 3.5 20.5 5.5 L20.5 18.5 Q20.5 20.5 18.5 20.5 L5.5 20.5 Q3.5 20.5 3.5 18.5 Z\"/><g class=\"primary\"><path d=\"M3.5 5.5 Q3.5 3.5 5.5 3.5 L18.5 3.5 Q20.5 3.5 20.5 5.5 L20.5 18.5 Q20.5 20.5 18.5 20.5 L5.5 20.5 Q3.5 20.5 3.5 18.5 Z\"/><path d=\"M10.43 8 L13.58 10.7 Q15.1 12 13.58 13.3 L10.43 16\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ChevronRightSquareDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

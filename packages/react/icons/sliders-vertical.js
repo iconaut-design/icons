@@ -5,12 +5,11 @@ const M0 = "<path d=\"M8 3 L 8 5.1 M8 10.9 L 8 21\"/><circle cx=\"8\" cy=\"8\" r
 const M1 = "<path d=\"M8 3 L 8 5 M8 11 L 8 21\"/><circle cx=\"8\" cy=\"8\" r=\"2\"/><path d=\"M16 3 L 16 13 M16 19 L 16 21\"/><circle cx=\"16\" cy=\"16\" r=\"2\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function SlidersVertical({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

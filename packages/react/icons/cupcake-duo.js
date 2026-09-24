@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M6.5 12.95 Q6.25 10.97 8.25 10.97 L15.75 10.97 Q17.75 10.97 17.5 12.95 L16.85 18.19 Q16.6 20.17 14.6 20.17 L9.4 20.17 Q7.4 20.17 7.15 18.19 Z\"/><g class=\"primary\"><path d=\"M6.5 12.95 Q6.25 10.97 8.25 10.97 L15.75 10.97 Q17.75 10.97 17.5 12.95 L16.85 18.19 Q16.6 20.17 14.6 20.17 L9.4 20.17 Q7.4 20.17 7.15 18.19 Z\"/><path d=\"M6.25 10.97 A5.75 4.6 0 0 1 17.75 10.97\"/><path d=\"M10.62 5.22 A1.38 1.38 0 1 1 13.38 5.22 A1.38 1.38 0 1 1 10.62 5.22 Z\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function CupcakeDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

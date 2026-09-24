@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M10.59 4.61 Q12 3.2 13.41 4.61 L19.39 10.59 Q20.8 12 19.39 13.41 L13.41 19.39 Q12 20.8 10.59 19.39 L4.61 13.41 Q3.2 12 4.61 10.59 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Diamond({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

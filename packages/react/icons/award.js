@@ -5,12 +5,11 @@ const M0 = "<path d=\"M6.5 9 A5.5 5.5 0 1 0 17.5 9 A5.5 5.5 0 1 0 6.5 9 Z\"/><pa
 const M1 = "<path d=\"M6.5 9 A5.5 5.5 0 1 0 17.5 9 A5.5 5.5 0 1 0 6.5 9 Z\"/><path d=\"M10 9 A2 2 0 1 0 14 9 A2 2 0 1 0 10 9 Z\"/><path d=\"M15.89 12.89 L16.71 18.52 Q17 20.5 15.21 19.61 L13.79 18.89 Q12 18 10.21 18.89 L8.79 19.61 Q7 20.5 7.29 18.52 L8.11 12.89\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Award({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

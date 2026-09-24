@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M5.5 20.5 Q3.5 20.5 3.5 18.5 L3.5 14 Q3.5 12 5.5 12 L6.75 12 Q8.5 12 8.5 10.25 L8.5 10.25 Q8.5 8.5 9.74 7.26 L10.59 6.41 Q12 5 13.41 6.41 L14.26 7.26 Q15.5 8.5 15.5 10.25 L15.5 10.25 Q15.5 12 17.25 12 L18.5 12 Q20.5 12 20.5 14 L20.5 18.5 Q20.5 20.5 18.5 20.5 Z M10.5 20.5L10.5 17.85A1.35 1.35 0 0 1 11.85 16.5L12.15 16.5A1.35 1.35 0 0 1 13.5 17.85L13.5 20.5L10.5 20.5Z\"/><g class=\"primary\"><path d=\"M5.5 20.5 Q3.5 20.5 3.5 18.5 L3.5 14 Q3.5 12 5.5 12 L6.75 12 Q8.5 12 8.5 10.25 L8.5 10.25 Q8.5 8.5 9.74 7.26 L10.59 6.41 Q12 5 13.41 6.41 L14.26 7.26 Q15.5 8.5 15.5 10.25 L15.5 10.25 Q15.5 12 17.25 12 L18.5 12 Q20.5 12 20.5 14 L20.5 18.5 Q20.5 20.5 18.5 20.5 Z\"/><path d=\"M10.5 20.5 L10.5 18 Q10.5 16.5 12 16.5 L12 16.5 Q13.5 16.5 13.5 18 L13.5 20.5\"/><path d=\"M12 10 L 12.01 10 M6 16 L 6.01 16 M18 16 L 18.01 16\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function SchoolDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

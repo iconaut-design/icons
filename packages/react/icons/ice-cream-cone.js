@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M9.5 10 Q7.5 10 8.26 11.85 L11.24 19.15 Q12 21 12.76 19.15 L15.74 11.85 Q16.5 10 14.5 10 Z\"/><path d=\"M12 10.5 A4.5 4.5 0 1 0 12 3 A4 4 0 0 0 12 10.5 Z\"/><path d=\"M8.5 12.5 L 15.5 12.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function IceCreamCone({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

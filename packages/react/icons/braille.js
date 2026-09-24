@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M6.7 5.5 A1.3 1.3 0 1 0 9.3 5.5 A1.3 1.3 0 1 0 6.7 5.5 Z\"/><path d=\"M6.7 12 A1.3 1.3 0 1 0 9.3 12 A1.3 1.3 0 1 0 6.7 12 Z\"/><path d=\"M6.7 18.5 A1.3 1.3 0 1 0 9.3 18.5 A1.3 1.3 0 1 0 6.7 18.5 Z\"/><path d=\"M14.7 5.5 A1.3 1.3 0 1 0 17.3 5.5 A1.3 1.3 0 1 0 14.7 5.5 Z\"/><path d=\"M14.7 12 A1.3 1.3 0 1 0 17.3 12 A1.3 1.3 0 1 0 14.7 12 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Braille({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

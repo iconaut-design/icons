@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M4 11 A8 8 0 1 0 20 11 A8 8 0 1 0 4 11 Z\"/><path d=\"M12 11 L 12 4 M12 11 L 18.5 14.5 M12 11 L 5.5 14.5\"/><path d=\"M10.2 11 A1.8 1.8 0 1 0 13.8 11 A1.8 1.8 0 1 0 10.2 11 Z\"/><path d=\"M12 19 L 12 21 M9 21 L 15 21\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Fan({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

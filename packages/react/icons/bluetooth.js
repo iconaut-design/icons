@@ -5,12 +5,11 @@ const M0 = "<path d=\"M8 8.5 L15.25 14.84 Q16 15.5 15.29 16.21 L12.71 18.79 Q12 
 const M1 = "<path d=\"M7.5 8 L15.75 15.34 Q16.5 16 15.79 16.71 L12.71 19.79 Q12 20.5 12 19.5 L12 4.5 Q12 3.5 12.71 4.21 L15.79 7.29 Q16.5 8 15.75 8.66 L7.5 16\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Bluetooth({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

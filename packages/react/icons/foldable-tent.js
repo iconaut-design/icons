@@ -5,12 +5,11 @@ const M0 = "<path d=\"M6.88 8.43 Q7.4 6.5 9.4 6.5 L14.6 6.5 Q16.6 6.5 17.12 8.43
 const M1 = "<path d=\"M6.48 7.93 Q7 6 9 6 L15 6 Q17 6 17.52 7.93 L19.98 17.07 Q20.5 19 18.5 19 L5.5 19 Q3.5 19 4.02 17.07 Z\"/><path d=\"M16.63 6.48 L 13.5 19\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function FoldableTent({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

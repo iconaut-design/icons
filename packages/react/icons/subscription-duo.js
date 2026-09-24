@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M3.5 12 Q3.5 10 5.5 10 L18.5 10 Q20.5 10 20.5 12 L20.5 18.5 Q20.5 20.5 18.5 20.5 L5.5 20.5 Q3.5 20.5 3.5 18.5 Z\"/><g class=\"primary\"><path d=\"M3.5 8 Q3.5 6 5.5 6 L18.5 6 Q20.5 6 20.5 8 L20.5 18.5 Q20.5 20.5 18.5 20.5 L5.5 20.5 Q3.5 20.5 3.5 18.5 Z\"/><path d=\"M3.5 10 L 20.5 10\"/><path d=\"M8 4 L 8 7.5\"/><path d=\"M16 4 L 16 7.5\"/><path d=\"M14.3 15.2 A2.3 2.3 0 1 1 13.63 13.57 L14.3 14.19\"/><path d=\"M14.3 12.75 L14.3 13.47 Q14.3 14.19 13.59 14.19 L12.87 14.19\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function SubscriptionDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

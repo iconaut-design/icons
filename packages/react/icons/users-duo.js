@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M9.3 4.4 A3.2 3.2 0 1 0 9.3 10.8 A3.2 3.2 0 0 0 9.3 4.4 Z M9.3 12.4 C6.1 12.4 3.7 14.7 3.7 17.8 A1 1 0 0 0 4.7 18.8 L13.9 18.8 A1 1 0 0 0 14.9 17.8 C14.9 14.7 12.5 12.4 9.3 12.4 Z\"/><g class=\"primary\"><path d=\"M9.3 4.4 A3.2 3.2 0 1 0 9.3 10.8 A3.2 3.2 0 0 0 9.3 4.4 Z M9.3 12.4 C6.1 12.4 3.7 14.7 3.7 17.8 A1 1 0 0 0 4.7 18.8 L13.9 18.8 A1 1 0 0 0 14.9 17.8 C14.9 14.7 12.5 12.4 9.3 12.4 Z\"/><path d=\"M14.8 4.6 A3.2 3.2 0 0 1 14.8 10.6\"/><path d=\"M17 12.9 C19.2 13.4 20.5 15.3 20.5 17.8 A1 1 0 0 1 19.5 18.8 L17.8 18.8\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function UsersDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

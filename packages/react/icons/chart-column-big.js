@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M4 4 L4 19 Q4 20 5 20 L20 20\"/><path d=\"M6.5 20 L6.5 14 Q6.5 13 7.5 13 L9.5 13 Q10.5 13 10.5 14 L10.5 20\"/><path d=\"M13.5 20 L13.5 10 Q13.5 9 14.5 9 L16.5 9 Q17.5 9 17.5 10 L17.5 20\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ChartColumnBig({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

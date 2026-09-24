@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<circle cx=\"12\" cy=\"12\" r=\"3\"/><path d=\"M19.98 11.44 A8 8 0 1 1 12.56 4.02\"/><circle cx=\"17.66\" cy=\"6.34\" r=\"1.6\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Orbit({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

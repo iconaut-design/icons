@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M12.09 4.91 Q13.5 3.5 14.91 4.91 L19.09 9.09 Q20.5 10.5 19.09 11.91 L18.41 12.59 Q17 14 15.59 12.59 L11.41 8.41 Q10 7 11.41 5.59 Z\"/><g class=\"primary\"><path d=\"M12.79 4.21 Q13.5 3.5 14.21 4.21 L19.79 9.79 Q20.5 10.5 19.79 11.21 L17.71 13.29 Q17 14 16.29 13.29 L10.71 7.71 Q10 7 10.71 6.29 Z\"/><path d=\"M12 9 L5 16 A2 2 0 0 0 8 19 L15 12\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function HammerDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -5,12 +5,11 @@ const M0 = "<path d=\"M6 12 L17.61 12\"/><path d=\"M12 7 L17.23 11.36 Q18 12 17.
 const M1 = "<path d=\"M5 12 L18.62 12\"/><path d=\"M12.5 6.5 L18.24 11.35 Q19 12 18.24 12.65 L12.5 17.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ArrowRight({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

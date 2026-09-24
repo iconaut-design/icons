@@ -5,12 +5,11 @@ const M0 = "<path d=\"M12 4.5 C16.1 4.5 19.5 5.6 19.5 6.9 C19.5 8.2 16.1 9.3 12 
 const M1 = "<path d=\"M12 4 C16.4 4 20 5.1 20 6.5 C20 7.9 16.4 9 12 9 C7.6 9 4 7.9 4 6.5 C4 5.1 7.6 4 12 4 Z\"/><path d=\"M4 6.5 L4 17.5 C4 18.9 7.6 20 12 20 C16.4 20 20 18.9 20 17.5 L20 6.5\"/><path d=\"M4 12 C4 13.4 7.6 14.5 12 14.5 C16.4 14.5 20 13.4 20 12\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Database({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

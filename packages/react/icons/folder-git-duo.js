@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M2.5 7 Q2.5 5 4.5 5 L7.4 5 Q9 5 10 6.25 L10 6.25 Q11 7.5 12.6 7.5 L19.5 7.5 Q21.5 7.5 21.5 9.5 L21.5 19 Q21.5 21 19.5 21 L4.5 21 Q2.5 21 2.5 19 Z M7.03 11.78A1.3 1.3 0 1 0 9.63 11.78A1.3 1.3 0 1 0 7.03 11.78Z M7.03 16.28A1.3 1.3 0 1 0 9.63 16.28A1.3 1.3 0 1 0 7.03 16.28Z M13.03 12.78A1.3 1.3 0 1 0 15.63 12.78A1.3 1.3 0 1 0 13.03 12.78Z\"/><g class=\"primary\"><path d=\"M2.5 7 Q2.5 5 4.5 5 L7.4 5 Q9 5 10 6.25 L10 6.25 Q11 7.5 12.6 7.5 L19.5 7.5 Q21.5 7.5 21.5 9.5 L21.5 19 Q21.5 21 19.5 21 L4.5 21 Q2.5 21 2.5 19 Z\"/><path d=\"M7.03 11.78 A1.3 1.3 0 1 0 9.63 11.78 A1.3 1.3 0 1 0 7.03 11.78 Z\"/><path d=\"M7.03 16.28 A1.3 1.3 0 1 0 9.63 16.28 A1.3 1.3 0 1 0 7.03 16.28 Z\"/><path d=\"M13.03 12.78 A1.3 1.3 0 1 0 15.63 12.78 A1.3 1.3 0 1 0 13.03 12.78 Z\"/><path d=\"M8.33 13.08 L 8.33 14.98\"/><path d=\"M8.33 13.08 A5 5 0 0 0 13.13 13.58\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function FolderGitDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

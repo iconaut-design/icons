@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M4 9.5 C4 8.12 7.58 7 12 7 C16.42 7 20 8.12 20 9.5 L20 17.5 C20 18.88 16.42 20 12 20 C7.58 20 4 18.88 4 17.5 Z M4 9.5C4 8.12 7.58 7 12 7C16.42 7 20 8.12 20 9.5C20 10.88 16.42 12 12 12C7.58 12 4 10.88 4 9.5Z\"/><g class=\"primary\"><path d=\"M4 9.5 C4 8.12 7.58 7 12 7 C16.42 7 20 8.12 20 9.5 L20 17.5 C20 18.88 16.42 20 12 20 C7.58 20 4 18.88 4 17.5 Z\"/><path d=\"M4 9.5 C4 10.88 7.58 12 12 12 C16.42 12 20 10.88 20 9.5\"/><path d=\"M8 11.7 L 8 19.7\"/><path d=\"M16 11.7 L 16 19.7\"/><path d=\"M4.8 3 L 11.4 7\"/><path d=\"M19.2 3 L 12.6 7\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function DrumDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

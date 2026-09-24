@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M7 8 A5 5 0 1 0 17 8 A5 5 0 1 0 7 8 Z\"/><path d=\"M12 13 L 12 21\"/><path d=\"M12 8 A2.5 2.5 0 0 1 14.5 5.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Lollipop({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

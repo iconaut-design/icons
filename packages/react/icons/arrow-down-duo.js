@@ -5,12 +5,11 @@ const M0 = "<path d=\"M12 5 L12 17.61\"/><path d=\"M7 12 L11.36 17.23 Q12 18 12.
 const M1 = "<path d=\"M12 5 L12 18.62\"/><path d=\"M6.5 12.5 L11.35 18.24 Q12 19 12.65 18.24 L17.5 12.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ArrowDownDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

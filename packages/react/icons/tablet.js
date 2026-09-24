@@ -5,12 +5,11 @@ const M0 = "<path d=\"M5 5.5 Q5 3.5 7 3.5 L17 3.5 Q19 3.5 19 5.5 L19 18.5 Q19 20
 const M1 = "<path d=\"M4.5 5 Q4.5 3 6.5 3 L17.5 3 Q19.5 3 19.5 5 L19.5 19 Q19.5 21 17.5 21 L6.5 21 Q4.5 21 4.5 19 Z\"/><path d=\"M12 18 L 12.01 18\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Tablet({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M2.8 14.6 L2.8 14.2 Q2.8 12.2 3.41 10.29 L4.3 7.5 A1.5 1.5 0 0 1 5.73 6.46 L15 6.5 A1.5 1.5 0 0 1 16.39 7.45 L17.76 10.85 Q18.3 12.2 19.75 12.2 L19.75 12.2 Q21.2 12.2 21.2 13.65 L21.2 14.6 Q21.2 16.6 19.2 16.6 L4.8 16.6 Q2.8 16.6 2.8 14.6 Z\"/><g class=\"primary\"><path d=\"M2.8 14.6 L2.8 14.2 Q2.8 12.2 3.41 10.29 L4.3 7.5 A1.5 1.5 0 0 1 5.73 6.46 L15 6.5 A1.5 1.5 0 0 1 16.39 7.45 L17.76 10.85 Q18.3 12.2 19.75 12.2 L19.75 12.2 Q21.2 12.2 21.2 13.65 L21.2 14.6 Q21.2 16.6 19.2 16.6 L4.8 16.6 Q2.8 16.6 2.8 14.6 Z\"/><path d=\"M2.95 12.22  L18.53 11.86\"/><circle cx=\"7\" cy=\"18.5\" r=\"1.9\"/><circle cx=\"16.9\" cy=\"18.5\" r=\"1.9\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function CarDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

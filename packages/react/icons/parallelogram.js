@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M7.4 5.91 Q8 4 10 4 L19 4 Q21 4 20.4 5.91 L16.6 18.09 Q16 20 14 20 L5 20 Q3 20 3.6 18.09 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Parallelogram({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

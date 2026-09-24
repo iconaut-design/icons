@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M6 5.5 Q6 3.5 8 3.5 L16 3.5 Q18 3.5 18 5.5 L18 18.5 Q18 20.5 16 20.5 L8 20.5 Q6 20.5 6 18.5 Z M9.75 9.75a2.25 2.25 0 1 0 4.5 0a2.25 2.25 0 1 0 -4.5 0Z\"/><g class=\"primary\"><path d=\"M6 5.5 Q6 3.5 8 3.5 L16 3.5 Q18 3.5 18 5.5 L18 18.5 Q18 20.5 16 20.5 L8 20.5 Q6 20.5 6 18.5 Z\"/><circle cx=\"12\" cy=\"9.75\" r=\"2.25\"/><path d=\"M9 16 L 15 16\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function PassportDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

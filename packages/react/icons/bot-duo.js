@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M4 10 Q4 8 6 8 L18 8 Q20 8 20 10 L20 18 Q20 20 18 20 L6 20 Q4 20 4 18 Z\"/><g class=\"primary\"><path d=\"M4 10 Q4 8 6 8 L18 8 Q20 8 20 10 L20 18 Q20 20 18 20 L6 20 Q4 20 4 18 Z\"/><path d=\"M12 4.3 L 12 8\"/><path d=\"M9 13.5 L 9.01 13.5\"/><path d=\"M15 13.5 L 15.01 13.5\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function BotDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

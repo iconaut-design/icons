@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M4 6 A2 2 0 1 0 8 6 A2 2 0 1 0 4 6 Z\"/><path d=\"M16 7 A2 2 0 1 0 20 7 A2 2 0 1 0 16 7 Z\"/><path d=\"M10 17 A2 2 0 1 0 14 17 A2 2 0 1 0 10 17 Z\"/><path d=\"M3 18 A2 2 0 1 0 7 18 A2 2 0 1 0 3 18 Z\"/><path d=\"M7.5 7.3 L 10.7 15.3 M16.4 8.3 L 13.2 15.4 M8 6.4 L 16 6.8 M6.4 16.3 L 10 17.2\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ChartNetwork({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

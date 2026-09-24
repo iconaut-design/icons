@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M6.14 12.34 L12.34 6.14 A3.9 3.9 0 0 1 17.86 11.66 L11.66 17.86 A3.9 3.9 0 0 1 6.14 12.34 Z\"/><path d=\"M9.24 9.24 L 14.76 14.76\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Pill({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

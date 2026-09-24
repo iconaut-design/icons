@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M13.24 4.48 Q13.5 2.5 12.21 4.03 L5.29 12.27 Q4 13.8 6 13.8 L9 13.8 Q11 13.8 10.82 15.79 L10.48 19.51 Q10.3 21.5 11.6 19.98 L18.7 11.72 Q20 10.2 18 10.2 L14.5 10.2 Q12.5 10.2 12.76 8.22 Z\"/><g class=\"primary\"><path d=\"M13.24 4.48 Q13.5 2.5 12.21 4.03 L5.29 12.27 Q4 13.8 6 13.8 L9 13.8 Q11 13.8 10.82 15.79 L10.48 19.51 Q10.3 21.5 11.6 19.98 L18.7 11.72 Q20 10.2 18 10.2 L14.5 10.2 Q12.5 10.2 12.76 8.22 Z\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ZapDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

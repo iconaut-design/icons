@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M5 5 L 5 15\"/><path d=\"M12 5 L 12 19\"/><path d=\"M19 5 L 19 13\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function KanbanDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

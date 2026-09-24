@@ -5,12 +5,11 @@ const M0 = "<path d=\"M3.5 8 Q3.5 6 5.5 6 L18.5 6 Q20.5 6 20.5 8 L20.5 16 Q20.5 
 const M1 = "<path d=\"M3 7.5 Q3 5.5 5 5.5 L19 5.5 Q21 5.5 21 7.5 L21 16.5 Q21 18.5 19 18.5 L5 18.5 Q3 18.5 3 16.5 Z\"/><path d=\"M4 6.8 L10.37 11.34 Q12 12.5 13.63 11.34 L20 6.8\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Mail({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

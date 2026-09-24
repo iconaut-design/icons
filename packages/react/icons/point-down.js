@@ -5,12 +5,11 @@ const M0 = "<path d=\"M15.3 12.4 L15.3 18.7 A1.6 1.6 180 0 1 12.1 18.7 L12.1 12.
 const M1 = "<path d=\"M15.3 12.4 L15.3 18.7 A1.6 1.6 180 0 1 12.1 18.7 L12.1 12.4\"/><path d=\"M15.3 12.4 L15.8 12.4 Q17.7 12.4 17.7 10.5 L17.7 6.7 Q17.7 3.7 14.7 3.7 L9.5 3.7 Q6.3 3.7 6.3 6.9 L6.3 10.3 Q6.3 12.4 8.4 12.4 L12.1 12.4\"/><path d=\"M10.6 12.4 L 10.6 10.1\"/><path d=\"M8.4 12.4 L 8.4 9.9\"/><path d=\"M16.5 8.9 Q14.8 8.6 14.5 6.9\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function PointDown({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

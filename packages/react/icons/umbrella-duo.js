@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M2.5 12 A9.5 9.5 0 0 1 21.5 12 Q18.8 10.9 16.4 12 Q14 13.1 12 12 Q10 13.1 7.6 12 Q5.2 10.9 2.5 12 Z\"/><g class=\"primary\"><path d=\"M2.5 12 A9.5 9.5 0 0 1 21.5 12 Q18.8 10.9 16.4 12 Q14 13.1 12 12 Q10 13.1 7.6 12 Q5.2 10.9 2.5 12 Z\"/><path d=\"M12 12 L12 19 A2.1 2.1 0 0 1 8.4 19\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function UmbrellaDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

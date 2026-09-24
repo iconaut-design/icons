@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M2.5 9 Q2.5 7 4.5 7 L16 7 Q18 7 18 9 L18 15 Q18 17 16 17 L4.5 17 Q2.5 17 2.5 15 Z M10.3 9.45L8.23 11.85A0.52 0.52 0 0 0 8.63 12.7L8.88 12.7A0.8 0.8 0 0 1 9.63 13.76L9 15.6L11.97 12.15A0.52 0.52 0 0 0 11.58 11.3L11.33 11.3A0.8 0.8 0 0 1 10.57 10.24L10.75 9.71A0.26 0.26 0 0 0 10.3 9.45Z\"/><g class=\"primary\"><path d=\"M2.5 9 Q2.5 7 4.5 7 L16 7 Q18 7 18 9 L18 15 Q18 17 16 17 L4.5 17 Q2.5 17 2.5 15 Z\"/><path d=\"M18 10.5 L19 10.5 Q20 10.5 20 11.5 L20 13.5\"/><path d=\"M10.7 9.85 Q11.2 8.4 10.2 9.56 L8.32 11.75 Q7.5 12.7 8.75 12.7 L8.75 12.7 Q10 12.7 9.59 13.88 L9.5 14.15 Q9 15.6 10 14.44 L11.88 12.25 Q12.7 11.3 11.45 11.3 L11.45 11.3 Q10.2 11.3 10.61 10.12 Z\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function BatteryChargingDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

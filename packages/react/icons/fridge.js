@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M5 5 Q5 3 7 3 L17 3 Q19 3 19 5 L19 19 Q19 21 17 21 L7 21 Q5 21 5 19 Z\"/><path d=\"M5 8 L 19 8\"/><path d=\"M9 12 L 9 15\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Fridge({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

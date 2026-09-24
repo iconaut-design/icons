@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M9 10 L13.29 5.71 Q14 5 14.71 5.71 L19 10\"/><path d=\"M5 19 L11 19 A3 3 0 0 0 14 16 L14 5.36\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function CornerRightUp({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

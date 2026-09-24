@@ -5,12 +5,11 @@ const M0 = "<path d=\"M2 17 A10 10 0 0 1 22 17 L20 17 A8 8 0 0 0 4 17 Z M5.5 17 
 const M1 = "<path d=\"M1.55 17 A10.45 10.45 0 0 1 22.45 17 L20.55 17 A8.55 8.55 0 0 0 3.45 17 Z M5.35 17 A6.65 6.65 0 0 1 18.65 17 L16.75 17 A4.75 4.75 0 0 0 7.25 17 Z M9.05 17 A2.95 2.95 0 0 1 14.95 17 L13.05 17 A1.05 1.05 0 0 0 10.95 17 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, null],
   16: [M0, null],
   20: [M1, null],
   24: [M1, null]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function RainbowSolid({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

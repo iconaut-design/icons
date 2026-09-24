@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M3.5 11.5 Q3.5 9.5 5.5 9.5 L18.5 9.5 Q20.5 9.5 20.5 11.5 L20.5 18.5 Q20.5 20.5 18.5 20.5 L5.5 20.5 Q3.5 20.5 3.5 18.5 Z M8.5 20.5L8.5 16A2 2 0 0 1 10.5 14L13.5 14A2 2 0 0 1 15.5 16L15.5 20.5L8.5 20.5Z\"/><g class=\"primary\"><path d=\"M5.5 20.5 Q3.5 20.5 3.5 18.5 L3.5 11 Q3.5 9 5.27 8.06 L10.23 5.44 Q12 4.5 13.77 5.44 L18.73 8.06 Q20.5 9 20.5 11 L20.5 18.5 Q20.5 20.5 18.5 20.5 Z\"/><path d=\"M5 9.5 L 19 9.5\"/><path d=\"M8.5 20.5 L8.5 16 Q8.5 14 10.5 14 L13.5 14 Q15.5 14 15.5 16 L15.5 20.5\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function WarehouseDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

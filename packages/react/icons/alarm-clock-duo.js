@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M4.5 13a7.5 7.5 0 1 0 15 0a7.5 7.5 0 1 0 -15 0\"/><g class=\"primary\"><circle cx=\"12\" cy=\"13\" r=\"7.5\"/><path d=\"M12 8.8 L12 12 Q12 13 12.86 13.51 L15 14.8\"/><path d=\"M5 4.5 L 2.5 7 M19 4.5 L 21.5 7\"/><path d=\"M6.5 19 L 4.8 21.2 M17.5 19 L 19.2 21.2\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function AlarmClockDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

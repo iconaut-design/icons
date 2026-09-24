@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M8 7.5 L18.8 7.5 Q20.8 7.5 20.42 9.46 L19.3 15.3 A1.7 1.7 0 0 1 17.63 16.68 L9.1 16.7 A1.7 1.7 0 0 1 7.42 15.3 L6.36 9.47 Q6 7.5 8 7.5 Z\"/><g class=\"primary\"><path d=\"M2.5 3.5 L4 3.5 Q5 3.5 5.2 4.48 L7.4 15.3 A1.7 1.7 0 0 0 9.07 16.66 L17.6 16.7 A1.7 1.7 0 0 0 19.28 15.32 L20.61 8.48 Q20.8 7.5 19.8 7.5 L6 7.5\"/><circle cx=\"9.3\" cy=\"19.8\" r=\"1.5\"/><circle cx=\"17\" cy=\"19.8\" r=\"1.5\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ShoppingCartDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

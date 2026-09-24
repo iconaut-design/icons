@@ -5,12 +5,11 @@ const M0 = "<path d=\"M3 8.5 L13.5 8.5 A2.2 2.2 0 1 0 11.3 6\"/><path d=\"M3 12 
 const M1 = "<path d=\"M2.5 8 L14 8 A2.3 2.3 0 1 0 11.7 5.5\"/><path d=\"M2.5 12 L17.5 12 A2.4 2.4 0 1 1 15.1 14.7\"/><path d=\"M2.5 16 L10.5 16 A2.1 2.1 0 1 1 8.4 18.7\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Wind({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

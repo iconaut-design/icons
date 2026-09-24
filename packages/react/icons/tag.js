@@ -5,12 +5,11 @@ const M0 = "<path d=\"M11.2 6.5 Q9.2 6.5 7.9 8.02 L5.8 10.48 Q4.5 12 5.8 13.52 L
 const M1 = "<path d=\"M11 6 Q9 6 7.72 7.54 L5.28 10.46 Q4 12 5.28 13.54 L7.72 16.46 Q9 18 11 18 L18 18 Q20 18 20 16 L20 8 Q20 6 18 6 Z\"/><path d=\"M8.7 12 L 8.71 12\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Tag({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

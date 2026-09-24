@@ -5,12 +5,11 @@ const M0 = "<path d=\"M3.5 7.5 Q3.5 5.5 5.5 5.5 L18.5 5.5 Q20.5 5.5 20.5 7.5 L20
 const M1 = "<path d=\"M3 7 Q3 5 5 5 L19 5 Q21 5 21 7 L21 17 Q21 19 19 19 L5 19 Q3 19 3 17 Z\"/><path d=\"M3 9.5 L 21 9.5\"/><path d=\"M6.5 15 L 11 15\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function CreditCard({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

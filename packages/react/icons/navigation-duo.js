@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M11.19 4.33 Q12 2.5 12.81 4.33 L19.19 18.67 Q20 20.5 18.24 19.55 L13.76 17.15 Q12 16.2 10.24 17.15 L5.76 19.55 Q4 20.5 4.81 18.67 Z\"/><g class=\"primary\"><path d=\"M11.19 4.33 Q12 2.5 12.81 4.33 L19.19 18.67 Q20 20.5 18.24 19.55 L13.76 17.15 Q12 16.2 10.24 17.15 L5.76 19.55 Q4 20.5 4.81 18.67 Z\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function NavigationDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

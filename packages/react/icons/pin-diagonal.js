@@ -5,12 +5,11 @@ const M0 = "<path d=\"M11.87 12.13 L 7.12 16.88\"/><path d=\"M14.93 3.87 L20.13 
 const M1 = "<path d=\"M12 12 L 6.8 17.2\"/><path d=\"M15.38 3.67 L20.33 8.62 A1.29 1.29 0 0 1 18.51 10.44 L18.38 10.31 Q18.25 10.18 18.14 10.33 L15.4 14 Q14.8 14.8 14.09 14.09 L9.91 9.91 Q9.2 9.2 10 8.6 L13.67 5.86 Q13.82 5.75 13.69 5.62 L13.56 5.49 A1.29 1.29 0 0 1 15.38 3.67 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function PinDiagonal({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M6 11 A6 6 0 1 0 18 11 A6 6 0 1 0 6 11 Z\"/><path d=\"M9.4 11 A2.6 2.6 0 1 1 14.6 11 A2.6 2.6 0 1 1 9.4 11 Z\"/><path d=\"M4 18 L 20 18\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Sushi({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

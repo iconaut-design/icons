@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M6.5 3.5 L7 3.5 Q9 3.5 9 5.5 L9 13 A3 3 0 0 0 15 13 L15 5.5 Q15 3.5 17 3.5 L17.5 3.5 Q19.5 3.5 19.5 5.5 L19.5 13 A7.5 7.5 0 0 1 4.5 13 L4.5 5.5 Q4.5 3.5 6.5 3.5 Z\"/><path d=\"M4.5 7.5 L 9 7.5\"/><path d=\"M15 7.5 L 19.5 7.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Magnet({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

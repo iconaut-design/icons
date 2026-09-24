@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M4.6 14.6 L7.21 8.52 Q7.6 7.6 7.99 8.52 L10.6 14.6 M5.6 12.6 L 9.6 12.6\"/><path d=\"M14.2 6 L14.2 11.8 A2.8 2.8 0 0 0 19.8 11.8 L19.8 11.4 A2.8 2.8 0 0 0 14.2 11.4\"/><path d=\"M3 18 L 21 18\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function WholeWordDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

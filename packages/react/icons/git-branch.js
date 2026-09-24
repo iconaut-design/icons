@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M4.25 17.25 A2.25 2.25 0 1 0 8.75 17.25 A2.25 2.25 0 1 0 4.25 17.25 Z\"/><path d=\"M15.25 6.25 A2.25 2.25 0 1 0 19.75 6.25 A2.25 2.25 0 1 0 15.25 6.25 Z\"/><path d=\"M6.5 4.5 L 6.5 15\"/><path d=\"M17.5 8.5 A8.75 8.75 0 0 1 8.75 17.25\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function GitBranch({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

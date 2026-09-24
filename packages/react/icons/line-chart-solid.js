@@ -5,12 +5,11 @@ const M0 = "<path d=\"M3.05 3.55 L 4.95 3.55 L 4.95 18.55 L 20.95 18.55 L 20.95 
 const M1 = "<path d=\"M3.25 3.25 L 4.75 3.25 L 4.75 19.25 L 20.75 19.25 L 20.75 20.75 L 3.25 20.75 Z M4.75 19.25 L 4.75 17 L 10 11 L 13 13.5 L 18 7 L 18 19.25 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, null],
   16: [M0, null],
   20: [M1, null],
   24: [M1, null]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function LineChartSolid({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -5,12 +5,11 @@ const M0 = "<path d=\"M5.5 5.5 Q5.5 3.5 7.5 3.5 L11.3 3.5 Q13.3 3.5 14.71 4.91 L
 const M1 = "<path d=\"M5 5 Q5 3 7 3 L11.4 3 Q13.4 3 14.81 4.41 L17.59 7.19 Q19 8.6 19 10.6 L19 19 Q19 21 17 21 L7 21 Q5 21 5 19 Z\"/><path d=\"M13.25 3.35 L13.4 6.6  Q13.4 8.6 15.4 8.6  L18.4 8.6\"/><path d=\"M12 17.6 L 12 12 M9.6 14.4 L10.8 13.2 Q12 12 13.2 13.2 L14.4 14.4\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function FileUp({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

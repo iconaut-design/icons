@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M9 12 L15.2 12 A3.75 3.75 0 0 1 15.2 19.5 L9 19.5 Q7 19.5 7 17.5 L7 14 Q7 12 9 12 Z M9 4.5 L14.2 4.5 A3.75 3.75 0 0 1 14.2 12 L9 12 Q7 12 7 10 L7 6.5 Q7 4.5 9 4.5 Z\"/><g class=\"primary\"><path d=\"M8 12 L15.2 12 A3.75 3.75 0 0 1 15.2 19.5 L8 19.5 Q7 19.5 7 18.5 L7 13 Q7 12 8 12 Z\"/><path d=\"M8 4.5 L14.2 4.5 A3.75 3.75 0 0 1 14.2 12 L8 12 Q7 12 7 11 L7 5.5 Q7 4.5 8 4.5 Z\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function BoldDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

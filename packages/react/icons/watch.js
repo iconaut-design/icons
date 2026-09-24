@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M7 12 A5 5 0 1 0 17 12 A5 5 0 1 0 7 12 Z\"/><path d=\"M9 7.2 L8.63 4.49 Q8.5 3.5 9.5 3.5 L14.5 3.5 Q15.5 3.5 15.37 4.49 L15 7.2\"/><path d=\"M9 16.8 L8.63 19.51 Q8.5 20.5 9.5 20.5 L14.5 20.5 Q15.5 20.5 15.37 19.51 L15 16.8\"/><path d=\"M12 9.11 L12 11 Q12 12 12.87 12.49 L13.95 13.11\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Watch({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

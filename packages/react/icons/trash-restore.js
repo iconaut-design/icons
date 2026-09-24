@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M6.15 9.49 Q6 7.5 8 7.5 L16 7.5 Q18 7.5 17.85 9.49 L17.15 18.51 Q17 20.5 15 20.5 L9 20.5 Q7 20.5 6.85 18.51 Z\"/><path d=\"M4 7.5 L 20 7.5\"/><path d=\"M9 7.5 L9 5.6 A1.7 1.7 0 0 1 10.7 3.9 L13.3 3.9 A1.7 1.7 0 0 1 15 5.6 L15 7.5\"/><path d=\"M12 16.8 L 12 11.4 M9.6 13.8 L10.8 12.6 Q12 11.4 13.2 12.6 L14.4 13.8\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function TrashRestore({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

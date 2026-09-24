@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M9 4.5 L8.25 4.5 A2.25 2.25 0 0 0 6 6.75 L6 9.75 A2.25 2.25 0 0 1 3.75 12 A2.25 2.25 0 0 1 6 14.25 L6 17.25 A2.25 2.25 0 0 0 8.25 19.5 L9 19.5\"/><path d=\"M15 4.5 L15.75 4.5 A2.25 2.25 0 0 1 18 6.75 L18 9.75 A2.25 2.25 0 0 0 20.25 12 A2.25 2.25 0 0 0 18 14.25 L18 17.25 A2.25 2.25 0 0 1 15.75 19.5 L15 19.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function BracesDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

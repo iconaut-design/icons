@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M9.4 6 A2.6 2.6 0 1 0 14.6 6 A2.6 2.6 0 1 0 9.4 6 Z\"/><path d=\"M14.4 9.5 A2.6 2.6 0 1 0 19.6 9.5 A2.6 2.6 0 1 0 14.4 9.5 Z\"/><path d=\"M12.4 15.5 A2.6 2.6 0 1 0 17.6 15.5 A2.6 2.6 0 1 0 12.4 15.5 Z\"/><path d=\"M6.4 15.5 A2.6 2.6 0 1 0 11.6 15.5 A2.6 2.6 0 1 0 6.4 15.5 Z\"/><path d=\"M4.4 9.5 A2.6 2.6 0 1 0 9.6 9.5 A2.6 2.6 0 1 0 4.4 9.5 Z\"/><path d=\"M9.6 11 A2.4 2.4 0 1 0 14.4 11 A2.4 2.4 0 1 0 9.6 11 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Flower2({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

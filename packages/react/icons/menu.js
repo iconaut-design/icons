@@ -5,12 +5,11 @@ const M0 = "<path d=\"M4.5 7.5 L 19.5 7.5 M4.5 12 L 19.5 12 M4.5 16.5 L 19.5 16.
 const M1 = "<path d=\"M4.5 7 L 19.5 7 M4.5 12 L 19.5 12 M4.5 17 L 19.5 17\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Menu({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

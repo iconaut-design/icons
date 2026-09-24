@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M3.7 5 A1.1 1.1 0 0 1 4.8 3.9 L6.6 3.9 A1.1 1.1 0 0 1 7.7 5 L7.7 9.8 A1.1 1.1 0 0 1 6.6 10.9 L4.8 10.9 A1.1 1.1 0 0 1 3.7 9.8 Z\"/><path d=\"M16.3 5 A1.1 1.1 0 0 1 17.4 3.9 L19.2 3.9 A1.1 1.1 0 0 1 20.3 5 L20.3 9.8 A1.1 1.1 0 0 1 19.2 10.9 L17.4 10.9 A1.1 1.1 0 0 1 16.3 9.8 Z\"/><path d=\"M5.7 10.9 C5.7 16.3 8.2 19.8 12 19.8 C15.8 19.8 18.3 16.3 18.3 10.9\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function JumpRope({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

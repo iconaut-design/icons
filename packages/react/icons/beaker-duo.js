@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M8 3.5 Q6 3.5 6 5.5 L6 17.5 Q6 19.5 8 19.5 L16 19.5 Q18 19.5 18 17.5 L18 5.5 Q18 3.5 16 3.5 Z M8 3.5L16 3.5A2 2 0 0 1 18 5.5L18 14L6 14L6 5.5A2 2 0 0 1 8 3.5Z\"/><g class=\"primary\"><path d=\"M8 3.5 Q6 3.5 6 5.5 L6 17.5 Q6 19.5 8 19.5 L16 19.5 Q18 19.5 18 17.5 L18 5.5 Q18 3.5 16 3.5 Z\"/><path d=\"M4 3.5 L 20 3.5\"/><path d=\"M6 14 L 18 14\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function BeakerDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

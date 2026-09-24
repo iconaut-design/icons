@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M4.6 16.3 A1 1 0 0 0 5.3 18 L18.7 18 A1 1 0 0 0 19.4 16.3 C18.1 14.9 17 13.4 17 9.2 A5 5 0 0 0 7 9.2 C7 13.4 5.9 14.9 4.6 16.3 Z\"/><g class=\"primary\"><path d=\"M4.6 16.3 A1 1 0 0 0 5.3 18 L18.7 18 A1 1 0 0 0 19.4 16.3 C18.1 14.9 17 13.4 17 9.2 A5 5 0 0 0 7 9.2 C7 13.4 5.9 14.9 4.6 16.3 Z\"/><path d=\"M9.5 18 A2.5 3 0 0 0 14.5 18\"/><path d=\"M3.4 6.8 L 5 5.2\"/><path d=\"M20.6 6.8 L 19 5.2\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function BellRingDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

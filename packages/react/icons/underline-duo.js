@@ -5,12 +5,11 @@ const M0 = "<path d=\"M7 5 L7 11 A5 5 0 0 0 17 11 L17 5\"/><path d=\"M5.5 19 L 1
 const M1 = "<path d=\"M6.5 4.5 L6.5 11 A5.5 5.5 0 0 0 17.5 11 L17.5 4.5\"/><path d=\"M5 19.5 L 19 19.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function UnderlineDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

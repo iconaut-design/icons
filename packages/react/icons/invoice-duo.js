@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M5.5 5 Q5.5 3 7.5 3 L16.5 3 Q18.5 3 18.5 5 L18.5 19 Q18.5 21 16.5 21 L7.5 21 Q5.5 21 5.5 19 Z\"/><g class=\"primary\"><path d=\"M5.5 5 Q5.5 3 7.5 3 L16.5 3 Q18.5 3 18.5 5 L18.5 19 Q18.5 21 16.5 21 L7.5 21 Q5.5 21 5.5 19 Z\"/><path d=\"M8.5 7 L 12.5 7\"/><path d=\"M8.5 10.5 L 15.5 10.5\"/><path d=\"M8.5 14 L 15.5 14\"/><path d=\"M12.5 17.5 L 15.5 17.5\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function InvoiceDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

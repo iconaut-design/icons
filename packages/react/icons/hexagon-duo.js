@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M10.27 4.2 Q12 3.2 13.73 4.2 L17.89 6.6 Q19.62 7.6 19.62 9.6 L19.62 14.4 Q19.62 16.4 17.89 17.4 L13.73 19.8 Q12 20.8 10.27 19.8 L6.11 17.4 Q4.38 16.4 4.38 14.4 L4.38 9.6 Q4.38 7.6 6.11 6.6 Z\"/><g class=\"primary\"><path d=\"M10.27 4.2 Q12 3.2 13.73 4.2 L17.89 6.6 Q19.62 7.6 19.62 9.6 L19.62 14.4 Q19.62 16.4 17.89 17.4 L13.73 19.8 Q12 20.8 10.27 19.8 L6.11 17.4 Q4.38 16.4 4.38 14.4 L4.38 9.6 Q4.38 7.6 6.11 6.6 Z\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function HexagonDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

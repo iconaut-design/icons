@@ -5,12 +5,11 @@ const M0 = "<path d=\"M6.27 8.48 L5.81 5.58 Q5.5 3.6 7.24 4.58 L9.61 5.92 A7 7 0
 const M1 = "<path d=\"M6.27 8.48 L5.81 5.58 Q5.5 3.6 7.24 4.58 L9.61 5.92 A7 7 0 0 1 14.39 5.92 L16.76 4.58 Q18.5 3.6 18.19 5.58 L17.73 8.48 A7 7 0 1 1 6.27 8.48 Z\"/><path d=\"M9.3 11.8 L 9.31 11.8\"/><path d=\"M14.7 11.8 L 14.71 11.8\"/><path d=\"M12 14 L 12.01 14\"/><path d=\"M7.6 15 L 7.61 15\"/><path d=\"M16.4 15 L 16.41 15\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Cat({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

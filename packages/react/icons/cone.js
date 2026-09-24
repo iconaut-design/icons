@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M12.82 4.82 L19 18.5 A7 2 0 0 1 5 18.5 L11.18 4.82 Q12 3 12.82 4.82 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Cone({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

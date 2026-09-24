@@ -5,12 +5,11 @@ const M0 = "<path fill-rule=\"evenodd\" d=\"M4.5 6.9 C4.5 5.6 7.9 4.5 12 4.5 C16
 const M1 = "<path fill-rule=\"evenodd\" d=\"M4 6.5 C4 5.1 7.6 4 12 4 C16.4 4 20 5.1 20 6.5 L20 17.5 C20 18.9 16.4 20 12 20 C7.6 20 4 18.9 4 17.5 Z M4 6.5 C4 7.9 7.6 9 12 9 C16.4 9 20 7.9 20 6.5 L20 5.6 C20 7 16.4 8.1 12 8.1 C7.6 8.1 4 7 4 5.6 Z M4 12 C4 13.4 7.6 14.5 12 14.5 C16.4 14.5 20 13.4 20 12 L20 12.9 C20 14.3 16.4 15.4 12 15.4 C7.6 15.4 4 14.3 4 12.9 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, null],
   16: [M0, null],
   20: [M1, null],
   24: [M1, null]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function DatabaseSolid({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

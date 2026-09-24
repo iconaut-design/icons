@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M6 12 A6 6 0 1 0 18 12 A6 6 0 1 0 6 12 Z\"/><path d=\"M7.75 16.23 A9.4 3.3 -18 0 1 6.07 11.07\"/><path d=\"M16.25 7.77 A9.4 3.3 -18 0 1 17.93 12.93\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Planet({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

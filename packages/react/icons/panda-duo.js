@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M5 13 A7 7 0 1 0 19 13 A7 7 0 1 0 5 13 Z M8.5 6.94 A2.5 2.5 0 1 0 5.94 9.5 A7 7 0 0 1 8.5 6.94 Z M18.06 9.5 A2.5 2.5 0 1 0 15.5 6.94 A7 7 0 0 1 18.06 9.5 Z M8.5 6.94A2.5 2.5 0 1 0 5.94 9.5A7 7 0 0 1 8.5 6.94Z M18.06 9.5A2.5 2.5 0 1 0 15.5 6.94A7 7 0 0 1 18.06 9.5Z M7.2 12a1.8 1.8 0 1 1 3.6 0a1.8 1.8 0 1 1 -3.6 0Z M13.2 12a1.8 1.8 0 1 1 3.6 0a1.8 1.8 0 1 1 -3.6 0Z\"/><g class=\"primary\"><path d=\"M5 13 A7 7 0 1 0 19 13 A7 7 0 1 0 5 13 Z\"/><path d=\"M8.5 6.94 A2.5 2.5 0 1 0 5.94 9.5 A7 7 0 0 1 8.5 6.94 Z\"/><path d=\"M18.06 9.5 A2.5 2.5 0 1 0 15.5 6.94 A7 7 0 0 1 18.06 9.5 Z\"/><path d=\"M7.2 12 A1.8 1.8 0 1 1 10.8 12 A1.8 1.8 0 1 1 7.2 12 Z\"/><path d=\"M13.2 12 A1.8 1.8 0 1 1 16.8 12 A1.8 1.8 0 1 1 13.2 12 Z\"/><path d=\"M12 15 L 12.01 15\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function PandaDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

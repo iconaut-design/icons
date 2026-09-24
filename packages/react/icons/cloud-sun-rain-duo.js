@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M8.5 16.5 L17 16.5 A3.3 3.3 0 0 0 17.2 10 A4.6 4.6 0 0 0 8.2 9.2 A3.4 3.4 0 0 0 8.5 16.5 Z\"/><g class=\"primary\"><path d=\"M7.37 8.63 A2.44 2.44 0 1 1 9.63 6.07\"/><path d=\"M3.78 6.62 L 2.87 6.73 M5.38 3.28 L 4.88 2.5 M9.07 3.31 L 9.58 2.54\"/><path d=\"M8.5 16.5 L17 16.5 A3.3 3.3 0 0 0 17.2 10 A4.6 4.6 0 0 0 8.2 9.2 A3.4 3.4 0 0 0 8.5 16.5 Z\"/><path d=\"M10 19 L 9.5 21 M14 19 L 13.5 21\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function CloudSunRainDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

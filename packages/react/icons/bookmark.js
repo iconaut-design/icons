@@ -5,12 +5,11 @@ const M0 = "<path d=\"M7 6 Q7 4 9 4 L15 4 Q17 4 17 6 L17 18 Q17 20 15.47 18.71 L
 const M1 = "<path d=\"M6.5 6 Q6.5 4 8.5 4 L15.5 4 Q17.5 4 17.5 6 L17.5 18.5 Q17.5 20.5 15.95 19.23 L13.55 17.27 Q12 16 10.45 17.27 L8.05 19.23 Q6.5 20.5 6.5 18.5 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Bookmark({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

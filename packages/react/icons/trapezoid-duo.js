@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M6.45 6.92 Q7 5 9 5 L15 5 Q17 5 17.55 6.92 L20.45 17.08 Q21 19 19 19 L5 19 Q3 19 3.55 17.08 Z\"/><g class=\"primary\"><path d=\"M6.45 6.92 Q7 5 9 5 L15 5 Q17 5 17.55 6.92 L20.45 17.08 Q21 19 19 19 L5 19 Q3 19 3.55 17.08 Z\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function TrapezoidDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

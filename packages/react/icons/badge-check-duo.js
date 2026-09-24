@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M12 5 A3.2 3.2 0 0 1 16.95 7.05 A3.2 3.2 0 0 1 19 12 A3.2 3.2 0 0 1 16.95 16.95 A3.2 3.2 0 0 1 12 19 A3.2 3.2 0 0 1 7.05 16.95 A3.2 3.2 0 0 1 5 12 A3.2 3.2 0 0 1 7.05 7.05 A3.2 3.2 0 0 1 12 5 Z\"/><g class=\"primary\"><path d=\"M12 5 A3.2 3.2 0 0 1 16.95 7.05 A3.2 3.2 0 0 1 19 12 A3.2 3.2 0 0 1 16.95 16.95 A3.2 3.2 0 0 1 12 19 A3.2 3.2 0 0 1 7.05 16.95 A3.2 3.2 0 0 1 5 12 A3.2 3.2 0 0 1 7.05 7.05 A3.2 3.2 0 0 1 12 5 Z\"/><path d=\"M8.5 12 L9.75 13.25 Q11 14.5 12.18 13.19 L15.5 9.5\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function BadgeCheckDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

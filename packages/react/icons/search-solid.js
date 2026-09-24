@@ -5,12 +5,11 @@ const M0 = "<path fill-rule=\"evenodd\" d=\"M10.88 2.37 A8.51 8.51 0 1 0 16.05 1
 const M1 = "<path fill-rule=\"evenodd\" d=\"M10.32 1.81 A8.51 8.51 0 1 0 15.49 17.08 L20.22 21.81 A1.4 1.4 0 0 0 22.2 19.83 L17.48 15.1 A8.51 8.51 0 0 0 10.32 1.81 Z M10.32 5.17 A5.15 5.15 0 1 1 10.32 15.47 A5.15 5.15 0 0 1 10.32 5.17 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, null],
   16: [M0, null],
   20: [M1, null],
   24: [M1, null]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function SearchSolid({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

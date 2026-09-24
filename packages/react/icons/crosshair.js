@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M3.5 12 A8.5 8.5 0 1 0 20.5 12 A8.5 8.5 0 1 0 3.5 12 Z\"/><path d=\"M12 2 L 12 6\"/><path d=\"M12 18 L 12 22\"/><path d=\"M2 12 L 6 12\"/><path d=\"M18 12 L 22 12\"/><path d=\"M11.25 12 A0.75 0.75 0 1 0 12.75 12 A0.75 0.75 0 1 0 11.25 12 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Crosshair({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

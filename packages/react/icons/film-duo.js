@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M3.5 6.5 Q3.5 4.5 5.5 4.5 L18.5 4.5 Q20.5 4.5 20.5 6.5 L20.5 17.5 Q20.5 19.5 18.5 19.5 L5.5 19.5 Q3.5 19.5 3.5 17.5 Z\"/><g class=\"primary\"><path d=\"M3.5 6.5 Q3.5 4.5 5.5 4.5 L18.5 4.5 Q20.5 4.5 20.5 6.5 L20.5 17.5 Q20.5 19.5 18.5 19.5 L5.5 19.5 Q3.5 19.5 3.5 17.5 Z\"/><path d=\"M7 4.5 L 7 19.5\"/><path d=\"M17 4.5 L 17 19.5\"/><path d=\"M5.25 7.5 L 5.26 7.5 M5.25 12 L 5.26 12 M5.25 16.5 L 5.26 16.5 M18.75 7.5 L 18.76 7.5 M18.75 12 L 18.76 12 M18.75 16.5 L 18.76 16.5\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function FilmDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

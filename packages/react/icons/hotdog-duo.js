@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M5 7.5 L19 7.5 A2 2 0 0 1 19 11.5 L5 11.5 A2 2 0 0 1 5 7.5 Z\"/><g class=\"primary\"><path d=\"M5 7.5 L19 7.5 A2 2 0 0 1 19 11.5 L5 11.5 A2 2 0 0 1 5 7.5 Z\"/><path d=\"M4.5 11.5 L4.5 14 A3 3 0 0 0 7.5 17 L16.5 17 A3 3 0 0 0 19.5 14 L19.5 11.5\"/><path d=\"M7 10.2 L8 9.6 Q9 9 10 9.6 L10 9.6 Q11 10.2 12 9.6 L12 9.6 Q13 9 14 9.6 L14 9.6 Q15 10.2 16 9.6 L17 9\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function HotdogDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

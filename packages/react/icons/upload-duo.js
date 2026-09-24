@@ -5,12 +5,11 @@ const M0 = "<path d=\"M12 15 L12 4.85\"/><path d=\"M8 8.5 L11.29 5.21 Q12 4.5 12
 const M1 = "<path d=\"M12 15 L12 4.35\"/><path d=\"M7.5 8.5 L11.29 4.71 Q12 4 12.71 4.71 L16.5 8.5\"/><path d=\"M5 19.5 L19 19.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function UploadDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

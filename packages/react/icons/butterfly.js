@@ -5,12 +5,11 @@ const M0 = "<path d=\"M12 8.5 C10 5.5 5 4 4 7.5 C3.5 10 8 11.8 12 12 Z\"/><path 
 const M1 = "<path d=\"M12 8.5 C10 5.5 5 4 4 7.5 C3.5 10 8 11.8 12 12 Z\"/><path d=\"M12 12 C9 12.5 4.5 13 4.5 16 C4.5 19 9.5 18.5 12 15.5 Z\"/><path d=\"M12 8.5 C14 5.5 19 4 20 7.5 C20.5 10 16 11.8 12 12 Z\"/><path d=\"M12 12 C15 12.5 19.5 13 19.5 16 C19.5 19 14.5 18.5 12 15.5 Z\"/><path d=\"M12 8.5 L 12 15.5\"/><path d=\"M12 8.5 C11.5 6 10.5 5 9.3 4.6\"/><path d=\"M12 8.5 C12.5 6 13.5 5 14.7 4.6\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Butterfly({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

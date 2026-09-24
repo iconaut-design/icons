@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M5.5 5 C7.7 3.8 9.8 3.8 12 5 C14.2 6.2 16.3 6.2 18.5 5 L18.5 13.5 C16.3 14.7 14.2 14.7 12 13.5 C9.8 12.3 7.7 12.3 5.5 13.5 Z\"/><path d=\"M5.5 20.5 L 5.5 4\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Flag({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

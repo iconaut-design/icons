@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M9 20 L17.5 20 A3.4 3.4 0 0 0 17.7 13.3 A4.8 4.8 0 0 0 8.3 12.4 A3.6 3.6 0 0 0 9 20 Z\"/><path d=\"M6.42 13.1 A3.2 3.2 0 0 1 5.2 6.9 A2.6 2.6 0 0 1 6.9 6.2 A3.8 3.8 0 0 1 13.6 6.9 A3.1 3.1 0 0 1 14.25 9.1\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Cloudy({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

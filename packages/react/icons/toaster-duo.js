@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M5 11 L19 11 Q21 11 21 13 L21 17 A2 2 0 0 1 19 19 L5 19 A2 2 0 0 1 3 17 L3 13 Q3 11 5 11 Z\"/><g class=\"primary\"><path d=\"M5 11 L19 11 Q21 11 21 13 L21 17 A2 2 0 0 1 19 19 L5 19 A2 2 0 0 1 3 17 L3 13 Q3 11 5 11 Z\"/><path d=\"M7 11 L7 9.5 Q7 8 8.5 8 L15.5 8 Q17 8 17 9.5 L17 11\"/><path d=\"M11 8 L11 6 Q11 5 12 5 L12 5 Q13 5 13 6 L13 8\"/><path d=\"M20 13 L 20 16\"/><path d=\"M6 15 L 6.01 15\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ToasterDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

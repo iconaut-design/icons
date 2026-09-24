@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M4.5 18.73 L4.5 11 A7.5 7.5 0 0 1 19.5 11 L19.5 18.73 Q19.5 20.5 18.25 19.25 L18.25 19.25 Q17 18 15.75 19.25 L15.75 19.25 Q14.5 20.5 13.25 19.25 L13.25 19.25 Q12 18 10.75 19.25 L10.75 19.25 Q9.5 20.5 8.25 19.25 L8.25 19.25 Q7 18 5.75 19.25 L5.75 19.25 Q4.5 20.5 4.5 18.73 Z\"/><path d=\"M9.5 10.5 L 9.51 10.5\"/><path d=\"M14.5 10.5 L 14.51 10.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Ghost({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

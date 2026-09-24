@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M3 7 Q3 5 5 5 L19 5 Q21 5 21 7 L21 15 Q21 17 19 17 L5 17 Q3 17 3 15 Z\"/><g class=\"primary\"><path d=\"M3 7 Q3 5 5 5 L19 5 Q21 5 21 7 L21 15 Q21 17 19 17 L5 17 Q3 17 3 15 Z\"/><path d=\"M9 20 L 15 20\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function TvMinimalDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

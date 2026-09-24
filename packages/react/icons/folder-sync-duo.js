@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M2.5 7 Q2.5 5 4.5 5 L7.4 5 Q9 5 10 6.25 L10 6.25 Q11 7.5 12.6 7.5 L19.5 7.5 Q21.5 7.5 21.5 9.5 L21.5 19 Q21.5 21 19.5 21 L4.5 21 Q2.5 21 2.5 19 Z\"/><g class=\"primary\"><path d=\"M2.5 7 Q2.5 5 4.5 5 L7.4 5 Q9 5 10 6.25 L10 6.25 Q11 7.5 12.6 7.5 L19.5 7.5 Q21.5 7.5 21.5 9.5 L21.5 19 Q21.5 21 19.5 21 L4.5 21 Q2.5 21 2.5 19 Z\"/><path d=\"M9.5 12.92 A3 3 0 0 1 14.5 12.32\"/><path d=\"M14.5 10.92 L14.5 11.62 Q14.5 12.32 13.8 12.32 L13.1 12.32\"/><path d=\"M14.5 15.52 A3 3 0 0 1 9.5 16.12\"/><path d=\"M9.5 17.52 L9.5 16.82 Q9.5 16.12 10.2 16.12 L10.9 16.12\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function FolderSyncDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

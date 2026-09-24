@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M10 8.5 L10 6.5 Q10 4.5 8.59 5.91 L4.41 10.09 Q3 11.5 4.41 12.91 L8.59 17.09 Q10 18.5 10 16.5 L10 14.4 C15 14.4 18.5 16 21 19.5 C20 14.5 17 9.5 10 8.5 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ReplyArrow({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

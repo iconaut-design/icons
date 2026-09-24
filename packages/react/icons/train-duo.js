@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M4.4 5.8 Q4.4 3.8 6.4 3.8 L17.6 3.8 Q19.6 3.8 19.6 5.8 L19.6 14.6 Q19.6 16.6 17.6 16.6 L6.4 16.6 Q4.4 16.6 4.4 14.6 Z\"/><g class=\"primary\"><path d=\"M4.4 5.8 Q4.4 3.8 6.4 3.8 L17.6 3.8 Q19.6 3.8 19.6 5.8 L19.6 14.6 Q19.6 16.6 17.6 16.6 L6.4 16.6 Q4.4 16.6 4.4 14.6 Z\"/><path d=\"M5.6 10.9 L 18.4 10.9\"/><circle cx=\"8.2\" cy=\"18.6\" r=\"1.9\"/><circle cx=\"15.8\" cy=\"18.6\" r=\"1.9\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function TrainDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

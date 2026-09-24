@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0\"/><g class=\"primary\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 6.8 L12 11 Q12 12 12.87 12.5 L15.5 14\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ClockDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

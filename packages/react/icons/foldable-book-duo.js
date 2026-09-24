@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M3 6 Q3 4 4.91 4.59 L10.09 6.21 Q12 6.8 13.91 6.21 L19.09 4.59 Q21 4 21 6 L21 15.2 Q21 17.2 19.09 17.79 L13.91 19.41 Q12 20 10.09 19.41 L4.91 17.79 Q3 17.2 3 15.2 Z M13.41 6.36L18.41 4.81A2 2 0 0 1 21 6.72L21 15.73A2 2 0 0 1 19.59 17.64L12 20L12 8.27A2 2 0 0 1 13.41 6.36Z\"/><g class=\"primary\"><path d=\"M3 6 Q3 4 4.91 4.59 L10.09 6.21 Q12 6.8 13.91 6.21 L19.09 4.59 Q21 4 21 6 L21 15.2 Q21 17.2 19.09 17.79 L13.91 19.41 Q12 20 10.09 19.41 L4.91 17.79 Q3 17.2 3 15.2 Z\"/><path d=\"M12 6.51  L12 19.71\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function FoldableBookDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

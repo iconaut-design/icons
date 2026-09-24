@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M8 5 Q8 3 10 3 L14 3 Q16 3 16 5 L16 19 Q16 21 14 21 L10 21 Q8 21 8 19 Z\"/><path d=\"M10.7 7 A1.3 1.3 0 1 1 13.3 7 A1.3 1.3 0 1 1 10.7 7 Z\"/><path d=\"M10 11 L 10.01 11 M14 11 L 14.01 11 M12 11 L 12.01 11 M12 14 L 12.01 14\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Remote({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

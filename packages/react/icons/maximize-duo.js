@@ -5,12 +5,11 @@ const M0 = "<path d=\"M9.2 5 L6 5 Q5 5 5 6 L5 9.2\"/><path d=\"M14.8 5 L18 5 Q19
 const M1 = "<path d=\"M9.7 5 L6 5 Q5 5 5 6 L5 9.7\"/><path d=\"M14.3 5 L18 5 Q19 5 19 6 L19 9.7\"/><path d=\"M9.7 19 L6 19 Q5 19 5 18 L5 14.3\"/><path d=\"M14.3 19 L18 19 Q19 19 19 18 L19 14.3\"/><path d=\"M5.25 5.25 L10.4 10.4\"/><path d=\"M18.75 5.25 L13.6 10.4\"/><path d=\"M5.25 18.75 L10.4 13.6\"/><path d=\"M18.75 18.75 L13.6 13.6\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function MaximizeDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

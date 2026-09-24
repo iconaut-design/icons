@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M4 12 Q4 11 4.95 10.7 L18.09 6.6 Q20 6 20 8 L20 16 Q20 18 18.09 17.4 L4.95 13.3 Q4 13 4 12 Z\"/><g class=\"primary\"><path d=\"M4 12 Q4 11 4.95 10.7 L19.05 6.3 Q20 6 20 7 L20 17 Q20 18 19.05 17.7 L4.95 13.3 Q4 13 4 12 Z\"/><path d=\"M7 13.95 L7 17.5 A1.6 1.6 0 0 0 10.2 17.5 L10.2 14.95\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function MegaphoneDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

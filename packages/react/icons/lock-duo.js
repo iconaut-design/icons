@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M4.8 12 Q4.8 10 6.8 10 L17.2 10 Q19.2 10 19.2 12 L19.2 19 Q19.2 21 17.2 21 L6.8 21 Q4.8 21 4.8 19 Z\"/><g class=\"primary\"><path d=\"M4.8 12 Q4.8 10 6.8 10 L17.2 10 Q19.2 10 19.2 12 L19.2 19 Q19.2 21 17.2 21 L6.8 21 Q4.8 21 4.8 19 Z\"/><path d=\"M8 10 L8 7 A4 4 0 0 1 16 7 L16 10\"/><path d=\"M12 14.2 L 12 16.6\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function LockDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

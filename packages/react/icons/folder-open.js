@@ -5,12 +5,11 @@ const M0 = "<path d=\"M6 18.5 Q4 18.5 4.49 16.56 L5.51 12.44 Q6 10.5 8 10.5 L18 
 const M1 = "<path d=\"M5.5 19 Q3.5 19 3.96 17.05 L5.04 12.45 Q5.5 10.5 7.5 10.5 L18.5 10.5 Q20.5 10.5 20.04 12.45 L18.96 17.05 Q18.5 19 16.5 19 Z\"/><path d=\"M5.5 10.5 L5.5 6.25 Q5.5 4.5 7.25 4.5 L7.4 4.5 Q9 4.5 10 5.75 L10 5.75 Q11 7 12.6 7 L18.75 7 Q20.5 7 20.5 8.75 L20.5 10.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function FolderOpen({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M6 12a6 6 0 1 0 12 0a6 6 0 1 0 -12 0\"/><g class=\"primary\"><path d=\"M9 4.5 A9 9 0 0 0 9 19.5\"/><path d=\"M15 4.5 A9 9 0 0 1 15 19.5\"/><path d=\"M6.18 7.5 L 4.08 6.3\"/><path d=\"M4.97 12 L 3 12\"/><path d=\"M6.18 16.5 L 4.08 17.7\"/><path d=\"M17.82 7.5 L 19.92 6.3\"/><path d=\"M19.03 12 L 21 12\"/><path d=\"M17.82 16.5 L 19.92 17.7\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function LaurelWreathDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

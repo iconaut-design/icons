@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M7 12 A5 5 0 1 0 17 12 A5 5 0 1 0 7 12 Z\"/><path d=\"M12 7 L 12 3 M12 21 L 12 17 M7 12 L 3 12 M21 12 L 17 12 M8.5 8.5 L 5.6 5.6 M18.4 18.4 L 15.5 15.5 M8.5 15.5 L 5.6 18.4 M18.4 5.6 L 15.5 8.5\"/><path d=\"M10 11 L 10.01 11 M14 13 L 14.01 13\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Virus({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

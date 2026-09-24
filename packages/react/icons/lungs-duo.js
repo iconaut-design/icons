@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M9 8 C7 10 5.5 13 5.5 17 A2 2 0 0 0 9.5 17.5 L9.5 8.25 Q9.5 8 9.25 8 L9 8 Z M15 8 C17 10 18.5 13 18.5 17 A2 2 0 0 1 14.5 17.5 L14.5 8.25 Q14.5 8 14.75 8 L15 8 Z\"/><g class=\"primary\"><path d=\"M12 4 L 12 9\"/><path d=\"M9 8 L 15 8\"/><path d=\"M9 8 C7 10 5.5 13 5.5 17 A2 2 0 0 0 9.5 17.5 L9.5 8\"/><path d=\"M15 8 C17 10 18.5 13 18.5 17 A2 2 0 0 1 14.5 17.5 L14.5 8\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function LungsDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

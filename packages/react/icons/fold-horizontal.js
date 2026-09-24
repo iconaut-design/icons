@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M12 2 L12 4 M12 8 L12 10 M12 14 L12 16 M12 20 L12 22\"/><path d=\"M3 12 L7.62 12 M4.6 9.1 L7.24 11.35 Q8 12 7.24 12.65 L4.6 14.9\"/><path d=\"M21 12 L16.38 12 M19.4 9.1 L16.76 11.35 Q16 12 16.76 12.65 L19.4 14.9\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function FoldHorizontal({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

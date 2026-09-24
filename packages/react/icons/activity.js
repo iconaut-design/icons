@@ -5,12 +5,11 @@ const M0 = "<path d=\"M3 12 L6.2 12 Q7.2 12 7.52 11.05 L9.28 5.95 Q9.6 5 9.92 5.
 const M1 = "<path d=\"M3 12 L6 12 Q7 12 7.32 11.05 L9.18 5.45 Q9.5 4.5 9.82 5.45 L14.18 18.55 Q14.5 19.5 14.82 18.55 L16.68 12.95 Q17 12 18 12 L21 12\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Activity({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

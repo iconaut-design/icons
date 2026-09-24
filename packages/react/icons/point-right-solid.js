@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M18.7 12.65 L11 12.65 A2.35 2.35 90 0 1 11 7.95 L18.7 7.95 A2.35 2.35 90 0 1 18.7 12.65 Z M13.15 8.75 L13.15 15.25 Q13.15 18.45 9.95 18.45 L6.15 18.45 Q2.95 18.45 2.95 15.25 L2.95 8.75 Q2.95 5.55 6.15 5.55 L9.95 5.55 Q13.15 5.55 13.15 8.75 Z M11.7 12.7 L10.1 12.7 A0.7 0.7 90 0 0 10.1 14.1 L11.7 14.1 A0.7 0.7 90 0 0 11.7 12.7 Z M11.7 14.9 L9.9 14.9 A0.7 0.7 90 0 0 9.9 16.3 L11.7 16.3 A0.7 0.7 90 0 0 11.7 14.9 Z M8.01 7.31 L6.61 8.71 A0.7 0.7 90 0 0 7.59 9.69 L8.99 8.29 A0.7 0.7 90 0 0 8.01 7.31 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, null],
   16: [M0, null],
   20: [M0, null],
   24: [M0, null]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function PointRightSolid({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

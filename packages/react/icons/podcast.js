@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M12 3 A2.9 2.9 0 0 0 9.1 5.9 L9.1 10.1 A2.9 2.9 0 0 0 14.9 10.1 L14.9 5.9 A2.9 2.9 0 0 0 12 3 Z\"/><path d=\"M12 13 L 12 19.5\"/><path d=\"M8.5 19.5 L 15.5 19.5\"/><path d=\"M5.2 4.8 A7.5 7.5 0 0 0 5.2 11.2\"/><path d=\"M18.8 4.8 A7.5 7.5 0 0 1 18.8 11.2\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Podcast({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

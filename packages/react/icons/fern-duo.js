@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M12 21 L 12 4\"/><path d=\"M12 6 L 8 4 M12 6 L 16 4 M12 10 L 7 8 M12 10 L 17 8 M12 14 L 8 12 M12 14 L 16 12 M12 18 L 9 16 M12 18 L 15 16\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function FernDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

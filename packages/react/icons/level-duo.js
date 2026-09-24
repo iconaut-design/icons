@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M3 11 Q3 9 5 9 L19 9 Q21 9 21 11 L21 13 Q21 15 19 15 L5 15 Q3 15 3 13 Z M9 12 Q9 10.5 10.5 10.5 L13.5 10.5 Q15 10.5 15 12 L15 12 Q15 13.5 13.5 13.5 L10.5 13.5 Q9 13.5 9 12 Z M11 12 A1 1 0 1 0 13 12 A1 1 0 1 0 11 12 Z\"/><g class=\"primary\"><path d=\"M3 10 Q3 9 4 9 L20 9 Q21 9 21 10 L21 14 Q21 15 20 15 L4 15 Q3 15 3 14 Z\"/><path d=\"M9 11.5 Q9 10.5 10 10.5 L14 10.5 Q15 10.5 15 11.5 L15 12.5 Q15 13.5 14 13.5 L10 13.5 Q9 13.5 9 12.5 Z\"/><path d=\"M11 12 A1 1 0 1 0 13 12 A1 1 0 1 0 11 12 Z\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function LevelDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

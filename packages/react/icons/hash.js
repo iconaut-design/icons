@@ -5,12 +5,11 @@ const M0 = "<path d=\"M5 9.5 L 19 9.5 M5 14.5 L 19 14.5 M10 4.5 L 8.4 19.5 M15.6
 const M1 = "<path d=\"M4.5 9.5 L 19.5 9.5 M4.5 14.5 L 19.5 14.5 M10 4 L 8.2 20 M15.8 4 L 14 20\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Hash({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

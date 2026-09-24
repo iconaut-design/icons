@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M9.51 5.94 Q10 4 12 4 L12 4 Q14 4 14.49 5.94 L17.51 18.06 Q18 20 16 20 L8 20 Q6 20 6.49 18.06 Z\"/><path d=\"M8.5 11 L 15.5 11\"/><path d=\"M7.3 15 L 16.7 15\"/><path d=\"M4 20 L 20 20\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function TrafficCone({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

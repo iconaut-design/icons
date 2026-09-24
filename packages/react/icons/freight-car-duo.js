@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M4 7.5 Q4 5.5 6 5.5 L18 5.5 Q20 5.5 20 7.5 L20 14 Q20 16 18 16 L6 16 Q4 16 4 14 Z\"/><g class=\"primary\"><path d=\"M4 7.5 Q4 5.5 6 5.5 L18 5.5 Q20 5.5 20 7.5 L20 14 Q20 16 18 16 L6 16 Q4 16 4 14 Z\"/><path d=\"M9 5.5 L 9 13\"/><path d=\"M15 5.5 L 15 13\"/><path d=\"M12 9.5 L 12 12\"/><circle cx=\"8\" cy=\"18.3\" r=\"1.9\"/><circle cx=\"16\" cy=\"18.3\" r=\"1.9\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function FreightCarDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

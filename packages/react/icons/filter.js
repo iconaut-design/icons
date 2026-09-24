@@ -5,12 +5,11 @@ const M0 = "<path d=\"M5.31 7.01 Q4 5.5 6 5.5 L18 5.5 Q20 5.5 18.69 7.01 L14.81 
 const M1 = "<path d=\"M4.76 6.55 Q3.5 5 5.5 5 L18.5 5 Q20.5 5 19.24 6.55 L15.26 11.45 Q14 13 14 15 L14 17.5 Q14 19.5 12.21 18.61 L11.79 18.39 Q10 17.5 10 15.5 L10 15 Q10 13 8.74 11.45 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Filter({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

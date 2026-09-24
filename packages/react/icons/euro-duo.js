@@ -5,12 +5,11 @@ const M0 = "<path d=\"M5 10 L 15.5 10\"/><path d=\"M5 13.5 L 13 13.5\"/><path d=
 const M1 = "<path d=\"M4.5 10 L 16 10\"/><path d=\"M4.5 14 L 13.5 14\"/><path d=\"M18.5 6.5 A7.5 7.5 0 0 0 13.3 4.5 A7.7 7.7 0 0 0 5.5 12 A7.7 7.7 0 0 0 13.3 19.5 A7.5 7.5 0 0 0 18.5 17.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function EuroDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

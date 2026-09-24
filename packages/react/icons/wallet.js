@@ -5,12 +5,11 @@ const M0 = "<path d=\"M4 8 Q4 6 6 6 L18 6 Q20 6 20 8 L20 16.5 Q20 18.5 18 18.5 L
 const M1 = "<path d=\"M3.5 7.5 Q3.5 5.5 5.5 5.5 L18.5 5.5 Q20.5 5.5 20.5 7.5 L20.5 17 Q20.5 19 18.5 19 L5.5 19 Q3.5 19 3.5 17 Z\"/><path d=\"M3.5 9.5 L 20.5 9.5\"/><circle cx=\"17\" cy=\"14.2\" r=\"1.4\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Wallet({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

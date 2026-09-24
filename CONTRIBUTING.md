@@ -16,7 +16,7 @@ is far more actionable than "filter variants".
 
 ## Report a drawing that is wrong
 
-Also an issue, and a genuinely valuable one: a hairline that greys out at 12px, a solid whose
+Also an issue, and a genuinely valuable one: a hairline that greys out at 16px, a solid whose
 silhouette drifts from its line, a duotone tint in the wrong plane. A screenshot at the size
 you are using beats a description.
 

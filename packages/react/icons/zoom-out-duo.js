@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M10.5 3.9 A6.6 6.6 0 1 0 10.5 17.1 A6.6 6.6 0 0 0 10.5 3.9 Z\"/><g class=\"primary\"><path d=\"M10.5 3.9 A6.6 6.6 0 1 0 10.5 17.1 A6.6 6.6 0 0 0 10.5 3.9 Z\"/><path d=\"M15.3 15.3 L 20.5 20.5\"/><path d=\"M7.5 10.5 L 13.5 10.5\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ZoomOutDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

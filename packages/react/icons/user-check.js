@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M9.4 3.6 A3.7 3.7 0 1 0 9.4 11 A3.7 3.7 0 0 0 9.4 3.6 Z M9.4 13.3 C5.8 13.3 3.3 15.8 3.3 19.2 A1.1 1.1 0 0 0 4.4 20.3 L14.4 20.3 A1.1 1.1 0 0 0 15.5 19.2 C15.5 15.8 13 13.3 9.4 13.3 Z\"/><path d=\"M15.9 8.6 L16.8 9.5 Q17.7 10.4 18.56 9.46 L20.9 6.9\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function UserCheck({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

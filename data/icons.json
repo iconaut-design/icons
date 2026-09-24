@@ -1,7 +1,6 @@
 {
   "viewBox": "0 0 24 24",
   "sizes": [
-    12,
     16,
     20,
     24
@@ -12,12 +11,6 @@
     "duo"
   ],
   "sizeTokens": {
-    "12": {
-      "tier": "compact",
-      "stroke": 1,
-      "floor": 1,
-      "snap": 1
-    },
     "16": {
       "tier": "compact",
       "stroke": 1.125,

@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0 -17 0\"/><g class=\"primary\"><path d=\"M3.5 12 A8.5 8.5 0 1 0 5.6 6.4 L3.75 7.95\"/><path d=\"M3.5 3.6 L3.5 7.2 Q3.5 8.2 4.5 8.2 L8.1 8.2\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function RotateCcwDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

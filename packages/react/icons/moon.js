@@ -5,12 +5,11 @@ const M0 = "<path d=\"M20 13 A8 8 0 1 1 11 3.7 A6.6 6.6 0 0 0 20 13 Z\"/>";
 const M1 = "<path d=\"M20.5 13 A8.5 8.5 0 1 1 11 3.3 A7 7 0 0 0 20.5 13 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Moon({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

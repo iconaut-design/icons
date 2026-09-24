@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M5.6 11.83 Q4.6 10.1 6.33 9.1 L15.37 3.9 Q17.1 2.9 18.1 4.63 L18.3 4.97 Q19.3 6.7 17.57 7.7 L8.53 12.9 Q6.8 13.9 5.8 12.17 Z\"/><path d=\"M13.05 10.3 L 8.5 20.5\"/><path d=\"M13.05 10.3 L 17.6 20.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Telescope({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M7 19 L17.2 19 A4 4.48 0 0 0 17.4 10.15 A5.6 6.27 0 0 0 6.7 8.92 A4.3 4.82 0 0 0 7 19 Z\"/><g class=\"primary\"><path d=\"M7 19 L17.2 19 A4 4.48 0 0 0 17.4 10.15 A5.6 6.27 0 0 0 6.7 8.92 A4.3 4.82 0 0 0 7 19 Z\"/><path d=\"M11.86 15.58 L 11.86 10.26 M9.58 12.54 L10.72 11.4 Q11.86 10.26 13 11.4 L14.14 12.54\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function CloudUpDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

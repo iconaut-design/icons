@@ -5,12 +5,11 @@ const M0 = "<path d=\"M20 11 L12.5 18.5 A5 5 0 0 1 5.5 11.5 L13.1 3.9 A3.3 3.3 0
 const M1 = "<path d=\"M21 11.5 L12.5 20 A5.5 5.5 0 0 1 4.7 12.2 L13.1 3.8 A3.7 3.7 0 0 1 18.3 9 L9.9 17.4 A1.85 1.85 0 0 1 7.3 14.8 L15.1 7\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function PaperclipDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

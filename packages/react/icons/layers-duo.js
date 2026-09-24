@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M10.21 3.89 Q12 3 13.79 3.89 L19.21 6.61 Q21 7.5 19.21 8.39 L13.79 11.11 Q12 12 10.21 11.11 L4.79 8.39 Q3 7.5 4.79 6.61 Z\"/><g class=\"primary\"><path d=\"M11.11 3.45 Q12 3 12.89 3.45 L20.11 7.05 Q21 7.5 20.11 7.95 L12.89 11.55 Q12 12 11.11 11.55 L3.89 7.95 Q3 7.5 3.89 7.05 Z\"/><path d=\"M3 12 L11.11 16.05 Q12 16.5 12.89 16.05 L21 12\"/><path d=\"M3 16.5 L11.11 20.55 Q12 21 12.89 20.55 L21 16.5\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function LayersDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

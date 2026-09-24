@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M4 14 Q4 12 6 12 L18 12 Q20 12 20 14 L20 16 Q20 18 18 18 L6 18 Q4 18 4 16 Z\"/><g class=\"primary\"><path d=\"M4 14 Q4 12 6 12 L18 12 Q20 12 20 14 L20 16 Q20 18 18 18 L6 18 Q4 18 4 16 Z\"/><path d=\"M8 12 L 8 8 M16 12 L 16 8\"/><path d=\"M8 15 L 8.01 15 M11 15 L 11.01 15\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function RouterDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

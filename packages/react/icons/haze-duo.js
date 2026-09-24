@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M8.5 10 A3.5 3.5 0 1 0 15.5 10 A3.5 3.5 0 1 0 8.5 10 Z\"/><g class=\"primary\"><path d=\"M8.5 10 A3.5 3.5 0 1 0 15.5 10 A3.5 3.5 0 1 0 8.5 10 Z\"/><path d=\"M12 2 L 12 3.3 M5.5 5 L 6.5 6 M18.5 5 L 17.5 6 M3.5 10 L 5 10 M19 10 L 20.5 10\"/><path d=\"M4 16.5 L 20 16.5 M7 20 L 17 20\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function HazeDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

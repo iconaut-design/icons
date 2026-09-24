@@ -5,12 +5,11 @@ const M0 = "<path d=\"M7.5 7 Q7.5 5 9.19 6.07 L16.81 10.93 Q18.5 12 16.81 13.07 
 const M1 = "<path d=\"M7 6 Q7 4 8.66 5.11 L17.34 10.89 Q19 12 17.34 13.11 L8.66 18.89 Q7 20 7 18 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Play({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

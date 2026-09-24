@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M6 3 L6 15 A3 3 0 0 0 9 18 L21 18\"/><path d=\"M18 21 L18 9 A3 3 0 0 0 15 6 L3 6\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function CropDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M10.5 4.5 A1.5 1.5 0 1 0 13.5 4.5 A1.5 1.5 0 1 0 10.5 4.5 Z\"/><path d=\"M12 7 L 12 13\"/><path d=\"M7 9 L 17 9\"/><path d=\"M12 13 L 8.5 20 M12 13 L 15.5 20\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Accessibility({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M12 3 A5 6 0 0 0 7 13 L7 18 A2 2 0 0 0 9 20 L15 20 A2 2 0 0 0 17 18 L17 13 A5 6 0 0 0 12 3 Z\"/><g class=\"primary\"><path d=\"M12 3 A5 6 0 0 0 7 13 L7 18 A2 2 0 0 0 9 20 L15 20 A2 2 0 0 0 17 18 L17 13 A5 6 0 0 0 12 3 Z\"/><path d=\"M12 8 A2.5 4 0 0 0 12 17\"/><path d=\"M10 8 L 10.01 8 M14 8 L 14.01 8\"/><path d=\"M11 10 L11.5 11 Q12 12 12.5 11 L13 10\"/><path d=\"M9 20 L 8 22 M15 20 L 16 22\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function PenguinDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

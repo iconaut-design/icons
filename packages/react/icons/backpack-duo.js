@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M5.5 10.5 C5.5 7.2 8 5.5 12 5.5 C16 5.5 18.5 7.2 18.5 10.5 L18.5 18.5 Q18.5 20.5 16.5 20.5 L7.5 20.5 Q5.5 20.5 5.5 18.5 L5.5 10.5 Z M8.5 20.5L8.5 18.58A1.58 1.58 0 0 1 10.07 17L13.93 17A1.58 1.58 0 0 1 15.5 18.58L15.5 20.5L8.5 20.5Z\"/><g class=\"primary\"><path d=\"M5.5 10.5 C5.5 7.2 8 5.5 12 5.5 C16 5.5 18.5 7.2 18.5 10.5 L18.5 18.5 Q18.5 20.5 16.5 20.5 L7.5 20.5 Q5.5 20.5 5.5 18.5 L5.5 10.5 Z\"/><path d=\"M10 5.5 C10 4.1 10.8 3.5 12 3.5 C13.2 3.5 14 4.1 14 5.5\"/><path d=\"M5.5 13.5 L 18.5 13.5\"/><path d=\"M8.5 20.5 L8.5 18.75 Q8.5 17 10.25 17 L13.75 17 Q15.5 17 15.5 18.75 L15.5 20.5\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function BackpackDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

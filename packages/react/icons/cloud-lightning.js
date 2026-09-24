@@ -5,12 +5,11 @@ const M0 = "<path d=\"M8.1 14.5 L17.4 14.5 A3.6 3.6 0 0 0 17.6 7.8 A5 5 0 0 0 7.
 const M1 = "<path d=\"M7.9 13.95 L17.7 13.95 A3.8 3.8 0 0 0 17.9 6.85 A5.3 5.3 0 0 0 7.6 5.75 A4 4 0 0 0 7.9 13.95 Z\"/><path d=\"M13.9 13.95 L11.73 17.4 Q11.2 18.25 12.2 18.25 L12.9 18.25 Q13.9 18.25 13.48 19.16 L12.2 21.95\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function CloudLightning({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

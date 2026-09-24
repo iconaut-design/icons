@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M12 7.2 L 12.01 7.2\"/><path d=\"M8.83 9.64 A4 4 0 1 1 15.17 9.64\"/><path d=\"M16.5 15 L 16.5 15.01\"/><path d=\"M15.98 11.03 A4 4 120 1 1 12.81 16.53\"/><path d=\"M7.5 15 L 7.49 14.99\"/><path d=\"M11.19 16.53 A4 4 -120 1 1 8.02 11.03\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Webhook({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

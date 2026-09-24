@@ -5,12 +5,11 @@ const M0 = "<path d=\"M11.11 3.45 Q12 3 12.89 3.45 L20.11 7.05 Q21 7.5 20.11 7.9
 const M1 = "<path d=\"M11.11 3.45 Q12 3 12.89 3.45 L20.11 7.05 Q21 7.5 20.11 7.95 L12.89 11.55 Q12 12 11.11 11.55 L3.89 7.95 Q3 7.5 3.89 7.05 Z\"/><path d=\"M3 12 L11.11 16.05 Q12 16.5 12.89 16.05 L21 12\"/><path d=\"M3 16.5 L11.11 20.55 Q12 21 12.89 20.55 L21 16.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Layers({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

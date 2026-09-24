@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M3.4 6.9 Q3.4 4.9 5.4 4.9 L18.6 4.9 Q20.6 4.9 20.6 6.9 L20.6 17.1 Q20.6 19.1 18.6 19.1 L5.4 19.1 Q3.4 19.1 3.4 17.1 Z\"/><circle cx=\"9\" cy=\"10\" r=\"2\"/><path d=\"M5.8 16.2 C6.3 14.3 7.5 13.3 9 13.3 S11.7 14.3 12.2 16.2\"/><path d=\"M15 9.5 L 18.2 9.5 M15 13 L 18.2 13\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Contact({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

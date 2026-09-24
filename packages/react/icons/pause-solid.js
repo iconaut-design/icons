@@ -5,12 +5,11 @@ const M0 = "<path d=\"M7.6 5.35 Q7.6 4.25 8.7 4.25 L8.7 4.25 Q9.8 4.25 9.8 5.35 
 const M1 = "<path d=\"M7.6 4.85 Q7.6 3.75 8.7 3.75 L8.7 3.75 Q9.8 3.75 9.8 4.85 L9.8 19.15 Q9.8 20.25 8.7 20.25 L8.7 20.25 Q7.6 20.25 7.6 19.15 Z M14.2 4.85 Q14.2 3.75 15.3 3.75 L15.3 3.75 Q16.4 3.75 16.4 4.85 L16.4 19.15 Q16.4 20.25 15.3 20.25 L15.3 20.25 Q14.2 20.25 14.2 19.15 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, null],
   16: [M0, null],
   20: [M1, null],
   24: [M1, null]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function PauseSolid({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

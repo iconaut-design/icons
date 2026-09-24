@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M15 9.02 L15 13 Q15 15 13 15 L9.02 15 A5.5 5.5 0 0 1 15 9.02 Z\"/><g class=\"primary\"><path d=\"M15 9.02 L15 13 Q15 15 13 15 L9.02 15 A5.5 5.5 0 0 1 15 9.02 Z\"/><path d=\"M15 9.02 L15 6 Q15 4 13 4 L6 4 Q4 4 4 6 L4 13 Q4 15 6 15 L9.02 15\"/><path d=\"M15 9.02 A5.5 5.5 0 1 1 9.02 15\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function IntersectDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

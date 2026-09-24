@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M13 4 L 13 20 M18 4 L 18 20\"/><path d=\"M18 4 L9.5 4 A4.5 4.5 0 0 0 9.5 13 L13 13\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Pilcrow({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

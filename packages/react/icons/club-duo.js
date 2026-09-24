@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M8.71 9 A3.5 3.5 0 1 1 15.29 9 A3.5 3.5 0 1 1 13.78 15.74 L14.2 18.52 Q14.5 20.5 12.5 20.5 L11.5 20.5 Q9.5 20.5 9.8 18.52 L10.22 15.74 A3.5 3.5 0 1 1 8.71 9 Z\"/><g class=\"primary\"><path d=\"M8.71 9 A3.5 3.5 0 1 1 15.29 9 A3.5 3.5 0 1 1 13.78 15.74 L14.2 18.52 Q14.5 20.5 12.5 20.5 L11.5 20.5 Q9.5 20.5 9.8 18.52 L10.22 15.74 A3.5 3.5 0 1 1 8.71 9 Z\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ClubDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

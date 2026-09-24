@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M12 8 C8.5 8 7 11 7 14.5 C7 18 9 21 12 21 S17 18 17 14.5 C17 11 15.5 8 12 8 Z\"/><path d=\"M12 8 L8.5 4 M12 8 L12 3 M12 8 L15.5 4\"/><path d=\"M9.5 11.5 L11.29 13.29 Q12 14 12.71 13.29 L14.5 11.5 M9.5 15.5 L11.29 17.29 Q12 18 12.71 17.29 L14.5 15.5 M12 13.65 L12 17.64\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Pineapple({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

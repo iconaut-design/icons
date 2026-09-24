@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M11 3.5 L13 3.5 Q15 3.5 15 5.5 L15 16.5 A3 3 0 0 1 9 16.5 L9 5.5 Q9 3.5 11 3.5 Z\"/><path d=\"M7 3.5 L 17 3.5\"/><path d=\"M9 12.5 L 15 12.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function TestTube({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

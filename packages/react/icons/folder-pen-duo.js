@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M2.5 7 Q2.5 5 4.5 5 L7.4 5 Q9 5 10 6.25 L10 6.25 Q11 7.5 12.6 7.5 L19.5 7.5 Q21.5 7.5 21.5 9.5 L21.5 19 Q21.5 21 19.5 21 L4.5 21 Q2.5 21 2.5 19 Z M14.18 11.68L14.33 11.83A0.95 0.95 0 0 1 14.33 13.18L10.5 17L9 17L9 16.18A1.63 1.63 0 0 1 9.48 15.02L12.83 11.68A0.95 0.95 0 0 1 14.18 11.68Z\"/><g class=\"primary\"><path d=\"M2.5 7 Q2.5 5 4.5 5 L7.4 5 Q9 5 10 6.25 L10 6.25 Q11 7.5 12.6 7.5 L19.5 7.5 Q21.5 7.5 21.5 9.5 L21.5 19 Q21.5 21 19.5 21 L4.5 21 Q2.5 21 2.5 19 Z\"/><path d=\"M12.75 11.75 Q13.5 11 14.25 11.75 L14.25 11.75 Q15 12.5 14.25 13.25 L11.03 16.47 Q10.5 17 9.75 17 L9.75 17 Q9 17 9 16.25 L9 16.25 Q9 15.5 9.53 14.97 Z\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function FolderPenDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

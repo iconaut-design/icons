@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M8.8 8 L5.51 11.29 Q4.8 12 5.51 12.71 L8.8 16\"/><path d=\"M15.2 8 L18.49 11.29 Q19.2 12 18.49 12.71 L15.2 16\"/><path d=\"M13.5 5 L 10.5 19\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function CodeXmlDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

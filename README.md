@@ -17,7 +17,7 @@ npm i iconaut-react
 import { Bell, BellSolid, BellDuo } from "iconaut-react";
 
 <Bell />                    // the 24px fit
-<Bell size={12} />          // the REAL 12px drawing, not the 24px one scaled down
+<Bell size={16} />          // the REAL 16px drawing, not the 24px one scaled down
 <Bell strokeWidth={1.25} /> // override the fit's optical stroke
 <Bell className="text-blue-500" />
 ```
@@ -29,20 +29,19 @@ Or take the SVGs: they are plain files with no wrapper, and every path takes
 
 | Path | What |
 |------|------|
-| `icons/<category>/<name>/<size>/{line,solid,duo}.svg` | Every icon, at its four native fits. |
+| `icons/<category>/<name>/<size>/{line,solid,duo}.svg` | Every icon, at its three native fits. |
 | `data/icons.json` | Names, categories, keywords, and the per-size stroke tokens. |
 | `packages/react/` | The generated `iconaut-react` package. |
 
 ## A real drawing at every size
 
-Most icon sets ship one drawing and scale it, so a 12px icon is a 24px icon with hairline
-strokes and detail too fine to read. These are authored as **native fits**: each of 12 / 16 /
-20 / 24 has its own stroke token, and below 17px a simplified *compact* drawing takes over on
-the icons that carry fine detail.
+Most icon sets ship one drawing and scale it, so a 16px icon is a 24px icon with detail too
+fine to read. These are authored as **native fits**: each of 16 / 20 / 24 has
+its own stroke token, and at 16px a simplified *compact* drawing takes over on the icons that
+carry fine detail.
 
 | size | tier | stroke |
 |---|---|---|
-| 12 | compact | 1 |
 | 16 | compact | 1.125 |
 | 20 | default | 1.4 |
 | 24 | default | 1.7 |

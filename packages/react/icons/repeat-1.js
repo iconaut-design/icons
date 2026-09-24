@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M16.9 4.1 L18.95 5.93 Q19.7 6.6 18.95 7.27 L16.9 9.1\"/><path d=\"M4.3 10.6 L4.3 9.1 A2.5 2.5 0 0 1 6.8 6.6 L19.32 6.6\"/><path d=\"M7.1 19.9 L5.05 18.07 Q4.3 17.4 5.05 16.73 L7.1 14.9\"/><path d=\"M19.7 13.4 L19.7 14.9 A2.5 2.5 0 0 1 17.2 17.4 L4.67 17.4\"/><path d=\"M10.8 10.7 L11.5 10.35 Q12.2 10 12.2 10.78 L12.2 14.2\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Repeat1({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

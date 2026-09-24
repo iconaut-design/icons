@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M10.5 6.5 L 20 6.5 M10.5 12 L 20 12 M10.5 17.5 L 20 17.5\"/><path d=\"M3.5 6.5 L4.29 7.29 Q5 8 5.71 7.29 L7.5 5.5\"/><path d=\"M3.5 12 L4.29 12.79 Q5 13.5 5.71 12.79 L7.5 11\"/><path d=\"M3.5 17.5 L4.29 18.29 Q5 19 5.71 18.29 L7.5 16.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ListChecksDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

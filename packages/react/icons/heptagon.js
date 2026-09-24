@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M10.2 3.87 Q12 3 13.8 3.87 L17.2 5.53 Q19 6.4 19.46 8.35 L20.34 12.05 Q20.8 14 19.55 15.56 L17.15 18.54 Q15.9 20.1 13.9 20.1 L10.1 20.1 Q8.1 20.1 6.85 18.54 L4.45 15.56 Q3.2 14 3.66 12.05 L4.54 8.35 Q5 6.4 6.8 5.53 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Heptagon({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

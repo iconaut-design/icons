@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M4.6 13.9 L5.73 12.9 Q6.85 11.9 8.31 11.53 L15.56 9.71 Q17.2 9.3 18.27 10.6 L18.27 10.6 Q19.35 11.9 19.35 13.59 L19.35 15.9 A6.05 6.05 0 0 1 13.3 22.25 L11.3 22.25 A7.35 7.35 0 0 1 6.07 20.33 L3.17 17.42 A2.3 2.3 0 0 1 4.6 13.9 Z\"/><g class=\"primary\"><path d=\"M5.8 14.2 L5.8 7 A1.6 1.6 0 0 1 9 7 L9 14.2\"/><path d=\"M9 11.4 L9 5.6 A1.6 1.6 0 0 1 12.2 5.6 L12.2 11.4\"/><path d=\"M12.2 11.8 L12.2 6.6 A1.6 1.6 0 0 1 15.4 6.6 L15.4 11.8\"/><path d=\"M7.3 16.1 L5.9 14.7 A1.55 1.55 0 0 0 3.7 16.89 L6.5 19.7 A6.35 6.35 0 0 0 11.3 21.2 L13.3 21.2 A5.15 5.15 0 0 0 18.6 16.05 L18.6 10.8 A1.6 1.6 0 0 0 15.4 10.8 L15.4 11.6\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function HandDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

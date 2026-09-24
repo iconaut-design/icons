@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M10.5 4.5 Q10.5 3 12 3 L12 3 Q13.5 3 13.5 4.5 L13.5 6 Q13.5 8 15.5 8 L16.5 8 Q18 8 18 9.5 L18 9.5 Q18 11 16.5 11 L15.5 11 Q13.5 11 13.5 13 L13.5 19.5 Q13.5 21 12 21 L12 21 Q10.5 21 10.5 19.5 L10.5 13 Q10.5 11 8.5 11 L7.5 11 Q6 11 6 9.5 L6 9.5 Q6 8 7.5 8 L8.5 8 Q10.5 8 10.5 6 Z\"/><g class=\"primary\"><path d=\"M10.5 4.5 Q10.5 3 12 3 L12 3 Q13.5 3 13.5 4.5 L13.5 6 Q13.5 8 15.5 8 L16.5 8 Q18 8 18 9.5 L18 9.5 Q18 11 16.5 11 L15.5 11 Q13.5 11 13.5 13 L13.5 19.5 Q13.5 21 12 21 L12 21 Q10.5 21 10.5 19.5 L10.5 13 Q10.5 11 8.5 11 L7.5 11 Q6 11 6 9.5 L6 9.5 Q6 8 7.5 8 L8.5 8 Q10.5 8 10.5 6 Z\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function CrossDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

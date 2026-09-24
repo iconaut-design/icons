@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M6.4 19.6 Q4.4 19.6 4.4 17.6 L4.4 5.4 Q4.4 3.4 6.4 3.4 L11.2 3.4 Q13.2 3.4 13.2 5.4 L13.2 17.6 Q13.2 19.6 11.2 19.6 Z\"/><path d=\"M3.2 19.6 L 14.4 19.6\"/><path d=\"M6.9 8 Q6.9 6.4 8.5 6.4 L9.1 6.4 Q10.7 6.4 10.7 8 L10.7 8 Q10.7 9.6 9.1 9.6 L8.5 9.6 Q6.9 9.6 6.9 8 Z\"/><path d=\"M13.2 9.4 L15.4 9.4 A1.5 1.5 0 0 1 16.9 10.9 L16.9 15.9 A1.45 1.45 0 0 0 19.8 15.9 L19.8 10.4 Q19.8 8.7 18.6 7.5 L17.4 6.3\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Fuel({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M3 11.5 Q3 9.5 4.66 8.39 L10.34 4.61 Q12 3.5 13.66 4.61 L19.34 8.39 Q21 9.5 21 11.5 L21 17.5 Q21 19.5 19 19.5 L5 19.5 Q3 19.5 3 17.5 Z\"/><path d=\"M3.42 9.72  L11 14.7   A1.7 1.7 0 0 0 13 14.7   L20.59 9.72\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function MailOpen({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

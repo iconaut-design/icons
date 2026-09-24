@@ -5,12 +5,11 @@ const M0 = "<path d=\"M20 7 Q20 5 18.54 6.36 L13.96 10.64 Q12.5 12 13.96 13.36 L
 const M1 = "<path d=\"M20.5 6.5 Q20.5 4.5 19.04 5.87 L13.96 10.63 Q12.5 12 13.96 13.37 L19.04 18.13 Q20.5 19.5 20.5 17.5 Z M11.5 6.5 Q11.5 4.5 10.04 5.87 L4.96 10.63 Q3.5 12 4.96 13.37 L10.04 18.13 Q11.5 19.5 11.5 17.5 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Rewind({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

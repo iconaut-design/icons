@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M4 12 L20 12 A8 7 0 0 1 4 12 Z\"/><path d=\"M7.2 10 A1.8 1.8 0 1 1 10.8 10 A1.8 1.8 0 1 1 7.2 10 Z\"/><path d=\"M11.2 9 A1.8 1.8 0 1 1 14.8 9 A1.8 1.8 0 1 1 11.2 9 Z\"/><path d=\"M14.4 11 A1.6 1.6 0 1 1 17.6 11 A1.6 1.6 0 1 1 14.4 11 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Salad({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

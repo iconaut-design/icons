@@ -5,12 +5,11 @@ const M0 = "<path d=\"M12 3 A5.8 5.8 0 0 0 6.2 8.8 L6.2 15.2 A5.8 5.8 0 0 0 17.8
 const M1 = "<path d=\"M12 2.5 A6.2 6.2 0 0 0 5.8 8.7 L5.8 15.3 A6.2 6.2 0 0 0 18.2 15.3 L18.2 8.7 A6.2 6.2 0 0 0 12 2.5 Z\"/><path d=\"M12 6 L 12 9\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Mouse({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

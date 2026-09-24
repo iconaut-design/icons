@@ -5,12 +5,11 @@ const M0 = "<path d=\"M12 4.7 Q12 2.7 11.22 4.54 L10.28 6.76 Q9.5 8.6 7.51 8.76 
 const M1 = "<path d=\"M12 4.3 Q12 2.3 11.22 4.14 L10.18 6.56 Q9.4 8.4 7.41 8.58 L4.79 8.82 Q2.8 9 4.3 10.32 L6.3 12.08 Q7.8 13.4 7.35 15.35 L6.75 17.95 Q6.3 19.9 8 18.85 L10.3 17.45 Q12 16.4 12 14.4 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function StarHalf({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

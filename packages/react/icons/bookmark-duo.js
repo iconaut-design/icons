@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M6.5 6 Q6.5 4 8.5 4 L15.5 4 Q17.5 4 17.5 6 L17.5 18.5 Q17.5 20.5 15.95 19.23 L13.55 17.27 Q12 16 10.45 17.27 L8.05 19.23 Q6.5 20.5 6.5 18.5 Z\"/><g class=\"primary\"><path d=\"M6.5 6 Q6.5 4 8.5 4 L15.5 4 Q17.5 4 17.5 6 L17.5 18.5 Q17.5 20.5 15.95 19.23 L13.55 17.27 Q12 16 10.45 17.27 L8.05 19.23 Q6.5 20.5 6.5 18.5 Z\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function BookmarkDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

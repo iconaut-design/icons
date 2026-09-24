@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M3.5 12 A8.5 8.5 0 1 0 20.5 12 A8.5 8.5 0 1 0 3.5 12 Z\"/><path d=\"M12 3.5 A4 8.5 0 0 0 12 20.5 M12 3.5 A4 8.5 0 0 1 12 20.5\"/><path d=\"M4.15 8.75 A28 28 0 0 1 19.85 8.75 M4.15 15.25 A28 28 0 0 0 19.85 15.25\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function GlobeMeridians({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

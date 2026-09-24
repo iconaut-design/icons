@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M20.8 12 C19.3 8.8 15.8 6.8 12 6.8 C9.1 6.8 6.9 8.2 5.5 10.3 L4.5 9.15 Q3.5 8 3.5 9.52 L3.5 14.48 Q3.5 16 4.5 14.85 L5.5 13.7 C6.9 15.8 9.1 17.2 12 17.2 C15.8 17.2 19.3 15.2 20.8 12 Z\"/><g class=\"primary\"><path d=\"M20.8 12 C19.3 8.8 15.8 6.8 12 6.8 C9.1 6.8 6.9 8.2 5.5 10.3 L4.5 9.15 Q3.5 8 3.5 9.52 L3.5 14.48 Q3.5 16 4.5 14.85 L5.5 13.7 C6.9 15.8 9.1 17.2 12 17.2 C15.8 17.2 19.3 15.2 20.8 12 Z\"/><path d=\"M16.6 10.8 L 16.61 10.8\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function FishDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M6.5 6 L17.5 6 Q19.5 6 19.5 8 L19.5 15.5 Q19.5 17.5 17.77 16.5 L15.5 15.2 A19 19 0 0 1 8.5 15.2 L6.23 16.5 Q4.5 17.5 4.5 15.5 L4.5 8 Q4.5 6 6.5 6 Z\"/><g class=\"primary\"><path d=\"M6.5 6 L17.5 6 Q19.5 6 19.5 8 L19.5 15.5 Q19.5 17.5 17.77 16.5 L15.5 15.2 A19 19 0 0 1 8.5 15.2 L6.23 16.5 Q4.5 17.5 4.5 15.5 L4.5 8 Q4.5 6 6.5 6 Z\"/><path d=\"M9.3 11.3 L 9.31 11.3\"/><path d=\"M14.7 11.3 L 14.71 11.3\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function DiscordDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M12.3 5.15 Q17.55 4.1 19.66 7.93 Q21.85 12.05 18.79 16.06 Q16 19.5 11.35 19.15 L9.93 18.55 Q8.5 17.95 8.71 16.42 L9.23 12.48 Q9.5 10.5 10.43 8.73 L12.3 5.15 Z\"/><g class=\"primary\"><path d=\"M12.6 6.9 L8.4 7.6 A1.55 1.55 0 0 0 8.77 10.67 L12 10.4\"/><path d=\"M12.6 17.3 L8.4 16.6 A1.55 1.55 0 0 1 8.77 13.53 L12 13.8\"/><path d=\"M12.6 6.9 Q17.4 5.8 19.3 9.3 Q21 12.6 19 15.7 Q17.2 18.4 12.6 17.3\"/><path d=\"M15.2 9.7 L 15.2 12.1\"/><path d=\"M17.5 10.5 L 17.5 12.7\"/><path d=\"M5 12.1 L 5.01 12.1\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function PinchDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

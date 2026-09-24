@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M14.2 4.8 A2.1 2.1 0 0 0 9.8 4.8 L9.8 13.9 A4 4 0 1 0 14.2 13.9 Z M10.5 17.2a1.5 1.5 0 1 1 3 0a1.5 1.5 0 1 1 -3 0Z\"/><g class=\"primary\"><path d=\"M14.2 4.8 A2.1 2.1 0 0 0 9.8 4.8 L9.8 13.9 A4 4 0 1 0 14.2 13.9 Z\"/><path d=\"M12 17.2 L 12.01 17.2\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ThermometerDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

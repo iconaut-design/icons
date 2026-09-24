@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M4 18 L4 6 A2 2 0 0 1 6 4 L11 4 A2 2 0 0 1 13 6 L13 18 Q13 20 11 20 L6 20 Q4 20 4 18 Z M7.8 7L9.2 7A1.8 1.8 0 0 1 11 8.8L11 11L6 11L6 8.8A1.8 1.8 0 0 1 7.8 7Z\"/><g class=\"primary\"><path d=\"M4 18 L4 6 A2 2 0 0 1 6 4 L11 4 A2 2 0 0 1 13 6 L13 18 Q13 20 11 20 L6 20 Q4 20 4 18 Z\"/><path d=\"M6 9 Q6 7 8 7 L9 7 Q11 7 11 9 L11 9 Q11 11 9 11 L8 11 Q6 11 6 9 Z\"/><path d=\"M3 20 L 14 20\"/><path d=\"M13 8 L16 8 A1 1 0 0 1 17 9 L17 15 A1.5 1.5 0 0 0 20 15 L20 12.41 Q20 11 19 10 L18 9\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function GasPumpDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

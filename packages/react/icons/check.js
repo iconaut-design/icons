@@ -5,12 +5,11 @@ const M0 = "<path d=\"M5 12.5 L9.29 16.79 Q10 17.5 10.65 16.74 L19 7\"/>";
 const M1 = "<path d=\"M4.5 12.5 L8.79 16.79 Q9.5 17.5 10.17 16.76 L19.5 6.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Check({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0\"/><g class=\"primary\"><path d=\"M12 8 L 12 16 M8 12 L 16 12\"/><path d=\"M3.84 15.8 A9 9 0 0 1 8.2 3.84\"/><path d=\"M11.22 3.03 A9 9 0 0 1 18.36 5.64\"/><path d=\"M20.16 8.2 A9 9 0 0 1 21 12\"/><path d=\"M20.46 15.08 A9 9 0 0 1 19.79 16.5\"/><path d=\"M17.16 19.37 L 17.17 19.37\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function CircleFadingPlusDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

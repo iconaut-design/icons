@@ -5,12 +5,11 @@ const M0 = "<path d=\"M12 3.4 C8.5 3.4 5.8 8.9 5.8 13.3 A6.2 6.2 0 0 0 18.2 13.3
 const M1 = "<path d=\"M12 3.4 C8.5 3.4 5.8 8.9 5.8 13.3 A6.2 6.2 0 0 0 18.2 13.3 C18.2 8.9 15.5 3.4 12 3.4 Z\"/><path d=\"M8.9 12.8 C8.9 10.6 9.7 8.2 11 6.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Egg({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

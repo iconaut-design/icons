@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M6.88 13.6 A5.12 6.4 0 1 0 17.12 13.6 A5.12 6.4 0 1 0 6.88 13.6 Z M11.5 7.23 A3.33 2.56 0 1 0 8.34 9.12 A5.12 6.4 0 0 1 11.5 7.23 Z M15.66 9.12 A3.33 2.56 0 1 0 12.5 7.23 A5.12 6.4 0 0 1 15.66 9.12 Z M11.5 7.23A3.33 2.56 0 1 0 8.34 9.12A5.12 6.4 0 0 1 11.5 7.23Z M15.66 9.12A3.33 2.56 0 1 0 12.5 7.23A5.12 6.4 0 0 1 15.66 9.12Z\"/><g class=\"primary\"><path d=\"M6.88 13.6 A5.12 6.4 0 1 0 17.12 13.6 A5.12 6.4 0 1 0 6.88 13.6 Z\"/><path d=\"M11.5 7.23 A3.33 2.56 0 1 0 8.34 9.12 A5.12 6.4 0 0 1 11.5 7.23 Z\"/><path d=\"M15.66 9.12 A3.33 2.56 0 1 0 12.5 7.23 A5.12 6.4 0 0 1 15.66 9.12 Z\"/><path d=\"M8.16 11.68 L 15.84 11.68\"/><path d=\"M7.26 14.88 L 16.74 14.88\"/><path d=\"M8.16 18.08 L 15.84 18.08\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function BeeDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

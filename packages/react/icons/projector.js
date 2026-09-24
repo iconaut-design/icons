@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M3 9 L20 9 A1 1 0 0 1 21 10 L21 16 A1 1 0 0 1 20 17 L3 17 A1 1 0 0 1 2 16 L2 10 A1 1 0 0 1 3 9 Z\"/><path d=\"M6.6 13 A2.4 2.4 0 1 1 11.4 13 A2.4 2.4 0 1 1 6.6 13 Z\"/><path d=\"M17 13 L 17.01 13\"/><path d=\"M6 17 L 6 19 M18 17 L 18 19\"/><path d=\"M15 6.5 L 17 8.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Projector({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

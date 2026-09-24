@@ -5,12 +5,11 @@ const M0 = "<path d=\"M9 17 L9 7 Q9 6 9.98 5.82 L17.02 4.58 Q18 4.4 18 5.4 L18 1
 const M1 = "<path d=\"M9 17 L9 6 Q9 5 9.98 4.8 L18.02 3.2 Q19 3 19 4 L19 15\"/><path d=\"M4 17 A2.5 2.5 0 1 0 9 17 A2.5 2.5 0 1 0 4 17\"/><path d=\"M14 15 A2.5 2.5 0 1 0 19 15 A2.5 2.5 0 1 0 14 15\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Music({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

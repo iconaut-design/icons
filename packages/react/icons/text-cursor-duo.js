@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M10 5 A2 2 0 0 1 12 7 A2 2 0 0 1 14 5\"/><path d=\"M12 7 L 12 17\"/><path d=\"M10 19 A2 2 0 0 0 12 17 A2 2 0 0 0 14 19\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function TextCursorDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

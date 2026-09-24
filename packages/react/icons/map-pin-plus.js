@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M12 20.5 C10.4 18.9 5.6 14.5 5.6 9.9 C5.6 6.2 8.4 3.5 12 3.5 C15.6 3.5 18.4 6.2 18.4 9.9 C18.4 14.5 13.6 18.9 12 20.5 Z\"/><path d=\"M12 7.4 L 12 12.4 M9.5 9.9 L 14.5 9.9\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function MapPinPlus({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

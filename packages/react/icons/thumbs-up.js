@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M8.9 19.9 Q6.9 19.9 6.9 17.9 L6.9 12.72 Q6.9 11 8.6 10.75 L8.6 10.75 Q10.3 10.5 10.49 8.79 L10.78 6.15 Q11 4.2 12.95 4.45 L12.95 4.45 Q14.9 4.7 14.61 6.64 L14.49 7.42 Q14.2 9.4 16.2 9.4 L17.2 9.4 Q19.2 9.4 19.05 11.39 L18.55 17.91 Q18.4 19.9 16.4 19.9 Z\"/><path d=\"M3.4 12.65 Q3.4 10.9 5.15 10.9 L5.15 10.9 Q6.9 10.9 6.9 12.65 L6.9 18.15 Q6.9 19.9 5.15 19.9 L5.15 19.9 Q3.4 19.9 3.4 18.15 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ThumbsUp({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -5,12 +5,11 @@ const M0 = "<path d=\"M4 7 L6.5 7 Q7.5 7 8.17 7.74 L15.83 16.26 Q16.5 17 17.5 17
 const M1 = "<path d=\"M3.5 6.5 L6.8 6.5 Q7.8 6.5 8.41 7.29 L15.59 16.71 Q16.2 17.5 17.2 17.5 L20.5 17.5 M3.5 17.5 L6.8 17.5 Q7.8 17.5 8.41 16.71 L15.59 7.29 Q16.2 6.5 17.2 6.5 L20.5 6.5\"/><path d=\"M17.5 4 L20.19 5.92 Q21 6.5 20.19 7.08 L17.5 9 M17.5 15 L20.19 16.92 Q21 17.5 20.19 18.08 L17.5 20\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ShuffleDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

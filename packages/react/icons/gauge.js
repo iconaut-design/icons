@@ -5,12 +5,11 @@ const M0 = "<path d=\"M5.5 17.5 A7.5 7.5 0 1 1 18.5 17.5\"/><path d=\"M12 13.5 L
 const M1 = "<path d=\"M5.5 18 A8 8 0 1 1 18.5 18\"/><path d=\"M12 13.5 L 15.8 9\"/><path d=\"M12 13.5 L 12.01 13.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Gauge({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

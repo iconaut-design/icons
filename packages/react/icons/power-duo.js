@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M5.6 13.05a6.4 6.4 0 1 0 12.8 0a6.4 6.4 0 1 0 -12.8 0\"/><g class=\"primary\"><path d=\"M7.5 8.5 A6.4 6.4 0 1 0 16.5 8.5\"/><path d=\"M12 2.8 L 12 11\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function PowerDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

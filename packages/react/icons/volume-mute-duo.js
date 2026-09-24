@@ -5,12 +5,11 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M3 11.2 Q3 9.2 5 9.2 L5 9.2 Q7 9.2 8.47 7.85 L10.53 5.95 Q12 4.6 12 6.6 L12 17.4 Q12 19.4 10.53 18.05 L8.47 16.15 Q7 14.8 5 14.8 L5 14.8 Q3 14.8 3 12.8 Z\"/><g class=\"primary\"><path d=\"M3 10.2 Q3 9.2 4 9.2 L6 9.2 Q7 9.2 7.74 8.52 L11.26 5.28 Q12 4.6 12 5.6 L12 18.4 Q12 19.4 11.26 18.72 L7.74 15.48 Q7 14.8 6 14.8 L4 14.8 Q3 14.8 3 13.8 Z\"/><path d=\"M15.5 9.2 L 21 14.8 M21 9.2 L 15.5 14.8\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function VolumeMuteDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

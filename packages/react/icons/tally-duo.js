@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M5 6 L 5 18 M9 6 L 9 18 M13 6 L 13 18 M17 6 L 17 18 M3.5 8 L 18.5 16\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function TallyDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

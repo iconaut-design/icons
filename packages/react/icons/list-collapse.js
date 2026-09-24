@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M3 6 L4.29 7.29 Q5 8 5.71 7.29 L7 6\"/><path d=\"M3 18 L4.29 16.71 Q5 16 5.71 16.71 L7 18\"/><path d=\"M10 6 L 21 6 M10 12 L 21 12 M10 18 L 21 18\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ListCollapse({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

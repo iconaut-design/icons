@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M4.58 4.58 A10.5 4.4 45 1 0 19.42 19.42 A10.5 4.4 45 1 0 4.58 4.58 Z\"/><path d=\"M4.58 19.42 A10.5 4.4 -45 1 0 19.42 4.58 A10.5 4.4 -45 1 0 4.58 19.42 Z\"/><path d=\"M12 12 L 12.01 12\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Atom({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

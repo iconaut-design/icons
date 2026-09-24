@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M3.5 6.5 Q3.5 4.5 5.5 4.5 L5.5 4.5 Q7.5 4.5 7.5 6.5 L7.5 6.5 Q7.5 8.5 5.5 8.5 L5.5 8.5 Q3.5 8.5 3.5 6.5 Z\"/><g class=\"primary\"><path d=\"M3.5 5.5 Q3.5 4.5 4.5 4.5 L6.5 4.5 Q7.5 4.5 7.5 5.5 L7.5 7.5 Q7.5 8.5 6.5 8.5 L4.5 8.5 Q3.5 8.5 3.5 7.5 Z\"/><path d=\"M3.8 15.6 L4.59 16.39 Q5.3 17.1 5.96 16.35 L7.7 14.4\"/><path d=\"M11 6.5 L 20 6.5 M11 15.5 L 20 15.5\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ListTodoDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

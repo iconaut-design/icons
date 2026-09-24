@@ -5,12 +5,11 @@ const M0 = "<path d=\"M3 9 A14 14 0 0 1 21 9\"/><path d=\"M6 12.3 A9.5 9.5 0 0 1
 const M1 = "<path d=\"M2.5 8.5 A15 15 0 0 1 21.5 8.5\"/><path d=\"M5.5 12 A10 10 0 0 1 18.5 12\"/><path d=\"M8.5 15.5 A5 5 0 0 1 15.5 15.5\"/><path d=\"M12 19.5 L 12.01 19.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Wifi({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

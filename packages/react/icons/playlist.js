@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M4 5.5 L 12.5 5.5\"/><path d=\"M4 11 L 12.5 11\"/><path d=\"M4 16.5 L 9.5 16.5\"/><path d=\"M13.4 16.5 A2.3 2.3 0 1 0 18 16.5 A2.3 2.3 0 1 0 13.4 16.5 Z\"/><path d=\"M18 16.5 L 18 5\"/><path d=\"M18 5 L 20.5 5.67\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Playlist({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

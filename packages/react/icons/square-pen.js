@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M3.5 5.5 Q3.5 3.5 5.5 3.5 L18.5 3.5 Q20.5 3.5 20.5 5.5 L20.5 18.5 Q20.5 20.5 18.5 20.5 L5.5 20.5 Q3.5 20.5 3.5 18.5 Z\"/><path d=\"M12.59 8.41 Q14 7 15.41 8.41 L15.59 8.59 Q17 10 15.59 11.41 L11.06 15.94 Q10 17 8.5 17 L8.5 17 Q7 17 7 15.5 L7 15.5 Q7 14 8.06 12.94 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function SquarePen({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

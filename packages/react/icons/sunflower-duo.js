@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M7.7 12 A4.3 4.3 0 1 0 16.3 12 A4.3 4.3 0 1 0 7.7 12 Z\"/><g class=\"primary\"><path d=\"M7.7 12 A4.3 4.3 0 1 0 16.3 12 A4.3 4.3 0 1 0 7.7 12 Z\"/><path d=\"M11.25 7.77 Q10.15 5.3 12 3.2 Q13.85 5.3 12.75 7.77 Z M15.29 9.24 Q16.88 7.05 19.62 7.6 Q18.73 10.25 16.04 10.53 Z M16.04 13.47 Q18.73 13.75 19.62 16.4 Q16.88 16.95 15.29 14.76 Z M12.75 16.23 Q13.85 18.7 12 20.8 Q10.15 18.7 11.25 16.23 Z M8.71 14.76 Q7.12 16.95 4.38 16.4 Q5.27 13.75 7.96 13.47 Z M7.96 10.53 Q5.27 10.25 4.38 7.6 Q7.12 7.05 8.71 9.24 Z\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function SunflowerDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

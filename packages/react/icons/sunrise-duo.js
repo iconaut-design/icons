@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M8 18 A4 4 0 0 1 16 18 Z\"/><g class=\"primary\"><path d=\"M8 18 A4 4 0 0 1 16 18\"/><path d=\"M12 9 L12 3.36 M9.5 5.5 L11.29 3.71 Q12 3 12.71 3.71 L14.5 5.5\"/><path d=\"M4.5 13.5 L6.3 13.5 M17.7 13.5 L19.5 13.5 M6 9 L7.3 10.3 M18 9 L16.7 10.3\"/><path d=\"M3 18 L21 18\"/><path d=\"M6 21 L18 21\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function SunriseDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

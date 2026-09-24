@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M12 20.8 L 12 11.5\"/><path d=\"M12 11.5 A7 7 0 0 0 4.9 4.4 A7 7 0 0 0 12 11.5 Z\"/><path d=\"M12 11.5 A7 7 0 0 1 19.1 4.4 A7 7 0 0 1 12 11.5 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Sprout({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M12 21 L 12 7\"/><path d=\"M12 10 C9 10 7 8 7 5 C10 5 12 7 12 10 Z\"/><path d=\"M12 13 C15 13 17 11 17 8 C14 8 12 10 12 13 Z\"/><path d=\"M12 8 C9.5 8 8 6.5 8 4 C10.5 4 12 6 12 8 Z\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Herb({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

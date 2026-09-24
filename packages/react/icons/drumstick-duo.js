@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M13.59 12.44 L10.66 15.37 A1.6 1.6 0 1 1 8.34 16.06 L7.84 15.56 A1.6 1.6 0 1 1 8.53 13.24 L11.46 10.32 A5.8 4.4 135 1 1 13.59 12.44 Z\"/><g class=\"primary\"><path d=\"M13.59 12.44 L10.66 15.37 A1.6 1.6 0 1 1 8.34 16.06 L7.84 15.56 A1.6 1.6 0 1 1 8.53 13.24 L11.46 10.32 A5.8 4.4 135 1 1 13.59 12.44 Z\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function DrumstickDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

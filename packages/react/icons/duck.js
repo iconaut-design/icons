@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M6 12 C4.5 12 4.5 15.5 6 16 C7 12 8 9 10.5 7.8 C11.5 5.3 14.5 5.3 15.5 7.5 C15.8 8.2 16 8.7 16.2 9.1 L18.5 8.94 Q20.5 8.8 18.68 9.62 L16.5 10.6 C17.5 12.5 17 15 16 17 C14.5 19.5 9 19.2 6.4 17.5 C4.5 16.2 4.8 13 6 12 Z\"/><path d=\"M14.3 8.2 L 14.31 8.2\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function Duck({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

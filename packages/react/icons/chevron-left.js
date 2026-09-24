@@ -5,12 +5,11 @@ const M0 = "<path d=\"M15 6.5 L9.74 11.32 Q9 12 9.74 12.68 L15 17.5\"/>";
 const M1 = "<path d=\"M15.5 6 L9.26 11.35 Q8.5 12 9.26 12.65 L15.5 18\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ChevronLeft({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

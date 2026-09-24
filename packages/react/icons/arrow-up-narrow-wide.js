@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M3 7.5 L5.79 4.71 Q6.5 4 7.21 4.71 L10 7.5\"/><path d=\"M6.5 4.35 L6.5 20\"/><path d=\"M14 10 L17 10 M14 14 L19 14 M14 18 L21 18\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ArrowUpNarrowWide({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

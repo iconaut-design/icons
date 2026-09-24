@@ -5,12 +5,11 @@ const M0 = "<path d=\"M5 5.5 Q5 3.5 7 3.5 L17 3.5 Q19 3.5 19 5.5 L19 18.5 Q19 20
 const M1 = "<path d=\"M5 5.5 Q5 3.5 7 3.5 L17 3.5 Q19 3.5 19 5.5 L19 18.5 Q19 20.5 17 20.5 L7 20.5 Q5 20.5 5 18.5 Z\"/><path d=\"M9 9.5 Q9 7.5 11 7.5 L13 7.5 Q15 7.5 15 9.5 L15 9.5 Q15 11.5 13 11.5 L11 11.5 Q9 11.5 9 9.5 Z\"/><path d=\"M10 15.5 L 10.01 15.5\"/><path d=\"M14 15.5 L 14.01 15.5\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M1, 1.68],
   24: [M1, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function ArcadeMachine({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;

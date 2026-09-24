@@ -4,12 +4,11 @@ import { createElement } from "react";
 const M0 = "<path d=\"M14.63 6.75 L14.63 17.25 A2.63 2.63 0 1 0 17.25 14.63 L6.75 14.63 A2.63 2.63 0 1 0 9.38 17.25 L9.38 6.75 A2.63 2.63 0 1 0 6.75 9.38 L17.25 9.38 A2.63 2.63 0 1 0 14.63 6.75\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  12: [M0, 2],
   16: [M0, 1.688],
   20: [M0, 1.68],
   24: [M0, 1.7]
 };
-const S = [12, 16, 20, 24];
+const S = [16, 20, 24];
 
 export default function CommandDuo({ size = 24, strokeWidth, ...props }) {
   const n = Number(size) || 24;
