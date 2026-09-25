@@ -35,7 +35,7 @@
   "categories": [
     {
       "id": "essential",
-      "label": "Essential / Interface",
+      "label": "Essentials",
       "icons": [
         {
           "name": "bell",
@@ -2207,7 +2207,7 @@
     },
     {
       "id": "ai",
-      "label": "AI & Magic",
+      "label": "AI",
       "icons": [
         {
           "name": "ai-chip",
@@ -2353,7 +2353,7 @@
     },
     {
       "id": "people",
-      "label": "Users & People",
+      "label": "People",
       "icons": [
         {
           "name": "contact",
@@ -2570,7 +2570,7 @@
     },
     {
       "id": "arrows",
-      "label": "Arrows & Direction",
+      "label": "Arrows",
       "icons": [
         {
           "name": "arrow-big-down",
@@ -5936,7 +5936,7 @@
     },
     {
       "id": "media",
-      "label": "Media & Audio",
+      "label": "Media",
       "icons": [
         {
           "name": "antenna",
@@ -7449,7 +7449,7 @@
     },
     {
       "id": "files",
-      "label": "Files & Documents",
+      "label": "Files",
       "icons": [
         {
           "name": "archive",
@@ -9119,7 +9119,7 @@
     },
     {
       "id": "commerce",
-      "label": "Commerce & Finance",
+      "label": "Commerce",
       "icons": [
         {
           "name": "badge",
@@ -10138,7 +10138,7 @@
     },
     {
       "id": "weather",
-      "label": "Weather & Nature",
+      "label": "Weather",
       "icons": [
         {
           "name": "cloud-drizzle",
@@ -10797,7 +10797,7 @@
     },
     {
       "id": "charts",
-      "label": "Charts & Data",
+      "label": "Charts",
       "icons": [
         {
           "name": "activity",
@@ -11413,7 +11413,7 @@
     },
     {
       "id": "time",
-      "label": "Time & Productivity",
+      "label": "Time",
       "icons": [
         {
           "name": "alarm-clock",
@@ -11742,7 +11742,7 @@
     },
     {
       "id": "navigation",
-      "label": "Maps & Places",
+      "label": "Maps",
       "icons": [
         {
           "name": "anchor",
@@ -12429,7 +12429,7 @@
     },
     {
       "id": "text",
-      "label": "Text & Editing",
+      "label": "Text",
       "icons": [
         {
           "name": "a-large-small",
@@ -13301,7 +13301,7 @@
     },
     {
       "id": "transport",
-      "label": "Transport & Travel",
+      "label": "Transport",
       "icons": [
         {
           "name": "bike",
@@ -13543,6 +13543,9 @@
             "diesel",
             "energy",
             "refuel",
+            "jerrycan",
+            "canister",
+            "fuel can",
             "transport"
           ],
           "styles": [
@@ -13911,6 +13914,8 @@
             "station",
             "commute",
             "transit",
+            "locomotive",
+            "steam",
             "transport"
           ],
           "styles": [
@@ -14025,7 +14030,7 @@
     },
     {
       "id": "health",
-      "label": "Health & Wellness",
+      "label": "Health",
       "icons": [
         {
           "name": "accessibility",
@@ -14611,7 +14616,7 @@
     },
     {
       "id": "food",
-      "label": "Food & Drink",
+      "label": "Food",
       "icons": [
         {
           "name": "apple",
@@ -15531,7 +15536,7 @@
     },
     {
       "id": "education",
-      "label": "Education & Science",
+      "label": "Education",
       "icons": [
         {
           "name": "atom",
@@ -16299,7 +16304,7 @@
     },
     {
       "id": "nature",
-      "label": "Nature & Shapes",
+      "label": "Nature",
       "icons": [
         {
           "name": "acorn",
@@ -17660,7 +17665,7 @@
     },
     {
       "id": "awards",
-      "label": "Awards & Achievements",
+      "label": "Awards",
       "icons": [
         {
           "name": "award",
@@ -18308,7 +18313,7 @@
     },
     {
       "id": "sports",
-      "label": "Sports & Fitness",
+      "label": "Sports",
       "icons": [
         {
           "name": "barbell",
@@ -18686,7 +18691,7 @@
     },
     {
       "id": "home",
-      "label": "Home & Furniture",
+      "label": "Home",
       "icons": [
         {
           "name": "armchair",
@@ -19799,7 +19804,7 @@
     },
     {
       "id": "gestures",
-      "label": "Hands & Gestures",
+      "label": "Gestures",
       "icons": [
         {
           "name": "grab",
@@ -19963,7 +19968,7 @@
     },
     {
       "id": "security",
-      "label": "Security & Privacy",
+      "label": "Security",
       "icons": [
         {
           "name": "eye-off",
