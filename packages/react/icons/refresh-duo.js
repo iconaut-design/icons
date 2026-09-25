@@ -5,9 +5,9 @@ const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\
 const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M4 12a8 8 0 1 0 16 0a8 8 0 1 0 -16 0\"/><g class=\"primary\"><path d=\"M20 12 A8 8 0 1 1 17.66 6.34 L19.75 8.25\"/><path d=\"M20 3.5 L20 7.5 Q20 8.5 19 8.5 L15 8.5\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  16: [M0, 1.688],
-  20: [M1, 1.68],
-  24: [M1, 1.7]
+  16: [M0, 1.875],
+  20: [M1, 1.8],
+  24: [M1, 1.75]
 };
 const S = [16, 20, 24];
 

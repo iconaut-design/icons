@@ -13,19 +13,19 @@
   "sizeTokens": {
     "16": {
       "tier": "compact",
-      "stroke": 1.125,
+      "stroke": 1.25,
       "floor": 1,
       "snap": 0.75
     },
     "20": {
       "tier": "default",
-      "stroke": 1.4,
+      "stroke": 1.5,
       "floor": 1.25,
       "snap": 0.6
     },
     "24": {
       "tier": "default",
-      "stroke": 1.7,
+      "stroke": 1.75,
       "floor": 1.5,
       "snap": 0.5
     }

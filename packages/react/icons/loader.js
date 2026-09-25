@@ -4,9 +4,9 @@ import { createElement } from "react";
 const M0 = "<path d=\"M12 3 L 12 6.5 M18.36 5.64 L 15.89 8.11 M21 12 L 17.5 12 M18.36 18.36 L 15.89 15.89 M12 21 L 12 17.5 M5.64 18.36 L 8.11 15.89 M3 12 L 6.5 12 M5.64 5.64 L 8.11 8.11\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  16: [M0, 1.688],
-  20: [M0, 1.68],
-  24: [M0, 1.7]
+  16: [M0, 1.875],
+  20: [M0, 1.8],
+  24: [M0, 1.75]
 };
 const S = [16, 20, 24];
 

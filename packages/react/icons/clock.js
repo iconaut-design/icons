@@ -5,9 +5,9 @@ const M0 = "<circle cx=\"12\" cy=\"12\" r=\"8.5\"/><path d=\"M12 7 L12 11 Q12 12
 const M1 = "<circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 6.8 L12 11 Q12 12 12.87 12.5 L15.5 14\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  16: [M0, 1.688],
-  20: [M1, 1.68],
-  24: [M1, 1.7]
+  16: [M0, 1.875],
+  20: [M1, 1.8],
+  24: [M1, 1.75]
 };
 const S = [16, 20, 24];
 

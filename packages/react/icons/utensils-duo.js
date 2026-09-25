@@ -4,9 +4,9 @@ import { createElement } from "react";
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M19.6 12.95 L19.6 3.5 A4.4 4.4 0 0 0 15.2 7.9 L15.2 11.7 A2.3 2.3 0 0 0 17.5 14 L18.55 14 Q19.6 14 19.6 12.95 Z\"/><g class=\"primary\"><path d=\"M4.4 3.5 L4.4 8.2 A2.3 2.3 0 0 0 9 8.2 L9 3.5\"/><path d=\"M6.7 3.5 L 6.7 20.5\"/><path d=\"M19.6 14 L19.6 3.5 A4.4 4.4 0 0 0 15.2 7.9 L15.2 11.7 A2.3 2.3 0 0 0 17.5 14 L18.6 14 Q19.6 14 19.6 15 L19.6 20.5\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  16: [M0, 1.688],
-  20: [M0, 1.68],
-  24: [M0, 1.7]
+  16: [M0, 1.875],
+  20: [M0, 1.8],
+  24: [M0, 1.75]
 };
 const S = [16, 20, 24];
 

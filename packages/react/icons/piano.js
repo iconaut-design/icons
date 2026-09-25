@@ -5,9 +5,9 @@ const M0 = "<path d=\"M3 7 Q3 5 5 5 L19 5 Q21 5 21 7 L21 17 Q21 19 19 19 L5 19 Q
 const M1 = "<path d=\"M3 7 Q3 5 5 5 L19 5 Q21 5 21 7 L21 17 Q21 19 19 19 L5 19 Q3 19 3 17 Z\"/><path d=\"M9 19 L 9 12\"/><path d=\"M15 19 L 15 12\"/><path d=\"M8.4 5 L 8.4 12 M9.6 5 L 9.6 12\"/><path d=\"M14.4 5 L 14.4 12 M15.6 5 L 15.6 12\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  16: [M0, 1.688],
-  20: [M1, 1.68],
-  24: [M1, 1.7]
+  16: [M0, 1.875],
+  20: [M1, 1.8],
+  24: [M1, 1.75]
 };
 const S = [16, 20, 24];
 

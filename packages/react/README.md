@@ -28,9 +28,9 @@ that drops repeated or secondary detail rather than letting it turn to mud.
 
 | `size` | tier | stroke |
 |---|---|---|
-| 16 | compact | 1.125 |
-| 20 | default | 1.4 |
-| 24 | default | 1.7 |
+| 16 | compact | 1.25 |
+| 20 | default | 1.5 |
+| 24 | default | 1.75 |
 
 Pass any other number and the nearest fit renders at that pixel size.
 

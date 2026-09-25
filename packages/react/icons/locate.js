@@ -4,9 +4,9 @@ import { createElement } from "react";
 const M0 = "<circle cx=\"12\" cy=\"12\" r=\"6.5\"/><path d=\"M12 2.5 L 12 5.5 M12 18.5 L 12 21.5 M2.5 12 L 5.5 12 M18.5 12 L 21.5 12\"/>";
 // size -> [inner markup, optical stroke width]
 const F = {
-  16: [M0, 1.688],
-  20: [M0, 1.68],
-  24: [M0, 1.7]
+  16: [M0, 1.875],
+  20: [M0, 1.8],
+  24: [M0, 1.75]
 };
 const S = [16, 20, 24];
 

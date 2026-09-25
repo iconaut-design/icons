@@ -42,9 +42,9 @@ carry fine detail.
 
 | size | tier | stroke |
 |---|---|---|
-| 16 | compact | 1.125 |
-| 20 | default | 1.4 |
-| 24 | default | 1.7 |
+| 16 | compact | 1.25 |
+| 20 | default | 1.5 |
+| 24 | default | 1.75 |
 
 ## One shape per icon
 
