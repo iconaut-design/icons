@@ -11788,17 +11788,17 @@
       "types": "./icons/grab-duo.d.ts",
       "default": "./icons/grab-duo.js"
     },
-    "./pinch": {
-      "types": "./icons/pinch.d.ts",
-      "default": "./icons/pinch.js"
+    "./tap": {
+      "types": "./icons/tap.d.ts",
+      "default": "./icons/tap.js"
     },
-    "./pinch-solid": {
-      "types": "./icons/pinch-solid.d.ts",
-      "default": "./icons/pinch-solid.js"
+    "./tap-solid": {
+      "types": "./icons/tap-solid.d.ts",
+      "default": "./icons/tap-solid.js"
     },
-    "./pinch-duo": {
-      "types": "./icons/pinch-duo.d.ts",
-      "default": "./icons/pinch-duo.js"
+    "./tap-duo": {
+      "types": "./icons/tap-duo.d.ts",
+      "default": "./icons/tap-duo.js"
     },
     "./incognito": {
       "types": "./icons/incognito.d.ts",

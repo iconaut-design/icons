@@ -19866,25 +19866,6 @@
           "added": "2026-07-14"
         },
         {
-          "name": "pinch",
-          "keywords": [
-            "zoom",
-            "pinch to zoom",
-            "fingers",
-            "thumb",
-            "scale",
-            "gesture",
-            "precision",
-            "small amount"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-14"
-        },
-        {
           "name": "point-down",
           "keywords": [
             "finger",
@@ -19943,6 +19924,26 @@
             "duo"
           ],
           "added": "2026-07-14"
+        },
+        {
+          "name": "tap",
+          "keywords": [
+            "touch",
+            "press",
+            "click",
+            "finger",
+            "select",
+            "gesture",
+            "touchscreen",
+            "interact",
+            "poke"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-09-26"
         },
         {
           "name": "three-fingers",

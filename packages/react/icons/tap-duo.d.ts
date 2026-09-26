@@ -1,4 +1,4 @@
 import type { IconComponent, IconProps } from "../types.js";
-declare const PinchSolid: IconComponent;
-export default PinchSolid;
+declare const TapDuo: IconComponent;
+export default TapDuo;
 export type { IconProps };
