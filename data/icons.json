@@ -18425,6 +18425,7 @@
             "game",
             "pub",
             "score",
+            "dart",
             "sport"
           ],
           "styles": [
@@ -18502,7 +18503,8 @@
             "course",
             "green",
             "putt",
-            "ball"
+            "ball",
+            "pin"
           ],
           "styles": [
             "line",
@@ -18520,7 +18522,9 @@
             "head",
             "gear",
             "sport",
-            "cycling"
+            "cycling",
+            "motorcycle",
+            "racing"
           ],
           "styles": [
             "line",
@@ -18600,7 +18604,9 @@
             "slope",
             "mountain",
             "poles",
-            "downhill"
+            "downhill",
+            "skier",
+            "skiing"
           ],
           "styles": [
             "line",
@@ -21012,6 +21018,30 @@
             "duo"
           ],
           "added": "2026-07-03"
+        },
+        {
+          "name": "figma",
+          "keywords": [
+            "figma",
+            "design",
+            "prototype",
+            "ui",
+            "ux",
+            "collaboration",
+            "design tool",
+            "mockup",
+            "wireframe",
+            "interface design",
+            "plugin",
+            "figjam",
+            "social"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-09-28"
         },
         {
           "name": "github",

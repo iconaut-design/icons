@@ -12532,6 +12532,18 @@
       "types": "./icons/github-duo.d.ts",
       "default": "./icons/github-duo.js"
     },
+    "./figma": {
+      "types": "./icons/figma.d.ts",
+      "default": "./icons/figma.js"
+    },
+    "./figma-solid": {
+      "types": "./icons/figma-solid.d.ts",
+      "default": "./icons/figma-solid.js"
+    },
+    "./figma-duo": {
+      "types": "./icons/figma-duo.d.ts",
+      "default": "./icons/figma-duo.js"
+    },
     "./twitch": {
       "types": "./icons/twitch.d.ts",
       "default": "./icons/twitch.js"

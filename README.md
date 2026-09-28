@@ -2,7 +2,7 @@
 
 # Iconaut icons
 
-1,048 free icons in **line, solid and duotone**, drawn on one 24px grid, with a real
+1,049 free icons in **line, solid and duotone**, drawn on one 24px grid, with a real
 drawing at every native size. MIT licensed.
 
 **[Browse them](https://iconaut.design/icons)** · [iconaut.design](https://iconaut.design) · `npm i iconaut-react`
@@ -14,12 +14,12 @@ npm i iconaut-react
 ```
 
 ```jsx
-import { Bell, BellSolid, BellDuo } from "iconaut-react";
+import { Rocket, RocketSolid, RocketDuo } from "iconaut-react";
 
-<Bell />                    // the 24px fit
-<Bell size={16} />          // the REAL 16px drawing, not the 24px one scaled down
-<Bell strokeWidth={1.25} /> // override the fit's optical stroke
-<Bell className="text-blue-500" />
+<Rocket />                    // the 24px fit
+<Rocket size={16} />          // the REAL 16px drawing, not the 24px one scaled down
+<Rocket strokeWidth={1.25} /> // override the fit's optical stroke
+<Rocket className="text-blue-500" />
 ```
 
 Or take the SVGs: they are plain files with no wrapper, and every path takes
@@ -52,9 +52,9 @@ Each icon is one closed vector shape. `line` strokes it; `solid` fills the same 
 registers exactly under the line; `duo` fills it at 25% and strokes it on top. That is also
 what makes them swap-safe in Figma: swapping a component keeps the colours you set on it.
 
-## 1,048 free, and the rest
+## 1,049 free, and the rest
 
-These 1,048 icons, in 26 categories, are free under MIT and stay that way — a
+These 1,049 icons, in 26 categories, are free under MIT and stay that way — a
 category that shipped free never becomes paid. The specialised Pro packs are not in this
 repository; they ship in the [Figma plugin](https://www.figma.com/community/plugin/1654947060820411920) and are licensed separately
 (see https://iconaut.design/terms).
