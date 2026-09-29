@@ -2231,6 +2231,236 @@
           "added": "2026-07-03"
         },
         {
+          "name": "ai-face",
+          "keywords": [
+            "ai",
+            "assistant",
+            "mascot",
+            "iconaut",
+            "face",
+            "eyes",
+            "character",
+            "square",
+            "app",
+            "ahead",
+            "idle",
+            "attention"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-09-28"
+        },
+        {
+          "name": "ai-face-circle",
+          "keywords": [
+            "ai",
+            "assistant",
+            "mascot",
+            "iconaut",
+            "face",
+            "eyes",
+            "character",
+            "circle",
+            "round",
+            "ahead",
+            "idle",
+            "attention"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-09-28"
+        },
+        {
+          "name": "ai-face-circle-look-down",
+          "keywords": [
+            "ai",
+            "assistant",
+            "mascot",
+            "iconaut",
+            "face",
+            "eyes",
+            "character",
+            "circle",
+            "round",
+            "look down",
+            "reading",
+            "focus"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-09-28"
+        },
+        {
+          "name": "ai-face-circle-look-left",
+          "keywords": [
+            "ai",
+            "assistant",
+            "mascot",
+            "iconaut",
+            "face",
+            "eyes",
+            "character",
+            "circle",
+            "round",
+            "look left",
+            "glance",
+            "side eye"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-09-28"
+        },
+        {
+          "name": "ai-face-circle-look-right",
+          "keywords": [
+            "ai",
+            "assistant",
+            "mascot",
+            "iconaut",
+            "face",
+            "eyes",
+            "character",
+            "circle",
+            "round",
+            "look right",
+            "glance",
+            "side eye"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-09-28"
+        },
+        {
+          "name": "ai-face-circle-look-up",
+          "keywords": [
+            "ai",
+            "assistant",
+            "mascot",
+            "iconaut",
+            "face",
+            "eyes",
+            "character",
+            "circle",
+            "round",
+            "look up",
+            "thinking",
+            "wonder"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-09-28"
+        },
+        {
+          "name": "ai-face-look-down",
+          "keywords": [
+            "ai",
+            "assistant",
+            "mascot",
+            "iconaut",
+            "face",
+            "eyes",
+            "character",
+            "square",
+            "app",
+            "look down",
+            "reading",
+            "focus"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-09-28"
+        },
+        {
+          "name": "ai-face-look-left",
+          "keywords": [
+            "ai",
+            "assistant",
+            "mascot",
+            "iconaut",
+            "face",
+            "eyes",
+            "character",
+            "square",
+            "app",
+            "look left",
+            "glance",
+            "side eye"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-09-28"
+        },
+        {
+          "name": "ai-face-look-right",
+          "keywords": [
+            "ai",
+            "assistant",
+            "mascot",
+            "iconaut",
+            "face",
+            "eyes",
+            "character",
+            "square",
+            "app",
+            "look right",
+            "glance",
+            "side eye"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-09-28"
+        },
+        {
+          "name": "ai-face-look-up",
+          "keywords": [
+            "ai",
+            "assistant",
+            "mascot",
+            "iconaut",
+            "face",
+            "eyes",
+            "character",
+            "square",
+            "app",
+            "look up",
+            "thinking",
+            "wonder"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-09-28"
+        },
+        {
           "name": "bot",
           "keywords": [
             "ai",

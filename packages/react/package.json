@@ -1336,6 +1336,126 @@
       "types": "./icons/bot-duo.d.ts",
       "default": "./icons/bot-duo.js"
     },
+    "./ai-face": {
+      "types": "./icons/ai-face.d.ts",
+      "default": "./icons/ai-face.js"
+    },
+    "./ai-face-solid": {
+      "types": "./icons/ai-face-solid.d.ts",
+      "default": "./icons/ai-face-solid.js"
+    },
+    "./ai-face-duo": {
+      "types": "./icons/ai-face-duo.d.ts",
+      "default": "./icons/ai-face-duo.js"
+    },
+    "./ai-face-look-left": {
+      "types": "./icons/ai-face-look-left.d.ts",
+      "default": "./icons/ai-face-look-left.js"
+    },
+    "./ai-face-look-left-solid": {
+      "types": "./icons/ai-face-look-left-solid.d.ts",
+      "default": "./icons/ai-face-look-left-solid.js"
+    },
+    "./ai-face-look-left-duo": {
+      "types": "./icons/ai-face-look-left-duo.d.ts",
+      "default": "./icons/ai-face-look-left-duo.js"
+    },
+    "./ai-face-look-right": {
+      "types": "./icons/ai-face-look-right.d.ts",
+      "default": "./icons/ai-face-look-right.js"
+    },
+    "./ai-face-look-right-solid": {
+      "types": "./icons/ai-face-look-right-solid.d.ts",
+      "default": "./icons/ai-face-look-right-solid.js"
+    },
+    "./ai-face-look-right-duo": {
+      "types": "./icons/ai-face-look-right-duo.d.ts",
+      "default": "./icons/ai-face-look-right-duo.js"
+    },
+    "./ai-face-look-up": {
+      "types": "./icons/ai-face-look-up.d.ts",
+      "default": "./icons/ai-face-look-up.js"
+    },
+    "./ai-face-look-up-solid": {
+      "types": "./icons/ai-face-look-up-solid.d.ts",
+      "default": "./icons/ai-face-look-up-solid.js"
+    },
+    "./ai-face-look-up-duo": {
+      "types": "./icons/ai-face-look-up-duo.d.ts",
+      "default": "./icons/ai-face-look-up-duo.js"
+    },
+    "./ai-face-look-down": {
+      "types": "./icons/ai-face-look-down.d.ts",
+      "default": "./icons/ai-face-look-down.js"
+    },
+    "./ai-face-look-down-solid": {
+      "types": "./icons/ai-face-look-down-solid.d.ts",
+      "default": "./icons/ai-face-look-down-solid.js"
+    },
+    "./ai-face-look-down-duo": {
+      "types": "./icons/ai-face-look-down-duo.d.ts",
+      "default": "./icons/ai-face-look-down-duo.js"
+    },
+    "./ai-face-circle": {
+      "types": "./icons/ai-face-circle.d.ts",
+      "default": "./icons/ai-face-circle.js"
+    },
+    "./ai-face-circle-solid": {
+      "types": "./icons/ai-face-circle-solid.d.ts",
+      "default": "./icons/ai-face-circle-solid.js"
+    },
+    "./ai-face-circle-duo": {
+      "types": "./icons/ai-face-circle-duo.d.ts",
+      "default": "./icons/ai-face-circle-duo.js"
+    },
+    "./ai-face-circle-look-left": {
+      "types": "./icons/ai-face-circle-look-left.d.ts",
+      "default": "./icons/ai-face-circle-look-left.js"
+    },
+    "./ai-face-circle-look-left-solid": {
+      "types": "./icons/ai-face-circle-look-left-solid.d.ts",
+      "default": "./icons/ai-face-circle-look-left-solid.js"
+    },
+    "./ai-face-circle-look-left-duo": {
+      "types": "./icons/ai-face-circle-look-left-duo.d.ts",
+      "default": "./icons/ai-face-circle-look-left-duo.js"
+    },
+    "./ai-face-circle-look-right": {
+      "types": "./icons/ai-face-circle-look-right.d.ts",
+      "default": "./icons/ai-face-circle-look-right.js"
+    },
+    "./ai-face-circle-look-right-solid": {
+      "types": "./icons/ai-face-circle-look-right-solid.d.ts",
+      "default": "./icons/ai-face-circle-look-right-solid.js"
+    },
+    "./ai-face-circle-look-right-duo": {
+      "types": "./icons/ai-face-circle-look-right-duo.d.ts",
+      "default": "./icons/ai-face-circle-look-right-duo.js"
+    },
+    "./ai-face-circle-look-up": {
+      "types": "./icons/ai-face-circle-look-up.d.ts",
+      "default": "./icons/ai-face-circle-look-up.js"
+    },
+    "./ai-face-circle-look-up-solid": {
+      "types": "./icons/ai-face-circle-look-up-solid.d.ts",
+      "default": "./icons/ai-face-circle-look-up-solid.js"
+    },
+    "./ai-face-circle-look-up-duo": {
+      "types": "./icons/ai-face-circle-look-up-duo.d.ts",
+      "default": "./icons/ai-face-circle-look-up-duo.js"
+    },
+    "./ai-face-circle-look-down": {
+      "types": "./icons/ai-face-circle-look-down.d.ts",
+      "default": "./icons/ai-face-circle-look-down.js"
+    },
+    "./ai-face-circle-look-down-solid": {
+      "types": "./icons/ai-face-circle-look-down-solid.d.ts",
+      "default": "./icons/ai-face-circle-look-down-solid.js"
+    },
+    "./ai-face-circle-look-down-duo": {
+      "types": "./icons/ai-face-circle-look-down-duo.d.ts",
+      "default": "./icons/ai-face-circle-look-down-duo.js"
+    },
     "./robot": {
       "types": "./icons/robot.d.ts",
       "default": "./icons/robot.js"
