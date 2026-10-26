@@ -1,6 +1,6 @@
 {
   "name": "iconaut-react",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Iconaut icons as React components — one shape per icon, three styles, a real drawing at every native size.",
   "license": "MIT",
   "type": "module",
@@ -1287,6 +1287,378 @@
     "./question-mark-duo": {
       "types": "./icons/question-mark-duo.d.ts",
       "default": "./icons/question-mark-duo.js"
+    },
+    "./sidebar-right-collapse": {
+      "types": "./icons/sidebar-right-collapse.d.ts",
+      "default": "./icons/sidebar-right-collapse.js"
+    },
+    "./sidebar-right-collapse-solid": {
+      "types": "./icons/sidebar-right-collapse-solid.d.ts",
+      "default": "./icons/sidebar-right-collapse-solid.js"
+    },
+    "./sidebar-right-collapse-duo": {
+      "types": "./icons/sidebar-right-collapse-duo.d.ts",
+      "default": "./icons/sidebar-right-collapse-duo.js"
+    },
+    "./sidebar-right-expand": {
+      "types": "./icons/sidebar-right-expand.d.ts",
+      "default": "./icons/sidebar-right-expand.js"
+    },
+    "./sidebar-right-expand-solid": {
+      "types": "./icons/sidebar-right-expand-solid.d.ts",
+      "default": "./icons/sidebar-right-expand-solid.js"
+    },
+    "./sidebar-right-expand-duo": {
+      "types": "./icons/sidebar-right-expand-duo.d.ts",
+      "default": "./icons/sidebar-right-expand-duo.js"
+    },
+    "./panel-top-collapse": {
+      "types": "./icons/panel-top-collapse.d.ts",
+      "default": "./icons/panel-top-collapse.js"
+    },
+    "./panel-top-collapse-solid": {
+      "types": "./icons/panel-top-collapse-solid.d.ts",
+      "default": "./icons/panel-top-collapse-solid.js"
+    },
+    "./panel-top-collapse-duo": {
+      "types": "./icons/panel-top-collapse-duo.d.ts",
+      "default": "./icons/panel-top-collapse-duo.js"
+    },
+    "./panel-top-expand": {
+      "types": "./icons/panel-top-expand.d.ts",
+      "default": "./icons/panel-top-expand.js"
+    },
+    "./panel-top-expand-solid": {
+      "types": "./icons/panel-top-expand-solid.d.ts",
+      "default": "./icons/panel-top-expand-solid.js"
+    },
+    "./panel-top-expand-duo": {
+      "types": "./icons/panel-top-expand-duo.d.ts",
+      "default": "./icons/panel-top-expand-duo.js"
+    },
+    "./panel-bottom-collapse": {
+      "types": "./icons/panel-bottom-collapse.d.ts",
+      "default": "./icons/panel-bottom-collapse.js"
+    },
+    "./panel-bottom-collapse-solid": {
+      "types": "./icons/panel-bottom-collapse-solid.d.ts",
+      "default": "./icons/panel-bottom-collapse-solid.js"
+    },
+    "./panel-bottom-collapse-duo": {
+      "types": "./icons/panel-bottom-collapse-duo.d.ts",
+      "default": "./icons/panel-bottom-collapse-duo.js"
+    },
+    "./panel-bottom-expand": {
+      "types": "./icons/panel-bottom-expand.d.ts",
+      "default": "./icons/panel-bottom-expand.js"
+    },
+    "./panel-bottom-expand-solid": {
+      "types": "./icons/panel-bottom-expand-solid.d.ts",
+      "default": "./icons/panel-bottom-expand-solid.js"
+    },
+    "./panel-bottom-expand-duo": {
+      "types": "./icons/panel-bottom-expand-duo.d.ts",
+      "default": "./icons/panel-bottom-expand-duo.js"
+    },
+    "./layout-masonry": {
+      "types": "./icons/layout-masonry.d.ts",
+      "default": "./icons/layout-masonry.js"
+    },
+    "./layout-masonry-solid": {
+      "types": "./icons/layout-masonry-solid.d.ts",
+      "default": "./icons/layout-masonry-solid.js"
+    },
+    "./layout-masonry-duo": {
+      "types": "./icons/layout-masonry-duo.d.ts",
+      "default": "./icons/layout-masonry-duo.js"
+    },
+    "./layout-dashboard": {
+      "types": "./icons/layout-dashboard.d.ts",
+      "default": "./icons/layout-dashboard.js"
+    },
+    "./layout-dashboard-solid": {
+      "types": "./icons/layout-dashboard-solid.d.ts",
+      "default": "./icons/layout-dashboard-solid.js"
+    },
+    "./layout-dashboard-duo": {
+      "types": "./icons/layout-dashboard-duo.d.ts",
+      "default": "./icons/layout-dashboard-duo.js"
+    },
+    "./layout-bento": {
+      "types": "./icons/layout-bento.d.ts",
+      "default": "./icons/layout-bento.js"
+    },
+    "./layout-bento-solid": {
+      "types": "./icons/layout-bento-solid.d.ts",
+      "default": "./icons/layout-bento-solid.js"
+    },
+    "./layout-bento-duo": {
+      "types": "./icons/layout-bento-duo.d.ts",
+      "default": "./icons/layout-bento-duo.js"
+    },
+    "./app-window": {
+      "types": "./icons/app-window.d.ts",
+      "default": "./icons/app-window.js"
+    },
+    "./app-window-solid": {
+      "types": "./icons/app-window-solid.d.ts",
+      "default": "./icons/app-window-solid.js"
+    },
+    "./app-window-duo": {
+      "types": "./icons/app-window-duo.d.ts",
+      "default": "./icons/app-window-duo.js"
+    },
+    "./bell-dot": {
+      "types": "./icons/bell-dot.d.ts",
+      "default": "./icons/bell-dot.js"
+    },
+    "./bell-dot-solid": {
+      "types": "./icons/bell-dot-solid.d.ts",
+      "default": "./icons/bell-dot-solid.js"
+    },
+    "./bell-dot-duo": {
+      "types": "./icons/bell-dot-duo.d.ts",
+      "default": "./icons/bell-dot-duo.js"
+    },
+    "./square-star": {
+      "types": "./icons/square-star.d.ts",
+      "default": "./icons/square-star.js"
+    },
+    "./square-star-solid": {
+      "types": "./icons/square-star-solid.d.ts",
+      "default": "./icons/square-star-solid.js"
+    },
+    "./square-star-duo": {
+      "types": "./icons/square-star-duo.d.ts",
+      "default": "./icons/square-star-duo.js"
+    },
+    "./circle-star": {
+      "types": "./icons/circle-star.d.ts",
+      "default": "./icons/circle-star.js"
+    },
+    "./circle-star-solid": {
+      "types": "./icons/circle-star-solid.d.ts",
+      "default": "./icons/circle-star-solid.js"
+    },
+    "./circle-star-duo": {
+      "types": "./icons/circle-star-duo.d.ts",
+      "default": "./icons/circle-star-duo.js"
+    },
+    "./square-zap": {
+      "types": "./icons/square-zap.d.ts",
+      "default": "./icons/square-zap.js"
+    },
+    "./square-zap-solid": {
+      "types": "./icons/square-zap-solid.d.ts",
+      "default": "./icons/square-zap-solid.js"
+    },
+    "./square-zap-duo": {
+      "types": "./icons/square-zap-duo.d.ts",
+      "default": "./icons/square-zap-duo.js"
+    },
+    "./circle-zap": {
+      "types": "./icons/circle-zap.d.ts",
+      "default": "./icons/circle-zap.js"
+    },
+    "./circle-zap-solid": {
+      "types": "./icons/circle-zap-solid.d.ts",
+      "default": "./icons/circle-zap-solid.js"
+    },
+    "./circle-zap-duo": {
+      "types": "./icons/circle-zap-duo.d.ts",
+      "default": "./icons/circle-zap-duo.js"
+    },
+    "./square-slash-flip": {
+      "types": "./icons/square-slash-flip.d.ts",
+      "default": "./icons/square-slash-flip.js"
+    },
+    "./square-slash-flip-solid": {
+      "types": "./icons/square-slash-flip-solid.d.ts",
+      "default": "./icons/square-slash-flip-solid.js"
+    },
+    "./square-slash-flip-duo": {
+      "types": "./icons/square-slash-flip-duo.d.ts",
+      "default": "./icons/square-slash-flip-duo.js"
+    },
+    "./square-dot": {
+      "types": "./icons/square-dot.d.ts",
+      "default": "./icons/square-dot.js"
+    },
+    "./square-dot-solid": {
+      "types": "./icons/square-dot-solid.d.ts",
+      "default": "./icons/square-dot-solid.js"
+    },
+    "./square-dot-duo": {
+      "types": "./icons/square-dot-duo.d.ts",
+      "default": "./icons/square-dot-duo.js"
+    },
+    "./mouse-pointer": {
+      "types": "./icons/mouse-pointer.d.ts",
+      "default": "./icons/mouse-pointer.js"
+    },
+    "./mouse-pointer-solid": {
+      "types": "./icons/mouse-pointer-solid.d.ts",
+      "default": "./icons/mouse-pointer-solid.js"
+    },
+    "./mouse-pointer-duo": {
+      "types": "./icons/mouse-pointer-duo.d.ts",
+      "default": "./icons/mouse-pointer-duo.js"
+    },
+    "./vector-square": {
+      "types": "./icons/vector-square.d.ts",
+      "default": "./icons/vector-square.js"
+    },
+    "./vector-square-solid": {
+      "types": "./icons/vector-square-solid.d.ts",
+      "default": "./icons/vector-square-solid.js"
+    },
+    "./vector-square-duo": {
+      "types": "./icons/vector-square-duo.d.ts",
+      "default": "./icons/vector-square-duo.js"
+    },
+    "./vector-polygon": {
+      "types": "./icons/vector-polygon.d.ts",
+      "default": "./icons/vector-polygon.js"
+    },
+    "./vector-polygon-solid": {
+      "types": "./icons/vector-polygon-solid.d.ts",
+      "default": "./icons/vector-polygon-solid.js"
+    },
+    "./vector-polygon-duo": {
+      "types": "./icons/vector-polygon-duo.d.ts",
+      "default": "./icons/vector-polygon-duo.js"
+    },
+    "./empty-set": {
+      "types": "./icons/empty-set.d.ts",
+      "default": "./icons/empty-set.js"
+    },
+    "./empty-set-solid": {
+      "types": "./icons/empty-set-solid.d.ts",
+      "default": "./icons/empty-set-solid.js"
+    },
+    "./empty-set-duo": {
+      "types": "./icons/empty-set-duo.d.ts",
+      "default": "./icons/empty-set-duo.js"
+    },
+    "./square-off": {
+      "types": "./icons/square-off.d.ts",
+      "default": "./icons/square-off.js"
+    },
+    "./square-off-solid": {
+      "types": "./icons/square-off-solid.d.ts",
+      "default": "./icons/square-off-solid.js"
+    },
+    "./square-off-duo": {
+      "types": "./icons/square-off-duo.d.ts",
+      "default": "./icons/square-off-duo.js"
+    },
+    "./grid-2x2": {
+      "types": "./icons/grid-2x2.d.ts",
+      "default": "./icons/grid-2x2.js"
+    },
+    "./grid-2x2-solid": {
+      "types": "./icons/grid-2x2-solid.d.ts",
+      "default": "./icons/grid-2x2-solid.js"
+    },
+    "./grid-2x2-duo": {
+      "types": "./icons/grid-2x2-duo.d.ts",
+      "default": "./icons/grid-2x2-duo.js"
+    },
+    "./grid-2x2-plus": {
+      "types": "./icons/grid-2x2-plus.d.ts",
+      "default": "./icons/grid-2x2-plus.js"
+    },
+    "./grid-2x2-plus-solid": {
+      "types": "./icons/grid-2x2-plus-solid.d.ts",
+      "default": "./icons/grid-2x2-plus-solid.js"
+    },
+    "./grid-2x2-plus-duo": {
+      "types": "./icons/grid-2x2-plus-duo.d.ts",
+      "default": "./icons/grid-2x2-plus-duo.js"
+    },
+    "./grid-2x2-check": {
+      "types": "./icons/grid-2x2-check.d.ts",
+      "default": "./icons/grid-2x2-check.js"
+    },
+    "./grid-2x2-check-solid": {
+      "types": "./icons/grid-2x2-check-solid.d.ts",
+      "default": "./icons/grid-2x2-check-solid.js"
+    },
+    "./grid-2x2-check-duo": {
+      "types": "./icons/grid-2x2-check-duo.d.ts",
+      "default": "./icons/grid-2x2-check-duo.js"
+    },
+    "./grid-2x2-x": {
+      "types": "./icons/grid-2x2-x.d.ts",
+      "default": "./icons/grid-2x2-x.js"
+    },
+    "./grid-2x2-x-solid": {
+      "types": "./icons/grid-2x2-x-solid.d.ts",
+      "default": "./icons/grid-2x2-x-solid.js"
+    },
+    "./grid-2x2-x-duo": {
+      "types": "./icons/grid-2x2-x-duo.d.ts",
+      "default": "./icons/grid-2x2-x-duo.js"
+    },
+    "./square-function": {
+      "types": "./icons/square-function.d.ts",
+      "default": "./icons/square-function.js"
+    },
+    "./square-function-solid": {
+      "types": "./icons/square-function-solid.d.ts",
+      "default": "./icons/square-function-solid.js"
+    },
+    "./square-function-duo": {
+      "types": "./icons/square-function-duo.d.ts",
+      "default": "./icons/square-function-duo.js"
+    },
+    "./circle-function": {
+      "types": "./icons/circle-function.d.ts",
+      "default": "./icons/circle-function.js"
+    },
+    "./circle-function-solid": {
+      "types": "./icons/circle-function-solid.d.ts",
+      "default": "./icons/circle-function-solid.js"
+    },
+    "./circle-function-duo": {
+      "types": "./icons/circle-function-duo.d.ts",
+      "default": "./icons/circle-function-duo.js"
+    },
+    "./square-pi": {
+      "types": "./icons/square-pi.d.ts",
+      "default": "./icons/square-pi.js"
+    },
+    "./square-pi-solid": {
+      "types": "./icons/square-pi-solid.d.ts",
+      "default": "./icons/square-pi-solid.js"
+    },
+    "./square-pi-duo": {
+      "types": "./icons/square-pi-duo.d.ts",
+      "default": "./icons/square-pi-duo.js"
+    },
+    "./circle-pi": {
+      "types": "./icons/circle-pi.d.ts",
+      "default": "./icons/circle-pi.js"
+    },
+    "./circle-pi-solid": {
+      "types": "./icons/circle-pi-solid.d.ts",
+      "default": "./icons/circle-pi-solid.js"
+    },
+    "./circle-pi-duo": {
+      "types": "./icons/circle-pi-duo.d.ts",
+      "default": "./icons/circle-pi-duo.js"
+    },
+    "./circle-sigma": {
+      "types": "./icons/circle-sigma.d.ts",
+      "default": "./icons/circle-sigma.js"
+    },
+    "./circle-sigma-solid": {
+      "types": "./icons/circle-sigma-solid.d.ts",
+      "default": "./icons/circle-sigma-solid.js"
+    },
+    "./circle-sigma-duo": {
+      "types": "./icons/circle-sigma-duo.d.ts",
+      "default": "./icons/circle-sigma-duo.js"
     },
     "./sparkle": {
       "types": "./icons/sparkle.d.ts",
@@ -2632,6 +3004,426 @@
       "types": "./icons/corner-right-up-duo.d.ts",
       "default": "./icons/corner-right-up-duo.js"
     },
+    "./flip-vertical": {
+      "types": "./icons/flip-vertical.d.ts",
+      "default": "./icons/flip-vertical.js"
+    },
+    "./flip-vertical-solid": {
+      "types": "./icons/flip-vertical-solid.d.ts",
+      "default": "./icons/flip-vertical-solid.js"
+    },
+    "./flip-vertical-duo": {
+      "types": "./icons/flip-vertical-duo.d.ts",
+      "default": "./icons/flip-vertical-duo.js"
+    },
+    "./flip-horizontal-2": {
+      "types": "./icons/flip-horizontal-2.d.ts",
+      "default": "./icons/flip-horizontal-2.js"
+    },
+    "./flip-horizontal-2-solid": {
+      "types": "./icons/flip-horizontal-2-solid.d.ts",
+      "default": "./icons/flip-horizontal-2-solid.js"
+    },
+    "./flip-horizontal-2-duo": {
+      "types": "./icons/flip-horizontal-2-duo.d.ts",
+      "default": "./icons/flip-horizontal-2-duo.js"
+    },
+    "./flip-vertical-2": {
+      "types": "./icons/flip-vertical-2.d.ts",
+      "default": "./icons/flip-vertical-2.js"
+    },
+    "./flip-vertical-2-solid": {
+      "types": "./icons/flip-vertical-2-solid.d.ts",
+      "default": "./icons/flip-vertical-2-solid.js"
+    },
+    "./flip-vertical-2-duo": {
+      "types": "./icons/flip-vertical-2-duo.d.ts",
+      "default": "./icons/flip-vertical-2-duo.js"
+    },
+    "./arrow-up-right-down-left": {
+      "types": "./icons/arrow-up-right-down-left.d.ts",
+      "default": "./icons/arrow-up-right-down-left.js"
+    },
+    "./arrow-up-right-down-left-solid": {
+      "types": "./icons/arrow-up-right-down-left-solid.d.ts",
+      "default": "./icons/arrow-up-right-down-left-solid.js"
+    },
+    "./arrow-up-right-down-left-duo": {
+      "types": "./icons/arrow-up-right-down-left-duo.d.ts",
+      "default": "./icons/arrow-up-right-down-left-duo.js"
+    },
+    "./arrow-up-left-down-right": {
+      "types": "./icons/arrow-up-left-down-right.d.ts",
+      "default": "./icons/arrow-up-left-down-right.js"
+    },
+    "./arrow-up-left-down-right-solid": {
+      "types": "./icons/arrow-up-left-down-right-solid.d.ts",
+      "default": "./icons/arrow-up-left-down-right-solid.js"
+    },
+    "./arrow-up-left-down-right-duo": {
+      "types": "./icons/arrow-up-left-down-right-duo.d.ts",
+      "default": "./icons/arrow-up-left-down-right-duo.js"
+    },
+    "./arrow-u-turn-down": {
+      "types": "./icons/arrow-u-turn-down.d.ts",
+      "default": "./icons/arrow-u-turn-down.js"
+    },
+    "./arrow-u-turn-down-solid": {
+      "types": "./icons/arrow-u-turn-down-solid.d.ts",
+      "default": "./icons/arrow-u-turn-down-solid.js"
+    },
+    "./arrow-u-turn-down-duo": {
+      "types": "./icons/arrow-u-turn-down-duo.d.ts",
+      "default": "./icons/arrow-u-turn-down-duo.js"
+    },
+    "./arrow-u-turn-up": {
+      "types": "./icons/arrow-u-turn-up.d.ts",
+      "default": "./icons/arrow-u-turn-up.js"
+    },
+    "./arrow-u-turn-up-solid": {
+      "types": "./icons/arrow-u-turn-up-solid.d.ts",
+      "default": "./icons/arrow-u-turn-up-solid.js"
+    },
+    "./arrow-u-turn-up-duo": {
+      "types": "./icons/arrow-u-turn-up-duo.d.ts",
+      "default": "./icons/arrow-u-turn-up-duo.js"
+    },
+    "./arrow-u-turn-left": {
+      "types": "./icons/arrow-u-turn-left.d.ts",
+      "default": "./icons/arrow-u-turn-left.js"
+    },
+    "./arrow-u-turn-left-solid": {
+      "types": "./icons/arrow-u-turn-left-solid.d.ts",
+      "default": "./icons/arrow-u-turn-left-solid.js"
+    },
+    "./arrow-u-turn-left-duo": {
+      "types": "./icons/arrow-u-turn-left-duo.d.ts",
+      "default": "./icons/arrow-u-turn-left-duo.js"
+    },
+    "./arrow-u-turn-right": {
+      "types": "./icons/arrow-u-turn-right.d.ts",
+      "default": "./icons/arrow-u-turn-right.js"
+    },
+    "./arrow-u-turn-right-solid": {
+      "types": "./icons/arrow-u-turn-right-solid.d.ts",
+      "default": "./icons/arrow-u-turn-right-solid.js"
+    },
+    "./arrow-u-turn-right-duo": {
+      "types": "./icons/arrow-u-turn-right-duo.d.ts",
+      "default": "./icons/arrow-u-turn-right-duo.js"
+    },
+    "./undo-dot": {
+      "types": "./icons/undo-dot.d.ts",
+      "default": "./icons/undo-dot.js"
+    },
+    "./undo-dot-solid": {
+      "types": "./icons/undo-dot-solid.d.ts",
+      "default": "./icons/undo-dot-solid.js"
+    },
+    "./undo-dot-duo": {
+      "types": "./icons/undo-dot-duo.d.ts",
+      "default": "./icons/undo-dot-duo.js"
+    },
+    "./redo-dot": {
+      "types": "./icons/redo-dot.d.ts",
+      "default": "./icons/redo-dot.js"
+    },
+    "./redo-dot-solid": {
+      "types": "./icons/redo-dot-solid.d.ts",
+      "default": "./icons/redo-dot-solid.js"
+    },
+    "./redo-dot-duo": {
+      "types": "./icons/redo-dot-duo.d.ts",
+      "default": "./icons/redo-dot-duo.js"
+    },
+    "./arrow-up-long": {
+      "types": "./icons/arrow-up-long.d.ts",
+      "default": "./icons/arrow-up-long.js"
+    },
+    "./arrow-up-long-solid": {
+      "types": "./icons/arrow-up-long-solid.d.ts",
+      "default": "./icons/arrow-up-long-solid.js"
+    },
+    "./arrow-up-long-duo": {
+      "types": "./icons/arrow-up-long-duo.d.ts",
+      "default": "./icons/arrow-up-long-duo.js"
+    },
+    "./arrow-down-long": {
+      "types": "./icons/arrow-down-long.d.ts",
+      "default": "./icons/arrow-down-long.js"
+    },
+    "./arrow-down-long-solid": {
+      "types": "./icons/arrow-down-long-solid.d.ts",
+      "default": "./icons/arrow-down-long-solid.js"
+    },
+    "./arrow-down-long-duo": {
+      "types": "./icons/arrow-down-long-duo.d.ts",
+      "default": "./icons/arrow-down-long-duo.js"
+    },
+    "./arrow-left-long": {
+      "types": "./icons/arrow-left-long.d.ts",
+      "default": "./icons/arrow-left-long.js"
+    },
+    "./arrow-left-long-solid": {
+      "types": "./icons/arrow-left-long-solid.d.ts",
+      "default": "./icons/arrow-left-long-solid.js"
+    },
+    "./arrow-left-long-duo": {
+      "types": "./icons/arrow-left-long-duo.d.ts",
+      "default": "./icons/arrow-left-long-duo.js"
+    },
+    "./arrow-right-long": {
+      "types": "./icons/arrow-right-long.d.ts",
+      "default": "./icons/arrow-right-long.js"
+    },
+    "./arrow-right-long-solid": {
+      "types": "./icons/arrow-right-long-solid.d.ts",
+      "default": "./icons/arrow-right-long-solid.js"
+    },
+    "./arrow-right-long-duo": {
+      "types": "./icons/arrow-right-long-duo.d.ts",
+      "default": "./icons/arrow-right-long-duo.js"
+    },
+    "./arrow-u-turn-down-line": {
+      "types": "./icons/arrow-u-turn-down-line.d.ts",
+      "default": "./icons/arrow-u-turn-down-line.js"
+    },
+    "./arrow-u-turn-down-line-solid": {
+      "types": "./icons/arrow-u-turn-down-line-solid.d.ts",
+      "default": "./icons/arrow-u-turn-down-line-solid.js"
+    },
+    "./arrow-u-turn-down-line-duo": {
+      "types": "./icons/arrow-u-turn-down-line-duo.d.ts",
+      "default": "./icons/arrow-u-turn-down-line-duo.js"
+    },
+    "./arrow-u-turn-down-line-flip": {
+      "types": "./icons/arrow-u-turn-down-line-flip.d.ts",
+      "default": "./icons/arrow-u-turn-down-line-flip.js"
+    },
+    "./arrow-u-turn-down-line-flip-solid": {
+      "types": "./icons/arrow-u-turn-down-line-flip-solid.d.ts",
+      "default": "./icons/arrow-u-turn-down-line-flip-solid.js"
+    },
+    "./arrow-u-turn-down-line-flip-duo": {
+      "types": "./icons/arrow-u-turn-down-line-flip-duo.d.ts",
+      "default": "./icons/arrow-u-turn-down-line-flip-duo.js"
+    },
+    "./arrow-u-turn-up-line": {
+      "types": "./icons/arrow-u-turn-up-line.d.ts",
+      "default": "./icons/arrow-u-turn-up-line.js"
+    },
+    "./arrow-u-turn-up-line-solid": {
+      "types": "./icons/arrow-u-turn-up-line-solid.d.ts",
+      "default": "./icons/arrow-u-turn-up-line-solid.js"
+    },
+    "./arrow-u-turn-up-line-duo": {
+      "types": "./icons/arrow-u-turn-up-line-duo.d.ts",
+      "default": "./icons/arrow-u-turn-up-line-duo.js"
+    },
+    "./arrow-u-turn-up-line-flip": {
+      "types": "./icons/arrow-u-turn-up-line-flip.d.ts",
+      "default": "./icons/arrow-u-turn-up-line-flip.js"
+    },
+    "./arrow-u-turn-up-line-flip-solid": {
+      "types": "./icons/arrow-u-turn-up-line-flip-solid.d.ts",
+      "default": "./icons/arrow-u-turn-up-line-flip-solid.js"
+    },
+    "./arrow-u-turn-up-line-flip-duo": {
+      "types": "./icons/arrow-u-turn-up-line-flip-duo.d.ts",
+      "default": "./icons/arrow-u-turn-up-line-flip-duo.js"
+    },
+    "./arrow-u-turn-left-line": {
+      "types": "./icons/arrow-u-turn-left-line.d.ts",
+      "default": "./icons/arrow-u-turn-left-line.js"
+    },
+    "./arrow-u-turn-left-line-solid": {
+      "types": "./icons/arrow-u-turn-left-line-solid.d.ts",
+      "default": "./icons/arrow-u-turn-left-line-solid.js"
+    },
+    "./arrow-u-turn-left-line-duo": {
+      "types": "./icons/arrow-u-turn-left-line-duo.d.ts",
+      "default": "./icons/arrow-u-turn-left-line-duo.js"
+    },
+    "./arrow-u-turn-left-line-flip": {
+      "types": "./icons/arrow-u-turn-left-line-flip.d.ts",
+      "default": "./icons/arrow-u-turn-left-line-flip.js"
+    },
+    "./arrow-u-turn-left-line-flip-solid": {
+      "types": "./icons/arrow-u-turn-left-line-flip-solid.d.ts",
+      "default": "./icons/arrow-u-turn-left-line-flip-solid.js"
+    },
+    "./arrow-u-turn-left-line-flip-duo": {
+      "types": "./icons/arrow-u-turn-left-line-flip-duo.d.ts",
+      "default": "./icons/arrow-u-turn-left-line-flip-duo.js"
+    },
+    "./arrow-u-turn-right-line": {
+      "types": "./icons/arrow-u-turn-right-line.d.ts",
+      "default": "./icons/arrow-u-turn-right-line.js"
+    },
+    "./arrow-u-turn-right-line-solid": {
+      "types": "./icons/arrow-u-turn-right-line-solid.d.ts",
+      "default": "./icons/arrow-u-turn-right-line-solid.js"
+    },
+    "./arrow-u-turn-right-line-duo": {
+      "types": "./icons/arrow-u-turn-right-line-duo.d.ts",
+      "default": "./icons/arrow-u-turn-right-line-duo.js"
+    },
+    "./arrow-u-turn-right-line-flip": {
+      "types": "./icons/arrow-u-turn-right-line-flip.d.ts",
+      "default": "./icons/arrow-u-turn-right-line-flip.js"
+    },
+    "./arrow-u-turn-right-line-flip-solid": {
+      "types": "./icons/arrow-u-turn-right-line-flip-solid.d.ts",
+      "default": "./icons/arrow-u-turn-right-line-flip-solid.js"
+    },
+    "./arrow-u-turn-right-line-flip-duo": {
+      "types": "./icons/arrow-u-turn-right-line-flip-duo.d.ts",
+      "default": "./icons/arrow-u-turn-right-line-flip-duo.js"
+    },
+    "./arrow-up-through-line": {
+      "types": "./icons/arrow-up-through-line.d.ts",
+      "default": "./icons/arrow-up-through-line.js"
+    },
+    "./arrow-up-through-line-solid": {
+      "types": "./icons/arrow-up-through-line-solid.d.ts",
+      "default": "./icons/arrow-up-through-line-solid.js"
+    },
+    "./arrow-up-through-line-duo": {
+      "types": "./icons/arrow-up-through-line-duo.d.ts",
+      "default": "./icons/arrow-up-through-line-duo.js"
+    },
+    "./arrow-down-through-line": {
+      "types": "./icons/arrow-down-through-line.d.ts",
+      "default": "./icons/arrow-down-through-line.js"
+    },
+    "./arrow-down-through-line-solid": {
+      "types": "./icons/arrow-down-through-line-solid.d.ts",
+      "default": "./icons/arrow-down-through-line-solid.js"
+    },
+    "./arrow-down-through-line-duo": {
+      "types": "./icons/arrow-down-through-line-duo.d.ts",
+      "default": "./icons/arrow-down-through-line-duo.js"
+    },
+    "./arrow-left-through-line": {
+      "types": "./icons/arrow-left-through-line.d.ts",
+      "default": "./icons/arrow-left-through-line.js"
+    },
+    "./arrow-left-through-line-solid": {
+      "types": "./icons/arrow-left-through-line-solid.d.ts",
+      "default": "./icons/arrow-left-through-line-solid.js"
+    },
+    "./arrow-left-through-line-duo": {
+      "types": "./icons/arrow-left-through-line-duo.d.ts",
+      "default": "./icons/arrow-left-through-line-duo.js"
+    },
+    "./arrow-right-through-line": {
+      "types": "./icons/arrow-right-through-line.d.ts",
+      "default": "./icons/arrow-right-through-line.js"
+    },
+    "./arrow-right-through-line-solid": {
+      "types": "./icons/arrow-right-through-line-solid.d.ts",
+      "default": "./icons/arrow-right-through-line-solid.js"
+    },
+    "./arrow-right-through-line-duo": {
+      "types": "./icons/arrow-right-through-line-duo.d.ts",
+      "default": "./icons/arrow-right-through-line-duo.js"
+    },
+    "./arrow-big-up-dash": {
+      "types": "./icons/arrow-big-up-dash.d.ts",
+      "default": "./icons/arrow-big-up-dash.js"
+    },
+    "./arrow-big-up-dash-solid": {
+      "types": "./icons/arrow-big-up-dash-solid.d.ts",
+      "default": "./icons/arrow-big-up-dash-solid.js"
+    },
+    "./arrow-big-up-dash-duo": {
+      "types": "./icons/arrow-big-up-dash-duo.d.ts",
+      "default": "./icons/arrow-big-up-dash-duo.js"
+    },
+    "./arrow-big-right-dash": {
+      "types": "./icons/arrow-big-right-dash.d.ts",
+      "default": "./icons/arrow-big-right-dash.js"
+    },
+    "./arrow-big-right-dash-solid": {
+      "types": "./icons/arrow-big-right-dash-solid.d.ts",
+      "default": "./icons/arrow-big-right-dash-solid.js"
+    },
+    "./arrow-big-right-dash-duo": {
+      "types": "./icons/arrow-big-right-dash-duo.d.ts",
+      "default": "./icons/arrow-big-right-dash-duo.js"
+    },
+    "./arrow-big-down-dash": {
+      "types": "./icons/arrow-big-down-dash.d.ts",
+      "default": "./icons/arrow-big-down-dash.js"
+    },
+    "./arrow-big-down-dash-solid": {
+      "types": "./icons/arrow-big-down-dash-solid.d.ts",
+      "default": "./icons/arrow-big-down-dash-solid.js"
+    },
+    "./arrow-big-down-dash-duo": {
+      "types": "./icons/arrow-big-down-dash-duo.d.ts",
+      "default": "./icons/arrow-big-down-dash-duo.js"
+    },
+    "./arrow-big-left-dash": {
+      "types": "./icons/arrow-big-left-dash.d.ts",
+      "default": "./icons/arrow-big-left-dash.js"
+    },
+    "./arrow-big-left-dash-solid": {
+      "types": "./icons/arrow-big-left-dash-solid.d.ts",
+      "default": "./icons/arrow-big-left-dash-solid.js"
+    },
+    "./arrow-big-left-dash-duo": {
+      "types": "./icons/arrow-big-left-dash-duo.d.ts",
+      "default": "./icons/arrow-big-left-dash-duo.js"
+    },
+    "./chevron-triple-up": {
+      "types": "./icons/chevron-triple-up.d.ts",
+      "default": "./icons/chevron-triple-up.js"
+    },
+    "./chevron-triple-up-solid": {
+      "types": "./icons/chevron-triple-up-solid.d.ts",
+      "default": "./icons/chevron-triple-up-solid.js"
+    },
+    "./chevron-triple-up-duo": {
+      "types": "./icons/chevron-triple-up-duo.d.ts",
+      "default": "./icons/chevron-triple-up-duo.js"
+    },
+    "./chevron-triple-down": {
+      "types": "./icons/chevron-triple-down.d.ts",
+      "default": "./icons/chevron-triple-down.js"
+    },
+    "./chevron-triple-down-solid": {
+      "types": "./icons/chevron-triple-down-solid.d.ts",
+      "default": "./icons/chevron-triple-down-solid.js"
+    },
+    "./chevron-triple-down-duo": {
+      "types": "./icons/chevron-triple-down-duo.d.ts",
+      "default": "./icons/chevron-triple-down-duo.js"
+    },
+    "./symmetry-horizontal": {
+      "types": "./icons/symmetry-horizontal.d.ts",
+      "default": "./icons/symmetry-horizontal.js"
+    },
+    "./symmetry-horizontal-solid": {
+      "types": "./icons/symmetry-horizontal-solid.d.ts",
+      "default": "./icons/symmetry-horizontal-solid.js"
+    },
+    "./symmetry-horizontal-duo": {
+      "types": "./icons/symmetry-horizontal-duo.d.ts",
+      "default": "./icons/symmetry-horizontal-duo.js"
+    },
+    "./symmetry-vertical": {
+      "types": "./icons/symmetry-vertical.d.ts",
+      "default": "./icons/symmetry-vertical.js"
+    },
+    "./symmetry-vertical-solid": {
+      "types": "./icons/symmetry-vertical-solid.d.ts",
+      "default": "./icons/symmetry-vertical-solid.js"
+    },
+    "./symmetry-vertical-duo": {
+      "types": "./icons/symmetry-vertical-duo.d.ts",
+      "default": "./icons/symmetry-vertical-duo.js"
+    },
     "./mail": {
       "types": "./icons/mail.d.ts",
       "default": "./icons/mail.js"
@@ -3363,6 +4155,42 @@
     "./foldable-stand-duo": {
       "types": "./icons/foldable-stand-duo.d.ts",
       "default": "./icons/foldable-stand-duo.js"
+    },
+    "./mail-dot": {
+      "types": "./icons/mail-dot.d.ts",
+      "default": "./icons/mail-dot.js"
+    },
+    "./mail-dot-solid": {
+      "types": "./icons/mail-dot-solid.d.ts",
+      "default": "./icons/mail-dot-solid.js"
+    },
+    "./mail-dot-duo": {
+      "types": "./icons/mail-dot-duo.d.ts",
+      "default": "./icons/mail-dot-duo.js"
+    },
+    "./inbox-dot": {
+      "types": "./icons/inbox-dot.d.ts",
+      "default": "./icons/inbox-dot.js"
+    },
+    "./inbox-dot-solid": {
+      "types": "./icons/inbox-dot-solid.d.ts",
+      "default": "./icons/inbox-dot-solid.js"
+    },
+    "./inbox-dot-duo": {
+      "types": "./icons/inbox-dot-duo.d.ts",
+      "default": "./icons/inbox-dot-duo.js"
+    },
+    "./message-square-dot": {
+      "types": "./icons/message-square-dot.d.ts",
+      "default": "./icons/message-square-dot.js"
+    },
+    "./message-square-dot-solid": {
+      "types": "./icons/message-square-dot-solid.d.ts",
+      "default": "./icons/message-square-dot-solid.js"
+    },
+    "./message-square-dot-duo": {
+      "types": "./icons/message-square-dot-duo.d.ts",
+      "default": "./icons/message-square-dot-duo.js"
     },
     "./play": {
       "types": "./icons/play.d.ts",
@@ -4287,6 +5115,258 @@
     "./gallery-vertical-duo": {
       "types": "./icons/gallery-vertical-duo.d.ts",
       "default": "./icons/gallery-vertical-duo.js"
+    },
+    "./image-plus": {
+      "types": "./icons/image-plus.d.ts",
+      "default": "./icons/image-plus.js"
+    },
+    "./image-plus-solid": {
+      "types": "./icons/image-plus-solid.d.ts",
+      "default": "./icons/image-plus-solid.js"
+    },
+    "./image-plus-duo": {
+      "types": "./icons/image-plus-duo.d.ts",
+      "default": "./icons/image-plus-duo.js"
+    },
+    "./image-check": {
+      "types": "./icons/image-check.d.ts",
+      "default": "./icons/image-check.js"
+    },
+    "./image-check-solid": {
+      "types": "./icons/image-check-solid.d.ts",
+      "default": "./icons/image-check-solid.js"
+    },
+    "./image-check-duo": {
+      "types": "./icons/image-check-duo.d.ts",
+      "default": "./icons/image-check-duo.js"
+    },
+    "./image-minus": {
+      "types": "./icons/image-minus.d.ts",
+      "default": "./icons/image-minus.js"
+    },
+    "./image-minus-solid": {
+      "types": "./icons/image-minus-solid.d.ts",
+      "default": "./icons/image-minus-solid.js"
+    },
+    "./image-minus-duo": {
+      "types": "./icons/image-minus-duo.d.ts",
+      "default": "./icons/image-minus-duo.js"
+    },
+    "./image-x": {
+      "types": "./icons/image-x.d.ts",
+      "default": "./icons/image-x.js"
+    },
+    "./image-x-solid": {
+      "types": "./icons/image-x-solid.d.ts",
+      "default": "./icons/image-x-solid.js"
+    },
+    "./image-x-duo": {
+      "types": "./icons/image-x-duo.d.ts",
+      "default": "./icons/image-x-duo.js"
+    },
+    "./image-off": {
+      "types": "./icons/image-off.d.ts",
+      "default": "./icons/image-off.js"
+    },
+    "./image-off-solid": {
+      "types": "./icons/image-off-solid.d.ts",
+      "default": "./icons/image-off-solid.js"
+    },
+    "./image-off-duo": {
+      "types": "./icons/image-off-duo.d.ts",
+      "default": "./icons/image-off-duo.js"
+    },
+    "./server-cog": {
+      "types": "./icons/server-cog.d.ts",
+      "default": "./icons/server-cog.js"
+    },
+    "./server-cog-solid": {
+      "types": "./icons/server-cog-solid.d.ts",
+      "default": "./icons/server-cog-solid.js"
+    },
+    "./server-cog-duo": {
+      "types": "./icons/server-cog-duo.d.ts",
+      "default": "./icons/server-cog-duo.js"
+    },
+    "./plug-zap": {
+      "types": "./icons/plug-zap.d.ts",
+      "default": "./icons/plug-zap.js"
+    },
+    "./plug-zap-solid": {
+      "types": "./icons/plug-zap-solid.d.ts",
+      "default": "./icons/plug-zap-solid.js"
+    },
+    "./plug-zap-duo": {
+      "types": "./icons/plug-zap-duo.d.ts",
+      "default": "./icons/plug-zap-duo.js"
+    },
+    "./plug-circle": {
+      "types": "./icons/plug-circle.d.ts",
+      "default": "./icons/plug-circle.js"
+    },
+    "./plug-circle-solid": {
+      "types": "./icons/plug-circle-solid.d.ts",
+      "default": "./icons/plug-circle-solid.js"
+    },
+    "./plug-circle-duo": {
+      "types": "./icons/plug-circle-duo.d.ts",
+      "default": "./icons/plug-circle-duo.js"
+    },
+    "./gallery-thumbnails": {
+      "types": "./icons/gallery-thumbnails.d.ts",
+      "default": "./icons/gallery-thumbnails.js"
+    },
+    "./gallery-thumbnails-solid": {
+      "types": "./icons/gallery-thumbnails-solid.d.ts",
+      "default": "./icons/gallery-thumbnails-solid.js"
+    },
+    "./gallery-thumbnails-duo": {
+      "types": "./icons/gallery-thumbnails-duo.d.ts",
+      "default": "./icons/gallery-thumbnails-duo.js"
+    },
+    "./play-pause": {
+      "types": "./icons/play-pause.d.ts",
+      "default": "./icons/play-pause.js"
+    },
+    "./play-pause-solid": {
+      "types": "./icons/play-pause-solid.d.ts",
+      "default": "./icons/play-pause-solid.js"
+    },
+    "./play-pause-duo": {
+      "types": "./icons/play-pause-duo.d.ts",
+      "default": "./icons/play-pause-duo.js"
+    },
+    "./monitor-check": {
+      "types": "./icons/monitor-check.d.ts",
+      "default": "./icons/monitor-check.js"
+    },
+    "./monitor-check-solid": {
+      "types": "./icons/monitor-check-solid.d.ts",
+      "default": "./icons/monitor-check-solid.js"
+    },
+    "./monitor-check-duo": {
+      "types": "./icons/monitor-check-duo.d.ts",
+      "default": "./icons/monitor-check-duo.js"
+    },
+    "./monitor-x": {
+      "types": "./icons/monitor-x.d.ts",
+      "default": "./icons/monitor-x.js"
+    },
+    "./monitor-x-solid": {
+      "types": "./icons/monitor-x-solid.d.ts",
+      "default": "./icons/monitor-x-solid.js"
+    },
+    "./monitor-x-duo": {
+      "types": "./icons/monitor-x-duo.d.ts",
+      "default": "./icons/monitor-x-duo.js"
+    },
+    "./monitor-plus": {
+      "types": "./icons/monitor-plus.d.ts",
+      "default": "./icons/monitor-plus.js"
+    },
+    "./monitor-plus-solid": {
+      "types": "./icons/monitor-plus-solid.d.ts",
+      "default": "./icons/monitor-plus-solid.js"
+    },
+    "./monitor-plus-duo": {
+      "types": "./icons/monitor-plus-duo.d.ts",
+      "default": "./icons/monitor-plus-duo.js"
+    },
+    "./monitor-minus": {
+      "types": "./icons/monitor-minus.d.ts",
+      "default": "./icons/monitor-minus.js"
+    },
+    "./monitor-minus-solid": {
+      "types": "./icons/monitor-minus-solid.d.ts",
+      "default": "./icons/monitor-minus-solid.js"
+    },
+    "./monitor-minus-duo": {
+      "types": "./icons/monitor-minus-duo.d.ts",
+      "default": "./icons/monitor-minus-duo.js"
+    },
+    "./monitor-cog": {
+      "types": "./icons/monitor-cog.d.ts",
+      "default": "./icons/monitor-cog.js"
+    },
+    "./monitor-cog-solid": {
+      "types": "./icons/monitor-cog-solid.d.ts",
+      "default": "./icons/monitor-cog-solid.js"
+    },
+    "./monitor-cog-duo": {
+      "types": "./icons/monitor-cog-duo.d.ts",
+      "default": "./icons/monitor-cog-duo.js"
+    },
+    "./monitor-dot": {
+      "types": "./icons/monitor-dot.d.ts",
+      "default": "./icons/monitor-dot.js"
+    },
+    "./monitor-dot-solid": {
+      "types": "./icons/monitor-dot-solid.d.ts",
+      "default": "./icons/monitor-dot-solid.js"
+    },
+    "./monitor-dot-duo": {
+      "types": "./icons/monitor-dot-duo.d.ts",
+      "default": "./icons/monitor-dot-duo.js"
+    },
+    "./monitor-down": {
+      "types": "./icons/monitor-down.d.ts",
+      "default": "./icons/monitor-down.js"
+    },
+    "./monitor-down-solid": {
+      "types": "./icons/monitor-down-solid.d.ts",
+      "default": "./icons/monitor-down-solid.js"
+    },
+    "./monitor-down-duo": {
+      "types": "./icons/monitor-down-duo.d.ts",
+      "default": "./icons/monitor-down-duo.js"
+    },
+    "./monitor-up": {
+      "types": "./icons/monitor-up.d.ts",
+      "default": "./icons/monitor-up.js"
+    },
+    "./monitor-up-solid": {
+      "types": "./icons/monitor-up-solid.d.ts",
+      "default": "./icons/monitor-up-solid.js"
+    },
+    "./monitor-up-duo": {
+      "types": "./icons/monitor-up-duo.d.ts",
+      "default": "./icons/monitor-up-duo.js"
+    },
+    "./monitor-pause": {
+      "types": "./icons/monitor-pause.d.ts",
+      "default": "./icons/monitor-pause.js"
+    },
+    "./monitor-pause-solid": {
+      "types": "./icons/monitor-pause-solid.d.ts",
+      "default": "./icons/monitor-pause-solid.js"
+    },
+    "./monitor-pause-duo": {
+      "types": "./icons/monitor-pause-duo.d.ts",
+      "default": "./icons/monitor-pause-duo.js"
+    },
+    "./monitor-stop": {
+      "types": "./icons/monitor-stop.d.ts",
+      "default": "./icons/monitor-stop.js"
+    },
+    "./monitor-stop-solid": {
+      "types": "./icons/monitor-stop-solid.d.ts",
+      "default": "./icons/monitor-stop-solid.js"
+    },
+    "./monitor-stop-duo": {
+      "types": "./icons/monitor-stop-duo.d.ts",
+      "default": "./icons/monitor-stop-duo.js"
+    },
+    "./monitor-speaker": {
+      "types": "./icons/monitor-speaker.d.ts",
+      "default": "./icons/monitor-speaker.js"
+    },
+    "./monitor-speaker-solid": {
+      "types": "./icons/monitor-speaker-solid.d.ts",
+      "default": "./icons/monitor-speaker-solid.js"
+    },
+    "./monitor-speaker-duo": {
+      "types": "./icons/monitor-speaker-duo.d.ts",
+      "default": "./icons/monitor-speaker-duo.js"
     },
     "./file": {
       "types": "./icons/file.d.ts",
@@ -5296,6 +6376,102 @@
       "types": "./icons/file-pdf-duo.d.ts",
       "default": "./icons/file-pdf-duo.js"
     },
+    "./file-cog": {
+      "types": "./icons/file-cog.d.ts",
+      "default": "./icons/file-cog.js"
+    },
+    "./file-cog-solid": {
+      "types": "./icons/file-cog-solid.d.ts",
+      "default": "./icons/file-cog-solid.js"
+    },
+    "./file-cog-duo": {
+      "types": "./icons/file-cog-duo.d.ts",
+      "default": "./icons/file-cog-duo.js"
+    },
+    "./folder-cog": {
+      "types": "./icons/folder-cog.d.ts",
+      "default": "./icons/folder-cog.js"
+    },
+    "./folder-cog-solid": {
+      "types": "./icons/folder-cog-solid.d.ts",
+      "default": "./icons/folder-cog-solid.js"
+    },
+    "./folder-cog-duo": {
+      "types": "./icons/folder-cog-duo.d.ts",
+      "default": "./icons/folder-cog-duo.js"
+    },
+    "./cloud-search": {
+      "types": "./icons/cloud-search.d.ts",
+      "default": "./icons/cloud-search.js"
+    },
+    "./cloud-search-solid": {
+      "types": "./icons/cloud-search-solid.d.ts",
+      "default": "./icons/cloud-search-solid.js"
+    },
+    "./cloud-search-duo": {
+      "types": "./icons/cloud-search-duo.d.ts",
+      "default": "./icons/cloud-search-duo.js"
+    },
+    "./copy-plus": {
+      "types": "./icons/copy-plus.d.ts",
+      "default": "./icons/copy-plus.js"
+    },
+    "./copy-plus-solid": {
+      "types": "./icons/copy-plus-solid.d.ts",
+      "default": "./icons/copy-plus-solid.js"
+    },
+    "./copy-plus-duo": {
+      "types": "./icons/copy-plus-duo.d.ts",
+      "default": "./icons/copy-plus-duo.js"
+    },
+    "./copy-check": {
+      "types": "./icons/copy-check.d.ts",
+      "default": "./icons/copy-check.js"
+    },
+    "./copy-check-solid": {
+      "types": "./icons/copy-check-solid.d.ts",
+      "default": "./icons/copy-check-solid.js"
+    },
+    "./copy-check-duo": {
+      "types": "./icons/copy-check-duo.d.ts",
+      "default": "./icons/copy-check-duo.js"
+    },
+    "./copy-minus": {
+      "types": "./icons/copy-minus.d.ts",
+      "default": "./icons/copy-minus.js"
+    },
+    "./copy-minus-solid": {
+      "types": "./icons/copy-minus-solid.d.ts",
+      "default": "./icons/copy-minus-solid.js"
+    },
+    "./copy-minus-duo": {
+      "types": "./icons/copy-minus-duo.d.ts",
+      "default": "./icons/copy-minus-duo.js"
+    },
+    "./copy-x": {
+      "types": "./icons/copy-x.d.ts",
+      "default": "./icons/copy-x.js"
+    },
+    "./copy-x-solid": {
+      "types": "./icons/copy-x-solid.d.ts",
+      "default": "./icons/copy-x-solid.js"
+    },
+    "./copy-x-duo": {
+      "types": "./icons/copy-x-duo.d.ts",
+      "default": "./icons/copy-x-duo.js"
+    },
+    "./copy-off": {
+      "types": "./icons/copy-off.d.ts",
+      "default": "./icons/copy-off.js"
+    },
+    "./copy-off-solid": {
+      "types": "./icons/copy-off-solid.d.ts",
+      "default": "./icons/copy-off-solid.js"
+    },
+    "./copy-off-duo": {
+      "types": "./icons/copy-off-duo.d.ts",
+      "default": "./icons/copy-off-duo.js"
+    },
     "./credit-card": {
       "types": "./icons/credit-card.d.ts",
       "default": "./icons/credit-card.js"
@@ -5907,6 +7083,30 @@
     "./gift-card-duo": {
       "types": "./icons/gift-card-duo.d.ts",
       "default": "./icons/gift-card-duo.js"
+    },
+    "./weight": {
+      "types": "./icons/weight.d.ts",
+      "default": "./icons/weight.js"
+    },
+    "./weight-solid": {
+      "types": "./icons/weight-solid.d.ts",
+      "default": "./icons/weight-solid.js"
+    },
+    "./weight-duo": {
+      "types": "./icons/weight-duo.d.ts",
+      "default": "./icons/weight-duo.js"
+    },
+    "./weight-tilde": {
+      "types": "./icons/weight-tilde.d.ts",
+      "default": "./icons/weight-tilde.js"
+    },
+    "./weight-tilde-solid": {
+      "types": "./icons/weight-tilde-solid.d.ts",
+      "default": "./icons/weight-tilde-solid.js"
+    },
+    "./weight-tilde-duo": {
+      "types": "./icons/weight-tilde-duo.d.ts",
+      "default": "./icons/weight-tilde-duo.js"
     },
     "./sun": {
       "types": "./icons/sun.d.ts",
@@ -6676,6 +7876,126 @@
       "types": "./icons/gauge-circle-duo.d.ts",
       "default": "./icons/gauge-circle-duo.js"
     },
+    "./database-cog": {
+      "types": "./icons/database-cog.d.ts",
+      "default": "./icons/database-cog.js"
+    },
+    "./database-cog-solid": {
+      "types": "./icons/database-cog-solid.d.ts",
+      "default": "./icons/database-cog-solid.js"
+    },
+    "./database-cog-duo": {
+      "types": "./icons/database-cog-duo.d.ts",
+      "default": "./icons/database-cog-duo.js"
+    },
+    "./database-check": {
+      "types": "./icons/database-check.d.ts",
+      "default": "./icons/database-check.js"
+    },
+    "./database-check-solid": {
+      "types": "./icons/database-check-solid.d.ts",
+      "default": "./icons/database-check-solid.js"
+    },
+    "./database-check-duo": {
+      "types": "./icons/database-check-duo.d.ts",
+      "default": "./icons/database-check-duo.js"
+    },
+    "./database-plus": {
+      "types": "./icons/database-plus.d.ts",
+      "default": "./icons/database-plus.js"
+    },
+    "./database-plus-solid": {
+      "types": "./icons/database-plus-solid.d.ts",
+      "default": "./icons/database-plus-solid.js"
+    },
+    "./database-plus-duo": {
+      "types": "./icons/database-plus-duo.d.ts",
+      "default": "./icons/database-plus-duo.js"
+    },
+    "./database-minus": {
+      "types": "./icons/database-minus.d.ts",
+      "default": "./icons/database-minus.js"
+    },
+    "./database-minus-solid": {
+      "types": "./icons/database-minus-solid.d.ts",
+      "default": "./icons/database-minus-solid.js"
+    },
+    "./database-minus-duo": {
+      "types": "./icons/database-minus-duo.d.ts",
+      "default": "./icons/database-minus-duo.js"
+    },
+    "./database-x": {
+      "types": "./icons/database-x.d.ts",
+      "default": "./icons/database-x.js"
+    },
+    "./database-x-solid": {
+      "types": "./icons/database-x-solid.d.ts",
+      "default": "./icons/database-x-solid.js"
+    },
+    "./database-x-duo": {
+      "types": "./icons/database-x-duo.d.ts",
+      "default": "./icons/database-x-duo.js"
+    },
+    "./database-search": {
+      "types": "./icons/database-search.d.ts",
+      "default": "./icons/database-search.js"
+    },
+    "./database-search-solid": {
+      "types": "./icons/database-search-solid.d.ts",
+      "default": "./icons/database-search-solid.js"
+    },
+    "./database-search-duo": {
+      "types": "./icons/database-search-duo.d.ts",
+      "default": "./icons/database-search-duo.js"
+    },
+    "./tally-1": {
+      "types": "./icons/tally-1.d.ts",
+      "default": "./icons/tally-1.js"
+    },
+    "./tally-1-solid": {
+      "types": "./icons/tally-1-solid.d.ts",
+      "default": "./icons/tally-1-solid.js"
+    },
+    "./tally-1-duo": {
+      "types": "./icons/tally-1-duo.d.ts",
+      "default": "./icons/tally-1-duo.js"
+    },
+    "./tally-2": {
+      "types": "./icons/tally-2.d.ts",
+      "default": "./icons/tally-2.js"
+    },
+    "./tally-2-solid": {
+      "types": "./icons/tally-2-solid.d.ts",
+      "default": "./icons/tally-2-solid.js"
+    },
+    "./tally-2-duo": {
+      "types": "./icons/tally-2-duo.d.ts",
+      "default": "./icons/tally-2-duo.js"
+    },
+    "./tally-3": {
+      "types": "./icons/tally-3.d.ts",
+      "default": "./icons/tally-3.js"
+    },
+    "./tally-3-solid": {
+      "types": "./icons/tally-3-solid.d.ts",
+      "default": "./icons/tally-3-solid.js"
+    },
+    "./tally-3-duo": {
+      "types": "./icons/tally-3-duo.d.ts",
+      "default": "./icons/tally-3-duo.js"
+    },
+    "./tally-4": {
+      "types": "./icons/tally-4.d.ts",
+      "default": "./icons/tally-4.js"
+    },
+    "./tally-4-solid": {
+      "types": "./icons/tally-4-solid.d.ts",
+      "default": "./icons/tally-4-solid.js"
+    },
+    "./tally-4-duo": {
+      "types": "./icons/tally-4-duo.d.ts",
+      "default": "./icons/tally-4-duo.js"
+    },
     "./calendar-plus": {
       "types": "./icons/calendar-plus.d.ts",
       "default": "./icons/calendar-plus.js"
@@ -7276,6 +8596,54 @@
       "types": "./icons/milestone-duo.d.ts",
       "default": "./icons/milestone-duo.js"
     },
+    "./directions": {
+      "types": "./icons/directions.d.ts",
+      "default": "./icons/directions.js"
+    },
+    "./directions-solid": {
+      "types": "./icons/directions-solid.d.ts",
+      "default": "./icons/directions-solid.js"
+    },
+    "./directions-duo": {
+      "types": "./icons/directions-duo.d.ts",
+      "default": "./icons/directions-duo.js"
+    },
+    "./globe-cog": {
+      "types": "./icons/globe-cog.d.ts",
+      "default": "./icons/globe-cog.js"
+    },
+    "./globe-cog-solid": {
+      "types": "./icons/globe-cog-solid.d.ts",
+      "default": "./icons/globe-cog-solid.js"
+    },
+    "./globe-cog-duo": {
+      "types": "./icons/globe-cog-duo.d.ts",
+      "default": "./icons/globe-cog-duo.js"
+    },
+    "./map-pin-2": {
+      "types": "./icons/map-pin-2.d.ts",
+      "default": "./icons/map-pin-2.js"
+    },
+    "./map-pin-2-solid": {
+      "types": "./icons/map-pin-2-solid.d.ts",
+      "default": "./icons/map-pin-2-solid.js"
+    },
+    "./map-pin-2-duo": {
+      "types": "./icons/map-pin-2-duo.d.ts",
+      "default": "./icons/map-pin-2-duo.js"
+    },
+    "./flag-swallowtail": {
+      "types": "./icons/flag-swallowtail.d.ts",
+      "default": "./icons/flag-swallowtail.js"
+    },
+    "./flag-swallowtail-solid": {
+      "types": "./icons/flag-swallowtail-solid.d.ts",
+      "default": "./icons/flag-swallowtail-solid.js"
+    },
+    "./flag-swallowtail-duo": {
+      "types": "./icons/flag-swallowtail-duo.d.ts",
+      "default": "./icons/flag-swallowtail-duo.js"
+    },
     "./type": {
       "types": "./icons/type.d.ts",
       "default": "./icons/type.js"
@@ -7827,6 +9195,270 @@
     "./paragraph-spacing-duo": {
       "types": "./icons/paragraph-spacing-duo.d.ts",
       "default": "./icons/paragraph-spacing-duo.js"
+    },
+    "./input": {
+      "types": "./icons/input.d.ts",
+      "default": "./icons/input.js"
+    },
+    "./input-solid": {
+      "types": "./icons/input-solid.d.ts",
+      "default": "./icons/input-solid.js"
+    },
+    "./input-duo": {
+      "types": "./icons/input-duo.d.ts",
+      "default": "./icons/input-duo.js"
+    },
+    "./input-text-cursor": {
+      "types": "./icons/input-text-cursor.d.ts",
+      "default": "./icons/input-text-cursor.js"
+    },
+    "./input-text-cursor-solid": {
+      "types": "./icons/input-text-cursor-solid.d.ts",
+      "default": "./icons/input-text-cursor-solid.js"
+    },
+    "./input-text-cursor-duo": {
+      "types": "./icons/input-text-cursor-duo.d.ts",
+      "default": "./icons/input-text-cursor-duo.js"
+    },
+    "./input-cursor": {
+      "types": "./icons/input-cursor.d.ts",
+      "default": "./icons/input-cursor.js"
+    },
+    "./input-cursor-solid": {
+      "types": "./icons/input-cursor-solid.d.ts",
+      "default": "./icons/input-cursor-solid.js"
+    },
+    "./input-cursor-duo": {
+      "types": "./icons/input-cursor-duo.d.ts",
+      "default": "./icons/input-cursor-duo.js"
+    },
+    "./input-sparkles": {
+      "types": "./icons/input-sparkles.d.ts",
+      "default": "./icons/input-sparkles.js"
+    },
+    "./input-sparkles-solid": {
+      "types": "./icons/input-sparkles-solid.d.ts",
+      "default": "./icons/input-sparkles-solid.js"
+    },
+    "./input-sparkles-duo": {
+      "types": "./icons/input-sparkles-duo.d.ts",
+      "default": "./icons/input-sparkles-duo.js"
+    },
+    "./input-search": {
+      "types": "./icons/input-search.d.ts",
+      "default": "./icons/input-search.js"
+    },
+    "./input-search-solid": {
+      "types": "./icons/input-search-solid.d.ts",
+      "default": "./icons/input-search-solid.js"
+    },
+    "./input-search-duo": {
+      "types": "./icons/input-search-duo.d.ts",
+      "default": "./icons/input-search-duo.js"
+    },
+    "./text-split": {
+      "types": "./icons/text-split.d.ts",
+      "default": "./icons/text-split.js"
+    },
+    "./text-split-solid": {
+      "types": "./icons/text-split-solid.d.ts",
+      "default": "./icons/text-split-solid.js"
+    },
+    "./text-split-duo": {
+      "types": "./icons/text-split-duo.d.ts",
+      "default": "./icons/text-split-duo.js"
+    },
+    "./text-compact": {
+      "types": "./icons/text-compact.d.ts",
+      "default": "./icons/text-compact.js"
+    },
+    "./text-compact-solid": {
+      "types": "./icons/text-compact-solid.d.ts",
+      "default": "./icons/text-compact-solid.js"
+    },
+    "./text-compact-duo": {
+      "types": "./icons/text-compact-duo.d.ts",
+      "default": "./icons/text-compact-duo.js"
+    },
+    "./list-todo-circle": {
+      "types": "./icons/list-todo-circle.d.ts",
+      "default": "./icons/list-todo-circle.js"
+    },
+    "./list-todo-circle-solid": {
+      "types": "./icons/list-todo-circle-solid.d.ts",
+      "default": "./icons/list-todo-circle-solid.js"
+    },
+    "./list-todo-circle-duo": {
+      "types": "./icons/list-todo-circle-duo.d.ts",
+      "default": "./icons/list-todo-circle-duo.js"
+    },
+    "./pipe": {
+      "types": "./icons/pipe.d.ts",
+      "default": "./icons/pipe.js"
+    },
+    "./pipe-solid": {
+      "types": "./icons/pipe-solid.d.ts",
+      "default": "./icons/pipe-solid.js"
+    },
+    "./pipe-duo": {
+      "types": "./icons/pipe-duo.d.ts",
+      "default": "./icons/pipe-duo.js"
+    },
+    "./colon": {
+      "types": "./icons/colon.d.ts",
+      "default": "./icons/colon.js"
+    },
+    "./colon-solid": {
+      "types": "./icons/colon-solid.d.ts",
+      "default": "./icons/colon-solid.js"
+    },
+    "./colon-duo": {
+      "types": "./icons/colon-duo.d.ts",
+      "default": "./icons/colon-duo.js"
+    },
+    "./semicolon": {
+      "types": "./icons/semicolon.d.ts",
+      "default": "./icons/semicolon.js"
+    },
+    "./semicolon-solid": {
+      "types": "./icons/semicolon-solid.d.ts",
+      "default": "./icons/semicolon-solid.js"
+    },
+    "./semicolon-duo": {
+      "types": "./icons/semicolon-duo.d.ts",
+      "default": "./icons/semicolon-duo.js"
+    },
+    "./comma": {
+      "types": "./icons/comma.d.ts",
+      "default": "./icons/comma.js"
+    },
+    "./comma-solid": {
+      "types": "./icons/comma-solid.d.ts",
+      "default": "./icons/comma-solid.js"
+    },
+    "./comma-duo": {
+      "types": "./icons/comma-duo.d.ts",
+      "default": "./icons/comma-duo.js"
+    },
+    "./accent-grave": {
+      "types": "./icons/accent-grave.d.ts",
+      "default": "./icons/accent-grave.js"
+    },
+    "./accent-grave-solid": {
+      "types": "./icons/accent-grave-solid.d.ts",
+      "default": "./icons/accent-grave-solid.js"
+    },
+    "./accent-grave-duo": {
+      "types": "./icons/accent-grave-duo.d.ts",
+      "default": "./icons/accent-grave-duo.js"
+    },
+    "./tilde": {
+      "types": "./icons/tilde.d.ts",
+      "default": "./icons/tilde.js"
+    },
+    "./tilde-solid": {
+      "types": "./icons/tilde-solid.d.ts",
+      "default": "./icons/tilde-solid.js"
+    },
+    "./tilde-duo": {
+      "types": "./icons/tilde-duo.d.ts",
+      "default": "./icons/tilde-duo.js"
+    },
+    "./align-left-2": {
+      "types": "./icons/align-left-2.d.ts",
+      "default": "./icons/align-left-2.js"
+    },
+    "./align-left-2-solid": {
+      "types": "./icons/align-left-2-solid.d.ts",
+      "default": "./icons/align-left-2-solid.js"
+    },
+    "./align-left-2-duo": {
+      "types": "./icons/align-left-2-duo.d.ts",
+      "default": "./icons/align-left-2-duo.js"
+    },
+    "./align-right-2": {
+      "types": "./icons/align-right-2.d.ts",
+      "default": "./icons/align-right-2.js"
+    },
+    "./align-right-2-solid": {
+      "types": "./icons/align-right-2-solid.d.ts",
+      "default": "./icons/align-right-2-solid.js"
+    },
+    "./align-right-2-duo": {
+      "types": "./icons/align-right-2-duo.d.ts",
+      "default": "./icons/align-right-2-duo.js"
+    },
+    "./list-pin": {
+      "types": "./icons/list-pin.d.ts",
+      "default": "./icons/list-pin.js"
+    },
+    "./list-pin-solid": {
+      "types": "./icons/list-pin-solid.d.ts",
+      "default": "./icons/list-pin-solid.js"
+    },
+    "./list-pin-duo": {
+      "types": "./icons/list-pin-duo.d.ts",
+      "default": "./icons/list-pin-duo.js"
+    },
+    "./function": {
+      "types": "./icons/function.d.ts",
+      "default": "./icons/function.js"
+    },
+    "./function-solid": {
+      "types": "./icons/function-solid.d.ts",
+      "default": "./icons/function-solid.js"
+    },
+    "./function-duo": {
+      "types": "./icons/function-duo.d.ts",
+      "default": "./icons/function-duo.js"
+    },
+    "./pi": {
+      "types": "./icons/pi.d.ts",
+      "default": "./icons/pi.js"
+    },
+    "./pi-solid": {
+      "types": "./icons/pi-solid.d.ts",
+      "default": "./icons/pi-solid.js"
+    },
+    "./pi-duo": {
+      "types": "./icons/pi-duo.d.ts",
+      "default": "./icons/pi-duo.js"
+    },
+    "./lambda": {
+      "types": "./icons/lambda.d.ts",
+      "default": "./icons/lambda.js"
+    },
+    "./lambda-solid": {
+      "types": "./icons/lambda-solid.d.ts",
+      "default": "./icons/lambda-solid.js"
+    },
+    "./lambda-duo": {
+      "types": "./icons/lambda-duo.d.ts",
+      "default": "./icons/lambda-duo.js"
+    },
+    "./omega": {
+      "types": "./icons/omega.d.ts",
+      "default": "./icons/omega.js"
+    },
+    "./omega-solid": {
+      "types": "./icons/omega-solid.d.ts",
+      "default": "./icons/omega-solid.js"
+    },
+    "./omega-duo": {
+      "types": "./icons/omega-duo.d.ts",
+      "default": "./icons/omega-duo.js"
+    },
+    "./phi": {
+      "types": "./icons/phi.d.ts",
+      "default": "./icons/phi.js"
+    },
+    "./phi-solid": {
+      "types": "./icons/phi-solid.d.ts",
+      "default": "./icons/phi-solid.js"
+    },
+    "./phi-duo": {
+      "types": "./icons/phi-duo.d.ts",
+      "default": "./icons/phi-duo.js"
     },
     "./car": {
       "types": "./icons/car.d.ts",
@@ -9688,6 +11320,42 @@
       "types": "./icons/book-open-text-duo.d.ts",
       "default": "./icons/book-open-text-duo.js"
     },
+    "./radius": {
+      "types": "./icons/radius.d.ts",
+      "default": "./icons/radius.js"
+    },
+    "./radius-solid": {
+      "types": "./icons/radius-solid.d.ts",
+      "default": "./icons/radius-solid.js"
+    },
+    "./radius-duo": {
+      "types": "./icons/radius-duo.d.ts",
+      "default": "./icons/radius-duo.js"
+    },
+    "./angle": {
+      "types": "./icons/angle.d.ts",
+      "default": "./icons/angle.js"
+    },
+    "./angle-solid": {
+      "types": "./icons/angle-solid.d.ts",
+      "default": "./icons/angle-solid.js"
+    },
+    "./angle-duo": {
+      "types": "./icons/angle-duo.d.ts",
+      "default": "./icons/angle-duo.js"
+    },
+    "./drafting-compass": {
+      "types": "./icons/drafting-compass.d.ts",
+      "default": "./icons/drafting-compass.js"
+    },
+    "./drafting-compass-solid": {
+      "types": "./icons/drafting-compass-solid.d.ts",
+      "default": "./icons/drafting-compass-solid.js"
+    },
+    "./drafting-compass-duo": {
+      "types": "./icons/drafting-compass-duo.d.ts",
+      "default": "./icons/drafting-compass-duo.js"
+    },
     "./tree": {
       "types": "./icons/tree.d.ts",
       "default": "./icons/tree.js"
@@ -9783,54 +11451,6 @@
     "./feather-duo": {
       "types": "./icons/feather-duo.d.ts",
       "default": "./icons/feather-duo.js"
-    },
-    "./triangle": {
-      "types": "./icons/triangle.d.ts",
-      "default": "./icons/triangle.js"
-    },
-    "./triangle-solid": {
-      "types": "./icons/triangle-solid.d.ts",
-      "default": "./icons/triangle-solid.js"
-    },
-    "./triangle-duo": {
-      "types": "./icons/triangle-duo.d.ts",
-      "default": "./icons/triangle-duo.js"
-    },
-    "./diamond": {
-      "types": "./icons/diamond.d.ts",
-      "default": "./icons/diamond.js"
-    },
-    "./diamond-solid": {
-      "types": "./icons/diamond-solid.d.ts",
-      "default": "./icons/diamond-solid.js"
-    },
-    "./diamond-duo": {
-      "types": "./icons/diamond-duo.d.ts",
-      "default": "./icons/diamond-duo.js"
-    },
-    "./hexagon": {
-      "types": "./icons/hexagon.d.ts",
-      "default": "./icons/hexagon.js"
-    },
-    "./hexagon-solid": {
-      "types": "./icons/hexagon-solid.d.ts",
-      "default": "./icons/hexagon-solid.js"
-    },
-    "./hexagon-duo": {
-      "types": "./icons/hexagon-duo.d.ts",
-      "default": "./icons/hexagon-duo.js"
-    },
-    "./octagon": {
-      "types": "./icons/octagon.d.ts",
-      "default": "./icons/octagon.js"
-    },
-    "./octagon-solid": {
-      "types": "./icons/octagon-solid.d.ts",
-      "default": "./icons/octagon-solid.js"
-    },
-    "./octagon-duo": {
-      "types": "./icons/octagon-duo.d.ts",
-      "default": "./icons/octagon-duo.js"
     },
     "./cat": {
       "types": "./icons/cat.d.ts",
@@ -10012,18 +11632,6 @@
       "types": "./icons/waves-duo.d.ts",
       "default": "./icons/waves-duo.js"
     },
-    "./pentagon": {
-      "types": "./icons/pentagon.d.ts",
-      "default": "./icons/pentagon.js"
-    },
-    "./pentagon-solid": {
-      "types": "./icons/pentagon-solid.d.ts",
-      "default": "./icons/pentagon-solid.js"
-    },
-    "./pentagon-duo": {
-      "types": "./icons/pentagon-duo.d.ts",
-      "default": "./icons/pentagon-duo.js"
-    },
     "./flame": {
       "types": "./icons/flame.d.ts",
       "default": "./icons/flame.js"
@@ -10143,126 +11751,6 @@
     "./flower-2-duo": {
       "types": "./icons/flower-2-duo.d.ts",
       "default": "./icons/flower-2-duo.js"
-    },
-    "./heptagon": {
-      "types": "./icons/heptagon.d.ts",
-      "default": "./icons/heptagon.js"
-    },
-    "./heptagon-solid": {
-      "types": "./icons/heptagon-solid.d.ts",
-      "default": "./icons/heptagon-solid.js"
-    },
-    "./heptagon-duo": {
-      "types": "./icons/heptagon-duo.d.ts",
-      "default": "./icons/heptagon-duo.js"
-    },
-    "./cross": {
-      "types": "./icons/cross.d.ts",
-      "default": "./icons/cross.js"
-    },
-    "./cross-solid": {
-      "types": "./icons/cross-solid.d.ts",
-      "default": "./icons/cross-solid.js"
-    },
-    "./cross-duo": {
-      "types": "./icons/cross-duo.d.ts",
-      "default": "./icons/cross-duo.js"
-    },
-    "./cone": {
-      "types": "./icons/cone.d.ts",
-      "default": "./icons/cone.js"
-    },
-    "./cone-solid": {
-      "types": "./icons/cone-solid.d.ts",
-      "default": "./icons/cone-solid.js"
-    },
-    "./cone-duo": {
-      "types": "./icons/cone-duo.d.ts",
-      "default": "./icons/cone-duo.js"
-    },
-    "./cylinder": {
-      "types": "./icons/cylinder.d.ts",
-      "default": "./icons/cylinder.js"
-    },
-    "./cylinder-solid": {
-      "types": "./icons/cylinder-solid.d.ts",
-      "default": "./icons/cylinder-solid.js"
-    },
-    "./cylinder-duo": {
-      "types": "./icons/cylinder-duo.d.ts",
-      "default": "./icons/cylinder-duo.js"
-    },
-    "./pyramid": {
-      "types": "./icons/pyramid.d.ts",
-      "default": "./icons/pyramid.js"
-    },
-    "./pyramid-solid": {
-      "types": "./icons/pyramid-solid.d.ts",
-      "default": "./icons/pyramid-solid.js"
-    },
-    "./pyramid-duo": {
-      "types": "./icons/pyramid-duo.d.ts",
-      "default": "./icons/pyramid-duo.js"
-    },
-    "./parallelogram": {
-      "types": "./icons/parallelogram.d.ts",
-      "default": "./icons/parallelogram.js"
-    },
-    "./parallelogram-solid": {
-      "types": "./icons/parallelogram-solid.d.ts",
-      "default": "./icons/parallelogram-solid.js"
-    },
-    "./parallelogram-duo": {
-      "types": "./icons/parallelogram-duo.d.ts",
-      "default": "./icons/parallelogram-duo.js"
-    },
-    "./trapezoid": {
-      "types": "./icons/trapezoid.d.ts",
-      "default": "./icons/trapezoid.js"
-    },
-    "./trapezoid-solid": {
-      "types": "./icons/trapezoid-solid.d.ts",
-      "default": "./icons/trapezoid-solid.js"
-    },
-    "./trapezoid-duo": {
-      "types": "./icons/trapezoid-duo.d.ts",
-      "default": "./icons/trapezoid-duo.js"
-    },
-    "./spade": {
-      "types": "./icons/spade.d.ts",
-      "default": "./icons/spade.js"
-    },
-    "./spade-solid": {
-      "types": "./icons/spade-solid.d.ts",
-      "default": "./icons/spade-solid.js"
-    },
-    "./spade-duo": {
-      "types": "./icons/spade-duo.d.ts",
-      "default": "./icons/spade-duo.js"
-    },
-    "./semicircle": {
-      "types": "./icons/semicircle.d.ts",
-      "default": "./icons/semicircle.js"
-    },
-    "./semicircle-solid": {
-      "types": "./icons/semicircle-solid.d.ts",
-      "default": "./icons/semicircle-solid.js"
-    },
-    "./semicircle-duo": {
-      "types": "./icons/semicircle-duo.d.ts",
-      "default": "./icons/semicircle-duo.js"
-    },
-    "./club": {
-      "types": "./icons/club.d.ts",
-      "default": "./icons/club.js"
-    },
-    "./club-solid": {
-      "types": "./icons/club-solid.d.ts",
-      "default": "./icons/club-solid.js"
-    },
-    "./club-duo": {
-      "types": "./icons/club-duo.d.ts",
-      "default": "./icons/club-duo.js"
     },
     "./cow": {
       "types": "./icons/cow.d.ts",
@@ -10551,6 +12039,234 @@
     "./grapevine-duo": {
       "types": "./icons/grapevine-duo.d.ts",
       "default": "./icons/grapevine-duo.js"
+    },
+    "./triangle": {
+      "types": "./icons/triangle.d.ts",
+      "default": "./icons/triangle.js"
+    },
+    "./triangle-solid": {
+      "types": "./icons/triangle-solid.d.ts",
+      "default": "./icons/triangle-solid.js"
+    },
+    "./triangle-duo": {
+      "types": "./icons/triangle-duo.d.ts",
+      "default": "./icons/triangle-duo.js"
+    },
+    "./triangle-right": {
+      "types": "./icons/triangle-right.d.ts",
+      "default": "./icons/triangle-right.js"
+    },
+    "./triangle-right-solid": {
+      "types": "./icons/triangle-right-solid.d.ts",
+      "default": "./icons/triangle-right-solid.js"
+    },
+    "./triangle-right-duo": {
+      "types": "./icons/triangle-right-duo.d.ts",
+      "default": "./icons/triangle-right-duo.js"
+    },
+    "./triangle-dot": {
+      "types": "./icons/triangle-dot.d.ts",
+      "default": "./icons/triangle-dot.js"
+    },
+    "./triangle-dot-solid": {
+      "types": "./icons/triangle-dot-solid.d.ts",
+      "default": "./icons/triangle-dot-solid.js"
+    },
+    "./triangle-dot-duo": {
+      "types": "./icons/triangle-dot-duo.d.ts",
+      "default": "./icons/triangle-dot-duo.js"
+    },
+    "./diamond": {
+      "types": "./icons/diamond.d.ts",
+      "default": "./icons/diamond.js"
+    },
+    "./diamond-solid": {
+      "types": "./icons/diamond-solid.d.ts",
+      "default": "./icons/diamond-solid.js"
+    },
+    "./diamond-duo": {
+      "types": "./icons/diamond-duo.d.ts",
+      "default": "./icons/diamond-duo.js"
+    },
+    "./diamond-dot": {
+      "types": "./icons/diamond-dot.d.ts",
+      "default": "./icons/diamond-dot.js"
+    },
+    "./diamond-dot-solid": {
+      "types": "./icons/diamond-dot-solid.d.ts",
+      "default": "./icons/diamond-dot-solid.js"
+    },
+    "./diamond-dot-duo": {
+      "types": "./icons/diamond-dot-duo.d.ts",
+      "default": "./icons/diamond-dot-duo.js"
+    },
+    "./parallelogram": {
+      "types": "./icons/parallelogram.d.ts",
+      "default": "./icons/parallelogram.js"
+    },
+    "./parallelogram-solid": {
+      "types": "./icons/parallelogram-solid.d.ts",
+      "default": "./icons/parallelogram-solid.js"
+    },
+    "./parallelogram-duo": {
+      "types": "./icons/parallelogram-duo.d.ts",
+      "default": "./icons/parallelogram-duo.js"
+    },
+    "./trapezoid": {
+      "types": "./icons/trapezoid.d.ts",
+      "default": "./icons/trapezoid.js"
+    },
+    "./trapezoid-solid": {
+      "types": "./icons/trapezoid-solid.d.ts",
+      "default": "./icons/trapezoid-solid.js"
+    },
+    "./trapezoid-duo": {
+      "types": "./icons/trapezoid-duo.d.ts",
+      "default": "./icons/trapezoid-duo.js"
+    },
+    "./pentagon": {
+      "types": "./icons/pentagon.d.ts",
+      "default": "./icons/pentagon.js"
+    },
+    "./pentagon-solid": {
+      "types": "./icons/pentagon-solid.d.ts",
+      "default": "./icons/pentagon-solid.js"
+    },
+    "./pentagon-duo": {
+      "types": "./icons/pentagon-duo.d.ts",
+      "default": "./icons/pentagon-duo.js"
+    },
+    "./hexagon": {
+      "types": "./icons/hexagon.d.ts",
+      "default": "./icons/hexagon.js"
+    },
+    "./hexagon-solid": {
+      "types": "./icons/hexagon-solid.d.ts",
+      "default": "./icons/hexagon-solid.js"
+    },
+    "./hexagon-duo": {
+      "types": "./icons/hexagon-duo.d.ts",
+      "default": "./icons/hexagon-duo.js"
+    },
+    "./heptagon": {
+      "types": "./icons/heptagon.d.ts",
+      "default": "./icons/heptagon.js"
+    },
+    "./heptagon-solid": {
+      "types": "./icons/heptagon-solid.d.ts",
+      "default": "./icons/heptagon-solid.js"
+    },
+    "./heptagon-duo": {
+      "types": "./icons/heptagon-duo.d.ts",
+      "default": "./icons/heptagon-duo.js"
+    },
+    "./octagon": {
+      "types": "./icons/octagon.d.ts",
+      "default": "./icons/octagon.js"
+    },
+    "./octagon-solid": {
+      "types": "./icons/octagon-solid.d.ts",
+      "default": "./icons/octagon-solid.js"
+    },
+    "./octagon-duo": {
+      "types": "./icons/octagon-duo.d.ts",
+      "default": "./icons/octagon-duo.js"
+    },
+    "./octagon-dot": {
+      "types": "./icons/octagon-dot.d.ts",
+      "default": "./icons/octagon-dot.js"
+    },
+    "./octagon-dot-solid": {
+      "types": "./icons/octagon-dot-solid.d.ts",
+      "default": "./icons/octagon-dot-solid.js"
+    },
+    "./octagon-dot-duo": {
+      "types": "./icons/octagon-dot-duo.d.ts",
+      "default": "./icons/octagon-dot-duo.js"
+    },
+    "./semicircle": {
+      "types": "./icons/semicircle.d.ts",
+      "default": "./icons/semicircle.js"
+    },
+    "./semicircle-solid": {
+      "types": "./icons/semicircle-solid.d.ts",
+      "default": "./icons/semicircle-solid.js"
+    },
+    "./semicircle-duo": {
+      "types": "./icons/semicircle-duo.d.ts",
+      "default": "./icons/semicircle-duo.js"
+    },
+    "./cone": {
+      "types": "./icons/cone.d.ts",
+      "default": "./icons/cone.js"
+    },
+    "./cone-solid": {
+      "types": "./icons/cone-solid.d.ts",
+      "default": "./icons/cone-solid.js"
+    },
+    "./cone-duo": {
+      "types": "./icons/cone-duo.d.ts",
+      "default": "./icons/cone-duo.js"
+    },
+    "./cylinder": {
+      "types": "./icons/cylinder.d.ts",
+      "default": "./icons/cylinder.js"
+    },
+    "./cylinder-solid": {
+      "types": "./icons/cylinder-solid.d.ts",
+      "default": "./icons/cylinder-solid.js"
+    },
+    "./cylinder-duo": {
+      "types": "./icons/cylinder-duo.d.ts",
+      "default": "./icons/cylinder-duo.js"
+    },
+    "./pyramid": {
+      "types": "./icons/pyramid.d.ts",
+      "default": "./icons/pyramid.js"
+    },
+    "./pyramid-solid": {
+      "types": "./icons/pyramid-solid.d.ts",
+      "default": "./icons/pyramid-solid.js"
+    },
+    "./pyramid-duo": {
+      "types": "./icons/pyramid-duo.d.ts",
+      "default": "./icons/pyramid-duo.js"
+    },
+    "./cross": {
+      "types": "./icons/cross.d.ts",
+      "default": "./icons/cross.js"
+    },
+    "./cross-solid": {
+      "types": "./icons/cross-solid.d.ts",
+      "default": "./icons/cross-solid.js"
+    },
+    "./cross-duo": {
+      "types": "./icons/cross-duo.d.ts",
+      "default": "./icons/cross-duo.js"
+    },
+    "./club": {
+      "types": "./icons/club.d.ts",
+      "default": "./icons/club.js"
+    },
+    "./club-solid": {
+      "types": "./icons/club-solid.d.ts",
+      "default": "./icons/club-solid.js"
+    },
+    "./club-duo": {
+      "types": "./icons/club-duo.d.ts",
+      "default": "./icons/club-duo.js"
+    },
+    "./spade": {
+      "types": "./icons/spade.d.ts",
+      "default": "./icons/spade.js"
+    },
+    "./spade-solid": {
+      "types": "./icons/spade-solid.d.ts",
+      "default": "./icons/spade-solid.js"
+    },
+    "./spade-duo": {
+      "types": "./icons/spade-duo.d.ts",
+      "default": "./icons/spade-duo.js"
     },
     "./trophy": {
       "types": "./icons/trophy.d.ts",
@@ -11824,6 +13540,18 @@
       "types": "./icons/thermostat-duo.d.ts",
       "default": "./icons/thermostat-duo.js"
     },
+    "./gripper": {
+      "types": "./icons/gripper.d.ts",
+      "default": "./icons/gripper.js"
+    },
+    "./gripper-solid": {
+      "types": "./icons/gripper-solid.d.ts",
+      "default": "./icons/gripper-solid.js"
+    },
+    "./gripper-duo": {
+      "types": "./icons/gripper-duo.d.ts",
+      "default": "./icons/gripper-duo.js"
+    },
     "./hand": {
       "types": "./icons/hand.d.ts",
       "default": "./icons/hand.js"
@@ -12196,6 +13924,42 @@
       "types": "./icons/scan-line-duo.d.ts",
       "default": "./icons/scan-line-duo.js"
     },
+    "./shield-user": {
+      "types": "./icons/shield-user.d.ts",
+      "default": "./icons/shield-user.js"
+    },
+    "./shield-user-solid": {
+      "types": "./icons/shield-user-solid.d.ts",
+      "default": "./icons/shield-user-solid.js"
+    },
+    "./shield-user-duo": {
+      "types": "./icons/shield-user-duo.d.ts",
+      "default": "./icons/shield-user-duo.js"
+    },
+    "./shield-key": {
+      "types": "./icons/shield-key.d.ts",
+      "default": "./icons/shield-key.js"
+    },
+    "./shield-key-solid": {
+      "types": "./icons/shield-key-solid.d.ts",
+      "default": "./icons/shield-key-solid.js"
+    },
+    "./shield-key-duo": {
+      "types": "./icons/shield-key-duo.d.ts",
+      "default": "./icons/shield-key-duo.js"
+    },
+    "./shield-sparkles": {
+      "types": "./icons/shield-sparkles.d.ts",
+      "default": "./icons/shield-sparkles.js"
+    },
+    "./shield-sparkles-solid": {
+      "types": "./icons/shield-sparkles-solid.d.ts",
+      "default": "./icons/shield-sparkles-solid.js"
+    },
+    "./shield-sparkles-duo": {
+      "types": "./icons/shield-sparkles-duo.d.ts",
+      "default": "./icons/shield-sparkles-duo.js"
+    },
     "./code": {
       "types": "./icons/code.d.ts",
       "default": "./icons/code.js"
@@ -12495,6 +14259,126 @@
     "./webhook-duo": {
       "types": "./icons/webhook-duo.d.ts",
       "default": "./icons/webhook-duo.js"
+    },
+    "./badge-terminal": {
+      "types": "./icons/badge-terminal.d.ts",
+      "default": "./icons/badge-terminal.js"
+    },
+    "./badge-terminal-solid": {
+      "types": "./icons/badge-terminal-solid.d.ts",
+      "default": "./icons/badge-terminal-solid.js"
+    },
+    "./badge-terminal-duo": {
+      "types": "./icons/badge-terminal-duo.d.ts",
+      "default": "./icons/badge-terminal-duo.js"
+    },
+    "./parentheses": {
+      "types": "./icons/parentheses.d.ts",
+      "default": "./icons/parentheses.js"
+    },
+    "./parentheses-solid": {
+      "types": "./icons/parentheses-solid.d.ts",
+      "default": "./icons/parentheses-solid.js"
+    },
+    "./parentheses-duo": {
+      "types": "./icons/parentheses-duo.d.ts",
+      "default": "./icons/parentheses-duo.js"
+    },
+    "./parenthesis-left": {
+      "types": "./icons/parenthesis-left.d.ts",
+      "default": "./icons/parenthesis-left.js"
+    },
+    "./parenthesis-left-solid": {
+      "types": "./icons/parenthesis-left-solid.d.ts",
+      "default": "./icons/parenthesis-left-solid.js"
+    },
+    "./parenthesis-left-duo": {
+      "types": "./icons/parenthesis-left-duo.d.ts",
+      "default": "./icons/parenthesis-left-duo.js"
+    },
+    "./parenthesis-right": {
+      "types": "./icons/parenthesis-right.d.ts",
+      "default": "./icons/parenthesis-right.js"
+    },
+    "./parenthesis-right-solid": {
+      "types": "./icons/parenthesis-right-solid.d.ts",
+      "default": "./icons/parenthesis-right-solid.js"
+    },
+    "./parenthesis-right-duo": {
+      "types": "./icons/parenthesis-right-duo.d.ts",
+      "default": "./icons/parenthesis-right-duo.js"
+    },
+    "./bracket-left": {
+      "types": "./icons/bracket-left.d.ts",
+      "default": "./icons/bracket-left.js"
+    },
+    "./bracket-left-solid": {
+      "types": "./icons/bracket-left-solid.d.ts",
+      "default": "./icons/bracket-left-solid.js"
+    },
+    "./bracket-left-duo": {
+      "types": "./icons/bracket-left-duo.d.ts",
+      "default": "./icons/bracket-left-duo.js"
+    },
+    "./bracket-right": {
+      "types": "./icons/bracket-right.d.ts",
+      "default": "./icons/bracket-right.js"
+    },
+    "./bracket-right-solid": {
+      "types": "./icons/bracket-right-solid.d.ts",
+      "default": "./icons/bracket-right-solid.js"
+    },
+    "./bracket-right-duo": {
+      "types": "./icons/bracket-right-duo.d.ts",
+      "default": "./icons/bracket-right-duo.js"
+    },
+    "./brace-left": {
+      "types": "./icons/brace-left.d.ts",
+      "default": "./icons/brace-left.js"
+    },
+    "./brace-left-solid": {
+      "types": "./icons/brace-left-solid.d.ts",
+      "default": "./icons/brace-left-solid.js"
+    },
+    "./brace-left-duo": {
+      "types": "./icons/brace-left-duo.d.ts",
+      "default": "./icons/brace-left-duo.js"
+    },
+    "./brace-right": {
+      "types": "./icons/brace-right.d.ts",
+      "default": "./icons/brace-right.js"
+    },
+    "./brace-right-solid": {
+      "types": "./icons/brace-right-solid.d.ts",
+      "default": "./icons/brace-right-solid.js"
+    },
+    "./brace-right-duo": {
+      "types": "./icons/brace-right-duo.d.ts",
+      "default": "./icons/brace-right-duo.js"
+    },
+    "./parentheses-ellipsis": {
+      "types": "./icons/parentheses-ellipsis.d.ts",
+      "default": "./icons/parentheses-ellipsis.js"
+    },
+    "./parentheses-ellipsis-solid": {
+      "types": "./icons/parentheses-ellipsis-solid.d.ts",
+      "default": "./icons/parentheses-ellipsis-solid.js"
+    },
+    "./parentheses-ellipsis-duo": {
+      "types": "./icons/parentheses-ellipsis-duo.d.ts",
+      "default": "./icons/parentheses-ellipsis-duo.js"
+    },
+    "./parentheses-x": {
+      "types": "./icons/parentheses-x.d.ts",
+      "default": "./icons/parentheses-x.js"
+    },
+    "./parentheses-x-solid": {
+      "types": "./icons/parentheses-x-solid.d.ts",
+      "default": "./icons/parentheses-x-solid.js"
+    },
+    "./parentheses-x-duo": {
+      "types": "./icons/parentheses-x-duo.d.ts",
+      "default": "./icons/parentheses-x-duo.js"
     },
     "./x-twitter": {
       "types": "./icons/x-twitter.d.ts",

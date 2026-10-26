@@ -38,6 +38,27 @@
       "label": "Essentials",
       "icons": [
         {
+          "name": "app-window",
+          "keywords": [
+            "browser",
+            "window",
+            "application",
+            "web page",
+            "website",
+            "desktop app",
+            "program",
+            "mac window",
+            "chrome",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
           "name": "bell",
           "keywords": [
             "notification",
@@ -55,6 +76,26 @@
             "duo"
           ],
           "added": "2026-04-21"
+        },
+        {
+          "name": "bell-dot",
+          "keywords": [
+            "unread notification",
+            "new notification",
+            "alert badge",
+            "notification badge",
+            "pending alert",
+            "unseen",
+            "activity",
+            "reminder",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
         },
         {
           "name": "bell-off",
@@ -380,6 +421,26 @@
           "added": "2026-07-05"
         },
         {
+          "name": "circle-function",
+          "keywords": [
+            "fx",
+            "formula",
+            "math",
+            "calculate",
+            "expression",
+            "equation",
+            "spreadsheet",
+            "round",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
           "name": "circle-gauge",
           "keywords": [
             "speed",
@@ -439,6 +500,26 @@
           "added": "2026-07-05"
         },
         {
+          "name": "circle-pi",
+          "keywords": [
+            "constant",
+            "math",
+            "radians",
+            "greek letter",
+            "geometry",
+            "3.14",
+            "round",
+            "symbol",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
           "name": "circle-power",
           "keywords": [
             "on off",
@@ -461,6 +542,26 @@
           "added": "2026-07-05"
         },
         {
+          "name": "circle-sigma",
+          "keywords": [
+            "sum",
+            "total",
+            "aggregate",
+            "math",
+            "formula",
+            "count",
+            "statistics",
+            "round",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
           "name": "circle-slash",
           "keywords": [
             "no",
@@ -478,6 +579,46 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "circle-star",
+          "keywords": [
+            "favorite",
+            "starred",
+            "rating",
+            "featured",
+            "top rated",
+            "achievement",
+            "special",
+            "badge",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
+          "name": "circle-zap",
+          "keywords": [
+            "lightning",
+            "bolt",
+            "power",
+            "flash",
+            "energy",
+            "electric",
+            "charging",
+            "instant",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
         },
         {
           "name": "close",
@@ -689,6 +830,27 @@
           "added": "2026-07-02"
         },
         {
+          "name": "empty-set",
+          "keywords": [
+            "diameter",
+            "null",
+            "none",
+            "nothing",
+            "empty",
+            "void",
+            "slashed zero",
+            "math",
+            "circle-slash-2",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
           "name": "exclude",
           "keywords": [
             "boolean",
@@ -748,6 +910,97 @@
             "duo"
           ],
           "added": "2026-07-29"
+        },
+        {
+          "name": "grid-2x2",
+          "keywords": [
+            "layout",
+            "tiles",
+            "widgets",
+            "dashboard",
+            "cells",
+            "four squares",
+            "window",
+            "quadrants",
+            "table",
+            "split",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
+          "name": "grid-2x2-check",
+          "keywords": [
+            "layout",
+            "tiles",
+            "widgets",
+            "dashboard",
+            "cells",
+            "four squares",
+            "widget added",
+            "dashboard ready",
+            "apps installed",
+            "layout done",
+            "selected",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
+          "name": "grid-2x2-plus",
+          "keywords": [
+            "layout",
+            "tiles",
+            "widgets",
+            "dashboard",
+            "cells",
+            "four squares",
+            "add widget",
+            "add tile",
+            "add app",
+            "new block",
+            "insert",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
+          "name": "grid-2x2-x",
+          "keywords": [
+            "layout",
+            "tiles",
+            "widgets",
+            "dashboard",
+            "cells",
+            "four squares",
+            "remove widget",
+            "delete tile",
+            "remove app",
+            "close tile",
+            "clear",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
         },
         {
           "name": "grip-horizontal",
@@ -955,6 +1208,27 @@
           "added": "2026-07-03"
         },
         {
+          "name": "layout-bento",
+          "keywords": [
+            "bento grid",
+            "bento box",
+            "mosaic",
+            "tiles",
+            "cards",
+            "feature grid",
+            "sections",
+            "modules",
+            "landing page",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
           "name": "layout-columns",
           "keywords": [
             "columns",
@@ -975,6 +1249,27 @@
           "added": "2026-07-02"
         },
         {
+          "name": "layout-dashboard",
+          "keywords": [
+            "dashboard",
+            "admin",
+            "overview",
+            "widgets",
+            "panels",
+            "analytics",
+            "home screen",
+            "cards",
+            "console",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
           "name": "layout-grid",
           "keywords": [
             "dashboard",
@@ -993,6 +1288,28 @@
             "duo"
           ],
           "added": "2026-07-02"
+        },
+        {
+          "name": "layout-masonry",
+          "keywords": [
+            "grid masonry",
+            "pinterest",
+            "feed",
+            "gallery",
+            "staggered",
+            "tiles",
+            "cards",
+            "mosaic",
+            "waterfall",
+            "layout",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
         },
         {
           "name": "layout-rows",
@@ -1191,6 +1508,27 @@
           "added": "2026-07-02"
         },
         {
+          "name": "mouse-pointer",
+          "keywords": [
+            "cursor",
+            "arrow",
+            "pointer",
+            "click",
+            "select",
+            "mouse",
+            "arrow cursor",
+            "interact",
+            "hover",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
           "name": "palette",
           "keywords": [
             "color palette",
@@ -1235,6 +1573,56 @@
           "added": "2026-07-02"
         },
         {
+          "name": "panel-bottom-collapse",
+          "keywords": [
+            "footer",
+            "status bar",
+            "console",
+            "close",
+            "hide",
+            "shrink",
+            "minimize",
+            "layout",
+            "chevron",
+            "pane",
+            "drawer",
+            "dock",
+            "inspector",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
+          "name": "panel-bottom-expand",
+          "keywords": [
+            "footer",
+            "status bar",
+            "console",
+            "open",
+            "show",
+            "extend",
+            "reveal",
+            "layout",
+            "chevron",
+            "pane",
+            "drawer",
+            "dock",
+            "inspector",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
           "name": "panel-top",
           "keywords": [
             "panel",
@@ -1256,6 +1644,56 @@
             "duo"
           ],
           "added": "2026-07-02"
+        },
+        {
+          "name": "panel-top-collapse",
+          "keywords": [
+            "header",
+            "toolbar",
+            "close",
+            "hide",
+            "shrink",
+            "minimize",
+            "layout",
+            "chevron",
+            "ribbon",
+            "pane",
+            "drawer",
+            "dock",
+            "inspector",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
+          "name": "panel-top-expand",
+          "keywords": [
+            "header",
+            "toolbar",
+            "open",
+            "show",
+            "extend",
+            "reveal",
+            "layout",
+            "chevron",
+            "ribbon",
+            "pane",
+            "drawer",
+            "dock",
+            "inspector",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
         },
         {
           "name": "pin",
@@ -1654,6 +2092,56 @@
           "added": "2026-07-02"
         },
         {
+          "name": "sidebar-right-collapse",
+          "keywords": [
+            "right panel",
+            "close",
+            "hide",
+            "inspector",
+            "shrink",
+            "minimize",
+            "layout",
+            "chevron",
+            "properties",
+            "side panel",
+            "nav",
+            "menu rail",
+            "drawer",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
+          "name": "sidebar-right-expand",
+          "keywords": [
+            "right panel",
+            "open",
+            "show",
+            "inspector",
+            "extend",
+            "reveal",
+            "layout",
+            "chevron",
+            "properties",
+            "side panel",
+            "nav",
+            "menu rail",
+            "drawer",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
           "name": "signal",
           "keywords": [
             "reception",
@@ -1785,6 +2273,46 @@
           "added": "2026-07-05"
         },
         {
+          "name": "square-dot",
+          "keywords": [
+            "record",
+            "radio",
+            "selected",
+            "checkbox",
+            "active",
+            "point",
+            "target",
+            "status",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
+          "name": "square-function",
+          "keywords": [
+            "fx",
+            "formula",
+            "math",
+            "calculate",
+            "expression",
+            "equation",
+            "spreadsheet",
+            "boxed",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
           "name": "square-gauge",
           "keywords": [
             "speed",
@@ -1844,6 +2372,26 @@
           "added": "2026-07-05"
         },
         {
+          "name": "square-off",
+          "keywords": [
+            "disabled",
+            "deselect",
+            "no selection",
+            "blocked",
+            "unavailable",
+            "null",
+            "slash",
+            "square-slash-2",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
           "name": "square-pen",
           "keywords": [
             "edit",
@@ -1861,6 +2409,26 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "square-pi",
+          "keywords": [
+            "constant",
+            "math",
+            "radians",
+            "greek letter",
+            "geometry",
+            "3.14",
+            "boxed",
+            "symbol",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
         },
         {
           "name": "square-power",
@@ -1925,6 +2493,26 @@
           "added": "2026-07-05"
         },
         {
+          "name": "square-slash-flip",
+          "keywords": [
+            "ban",
+            "forbidden",
+            "prohibited",
+            "not allowed",
+            "blocked",
+            "disabled",
+            "no entry",
+            "mirrored",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
           "name": "square-split-horizontal",
           "keywords": [
             "split",
@@ -1961,6 +2549,45 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "square-star",
+          "keywords": [
+            "favorite",
+            "starred",
+            "rating",
+            "bookmark",
+            "featured",
+            "highlight",
+            "special",
+            "badge",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
+          "name": "square-zap",
+          "keywords": [
+            "lightning",
+            "bolt",
+            "power",
+            "flash",
+            "energy",
+            "electric",
+            "quick action",
+            "instant"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
         },
         {
           "name": "subtract",
@@ -2162,6 +2789,48 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "vector-polygon",
+          "keywords": [
+            "vector",
+            "nodes",
+            "path",
+            "polygon",
+            "pentagon",
+            "anchor points",
+            "pen tool",
+            "shape",
+            "edit points",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
+          "name": "vector-square",
+          "keywords": [
+            "vector",
+            "nodes",
+            "path",
+            "bounding box",
+            "transform",
+            "selection",
+            "anchor points",
+            "pen tool",
+            "resize",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
         },
         {
           "name": "zoom-in",
@@ -2831,6 +3500,36 @@
           "added": "2026-07-05"
         },
         {
+          "name": "arrow-big-down-dash",
+          "keywords": [
+            "block arrow",
+            "download",
+            "drop",
+            "push down",
+            "demote",
+            "move to bottom",
+            "lower",
+            "install",
+            "direction",
+            "pointer",
+            "navigate",
+            "move",
+            "go",
+            "downward",
+            "south",
+            "fall",
+            "descend",
+            "decrease",
+            "below"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
           "name": "arrow-big-left",
           "keywords": [
             "direction",
@@ -2852,6 +3551,32 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "arrow-big-left-dash",
+          "keywords": [
+            "block arrow",
+            "go to start",
+            "back step",
+            "push left",
+            "previous",
+            "rewind",
+            "backward",
+            "return",
+            "direction",
+            "pointer",
+            "navigate",
+            "move",
+            "go",
+            "west",
+            "back"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
         },
         {
           "name": "arrow-big-right",
@@ -2876,6 +3601,34 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "arrow-big-right-dash",
+          "keywords": [
+            "block arrow",
+            "skip ahead",
+            "go to end",
+            "next step",
+            "push right",
+            "proceed",
+            "fast forward",
+            "forward",
+            "direction",
+            "pointer",
+            "navigate",
+            "move",
+            "go",
+            "east",
+            "next",
+            "onward",
+            "continue"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
         },
         {
           "name": "arrow-big-up",
@@ -2904,6 +3657,37 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "arrow-big-up-dash",
+          "keywords": [
+            "block arrow",
+            "upgrade",
+            "shift lock",
+            "caps lock",
+            "push up",
+            "promote",
+            "move to top",
+            "raise",
+            "direction",
+            "pointer",
+            "navigate",
+            "move",
+            "go",
+            "upward",
+            "north",
+            "rise",
+            "ascend",
+            "increase",
+            "higher",
+            "above"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
         },
         {
           "name": "arrow-down",
@@ -3023,6 +3807,33 @@
           "added": "2026-07-02"
         },
         {
+          "name": "arrow-down-long",
+          "keywords": [
+            "narrow",
+            "thin",
+            "south",
+            "descend",
+            "scroll down",
+            "bottom",
+            "fall",
+            "decrease",
+            "direction",
+            "pointer",
+            "navigate",
+            "move",
+            "go",
+            "downward",
+            "lower",
+            "below"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
           "name": "arrow-down-right",
           "keywords": [
             "diagonal",
@@ -3084,6 +3895,36 @@
             "duo"
           ],
           "added": "2026-04-28"
+        },
+        {
+          "name": "arrow-down-through-line",
+          "keywords": [
+            "pass through",
+            "cross the line",
+            "drop below",
+            "fall through",
+            "under the limit",
+            "sink",
+            "downward",
+            "below threshold",
+            "direction",
+            "pointer",
+            "navigate",
+            "move",
+            "go",
+            "south",
+            "fall",
+            "descend",
+            "decrease",
+            "lower",
+            "below"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
         },
         {
           "name": "arrow-down-to-line",
@@ -3195,6 +4036,31 @@
           "added": "2026-04-28"
         },
         {
+          "name": "arrow-left-long",
+          "keywords": [
+            "narrow",
+            "thin",
+            "west",
+            "back",
+            "previous",
+            "return",
+            "slide left",
+            "prior",
+            "direction",
+            "pointer",
+            "navigate",
+            "move",
+            "go",
+            "backward"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
           "name": "arrow-left-square",
           "keywords": [
             "direction",
@@ -3220,6 +4086,35 @@
             "duo"
           ],
           "added": "2026-04-28"
+        },
+        {
+          "name": "arrow-left-through-line",
+          "keywords": [
+            "pass through",
+            "cross the line",
+            "exit left",
+            "cross border",
+            "back through",
+            "transit",
+            "westward",
+            "leave",
+            "direction",
+            "pointer",
+            "navigate",
+            "move",
+            "go",
+            "west",
+            "back",
+            "previous",
+            "backward",
+            "return"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
         },
         {
           "name": "arrow-left-to-line",
@@ -3299,6 +4194,31 @@
           "added": "2026-04-28"
         },
         {
+          "name": "arrow-right-long",
+          "keywords": [
+            "narrow",
+            "thin",
+            "east",
+            "forward",
+            "next",
+            "proceed",
+            "slide right",
+            "continue",
+            "direction",
+            "pointer",
+            "navigate",
+            "move",
+            "go",
+            "onward"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
           "name": "arrow-right-square",
           "keywords": [
             "direction",
@@ -3326,6 +4246,35 @@
           "added": "2026-04-28"
         },
         {
+          "name": "arrow-right-through-line",
+          "keywords": [
+            "pass through",
+            "cross the line",
+            "exit right",
+            "cross border",
+            "go through",
+            "transit",
+            "eastward",
+            "proceed",
+            "direction",
+            "pointer",
+            "navigate",
+            "move",
+            "go",
+            "east",
+            "forward",
+            "next",
+            "onward",
+            "continue"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
           "name": "arrow-right-to-line",
           "keywords": [
             "forward",
@@ -3351,6 +4300,367 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "arrow-u-turn-down",
+          "keywords": [
+            "uturn",
+            "turn around",
+            "reverse",
+            "go back",
+            "about face",
+            "return",
+            "route",
+            "u turn left sign",
+            "direction",
+            "pointer",
+            "navigate",
+            "move",
+            "go",
+            "downward",
+            "south",
+            "fall",
+            "descend",
+            "decrease",
+            "lower",
+            "below"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
+          "name": "arrow-u-turn-down-line",
+          "keywords": [
+            "bounce back",
+            "rebound",
+            "turn back at a wall",
+            "ceiling",
+            "limit reached",
+            "return",
+            "deflect down",
+            "reflect",
+            "direction",
+            "pointer",
+            "navigate",
+            "move",
+            "go",
+            "downward",
+            "south",
+            "fall",
+            "descend",
+            "decrease",
+            "lower",
+            "below"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
+          "name": "arrow-u-turn-down-line-flip",
+          "keywords": [
+            "bounce back",
+            "rebound",
+            "turn back at a wall",
+            "ceiling",
+            "limit reached",
+            "return",
+            "deflect down",
+            "reflect",
+            "mirrored",
+            "direction",
+            "pointer",
+            "navigate",
+            "move",
+            "go",
+            "downward",
+            "south",
+            "fall",
+            "descend",
+            "decrease",
+            "lower",
+            "below"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
+          "name": "arrow-u-turn-left",
+          "keywords": [
+            "uturn",
+            "turn around",
+            "reverse",
+            "go back",
+            "about face",
+            "return",
+            "route",
+            "backtrack",
+            "direction",
+            "pointer",
+            "navigate",
+            "move",
+            "go",
+            "west",
+            "back",
+            "previous",
+            "backward"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
+          "name": "arrow-u-turn-left-line",
+          "keywords": [
+            "bounce back",
+            "rebound",
+            "turn back at a wall",
+            "edge",
+            "limit reached",
+            "return",
+            "go back from the end",
+            "reflect",
+            "direction",
+            "pointer",
+            "navigate",
+            "move",
+            "go",
+            "west",
+            "back",
+            "previous",
+            "backward"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
+          "name": "arrow-u-turn-left-line-flip",
+          "keywords": [
+            "bounce back",
+            "rebound",
+            "turn back at a wall",
+            "edge",
+            "limit reached",
+            "return",
+            "go back from the end",
+            "reflect",
+            "mirrored",
+            "direction",
+            "pointer",
+            "navigate",
+            "move",
+            "go",
+            "west",
+            "back",
+            "previous",
+            "backward"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
+          "name": "arrow-u-turn-right",
+          "keywords": [
+            "uturn",
+            "turn around",
+            "reverse",
+            "go back",
+            "about face",
+            "return",
+            "route",
+            "loop back",
+            "direction",
+            "pointer",
+            "navigate",
+            "move",
+            "go",
+            "east",
+            "forward",
+            "next",
+            "onward",
+            "continue"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
+          "name": "arrow-u-turn-right-line",
+          "keywords": [
+            "bounce back",
+            "rebound",
+            "turn back at a wall",
+            "edge",
+            "limit reached",
+            "return",
+            "start over",
+            "reflect",
+            "direction",
+            "pointer",
+            "navigate",
+            "move",
+            "go",
+            "east",
+            "forward",
+            "next",
+            "onward",
+            "continue"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
+          "name": "arrow-u-turn-right-line-flip",
+          "keywords": [
+            "bounce back",
+            "rebound",
+            "turn back at a wall",
+            "edge",
+            "limit reached",
+            "return",
+            "start over",
+            "reflect",
+            "mirrored",
+            "direction",
+            "pointer",
+            "navigate",
+            "move",
+            "go",
+            "east",
+            "forward",
+            "next",
+            "onward",
+            "continue"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
+          "name": "arrow-u-turn-up",
+          "keywords": [
+            "uturn",
+            "turn around",
+            "reverse",
+            "go back",
+            "about face",
+            "return",
+            "route",
+            "bounce",
+            "direction",
+            "pointer",
+            "navigate",
+            "move",
+            "go",
+            "upward",
+            "north",
+            "rise",
+            "ascend",
+            "increase",
+            "higher",
+            "above"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
+          "name": "arrow-u-turn-up-line",
+          "keywords": [
+            "bounce back",
+            "rebound",
+            "turn back at a wall",
+            "floor",
+            "limit reached",
+            "return",
+            "deflect up",
+            "reflect",
+            "direction",
+            "pointer",
+            "navigate",
+            "move",
+            "go",
+            "upward",
+            "north",
+            "rise",
+            "ascend",
+            "increase",
+            "higher",
+            "above"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
+          "name": "arrow-u-turn-up-line-flip",
+          "keywords": [
+            "bounce back",
+            "rebound",
+            "turn back at a wall",
+            "floor",
+            "limit reached",
+            "return",
+            "deflect up",
+            "reflect",
+            "mirrored",
+            "direction",
+            "pointer",
+            "navigate",
+            "move",
+            "go",
+            "upward",
+            "north",
+            "rise",
+            "ascend",
+            "increase",
+            "higher",
+            "above"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
         },
         {
           "name": "arrow-up",
@@ -3472,6 +4782,81 @@
           "added": "2026-07-02"
         },
         {
+          "name": "arrow-up-left-down-right",
+          "keywords": [
+            "diagonal",
+            "double arrow",
+            "both ways",
+            "bidirectional",
+            "resize corner",
+            "move diagonal",
+            "scale",
+            "northwest southeast",
+            "direction",
+            "pointer",
+            "navigate",
+            "move",
+            "go",
+            "upward",
+            "north",
+            "rise",
+            "ascend",
+            "increase",
+            "higher",
+            "above",
+            "west",
+            "back",
+            "previous",
+            "backward",
+            "return",
+            "downward",
+            "south",
+            "fall",
+            "descend",
+            "decrease",
+            "lower",
+            "below",
+            "east",
+            "forward",
+            "next",
+            "onward",
+            "continue"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
+          "name": "arrow-up-long",
+          "keywords": [
+            "narrow",
+            "thin",
+            "north",
+            "ascend",
+            "scroll up",
+            "top",
+            "rise",
+            "increase",
+            "direction",
+            "pointer",
+            "navigate",
+            "move",
+            "go",
+            "upward",
+            "higher",
+            "above"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
           "name": "arrow-up-narrow-wide",
           "keywords": [
             "sort",
@@ -3534,6 +4919,54 @@
           "added": "2026-07-02"
         },
         {
+          "name": "arrow-up-right-down-left",
+          "keywords": [
+            "diagonal",
+            "double arrow",
+            "both ways",
+            "bidirectional",
+            "resize corner",
+            "move diagonal",
+            "scale",
+            "northeast southwest",
+            "direction",
+            "pointer",
+            "navigate",
+            "move",
+            "go",
+            "upward",
+            "north",
+            "rise",
+            "ascend",
+            "increase",
+            "higher",
+            "above",
+            "east",
+            "forward",
+            "next",
+            "onward",
+            "continue",
+            "downward",
+            "south",
+            "fall",
+            "descend",
+            "decrease",
+            "lower",
+            "below",
+            "west",
+            "back",
+            "previous",
+            "backward",
+            "return"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
           "name": "arrow-up-square",
           "keywords": [
             "direction",
@@ -3563,6 +4996,36 @@
             "duo"
           ],
           "added": "2026-04-28"
+        },
+        {
+          "name": "arrow-up-through-line",
+          "keywords": [
+            "pass through",
+            "cross the line",
+            "breakthrough",
+            "go beyond",
+            "exceed",
+            "over the limit",
+            "upward",
+            "surpass",
+            "direction",
+            "pointer",
+            "navigate",
+            "move",
+            "go",
+            "north",
+            "rise",
+            "ascend",
+            "increase",
+            "higher",
+            "above"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
         },
         {
           "name": "arrow-up-to-line",
@@ -4034,6 +5497,69 @@
             "duo"
           ],
           "added": "2026-04-28"
+        },
+        {
+          "name": "chevron-triple-down",
+          "keywords": [
+            "priority",
+            "lowest priority",
+            "level 3",
+            "rank",
+            "de-escalate",
+            "drop",
+            "min",
+            "descend",
+            "caret",
+            "angle",
+            "disclosure",
+            "dropdown",
+            "accordion",
+            "downward",
+            "south",
+            "fall",
+            "decrease",
+            "lower",
+            "below",
+            "arrow"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
+          "name": "chevron-triple-up",
+          "keywords": [
+            "priority",
+            "highest priority",
+            "level 3",
+            "rank",
+            "escalate",
+            "boost",
+            "max",
+            "sergeant",
+            "caret",
+            "angle",
+            "disclosure",
+            "dropdown",
+            "accordion",
+            "upward",
+            "north",
+            "rise",
+            "ascend",
+            "increase",
+            "higher",
+            "above",
+            "arrow"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
         },
         {
           "name": "chevron-up",
@@ -4525,6 +6051,66 @@
           "added": "2026-07-05"
         },
         {
+          "name": "flip-horizontal-2",
+          "keywords": [
+            "mirror",
+            "reflect",
+            "symmetry",
+            "reflection",
+            "axis",
+            "left right",
+            "mirror image",
+            "flop",
+            "arrow"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
+          "name": "flip-vertical",
+          "keywords": [
+            "mirror",
+            "reflect",
+            "reverse",
+            "transform",
+            "symmetry",
+            "up down",
+            "upside down",
+            "flip over",
+            "arrow"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
+          "name": "flip-vertical-2",
+          "keywords": [
+            "mirror",
+            "reflect",
+            "symmetry",
+            "reflection",
+            "axis",
+            "up down",
+            "mirror image",
+            "upside down",
+            "arrow"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
           "name": "fold-horizontal",
           "keywords": [
             "collapse",
@@ -4755,6 +6341,26 @@
           "added": "2026-07-05"
         },
         {
+          "name": "redo-dot",
+          "keywords": [
+            "forward",
+            "repeat",
+            "again",
+            "checkpoint",
+            "saved point",
+            "history",
+            "reapply",
+            "ctrl y",
+            "arrow"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
           "name": "refresh",
           "keywords": [
             "reload",
@@ -4936,6 +6542,46 @@
           "added": "2026-04-28"
         },
         {
+          "name": "symmetry-horizontal",
+          "keywords": [
+            "mirror",
+            "reflect",
+            "axis",
+            "reflection",
+            "balance",
+            "symmetric",
+            "flip",
+            "left right",
+            "arrow"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
+          "name": "symmetry-vertical",
+          "keywords": [
+            "mirror",
+            "reflect",
+            "axis",
+            "reflection",
+            "balance",
+            "symmetric",
+            "flip",
+            "top bottom",
+            "arrow"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
           "name": "undo",
           "keywords": [
             "back",
@@ -4952,6 +6598,26 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "undo-dot",
+          "keywords": [
+            "back",
+            "revert",
+            "restore",
+            "checkpoint",
+            "saved point",
+            "history",
+            "rewind",
+            "ctrl z",
+            "arrow"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
         },
         {
           "name": "unfold-horizontal",
@@ -5203,6 +6869,25 @@
           "added": "2026-05-12"
         },
         {
+          "name": "inbox-dot",
+          "keywords": [
+            "unread",
+            "new items",
+            "inbox notification",
+            "tray badge",
+            "pending messages",
+            "new mail",
+            "unseen",
+            "activity"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
           "name": "link",
           "keywords": [
             "url",
@@ -5238,6 +6923,25 @@
             "duo"
           ],
           "added": "2026-05-12"
+        },
+        {
+          "name": "mail-dot",
+          "keywords": [
+            "unread email",
+            "new mail",
+            "email notification",
+            "unread message",
+            "envelope badge",
+            "inbox alert",
+            "new email",
+            "mark unread"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
         },
         {
           "name": "mail-open",
@@ -5610,6 +7314,25 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "message-square-dot",
+          "keywords": [
+            "unread chat",
+            "new message",
+            "chat notification",
+            "comment badge",
+            "unread comment",
+            "new reply",
+            "speech bubble",
+            "unseen"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
         },
         {
           "name": "message-square-dots",
@@ -6579,6 +8302,26 @@
           "added": "2026-08-25"
         },
         {
+          "name": "gallery-thumbnails",
+          "keywords": [
+            "carousel",
+            "slideshow",
+            "photos",
+            "preview",
+            "image viewer",
+            "filmstrip",
+            "slides",
+            "album",
+            "media"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
           "name": "gallery-vertical",
           "keywords": [
             "carousel",
@@ -6657,6 +8400,101 @@
             "duo"
           ],
           "added": "2026-06-30"
+        },
+        {
+          "name": "image-check",
+          "keywords": [
+            "photo approved",
+            "picture selected",
+            "image uploaded",
+            "verified photo",
+            "done",
+            "gallery",
+            "picked",
+            "media"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
+          "name": "image-minus",
+          "keywords": [
+            "remove image",
+            "remove photo",
+            "delete picture",
+            "subtract",
+            "detach image",
+            "gallery",
+            "media"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
+          "name": "image-off",
+          "keywords": [
+            "no image",
+            "hide image",
+            "image unavailable",
+            "broken image",
+            "photo off",
+            "disable pictures",
+            "no preview",
+            "slash",
+            "media"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
+          "name": "image-plus",
+          "keywords": [
+            "add image",
+            "add photo",
+            "upload picture",
+            "insert image",
+            "new photo",
+            "attach picture",
+            "gallery",
+            "media"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
+          "name": "image-x",
+          "keywords": [
+            "delete image",
+            "remove photo",
+            "broken image",
+            "image error",
+            "cancel upload",
+            "failed",
+            "gallery",
+            "media"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
         },
         {
           "name": "keyboard",
@@ -6764,6 +8602,142 @@
           "added": "2026-07-02"
         },
         {
+          "name": "monitor-check",
+          "keywords": [
+            "screen",
+            "display",
+            "desktop",
+            "computer",
+            "pc",
+            "connected",
+            "verified device",
+            "setup complete",
+            "trusted",
+            "screen ok",
+            "done"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
+          "name": "monitor-cog",
+          "keywords": [
+            "screen",
+            "display",
+            "desktop",
+            "computer",
+            "pc",
+            "display settings",
+            "system preferences",
+            "device settings",
+            "configure",
+            "admin",
+            "gear"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
+          "name": "monitor-dot",
+          "keywords": [
+            "screen",
+            "display",
+            "desktop",
+            "computer",
+            "pc",
+            "notification",
+            "unread",
+            "active",
+            "online",
+            "live",
+            "badge",
+            "media"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
+          "name": "monitor-down",
+          "keywords": [
+            "screen",
+            "display",
+            "desktop",
+            "computer",
+            "pc",
+            "download",
+            "install",
+            "save to computer",
+            "export",
+            "receive",
+            "arrow",
+            "media"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
+          "name": "monitor-minus",
+          "keywords": [
+            "screen",
+            "display",
+            "desktop",
+            "computer",
+            "pc",
+            "remove display",
+            "disconnect",
+            "fewer screens",
+            "detach",
+            "subtract",
+            "unplug",
+            "media"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
+          "name": "monitor-pause",
+          "keywords": [
+            "screen",
+            "display",
+            "desktop",
+            "computer",
+            "pc",
+            "paused",
+            "pause screen share",
+            "pause presentation",
+            "hold",
+            "video",
+            "stream",
+            "media"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
           "name": "monitor-play",
           "keywords": [
             "screen",
@@ -6780,6 +8754,116 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "monitor-plus",
+          "keywords": [
+            "screen",
+            "display",
+            "desktop",
+            "computer",
+            "pc",
+            "add display",
+            "new device",
+            "add screen",
+            "connect",
+            "extend display",
+            "new workspace"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
+          "name": "monitor-speaker",
+          "keywords": [
+            "desktop audio",
+            "speaker",
+            "sound",
+            "studio",
+            "hifi",
+            "computer",
+            "monitor",
+            "speakers",
+            "media"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
+          "name": "monitor-stop",
+          "keywords": [
+            "screen",
+            "display",
+            "desktop",
+            "computer",
+            "pc",
+            "end screen share",
+            "stop recording",
+            "stop broadcast",
+            "end presentation",
+            "video",
+            "stream",
+            "media"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
+          "name": "monitor-up",
+          "keywords": [
+            "screen",
+            "display",
+            "desktop",
+            "computer",
+            "pc",
+            "upload",
+            "send",
+            "share screen",
+            "present",
+            "broadcast",
+            "arrow",
+            "media"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
+          "name": "monitor-x",
+          "keywords": [
+            "screen",
+            "display",
+            "desktop",
+            "computer",
+            "pc",
+            "disconnected",
+            "no signal",
+            "offline",
+            "remove device",
+            "error",
+            "unavailable"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
         },
         {
           "name": "mouse",
@@ -6957,6 +9041,25 @@
           "added": "2026-07-05"
         },
         {
+          "name": "play-pause",
+          "keywords": [
+            "toggle playback",
+            "resume",
+            "media control",
+            "player",
+            "start stop",
+            "music",
+            "video",
+            "audio"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
           "name": "playlist",
           "keywords": [
             "music",
@@ -6996,6 +9099,46 @@
             "duo"
           ],
           "added": "2026-06-30"
+        },
+        {
+          "name": "plug-circle",
+          "keywords": [
+            "power",
+            "electric",
+            "outlet",
+            "socket",
+            "connect",
+            "plugged in",
+            "energy",
+            "badge",
+            "media"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
+          "name": "plug-zap",
+          "keywords": [
+            "charging",
+            "charger",
+            "power",
+            "electric",
+            "energy",
+            "ev charging",
+            "plugged in",
+            "outlet",
+            "media"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
         },
         {
           "name": "podcast",
@@ -7246,6 +9389,26 @@
             "duo"
           ],
           "added": "2026-06-30"
+        },
+        {
+          "name": "server-cog",
+          "keywords": [
+            "server settings",
+            "configure server",
+            "hosting",
+            "admin",
+            "backend",
+            "infrastructure",
+            "gear",
+            "rack",
+            "media"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
         },
         {
           "name": "shuffle",
@@ -8001,6 +10164,24 @@
           "added": "2026-07-02"
         },
         {
+          "name": "cloud-search",
+          "keywords": [
+            "search cloud",
+            "find online",
+            "cloud lookup",
+            "browse storage",
+            "web search",
+            "online search",
+            "remote files"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
           "name": "cloud-star",
           "keywords": [
             "storage",
@@ -8088,6 +10269,109 @@
             "duo"
           ],
           "added": "2026-05-26"
+        },
+        {
+          "name": "copy-check",
+          "keywords": [
+            "duplicate",
+            "clone",
+            "pages",
+            "documents",
+            "clipboard",
+            "copied",
+            "copied to clipboard",
+            "done",
+            "success",
+            "confirmed"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
+          "name": "copy-minus",
+          "keywords": [
+            "duplicate",
+            "clone",
+            "pages",
+            "documents",
+            "clipboard",
+            "remove copy",
+            "delete duplicate",
+            "fewer copies",
+            "subtract"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
+          "name": "copy-off",
+          "keywords": [
+            "duplicate",
+            "clone",
+            "pages",
+            "documents",
+            "clipboard",
+            "no copy",
+            "copy disabled",
+            "copy protection",
+            "protected",
+            "slash"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
+          "name": "copy-plus",
+          "keywords": [
+            "duplicate",
+            "clone",
+            "pages",
+            "documents",
+            "clipboard",
+            "add copy",
+            "duplicate to",
+            "new copy",
+            "append"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
+          "name": "copy-x",
+          "keywords": [
+            "duplicate",
+            "clone",
+            "pages",
+            "documents",
+            "clipboard",
+            "copy failed",
+            "remove duplicate",
+            "cancel copy",
+            "delete copy",
+            "error"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
         },
         {
           "name": "file",
@@ -8221,6 +10505,25 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "file-cog",
+          "keywords": [
+            "document settings",
+            "file settings",
+            "configure",
+            "preferences",
+            "config file",
+            "properties",
+            "gear",
+            "page"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
         },
         {
           "name": "file-digit",
@@ -8827,6 +11130,26 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "folder-cog",
+          "keywords": [
+            "directory settings",
+            "folder settings",
+            "configure",
+            "preferences",
+            "manage folder",
+            "properties",
+            "gear",
+            "workspace settings",
+            "file"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
         },
         {
           "name": "folder-dot",
@@ -10345,6 +12668,46 @@
           "added": "2026-06-02"
         },
         {
+          "name": "weight",
+          "keywords": [
+            "mass",
+            "kilogram",
+            "heavy",
+            "scale weight",
+            "pound",
+            "measure",
+            "load",
+            "ton",
+            "shop"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
+          "name": "weight-tilde",
+          "keywords": [
+            "estimated weight",
+            "approximate",
+            "about",
+            "e mark",
+            "net weight",
+            "mass",
+            "kilogram",
+            "heavy",
+            "shop"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
           "name": "yen",
           "keywords": [
             "money",
@@ -11288,6 +13651,139 @@
           "added": "2026-06-16"
         },
         {
+          "name": "database-check",
+          "keywords": [
+            "storage",
+            "data",
+            "sql",
+            "records",
+            "table store",
+            "synced",
+            "backup complete",
+            "verified",
+            "healthy",
+            "connected",
+            "done",
+            "success"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
+          "name": "database-cog",
+          "keywords": [
+            "storage",
+            "data",
+            "sql",
+            "records",
+            "table store",
+            "database settings",
+            "configure database",
+            "admin",
+            "preferences",
+            "manage data",
+            "gear"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
+          "name": "database-minus",
+          "keywords": [
+            "storage",
+            "data",
+            "sql",
+            "records",
+            "table store",
+            "remove database",
+            "drop",
+            "delete record",
+            "subtract",
+            "detach",
+            "deprovision"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
+          "name": "database-plus",
+          "keywords": [
+            "storage",
+            "data",
+            "sql",
+            "records",
+            "table store",
+            "add database",
+            "new table",
+            "create",
+            "insert",
+            "provision",
+            "add record"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
+          "name": "database-search",
+          "keywords": [
+            "storage",
+            "data",
+            "sql",
+            "records",
+            "table store",
+            "query",
+            "find",
+            "lookup",
+            "search data",
+            "explore",
+            "select"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
+          "name": "database-x",
+          "keywords": [
+            "storage",
+            "data",
+            "sql",
+            "records",
+            "table store",
+            "database error",
+            "disconnected",
+            "failed",
+            "offline",
+            "delete",
+            "cancel"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
           "name": "filter",
           "keywords": [
             "funnel",
@@ -11562,6 +14058,86 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "tally-1",
+          "keywords": [
+            "count",
+            "score",
+            "marks",
+            "votes",
+            "tally marks",
+            "increment",
+            "counter",
+            "one",
+            "chart"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
+          "name": "tally-2",
+          "keywords": [
+            "count",
+            "score",
+            "marks",
+            "votes",
+            "tally marks",
+            "increment",
+            "counter",
+            "two",
+            "chart"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
+          "name": "tally-3",
+          "keywords": [
+            "count",
+            "score",
+            "marks",
+            "votes",
+            "tally marks",
+            "increment",
+            "counter",
+            "three",
+            "chart"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
+          "name": "tally-4",
+          "keywords": [
+            "count",
+            "score",
+            "marks",
+            "votes",
+            "tally marks",
+            "increment",
+            "counter",
+            "four",
+            "chart"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
         },
         {
           "name": "target",
@@ -12092,6 +14668,26 @@
           "added": "2026-07-01"
         },
         {
+          "name": "directions",
+          "keywords": [
+            "crossroads",
+            "junction",
+            "intersection",
+            "turn right",
+            "route choice",
+            "wayfinding",
+            "navigate",
+            "which way",
+            "map"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
           "name": "earth",
           "keywords": [
             "planet",
@@ -12176,6 +14772,26 @@
           "added": "2026-07-02"
         },
         {
+          "name": "flag-swallowtail",
+          "keywords": [
+            "pennant",
+            "burgee",
+            "banner",
+            "nautical",
+            "swallowtail",
+            "marker",
+            "milestone",
+            "checkpoint",
+            "map"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
           "name": "globe",
           "keywords": [
             "world",
@@ -12222,6 +14838,26 @@
             "duo"
           ],
           "added": "2026-07-02"
+        },
+        {
+          "name": "globe-cog",
+          "keywords": [
+            "language settings",
+            "region settings",
+            "locale",
+            "internationalization",
+            "network settings",
+            "web settings",
+            "world",
+            "gear",
+            "map"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
         },
         {
           "name": "globe-meridians",
@@ -12365,6 +15001,25 @@
             "duo"
           ],
           "added": "2026-07-01"
+        },
+        {
+          "name": "map-pin-2",
+          "keywords": [
+            "location",
+            "pushpin",
+            "marker",
+            "place",
+            "drop pin",
+            "here",
+            "ground",
+            "position"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
         },
         {
           "name": "map-pin-check",
@@ -12680,6 +15335,26 @@
           "added": "2026-07-05"
         },
         {
+          "name": "accent-grave",
+          "keywords": [
+            "backtick",
+            "backquote",
+            "grave",
+            "diacritic",
+            "code",
+            "inline code",
+            "punctuation",
+            "character",
+            "text"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
           "name": "align-center",
           "keywords": [
             "text",
@@ -12741,6 +15416,25 @@
           "added": "2026-07-02"
         },
         {
+          "name": "align-left-2",
+          "keywords": [
+            "text",
+            "paragraph",
+            "format",
+            "flush left",
+            "margin",
+            "left edge",
+            "guide",
+            "layout"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
           "name": "align-right",
           "keywords": [
             "text",
@@ -12759,6 +15453,25 @@
             "duo"
           ],
           "added": "2026-07-02"
+        },
+        {
+          "name": "align-right-2",
+          "keywords": [
+            "text",
+            "paragraph",
+            "format",
+            "flush right",
+            "margin",
+            "right edge",
+            "guide",
+            "layout"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
         },
         {
           "name": "bold",
@@ -12813,6 +15526,66 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "colon",
+          "keywords": [
+            "punctuation",
+            "two dots",
+            "ratio",
+            "time separator",
+            "label",
+            "definition",
+            "symbol",
+            "character",
+            "text"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
+          "name": "comma",
+          "keywords": [
+            "punctuation",
+            "pause",
+            "separator",
+            "thousands",
+            "list",
+            "symbol",
+            "character",
+            "clause",
+            "text"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
+          "name": "function",
+          "keywords": [
+            "fx",
+            "formula",
+            "math",
+            "calculate",
+            "florin",
+            "expression",
+            "equation",
+            "spreadsheet",
+            "text"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
         },
         {
           "name": "heading",
@@ -12928,6 +15701,107 @@
           "added": "2026-07-05"
         },
         {
+          "name": "input",
+          "keywords": [
+            "text field",
+            "text box",
+            "textbox",
+            "form field",
+            "input field",
+            "caret",
+            "type here",
+            "entry",
+            "form control"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
+          "name": "input-cursor",
+          "keywords": [
+            "click field",
+            "select input",
+            "focus field",
+            "mouse pointer",
+            "form field",
+            "text box",
+            "interact",
+            "click to type",
+            "arrow cursor"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
+          "name": "input-search",
+          "keywords": [
+            "search field",
+            "search bar",
+            "search box",
+            "find",
+            "query",
+            "lookup",
+            "filter field",
+            "magnifier",
+            "omnibox",
+            "text"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
+          "name": "input-sparkles",
+          "keywords": [
+            "ai input",
+            "prompt box",
+            "ai prompt",
+            "magic field",
+            "smart input",
+            "autocomplete",
+            "ai suggest",
+            "generate text",
+            "ask ai"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
+          "name": "input-text-cursor",
+          "keywords": [
+            "text field",
+            "ibeam",
+            "i-beam",
+            "caret",
+            "typing",
+            "edit text",
+            "text box",
+            "form field",
+            "insertion point"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
           "name": "italic",
           "keywords": [
             "text",
@@ -12944,6 +15818,26 @@
             "duo"
           ],
           "added": "2026-07-02"
+        },
+        {
+          "name": "lambda",
+          "keywords": [
+            "anonymous function",
+            "serverless",
+            "wavelength",
+            "greek letter",
+            "math",
+            "functional",
+            "code",
+            "half life",
+            "text"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
         },
         {
           "name": "letter-spacing",
@@ -13117,6 +16011,26 @@
           "added": "2026-07-05"
         },
         {
+          "name": "list-pin",
+          "keywords": [
+            "pinned",
+            "pin to top",
+            "sticky",
+            "keep on top",
+            "favorite",
+            "tasks",
+            "items",
+            "saved",
+            "text"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
           "name": "list-plus",
           "keywords": [
             "add item",
@@ -13174,6 +16088,27 @@
           "added": "2026-07-05"
         },
         {
+          "name": "list-todo-circle",
+          "keywords": [
+            "checklist",
+            "tasks",
+            "todo",
+            "round checkbox",
+            "reminders",
+            "items",
+            "radio list",
+            "done",
+            "agenda",
+            "text"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
           "name": "list-x",
           "keywords": [
             "remove item",
@@ -13191,6 +16126,26 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "omega",
+          "keywords": [
+            "ohm",
+            "resistance",
+            "greek letter",
+            "last",
+            "end",
+            "math",
+            "physics",
+            "electrical",
+            "text"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
         },
         {
           "name": "outdent",
@@ -13230,6 +16185,46 @@
           "added": "2026-08-24"
         },
         {
+          "name": "phi",
+          "keywords": [
+            "golden ratio",
+            "greek letter",
+            "phase",
+            "magnetic flux",
+            "proportion",
+            "math",
+            "empty",
+            "angle",
+            "text"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
+          "name": "pi",
+          "keywords": [
+            "constant",
+            "math",
+            "circle",
+            "radians",
+            "greek letter",
+            "geometry",
+            "3.14",
+            "ratio",
+            "text"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
           "name": "pilcrow",
           "keywords": [
             "paragraph",
@@ -13246,6 +16241,26 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "pipe",
+          "keywords": [
+            "vertical bar",
+            "separator",
+            "divider",
+            "or operator",
+            "stick",
+            "column",
+            "bar",
+            "punctuation",
+            "text"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
         },
         {
           "name": "quote",
@@ -13282,6 +16297,26 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "semicolon",
+          "keywords": [
+            "punctuation",
+            "statement end",
+            "code",
+            "separator",
+            "symbol",
+            "character",
+            "clause",
+            "winking",
+            "text"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
         },
         {
           "name": "spell-check",
@@ -13354,6 +16389,26 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "text-compact",
+          "keywords": [
+            "compact",
+            "condense",
+            "compress",
+            "summarize",
+            "shorten",
+            "context",
+            "thread",
+            "collapse text",
+            "tldr"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
         },
         {
           "name": "text-cursor",
@@ -13431,6 +16486,45 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "text-split",
+          "keywords": [
+            "split text",
+            "columns",
+            "divide text",
+            "two columns",
+            "separate",
+            "side by side",
+            "divider",
+            "paragraph split"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
+          "name": "tilde",
+          "keywords": [
+            "approximately",
+            "swung dash",
+            "wave",
+            "home directory",
+            "about",
+            "similar",
+            "punctuation",
+            "character",
+            "text"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
         },
         {
           "name": "type",
@@ -15769,6 +18863,26 @@
       "label": "Education",
       "icons": [
         {
+          "name": "angle",
+          "keywords": [
+            "degree",
+            "geometry",
+            "corner",
+            "acute",
+            "protractor",
+            "measure",
+            "math",
+            "rotation",
+            "education"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
           "name": "atom",
           "keywords": [
             "science",
@@ -16164,6 +19278,26 @@
           "added": "2026-07-02"
         },
         {
+          "name": "drafting-compass",
+          "keywords": [
+            "compass",
+            "geometry",
+            "draw circle",
+            "drafting",
+            "architecture",
+            "drawing tool",
+            "design",
+            "math",
+            "education"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
           "name": "eraser",
           "keywords": [
             "delete",
@@ -16422,6 +19556,26 @@
             "duo"
           ],
           "added": "2026-07-02"
+        },
+        {
+          "name": "radius",
+          "keywords": [
+            "circle",
+            "geometry",
+            "distance",
+            "centre",
+            "measure",
+            "diameter",
+            "math",
+            "round",
+            "education"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
         },
         {
           "name": "ruler",
@@ -16710,42 +19864,6 @@
           "added": "2026-07-05"
         },
         {
-          "name": "club",
-          "keywords": [
-            "card",
-            "suit",
-            "poker",
-            "game",
-            "clubs",
-            "deck",
-            "clover"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-05"
-        },
-        {
-          "name": "cone",
-          "keywords": [
-            "shape",
-            "3d",
-            "traffic",
-            "geometry",
-            "ice cream",
-            "triangle",
-            "solid"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-05"
-        },
-        {
           "name": "cow",
           "keywords": [
             "animal",
@@ -16762,63 +19880,6 @@
             "duo"
           ],
           "added": "2026-07-05"
-        },
-        {
-          "name": "cross",
-          "keywords": [
-            "plus",
-            "religion",
-            "faith",
-            "church",
-            "add",
-            "medical",
-            "christian"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-05"
-        },
-        {
-          "name": "cylinder",
-          "keywords": [
-            "shape",
-            "3d",
-            "tube",
-            "geometry",
-            "database",
-            "can",
-            "solid"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-05"
-        },
-        {
-          "name": "diamond",
-          "keywords": [
-            "shape",
-            "geometry",
-            "rhombus",
-            "gem",
-            "jewel",
-            "polygon",
-            "square",
-            "rotated",
-            "geometric",
-            "card suit"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-02"
         },
         {
           "name": "dog",
@@ -17055,24 +20116,6 @@
           "added": "2026-07-05"
         },
         {
-          "name": "heptagon",
-          "keywords": [
-            "shape",
-            "polygon",
-            "seven",
-            "geometry",
-            "sides",
-            "badge",
-            "7"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-05"
-        },
-        {
           "name": "herb",
           "keywords": [
             "plant",
@@ -17089,26 +20132,6 @@
             "duo"
           ],
           "added": "2026-07-05"
-        },
-        {
-          "name": "hexagon",
-          "keywords": [
-            "shape",
-            "geometry",
-            "polygon",
-            "six",
-            "honeycomb",
-            "badge",
-            "cell",
-            "nut",
-            "geometric"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-02"
         },
         {
           "name": "leaf",
@@ -17201,25 +20224,6 @@
           "added": "2026-07-05"
         },
         {
-          "name": "octagon",
-          "keywords": [
-            "shape",
-            "geometry",
-            "polygon",
-            "eight",
-            "stop",
-            "sign",
-            "geometric",
-            "badge"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-02"
-        },
-        {
           "name": "owl",
           "keywords": [
             "animal",
@@ -17276,24 +20280,6 @@
           "added": "2026-07-05"
         },
         {
-          "name": "parallelogram",
-          "keywords": [
-            "shape",
-            "geometry",
-            "slant",
-            "quadrilateral",
-            "skew",
-            "rhomboid",
-            "sides"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-05"
-        },
-        {
           "name": "paw",
           "keywords": [
             "pet",
@@ -17324,23 +20310,6 @@
             "tuxedo",
             "zoo",
             "waddle"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-05"
-        },
-        {
-          "name": "pentagon",
-          "keywords": [
-            "shape",
-            "polygon",
-            "five",
-            "geometry",
-            "sides",
-            "badge"
           ],
           "styles": [
             "line",
@@ -17409,24 +20378,6 @@
           "added": "2026-07-05"
         },
         {
-          "name": "pyramid",
-          "keywords": [
-            "shape",
-            "3d",
-            "triangle",
-            "geometry",
-            "egypt",
-            "peak",
-            "solid"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-05"
-        },
-        {
           "name": "rabbit",
           "keywords": [
             "animal",
@@ -17477,24 +20428,6 @@
             "garden",
             "young",
             "eco"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-05"
-        },
-        {
-          "name": "semicircle",
-          "keywords": [
-            "shape",
-            "half circle",
-            "arc",
-            "geometry",
-            "dome",
-            "protractor",
-            "half"
           ],
           "styles": [
             "line",
@@ -17594,24 +20527,6 @@
           "added": "2026-07-05"
         },
         {
-          "name": "spade",
-          "keywords": [
-            "card",
-            "suit",
-            "poker",
-            "game",
-            "spades",
-            "deck",
-            "gamble"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-05"
-        },
-        {
           "name": "spider",
           "keywords": [
             "animal",
@@ -17660,24 +20575,6 @@
             "petals",
             "yellow",
             "nature"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-05"
-        },
-        {
-          "name": "trapezoid",
-          "keywords": [
-            "shape",
-            "geometry",
-            "quadrilateral",
-            "trapezium",
-            "sides",
-            "base",
-            "four"
           ],
           "styles": [
             "line",
@@ -17742,26 +20639,6 @@
             "duo"
           ],
           "added": "2026-07-05"
-        },
-        {
-          "name": "triangle",
-          "keywords": [
-            "shape",
-            "geometry",
-            "delta",
-            "pyramid",
-            "polygon",
-            "three",
-            "warning",
-            "arrow",
-            "geometric"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-02"
         },
         {
           "name": "tulip",
@@ -17890,6 +20767,365 @@
             "duo"
           ],
           "added": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "shapes",
+      "label": "Shapes",
+      "icons": [
+        {
+          "name": "club",
+          "keywords": [
+            "card",
+            "suit",
+            "poker",
+            "game",
+            "clubs",
+            "deck",
+            "clover"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-05"
+        },
+        {
+          "name": "cone",
+          "keywords": [
+            "shape",
+            "3d",
+            "traffic",
+            "geometry",
+            "ice cream",
+            "triangle",
+            "solid"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-05"
+        },
+        {
+          "name": "cross",
+          "keywords": [
+            "plus",
+            "religion",
+            "faith",
+            "church",
+            "add",
+            "medical",
+            "christian"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-05"
+        },
+        {
+          "name": "cylinder",
+          "keywords": [
+            "shape",
+            "3d",
+            "tube",
+            "geometry",
+            "database",
+            "can",
+            "solid"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-05"
+        },
+        {
+          "name": "diamond",
+          "keywords": [
+            "shape",
+            "geometry",
+            "rhombus",
+            "gem",
+            "jewel",
+            "polygon",
+            "square",
+            "rotated",
+            "geometric",
+            "card suit"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-02"
+        },
+        {
+          "name": "diamond-dot",
+          "keywords": [
+            "shape",
+            "geometry",
+            "rhombus",
+            "polygon",
+            "point",
+            "center",
+            "waypoint",
+            "geometric"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
+          "name": "heptagon",
+          "keywords": [
+            "shape",
+            "polygon",
+            "seven",
+            "geometry",
+            "sides",
+            "badge",
+            "7"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-05"
+        },
+        {
+          "name": "hexagon",
+          "keywords": [
+            "shape",
+            "geometry",
+            "polygon",
+            "six",
+            "honeycomb",
+            "badge",
+            "cell",
+            "nut",
+            "geometric"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-02"
+        },
+        {
+          "name": "octagon",
+          "keywords": [
+            "shape",
+            "geometry",
+            "polygon",
+            "eight",
+            "stop",
+            "sign",
+            "geometric",
+            "badge"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-02"
+        },
+        {
+          "name": "octagon-dot",
+          "keywords": [
+            "shape",
+            "geometry",
+            "polygon",
+            "eight",
+            "point",
+            "stop",
+            "center",
+            "geometric"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
+          "name": "parallelogram",
+          "keywords": [
+            "shape",
+            "geometry",
+            "slant",
+            "quadrilateral",
+            "skew",
+            "rhomboid",
+            "sides"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-05"
+        },
+        {
+          "name": "pentagon",
+          "keywords": [
+            "shape",
+            "polygon",
+            "five",
+            "geometry",
+            "sides",
+            "badge"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-05"
+        },
+        {
+          "name": "pyramid",
+          "keywords": [
+            "shape",
+            "3d",
+            "triangle",
+            "geometry",
+            "egypt",
+            "peak",
+            "solid"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-05"
+        },
+        {
+          "name": "semicircle",
+          "keywords": [
+            "shape",
+            "half circle",
+            "arc",
+            "geometry",
+            "dome",
+            "protractor",
+            "half"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-05"
+        },
+        {
+          "name": "spade",
+          "keywords": [
+            "card",
+            "suit",
+            "poker",
+            "game",
+            "spades",
+            "deck",
+            "gamble"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-05"
+        },
+        {
+          "name": "trapezoid",
+          "keywords": [
+            "shape",
+            "geometry",
+            "quadrilateral",
+            "trapezium",
+            "sides",
+            "base",
+            "four"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-05"
+        },
+        {
+          "name": "triangle",
+          "keywords": [
+            "shape",
+            "geometry",
+            "delta",
+            "pyramid",
+            "polygon",
+            "three",
+            "warning",
+            "arrow",
+            "geometric"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-02"
+        },
+        {
+          "name": "triangle-dot",
+          "keywords": [
+            "shape",
+            "geometry",
+            "polygon",
+            "point",
+            "center",
+            "delta",
+            "three",
+            "geometric"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
+          "name": "triangle-right",
+          "keywords": [
+            "right triangle",
+            "geometry",
+            "shape",
+            "slope",
+            "ratio",
+            "hypotenuse",
+            "polygon",
+            "ninety degrees"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
         }
       ]
     },
@@ -19299,6 +22535,26 @@
           "added": "2026-07-02"
         },
         {
+          "name": "gripper",
+          "keywords": [
+            "claw",
+            "robot arm",
+            "grab",
+            "pick up",
+            "crane game",
+            "claw machine",
+            "grabber",
+            "automation",
+            "home"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-21"
+        },
+        {
           "name": "hammer",
           "keywords": [
             "tool",
@@ -19536,6 +22792,7 @@
             "decorate",
             "pail",
             "coat",
+            "pour",
             "home"
           ],
           "styles": [
@@ -19944,7 +23201,9 @@
             "ceramic",
             "ornament",
             "home",
-            "container"
+            "container",
+            "urn",
+            "amphora"
           ],
           "styles": [
             "line",
@@ -20521,6 +23780,26 @@
           "added": "2026-07-02"
         },
         {
+          "name": "shield-key",
+          "keywords": [
+            "security",
+            "access",
+            "password",
+            "credential",
+            "encryption",
+            "authentication",
+            "secret",
+            "api key",
+            "protect"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
           "name": "shield-lock",
           "keywords": [
             "security",
@@ -20618,6 +23897,25 @@
           "added": "2026-07-05"
         },
         {
+          "name": "shield-sparkles",
+          "keywords": [
+            "ai safety",
+            "ai security",
+            "guardrails",
+            "trust",
+            "protect",
+            "magic",
+            "smart protection",
+            "secure ai"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
           "name": "shield-star",
           "keywords": [
             "security",
@@ -20662,6 +23960,26 @@
           "added": "2026-07-02"
         },
         {
+          "name": "shield-user",
+          "keywords": [
+            "security",
+            "protected account",
+            "user protection",
+            "identity",
+            "guard",
+            "privacy",
+            "profile",
+            "personal data",
+            "insurance"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
           "name": "shield-x",
           "keywords": [
             "security",
@@ -20690,6 +24008,26 @@
       "id": "development",
       "label": "Development",
       "icons": [
+        {
+          "name": "badge-terminal",
+          "keywords": [
+            "console",
+            "shell",
+            "command line",
+            "cli",
+            "prompt",
+            "developer",
+            "verified script",
+            "run",
+            "bash"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
         {
           "name": "blocks",
           "keywords": [
@@ -20729,6 +24067,44 @@
           "added": "2026-07-05"
         },
         {
+          "name": "brace-left",
+          "keywords": [
+            "open brace",
+            "curly bracket",
+            "opening",
+            "block start",
+            "object",
+            "code",
+            "syntax",
+            "json"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
+          "name": "brace-right",
+          "keywords": [
+            "close brace",
+            "curly bracket",
+            "closing",
+            "block end",
+            "object",
+            "code",
+            "syntax",
+            "json"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
           "name": "braces",
           "keywords": [
             "json",
@@ -20745,6 +24121,44 @@
             "duo"
           ],
           "added": "2026-07-02"
+        },
+        {
+          "name": "bracket-left",
+          "keywords": [
+            "open bracket",
+            "square bracket",
+            "opening",
+            "array start",
+            "code",
+            "syntax",
+            "index",
+            "punctuation"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
+          "name": "bracket-right",
+          "keywords": [
+            "close bracket",
+            "square bracket",
+            "closing",
+            "array end",
+            "code",
+            "syntax",
+            "index",
+            "punctuation"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
         },
         {
           "name": "brackets",
@@ -21104,6 +24518,101 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "parentheses",
+          "keywords": [
+            "round brackets",
+            "parens",
+            "group",
+            "function call",
+            "arguments",
+            "code",
+            "syntax",
+            "math"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
+          "name": "parentheses-ellipsis",
+          "keywords": [
+            "more arguments",
+            "omitted",
+            "truncated",
+            "placeholder",
+            "rest",
+            "spread",
+            "code",
+            "syntax"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
+          "name": "parentheses-x",
+          "keywords": [
+            "clear",
+            "remove group",
+            "empty",
+            "null",
+            "void",
+            "error",
+            "code",
+            "syntax"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
+          "name": "parenthesis-left",
+          "keywords": [
+            "open paren",
+            "round bracket",
+            "opening",
+            "group start",
+            "code",
+            "syntax",
+            "math",
+            "punctuation"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
+        },
+        {
+          "name": "parenthesis-right",
+          "keywords": [
+            "close paren",
+            "round bracket",
+            "closing",
+            "group end",
+            "code",
+            "syntax",
+            "math",
+            "punctuation"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-19"
         },
         {
           "name": "square-code",
