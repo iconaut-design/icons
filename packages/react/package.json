@@ -1,6 +1,6 @@
 {
   "name": "iconaut-react",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Iconaut icons as React components — one shape per icon, three styles, a real drawing at every native size.",
   "license": "MIT",
   "type": "module",
@@ -1660,6 +1660,18 @@
       "types": "./icons/circle-sigma-duo.d.ts",
       "default": "./icons/circle-sigma-duo.js"
     },
+    "./octagon-minus": {
+      "types": "./icons/octagon-minus.d.ts",
+      "default": "./icons/octagon-minus.js"
+    },
+    "./octagon-minus-solid": {
+      "types": "./icons/octagon-minus-solid.d.ts",
+      "default": "./icons/octagon-minus-solid.js"
+    },
+    "./octagon-minus-duo": {
+      "types": "./icons/octagon-minus-duo.d.ts",
+      "default": "./icons/octagon-minus-duo.js"
+    },
     "./sparkle": {
       "types": "./icons/sparkle.d.ts",
       "default": "./icons/sparkle.js"
@@ -1995,6 +2007,18 @@
     "./user-cog-duo": {
       "types": "./icons/user-cog-duo.d.ts",
       "default": "./icons/user-cog-duo.js"
+    },
+    "./heart-handshake": {
+      "types": "./icons/heart-handshake.d.ts",
+      "default": "./icons/heart-handshake.js"
+    },
+    "./heart-handshake-solid": {
+      "types": "./icons/heart-handshake-solid.d.ts",
+      "default": "./icons/heart-handshake-solid.js"
+    },
+    "./heart-handshake-duo": {
+      "types": "./icons/heart-handshake-duo.d.ts",
+      "default": "./icons/heart-handshake-duo.js"
     },
     "./arrow-up": {
       "types": "./icons/arrow-up.d.ts",
@@ -4191,6 +4215,42 @@
     "./message-square-dot-duo": {
       "types": "./icons/message-square-dot-duo.d.ts",
       "default": "./icons/message-square-dot-duo.js"
+    },
+    "./mails": {
+      "types": "./icons/mails.d.ts",
+      "default": "./icons/mails.js"
+    },
+    "./mails-solid": {
+      "types": "./icons/mails-solid.d.ts",
+      "default": "./icons/mails-solid.js"
+    },
+    "./mails-duo": {
+      "types": "./icons/mails-duo.d.ts",
+      "default": "./icons/mails-duo.js"
+    },
+    "./message-dashed": {
+      "types": "./icons/message-dashed.d.ts",
+      "default": "./icons/message-dashed.js"
+    },
+    "./message-dashed-solid": {
+      "types": "./icons/message-dashed-solid.d.ts",
+      "default": "./icons/message-dashed-solid.js"
+    },
+    "./message-dashed-duo": {
+      "types": "./icons/message-dashed-duo.d.ts",
+      "default": "./icons/message-dashed-duo.js"
+    },
+    "./message-square-dashed": {
+      "types": "./icons/message-square-dashed.d.ts",
+      "default": "./icons/message-square-dashed.js"
+    },
+    "./message-square-dashed-solid": {
+      "types": "./icons/message-square-dashed-solid.d.ts",
+      "default": "./icons/message-square-dashed-solid.js"
+    },
+    "./message-square-dashed-duo": {
+      "types": "./icons/message-square-dashed-duo.d.ts",
+      "default": "./icons/message-square-dashed-duo.js"
     },
     "./play": {
       "types": "./icons/play.d.ts",
@@ -8200,6 +8260,18 @@
       "types": "./icons/watch-duo.d.ts",
       "default": "./icons/watch-duo.js"
     },
+    "./alarm-clock-x": {
+      "types": "./icons/alarm-clock-x.d.ts",
+      "default": "./icons/alarm-clock-x.js"
+    },
+    "./alarm-clock-x-solid": {
+      "types": "./icons/alarm-clock-x-solid.d.ts",
+      "default": "./icons/alarm-clock-x-solid.js"
+    },
+    "./alarm-clock-x-duo": {
+      "types": "./icons/alarm-clock-x-duo.d.ts",
+      "default": "./icons/alarm-clock-x-duo.js"
+    },
     "./map-pin": {
       "types": "./icons/map-pin.d.ts",
       "default": "./icons/map-pin.js"
@@ -8643,6 +8715,18 @@
     "./flag-swallowtail-duo": {
       "types": "./icons/flag-swallowtail-duo.d.ts",
       "default": "./icons/flag-swallowtail-duo.js"
+    },
+    "./footprints": {
+      "types": "./icons/footprints.d.ts",
+      "default": "./icons/footprints.js"
+    },
+    "./footprints-solid": {
+      "types": "./icons/footprints-solid.d.ts",
+      "default": "./icons/footprints-solid.js"
+    },
+    "./footprints-duo": {
+      "types": "./icons/footprints-duo.d.ts",
+      "default": "./icons/footprints-duo.js"
     },
     "./type": {
       "types": "./icons/type.d.ts",
@@ -9472,6 +9556,30 @@
       "types": "./icons/car-duo.d.ts",
       "default": "./icons/car-duo.js"
     },
+    "./car-taxi": {
+      "types": "./icons/car-taxi.d.ts",
+      "default": "./icons/car-taxi.js"
+    },
+    "./car-taxi-solid": {
+      "types": "./icons/car-taxi-solid.d.ts",
+      "default": "./icons/car-taxi-solid.js"
+    },
+    "./car-taxi-duo": {
+      "types": "./icons/car-taxi-duo.d.ts",
+      "default": "./icons/car-taxi-duo.js"
+    },
+    "./car-off": {
+      "types": "./icons/car-off.d.ts",
+      "default": "./icons/car-off.js"
+    },
+    "./car-off-solid": {
+      "types": "./icons/car-off-solid.d.ts",
+      "default": "./icons/car-off-solid.js"
+    },
+    "./car-off-duo": {
+      "types": "./icons/car-off-duo.d.ts",
+      "default": "./icons/car-off-duo.js"
+    },
     "./bus": {
       "types": "./icons/bus.d.ts",
       "default": "./icons/bus.js"
@@ -9519,6 +9627,18 @@
     "./plane-duo": {
       "types": "./icons/plane-duo.d.ts",
       "default": "./icons/plane-duo.js"
+    },
+    "./plane-off": {
+      "types": "./icons/plane-off.d.ts",
+      "default": "./icons/plane-off.js"
+    },
+    "./plane-off-solid": {
+      "types": "./icons/plane-off-solid.d.ts",
+      "default": "./icons/plane-off-solid.js"
+    },
+    "./plane-off-duo": {
+      "types": "./icons/plane-off-duo.d.ts",
+      "default": "./icons/plane-off-duo.js"
     },
     "./plane-takeoff": {
       "types": "./icons/plane-takeoff.d.ts",
@@ -10276,6 +10396,18 @@
       "types": "./icons/clipboard-heart-duo.d.ts",
       "default": "./icons/clipboard-heart-duo.js"
     },
+    "./bone-fractured": {
+      "types": "./icons/bone-fractured.d.ts",
+      "default": "./icons/bone-fractured.js"
+    },
+    "./bone-fractured-solid": {
+      "types": "./icons/bone-fractured-solid.d.ts",
+      "default": "./icons/bone-fractured-solid.js"
+    },
+    "./bone-fractured-duo": {
+      "types": "./icons/bone-fractured-duo.d.ts",
+      "default": "./icons/bone-fractured-duo.js"
+    },
     "./coffee": {
       "types": "./icons/coffee.d.ts",
       "default": "./icons/coffee.js"
@@ -10875,6 +11007,18 @@
     "./rice-bowl-duo": {
       "types": "./icons/rice-bowl-duo.d.ts",
       "default": "./icons/rice-bowl-duo.js"
+    },
+    "./burger": {
+      "types": "./icons/burger.d.ts",
+      "default": "./icons/burger.js"
+    },
+    "./burger-solid": {
+      "types": "./icons/burger-solid.d.ts",
+      "default": "./icons/burger-solid.js"
+    },
+    "./burger-duo": {
+      "types": "./icons/burger-duo.d.ts",
+      "default": "./icons/burger-duo.js"
     },
     "./graduation-cap": {
       "types": "./icons/graduation-cap.d.ts",
@@ -12628,6 +12772,18 @@
       "types": "./icons/health-potion-duo.d.ts",
       "default": "./icons/health-potion-duo.js"
     },
+    "./chess-rook": {
+      "types": "./icons/chess-rook.d.ts",
+      "default": "./icons/chess-rook.js"
+    },
+    "./chess-rook-solid": {
+      "types": "./icons/chess-rook-solid.d.ts",
+      "default": "./icons/chess-rook-solid.js"
+    },
+    "./chess-rook-duo": {
+      "types": "./icons/chess-rook-duo.d.ts",
+      "default": "./icons/chess-rook-duo.js"
+    },
     "./football": {
       "types": "./icons/football.d.ts",
       "default": "./icons/football.js"
@@ -13959,6 +14115,18 @@
     "./shield-sparkles-duo": {
       "types": "./icons/shield-sparkles-duo.d.ts",
       "default": "./icons/shield-sparkles-duo.js"
+    },
+    "./scan-zap": {
+      "types": "./icons/scan-zap.d.ts",
+      "default": "./icons/scan-zap.js"
+    },
+    "./scan-zap-solid": {
+      "types": "./icons/scan-zap-solid.d.ts",
+      "default": "./icons/scan-zap-solid.js"
+    },
+    "./scan-zap-duo": {
+      "types": "./icons/scan-zap-duo.d.ts",
+      "default": "./icons/scan-zap-duo.js"
     },
     "./code": {
       "types": "./icons/code.d.ts",

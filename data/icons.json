@@ -1529,6 +1529,27 @@
           "added": "2026-10-21"
         },
         {
+          "name": "octagon-minus",
+          "keywords": [
+            "stop",
+            "stop sign",
+            "remove",
+            "blocked",
+            "no entry",
+            "halt",
+            "subtract",
+            "restricted",
+            "disallow",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-28"
+        },
+        {
           "name": "palette",
           "keywords": [
             "color palette",
@@ -3272,6 +3293,27 @@
             "duo"
           ],
           "added": "2026-07-02"
+        },
+        {
+          "name": "heart-handshake",
+          "keywords": [
+            "partnership",
+            "charity",
+            "volunteer",
+            "care",
+            "support",
+            "agreement",
+            "donation",
+            "trust",
+            "community",
+            "user"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-28"
         },
         {
           "name": "team",
@@ -6962,6 +7004,26 @@
           "added": "2026-07-05"
         },
         {
+          "name": "mails",
+          "keywords": [
+            "emails",
+            "envelopes",
+            "inbox",
+            "messages",
+            "letters",
+            "newsletter",
+            "bulk mail",
+            "mailing list",
+            "correspondence"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-28"
+        },
+        {
           "name": "megaphone",
           "keywords": [
             "announce",
@@ -7166,6 +7228,27 @@
           "added": "2026-07-05"
         },
         {
+          "name": "message-dashed",
+          "keywords": [
+            "chat",
+            "draft",
+            "pending",
+            "speech bubble",
+            "placeholder",
+            "unsent",
+            "outline",
+            "dotted",
+            "comment",
+            "round"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-28"
+        },
+        {
           "name": "message-dots",
           "keywords": [
             "typing",
@@ -7296,6 +7379,27 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "message-square-dashed",
+          "keywords": [
+            "chat",
+            "draft",
+            "pending",
+            "bubble",
+            "placeholder",
+            "unsent",
+            "outline",
+            "dotted",
+            "text box",
+            "sms"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-28"
         },
         {
           "name": "message-square-diff",
@@ -14241,6 +14345,26 @@
           "added": "2026-06-23"
         },
         {
+          "name": "alarm-clock-x",
+          "keywords": [
+            "alarm off",
+            "dismiss alarm",
+            "cancel alarm",
+            "delete alarm",
+            "stop alarm",
+            "wake",
+            "reminder removed",
+            "snooze",
+            "time"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-28"
+        },
+        {
           "name": "calendar-arrow-down",
           "keywords": [
             "date",
@@ -14790,6 +14914,27 @@
             "duo"
           ],
           "added": "2026-10-21"
+        },
+        {
+          "name": "footprints",
+          "keywords": [
+            "steps",
+            "walking",
+            "footsteps",
+            "trail",
+            "track",
+            "pedometer",
+            "hiking",
+            "pedestrian",
+            "shoe prints",
+            "map"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-28"
         },
         {
           "name": "globe",
@@ -16738,6 +16883,52 @@
           "added": "2026-07-05"
         },
         {
+          "name": "car-off",
+          "keywords": [
+            "vehicle",
+            "auto",
+            "drive",
+            "sedan",
+            "taxi",
+            "automobile",
+            "parking",
+            "no cars",
+            "car free",
+            "no driving",
+            "no parking",
+            "vehicle disabled",
+            "off",
+            "disabled",
+            "slash"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-28"
+        },
+        {
+          "name": "car-taxi",
+          "keywords": [
+            "taxi",
+            "cab",
+            "ride",
+            "hire",
+            "rideshare",
+            "uber",
+            "chauffeur",
+            "side view",
+            "vehicle"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-28"
+        },
+        {
           "name": "car-taxi-front",
           "keywords": [
             "taxi",
@@ -17053,6 +17244,33 @@
             "duo"
           ],
           "added": "2026-07-02"
+        },
+        {
+          "name": "plane-off",
+          "keywords": [
+            "flight",
+            "airplane",
+            "travel",
+            "airport",
+            "fly",
+            "jet",
+            "trip",
+            "aviation",
+            "flight cancelled",
+            "no flights",
+            "grounded",
+            "airplane mode",
+            "no fly zone",
+            "off",
+            "disabled",
+            "slash"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-28"
         },
         {
           "name": "plane-takeoff",
@@ -17448,6 +17666,27 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "bone-fractured",
+          "keywords": [
+            "broken bone",
+            "fracture",
+            "break",
+            "injury",
+            "orthopedic",
+            "x-ray",
+            "cast",
+            "trauma",
+            "skeleton",
+            "health"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-28"
         },
         {
           "name": "braille",
@@ -18031,6 +18270,26 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "burger",
+          "keywords": [
+            "hamburger",
+            "cheeseburger",
+            "fast food",
+            "junk food",
+            "meal",
+            "lunch",
+            "takeaway",
+            "restaurant",
+            "diner"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-28"
         },
         {
           "name": "cake",
@@ -21584,6 +21843,25 @@
           "added": "2026-07-02"
         },
         {
+          "name": "chess-rook",
+          "keywords": [
+            "chess",
+            "castle",
+            "tower",
+            "strategy",
+            "board game",
+            "piece",
+            "castling",
+            "fortress"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-28"
+        },
+        {
           "name": "dice-five",
           "keywords": [
             "die",
@@ -23679,6 +23957,27 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "scan-zap",
+          "keywords": [
+            "quick scan",
+            "instant scan",
+            "fast scan",
+            "scan to pay",
+            "lightning",
+            "bolt",
+            "flash",
+            "qr",
+            "viewfinder",
+            "security"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-28"
         },
         {
           "name": "shield",
