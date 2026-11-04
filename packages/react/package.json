@@ -1,6 +1,6 @@
 {
   "name": "iconaut-react",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Iconaut icons as React components — one shape per icon, three styles, a real drawing at every native size.",
   "license": "MIT",
   "type": "module",
@@ -1875,6 +1875,366 @@
     "./ai-chip-duo": {
       "types": "./icons/ai-chip-duo.d.ts",
       "default": "./icons/ai-chip-duo.js"
+    },
+    "./neural-network": {
+      "types": "./icons/neural-network.d.ts",
+      "default": "./icons/neural-network.js"
+    },
+    "./neural-network-solid": {
+      "types": "./icons/neural-network-solid.d.ts",
+      "default": "./icons/neural-network-solid.js"
+    },
+    "./neural-network-duo": {
+      "types": "./icons/neural-network-duo.d.ts",
+      "default": "./icons/neural-network-duo.js"
+    },
+    "./gpu": {
+      "types": "./icons/gpu.d.ts",
+      "default": "./icons/gpu.js"
+    },
+    "./gpu-solid": {
+      "types": "./icons/gpu-solid.d.ts",
+      "default": "./icons/gpu-solid.js"
+    },
+    "./gpu-duo": {
+      "types": "./icons/gpu-duo.d.ts",
+      "default": "./icons/gpu-duo.js"
+    },
+    "./automation": {
+      "types": "./icons/automation.d.ts",
+      "default": "./icons/automation.js"
+    },
+    "./automation-solid": {
+      "types": "./icons/automation-solid.d.ts",
+      "default": "./icons/automation-solid.js"
+    },
+    "./automation-duo": {
+      "types": "./icons/automation-duo.d.ts",
+      "default": "./icons/automation-duo.js"
+    },
+    "./speech-to-text": {
+      "types": "./icons/speech-to-text.d.ts",
+      "default": "./icons/speech-to-text.js"
+    },
+    "./speech-to-text-solid": {
+      "types": "./icons/speech-to-text-solid.d.ts",
+      "default": "./icons/speech-to-text-solid.js"
+    },
+    "./speech-to-text-duo": {
+      "types": "./icons/speech-to-text-duo.d.ts",
+      "default": "./icons/speech-to-text-duo.js"
+    },
+    "./ai-chat": {
+      "types": "./icons/ai-chat.d.ts",
+      "default": "./icons/ai-chat.js"
+    },
+    "./ai-chat-solid": {
+      "types": "./icons/ai-chat-solid.d.ts",
+      "default": "./icons/ai-chat-solid.js"
+    },
+    "./ai-chat-duo": {
+      "types": "./icons/ai-chat-duo.d.ts",
+      "default": "./icons/ai-chat-duo.js"
+    },
+    "./ai-write": {
+      "types": "./icons/ai-write.d.ts",
+      "default": "./icons/ai-write.js"
+    },
+    "./ai-write-solid": {
+      "types": "./icons/ai-write-solid.d.ts",
+      "default": "./icons/ai-write-solid.js"
+    },
+    "./ai-write-duo": {
+      "types": "./icons/ai-write-duo.d.ts",
+      "default": "./icons/ai-write-duo.js"
+    },
+    "./ai-image": {
+      "types": "./icons/ai-image.d.ts",
+      "default": "./icons/ai-image.js"
+    },
+    "./ai-image-solid": {
+      "types": "./icons/ai-image-solid.d.ts",
+      "default": "./icons/ai-image-solid.js"
+    },
+    "./ai-image-duo": {
+      "types": "./icons/ai-image-duo.d.ts",
+      "default": "./icons/ai-image-duo.js"
+    },
+    "./ai-video": {
+      "types": "./icons/ai-video.d.ts",
+      "default": "./icons/ai-video.js"
+    },
+    "./ai-video-solid": {
+      "types": "./icons/ai-video-solid.d.ts",
+      "default": "./icons/ai-video-solid.js"
+    },
+    "./ai-video-duo": {
+      "types": "./icons/ai-video-duo.d.ts",
+      "default": "./icons/ai-video-duo.js"
+    },
+    "./ai-voice": {
+      "types": "./icons/ai-voice.d.ts",
+      "default": "./icons/ai-voice.js"
+    },
+    "./ai-voice-solid": {
+      "types": "./icons/ai-voice-solid.d.ts",
+      "default": "./icons/ai-voice-solid.js"
+    },
+    "./ai-voice-duo": {
+      "types": "./icons/ai-voice-duo.d.ts",
+      "default": "./icons/ai-voice-duo.js"
+    },
+    "./ai-code": {
+      "types": "./icons/ai-code.d.ts",
+      "default": "./icons/ai-code.js"
+    },
+    "./ai-code-solid": {
+      "types": "./icons/ai-code-solid.d.ts",
+      "default": "./icons/ai-code-solid.js"
+    },
+    "./ai-code-duo": {
+      "types": "./icons/ai-code-duo.d.ts",
+      "default": "./icons/ai-code-duo.js"
+    },
+    "./ai-search": {
+      "types": "./icons/ai-search.d.ts",
+      "default": "./icons/ai-search.js"
+    },
+    "./ai-search-solid": {
+      "types": "./icons/ai-search-solid.d.ts",
+      "default": "./icons/ai-search-solid.js"
+    },
+    "./ai-search-duo": {
+      "types": "./icons/ai-search-duo.d.ts",
+      "default": "./icons/ai-search-duo.js"
+    },
+    "./ai-summary": {
+      "types": "./icons/ai-summary.d.ts",
+      "default": "./icons/ai-summary.js"
+    },
+    "./ai-summary-solid": {
+      "types": "./icons/ai-summary-solid.d.ts",
+      "default": "./icons/ai-summary-solid.js"
+    },
+    "./ai-summary-duo": {
+      "types": "./icons/ai-summary-duo.d.ts",
+      "default": "./icons/ai-summary-duo.js"
+    },
+    "./ai-translate": {
+      "types": "./icons/ai-translate.d.ts",
+      "default": "./icons/ai-translate.js"
+    },
+    "./ai-translate-solid": {
+      "types": "./icons/ai-translate-solid.d.ts",
+      "default": "./icons/ai-translate-solid.js"
+    },
+    "./ai-translate-duo": {
+      "types": "./icons/ai-translate-duo.d.ts",
+      "default": "./icons/ai-translate-duo.js"
+    },
+    "./ai-cloud": {
+      "types": "./icons/ai-cloud.d.ts",
+      "default": "./icons/ai-cloud.js"
+    },
+    "./ai-cloud-solid": {
+      "types": "./icons/ai-cloud-solid.d.ts",
+      "default": "./icons/ai-cloud-solid.js"
+    },
+    "./ai-cloud-duo": {
+      "types": "./icons/ai-cloud-duo.d.ts",
+      "default": "./icons/ai-cloud-duo.js"
+    },
+    "./ai-dataset": {
+      "types": "./icons/ai-dataset.d.ts",
+      "default": "./icons/ai-dataset.js"
+    },
+    "./ai-dataset-solid": {
+      "types": "./icons/ai-dataset-solid.d.ts",
+      "default": "./icons/ai-dataset-solid.js"
+    },
+    "./ai-dataset-duo": {
+      "types": "./icons/ai-dataset-duo.d.ts",
+      "default": "./icons/ai-dataset-duo.js"
+    },
+    "./ai-tune": {
+      "types": "./icons/ai-tune.d.ts",
+      "default": "./icons/ai-tune.js"
+    },
+    "./ai-tune-solid": {
+      "types": "./icons/ai-tune-solid.d.ts",
+      "default": "./icons/ai-tune-solid.js"
+    },
+    "./ai-tune-duo": {
+      "types": "./icons/ai-tune-duo.d.ts",
+      "default": "./icons/ai-tune-duo.js"
+    },
+    "./ai-brain": {
+      "types": "./icons/ai-brain.d.ts",
+      "default": "./icons/ai-brain.js"
+    },
+    "./ai-brain-solid": {
+      "types": "./icons/ai-brain-solid.d.ts",
+      "default": "./icons/ai-brain-solid.js"
+    },
+    "./ai-brain-duo": {
+      "types": "./icons/ai-brain-duo.d.ts",
+      "default": "./icons/ai-brain-duo.js"
+    },
+    "./ai-shield": {
+      "types": "./icons/ai-shield.d.ts",
+      "default": "./icons/ai-shield.js"
+    },
+    "./ai-shield-solid": {
+      "types": "./icons/ai-shield-solid.d.ts",
+      "default": "./icons/ai-shield-solid.js"
+    },
+    "./ai-shield-duo": {
+      "types": "./icons/ai-shield-duo.d.ts",
+      "default": "./icons/ai-shield-duo.js"
+    },
+    "./ai-detect": {
+      "types": "./icons/ai-detect.d.ts",
+      "default": "./icons/ai-detect.js"
+    },
+    "./ai-detect-solid": {
+      "types": "./icons/ai-detect-solid.d.ts",
+      "default": "./icons/ai-detect-solid.js"
+    },
+    "./ai-detect-duo": {
+      "types": "./icons/ai-detect-duo.d.ts",
+      "default": "./icons/ai-detect-duo.js"
+    },
+    "./prompt": {
+      "types": "./icons/prompt.d.ts",
+      "default": "./icons/prompt.js"
+    },
+    "./prompt-solid": {
+      "types": "./icons/prompt-solid.d.ts",
+      "default": "./icons/prompt-solid.js"
+    },
+    "./prompt-duo": {
+      "types": "./icons/prompt-duo.d.ts",
+      "default": "./icons/prompt-duo.js"
+    },
+    "./ai-mail": {
+      "types": "./icons/ai-mail.d.ts",
+      "default": "./icons/ai-mail.js"
+    },
+    "./ai-mail-solid": {
+      "types": "./icons/ai-mail-solid.d.ts",
+      "default": "./icons/ai-mail-solid.js"
+    },
+    "./ai-mail-duo": {
+      "types": "./icons/ai-mail-duo.d.ts",
+      "default": "./icons/ai-mail-duo.js"
+    },
+    "./text-to-speech": {
+      "types": "./icons/text-to-speech.d.ts",
+      "default": "./icons/text-to-speech.js"
+    },
+    "./text-to-speech-solid": {
+      "types": "./icons/text-to-speech-solid.d.ts",
+      "default": "./icons/text-to-speech-solid.js"
+    },
+    "./text-to-speech-duo": {
+      "types": "./icons/text-to-speech-duo.d.ts",
+      "default": "./icons/text-to-speech-duo.js"
+    },
+    "./ai-agent": {
+      "types": "./icons/ai-agent.d.ts",
+      "default": "./icons/ai-agent.js"
+    },
+    "./ai-agent-solid": {
+      "types": "./icons/ai-agent-solid.d.ts",
+      "default": "./icons/ai-agent-solid.js"
+    },
+    "./ai-agent-duo": {
+      "types": "./icons/ai-agent-duo.d.ts",
+      "default": "./icons/ai-agent-duo.js"
+    },
+    "./file-sparkles": {
+      "types": "./icons/file-sparkles.d.ts",
+      "default": "./icons/file-sparkles.js"
+    },
+    "./file-sparkles-solid": {
+      "types": "./icons/file-sparkles-solid.d.ts",
+      "default": "./icons/file-sparkles-solid.js"
+    },
+    "./file-sparkles-duo": {
+      "types": "./icons/file-sparkles-duo.d.ts",
+      "default": "./icons/file-sparkles-duo.js"
+    },
+    "./folder-sparkles": {
+      "types": "./icons/folder-sparkles.d.ts",
+      "default": "./icons/folder-sparkles.js"
+    },
+    "./folder-sparkles-solid": {
+      "types": "./icons/folder-sparkles-solid.d.ts",
+      "default": "./icons/folder-sparkles-solid.js"
+    },
+    "./folder-sparkles-duo": {
+      "types": "./icons/folder-sparkles-duo.d.ts",
+      "default": "./icons/folder-sparkles-duo.js"
+    },
+    "./calendar-sparkles": {
+      "types": "./icons/calendar-sparkles.d.ts",
+      "default": "./icons/calendar-sparkles.js"
+    },
+    "./calendar-sparkles-solid": {
+      "types": "./icons/calendar-sparkles-solid.d.ts",
+      "default": "./icons/calendar-sparkles-solid.js"
+    },
+    "./calendar-sparkles-duo": {
+      "types": "./icons/calendar-sparkles-duo.d.ts",
+      "default": "./icons/calendar-sparkles-duo.js"
+    },
+    "./line-chart-sparkles": {
+      "types": "./icons/line-chart-sparkles.d.ts",
+      "default": "./icons/line-chart-sparkles.js"
+    },
+    "./line-chart-sparkles-solid": {
+      "types": "./icons/line-chart-sparkles-solid.d.ts",
+      "default": "./icons/line-chart-sparkles-solid.js"
+    },
+    "./line-chart-sparkles-duo": {
+      "types": "./icons/line-chart-sparkles-duo.d.ts",
+      "default": "./icons/line-chart-sparkles-duo.js"
+    },
+    "./message-square-sparkles": {
+      "types": "./icons/message-square-sparkles.d.ts",
+      "default": "./icons/message-square-sparkles.js"
+    },
+    "./message-square-sparkles-solid": {
+      "types": "./icons/message-square-sparkles-solid.d.ts",
+      "default": "./icons/message-square-sparkles-solid.js"
+    },
+    "./message-square-sparkles-duo": {
+      "types": "./icons/message-square-sparkles-duo.d.ts",
+      "default": "./icons/message-square-sparkles-duo.js"
+    },
+    "./broom-sparkles": {
+      "types": "./icons/broom-sparkles.d.ts",
+      "default": "./icons/broom-sparkles.js"
+    },
+    "./broom-sparkles-solid": {
+      "types": "./icons/broom-sparkles-solid.d.ts",
+      "default": "./icons/broom-sparkles-solid.js"
+    },
+    "./broom-sparkles-duo": {
+      "types": "./icons/broom-sparkles-duo.d.ts",
+      "default": "./icons/broom-sparkles-duo.js"
+    },
+    "./hand-sparkles": {
+      "types": "./icons/hand-sparkles.d.ts",
+      "default": "./icons/hand-sparkles.js"
+    },
+    "./hand-sparkles-solid": {
+      "types": "./icons/hand-sparkles-solid.d.ts",
+      "default": "./icons/hand-sparkles-solid.js"
+    },
+    "./hand-sparkles-duo": {
+      "types": "./icons/hand-sparkles-duo.d.ts",
+      "default": "./icons/hand-sparkles-duo.js"
     },
     "./user": {
       "types": "./icons/user.d.ts",
@@ -13899,6 +14259,18 @@
     "./key-round-duo": {
       "types": "./icons/key-round-duo.d.ts",
       "default": "./icons/key-round-duo.js"
+    },
+    "./key-square": {
+      "types": "./icons/key-square.d.ts",
+      "default": "./icons/key-square.js"
+    },
+    "./key-square-solid": {
+      "types": "./icons/key-square-solid.d.ts",
+      "default": "./icons/key-square-solid.js"
+    },
+    "./key-square-duo": {
+      "types": "./icons/key-square-duo.d.ts",
+      "default": "./icons/key-square-duo.js"
     },
     "./eye-off": {
       "types": "./icons/eye-off.d.ts",

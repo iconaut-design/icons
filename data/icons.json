@@ -452,6 +452,8 @@
             "level",
             "speedometer",
             "round meter",
+            "gauge in a circle",
+            "round gauge badge",
             "ui"
           ],
           "styles": [
@@ -2900,6 +2902,67 @@
       "label": "AI",
       "icons": [
         {
+          "name": "ai-agent",
+          "keywords": [
+            "ai",
+            "magic",
+            "sparkle",
+            "agent",
+            "autonomous",
+            "assistant",
+            "copilot",
+            "worker",
+            "agentic",
+            "task"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-14"
+        },
+        {
+          "name": "ai-brain",
+          "keywords": [
+            "ai",
+            "magic",
+            "sparkle",
+            "intelligence",
+            "machine learning",
+            "ml",
+            "neural",
+            "cognition",
+            "think"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-14"
+        },
+        {
+          "name": "ai-chat",
+          "keywords": [
+            "ai",
+            "magic",
+            "sparkle",
+            "copilot",
+            "assistant",
+            "chatbot",
+            "conversation",
+            "ask ai",
+            "gpt"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-14"
+        },
+        {
           "name": "ai-chip",
           "keywords": [
             "ai",
@@ -2919,6 +2982,82 @@
             "duo"
           ],
           "added": "2026-07-03"
+        },
+        {
+          "name": "ai-cloud",
+          "keywords": [
+            "ai",
+            "magic",
+            "sparkle",
+            "cloud ai",
+            "hosted model",
+            "inference",
+            "api",
+            "compute"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-14"
+        },
+        {
+          "name": "ai-code",
+          "keywords": [
+            "ai",
+            "magic",
+            "sparkle",
+            "copilot",
+            "code generation",
+            "autocomplete",
+            "pair programmer",
+            "codegen"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-14"
+        },
+        {
+          "name": "ai-dataset",
+          "keywords": [
+            "ai",
+            "magic",
+            "sparkle",
+            "dataset",
+            "training data",
+            "vector database",
+            "embeddings",
+            "corpus"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-14"
+        },
+        {
+          "name": "ai-detect",
+          "keywords": [
+            "ai",
+            "magic",
+            "sparkle",
+            "face recognition",
+            "detection",
+            "computer vision",
+            "identify",
+            "biometric"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-14"
         },
         {
           "name": "ai-face",
@@ -3151,6 +3290,221 @@
           "added": "2026-09-28"
         },
         {
+          "name": "ai-image",
+          "keywords": [
+            "ai",
+            "magic",
+            "sparkle",
+            "generate image",
+            "text to image",
+            "art",
+            "image generation",
+            "creative"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-14"
+        },
+        {
+          "name": "ai-mail",
+          "keywords": [
+            "ai",
+            "magic",
+            "sparkle",
+            "smart reply",
+            "draft email",
+            "compose",
+            "inbox",
+            "assistant"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-14"
+        },
+        {
+          "name": "ai-search",
+          "keywords": [
+            "ai",
+            "magic",
+            "sparkle",
+            "semantic search",
+            "smart search",
+            "answer engine",
+            "rag",
+            "retrieval"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-14"
+        },
+        {
+          "name": "ai-shield",
+          "keywords": [
+            "ai",
+            "magic",
+            "sparkle",
+            "ai safety",
+            "guardrails",
+            "moderation",
+            "trust",
+            "ethics",
+            "protection"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-14"
+        },
+        {
+          "name": "ai-summary",
+          "keywords": [
+            "ai",
+            "magic",
+            "sparkle",
+            "summarize",
+            "tldr",
+            "digest",
+            "abstract",
+            "extract",
+            "brief"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-14"
+        },
+        {
+          "name": "ai-translate",
+          "keywords": [
+            "ai",
+            "magic",
+            "sparkle",
+            "translation",
+            "language",
+            "localize",
+            "multilingual",
+            "interpret"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-14"
+        },
+        {
+          "name": "ai-tune",
+          "keywords": [
+            "ai",
+            "magic",
+            "sparkle",
+            "fine-tune",
+            "finetune",
+            "parameters",
+            "temperature",
+            "adjust",
+            "settings"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-14"
+        },
+        {
+          "name": "ai-video",
+          "keywords": [
+            "ai",
+            "magic",
+            "sparkle",
+            "generate video",
+            "text to video",
+            "video generation",
+            "motion"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-14"
+        },
+        {
+          "name": "ai-voice",
+          "keywords": [
+            "ai",
+            "magic",
+            "sparkle",
+            "voice",
+            "speech",
+            "audio ai",
+            "voice clone",
+            "sound",
+            "tts"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-14"
+        },
+        {
+          "name": "ai-write",
+          "keywords": [
+            "ai",
+            "magic",
+            "sparkle",
+            "magic write",
+            "compose",
+            "rewrite",
+            "draft",
+            "copywriting",
+            "generate text"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-14"
+        },
+        {
+          "name": "automation",
+          "keywords": [
+            "ai",
+            "workflow",
+            "auto",
+            "gear",
+            "process",
+            "pipeline",
+            "orchestration",
+            "task",
+            "agentic",
+            "loop"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-14"
+        },
+        {
           "name": "bot",
           "keywords": [
             "ai",
@@ -3168,6 +3522,49 @@
             "duo"
           ],
           "added": "2026-07-02"
+        },
+        {
+          "name": "broom-sparkles",
+          "keywords": [
+            "ai",
+            "magic",
+            "sparkles",
+            "clean up",
+            "tidy",
+            "auto clean",
+            "declutter",
+            "sweep",
+            "magic eraser",
+            "remove clutter",
+            "cleanup"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
+          "name": "calendar-sparkles",
+          "keywords": [
+            "ai",
+            "magic",
+            "sparkles",
+            "smart schedule",
+            "auto schedule",
+            "ai planner",
+            "suggested event",
+            "agenda",
+            "meeting",
+            "date"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
         },
         {
           "name": "chat-bot",
@@ -3188,6 +3585,172 @@
             "duo"
           ],
           "added": "2026-07-03"
+        },
+        {
+          "name": "file-sparkles",
+          "keywords": [
+            "ai",
+            "magic",
+            "sparkles",
+            "ai file",
+            "generate document",
+            "smart document",
+            "auto draft",
+            "magic file",
+            "ai document",
+            "assistant"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
+          "name": "folder-sparkles",
+          "keywords": [
+            "ai",
+            "magic",
+            "sparkles",
+            "smart folder",
+            "auto organize",
+            "ai sort",
+            "magic folder",
+            "collection",
+            "directory",
+            "organize"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
+          "name": "gpu",
+          "keywords": [
+            "ai",
+            "graphics card",
+            "chip",
+            "compute",
+            "hardware",
+            "cuda",
+            "accelerator",
+            "processor",
+            "vram"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-14"
+        },
+        {
+          "name": "hand-sparkles",
+          "keywords": [
+            "ai",
+            "magic",
+            "sparkles",
+            "offer",
+            "give",
+            "assist",
+            "help",
+            "service",
+            "palm",
+            "present",
+            "generate"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
+          "name": "line-chart-sparkles",
+          "keywords": [
+            "ai",
+            "magic",
+            "sparkles",
+            "ai insights",
+            "forecast",
+            "prediction",
+            "smart analytics",
+            "trend",
+            "graph",
+            "chart line"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
+          "name": "message-square-sparkles",
+          "keywords": [
+            "ai",
+            "magic",
+            "sparkles",
+            "ai reply",
+            "smart reply",
+            "chatbot",
+            "copilot",
+            "assistant",
+            "comment",
+            "prompt"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-10-12"
+        },
+        {
+          "name": "neural-network",
+          "keywords": [
+            "ai",
+            "model",
+            "machine learning",
+            "deep learning",
+            "layers",
+            "nodes",
+            "llm",
+            "network",
+            "ml"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-14"
+        },
+        {
+          "name": "prompt",
+          "keywords": [
+            "ai",
+            "magic",
+            "sparkle",
+            "prompt engineering",
+            "command",
+            "instruction",
+            "system prompt",
+            "input",
+            "console"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-14"
         },
         {
           "name": "robot",
@@ -3248,6 +3811,46 @@
             "duo"
           ],
           "added": "2026-07-02"
+        },
+        {
+          "name": "speech-to-text",
+          "keywords": [
+            "ai",
+            "transcribe",
+            "dictation",
+            "voice",
+            "stt",
+            "whisper",
+            "caption",
+            "mic",
+            "transcript"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-14"
+        },
+        {
+          "name": "text-to-speech",
+          "keywords": [
+            "ai",
+            "magic",
+            "sparkle",
+            "tts",
+            "speak",
+            "read aloud",
+            "voice over",
+            "narration",
+            "audio"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-14"
         },
         {
           "name": "wand",
@@ -8649,6 +9252,9 @@
             "meter",
             "signal",
             "wireless",
+            "slow wifi",
+            "thin needle",
+            "poor connection",
             "media"
           ],
           "styles": [
@@ -8674,6 +9280,9 @@
             "pointer",
             "dial",
             "wireless",
+            "speed test",
+            "pinned needle",
+            "needle on a hub",
             "media"
           ],
           "styles": [
@@ -13916,6 +14525,9 @@
             "dial",
             "measure",
             "rpm",
+            "speedometer",
+            "tachometer",
+            "open dial",
             "chart"
           ],
           "styles": [
@@ -13936,6 +14548,13 @@
             "measure",
             "level",
             "kpi",
+            "pressure gauge",
+            "manometer",
+            "pressure",
+            "psi",
+            "analog meter",
+            "boiler",
+            "tire pressure",
             "chart"
           ],
           "styles": [
@@ -23859,6 +24478,29 @@
             "duo"
           ],
           "added": "2026-07-03"
+        },
+        {
+          "name": "key-square",
+          "keywords": [
+            "key",
+            "square key",
+            "car key",
+            "access",
+            "unlock",
+            "login",
+            "password",
+            "credential",
+            "door key",
+            "flat key",
+            "square head",
+            "security"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-02"
         },
         {
           "name": "lock-keyhole",
