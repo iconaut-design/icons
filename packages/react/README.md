@@ -19,6 +19,22 @@ import { Rocket, RocketSolid, RocketDuo } from "iconaut-react";
 <Rocket className="text-blue-500" />
 ```
 
+## shadcn/ui
+
+`iconaut-react/shadcn` exports Iconaut icons under the lucide names shadcn/ui components
+import (`CheckIcon`, `ChevronDownIcon`, `XIcon` and the rest), at the 16px fit shadcn
+sizes its icons to. Swap the import in a component and it draws in Iconaut:
+
+```jsx
+import { ChevronDownIcon } from "iconaut-react/shadcn";
+```
+
+Or add single icons as source files from the registry:
+
+```bash
+npx shadcn@latest add https://iconaut.design/r/rocket.json
+```
+
 ## A real drawing at every size
 
 Most icon libraries ship one drawing and scale it, so a 16px icon is a 24px icon with

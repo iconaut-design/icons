@@ -7,6 +7,11 @@ drawing at every native size. MIT licensed.
 
 **[Browse them](https://iconaut.design/icons)** · [iconaut.design](https://iconaut.design) · `npm i iconaut-react`
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/preview-dark.svg">
+  <img alt="A row of Iconaut icons in line, solid and duotone" src=".github/preview-light.svg">
+</picture>
+
 ## Install
 
 ```bash
@@ -23,7 +28,21 @@ import { Rocket, RocketSolid, RocketDuo } from "iconaut-react";
 ```
 
 Or take the SVGs: they are plain files with no wrapper, and every path takes
-`currentColor`, so an icon inherits whatever text colour is in scope.
+`currentColor`, so an icon inherits whatever text colour is in scope. Every file is on the
+jsDelivr CDN straight from this repository:
+
+```html
+<img src="https://cdn.jsdelivr.net/gh/iconaut-design/icons/icons/essential/home/24/line.svg" width="24" height="24" alt="">
+```
+
+### shadcn/ui
+
+`iconaut-react/shadcn` exports the icons under the lucide names shadcn/ui components import
+(`CheckIcon`, `ChevronDownIcon`, `XIcon`...), and every icon is also a registry item:
+
+```bash
+npx shadcn@latest add https://iconaut.design/r/rocket.json
+```
 
 ## What is in here
 

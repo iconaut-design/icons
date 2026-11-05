@@ -1,6 +1,6 @@
 {
   "name": "iconaut-react",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "Iconaut icons as React components — one shape per icon, three styles, a real drawing at every native size.",
   "license": "MIT",
   "type": "module",
@@ -15,6 +15,10 @@
     "./types": {
       "types": "./types.d.ts",
       "default": "./types.js"
+    },
+    "./shadcn": {
+      "types": "./shadcn.d.ts",
+      "default": "./shadcn.js"
     },
     "./home": {
       "types": "./icons/home.d.ts",
@@ -15154,6 +15158,8 @@
     "index.d.ts",
     "types.js",
     "types.d.ts",
+    "shadcn.js",
+    "shadcn.d.ts",
     "icons",
     "README.md",
     "LICENSE"
@@ -15163,11 +15169,21 @@
   },
   "keywords": [
     "icons",
+    "icon",
+    "icon-library",
+    "icon-set",
     "react",
+    "react-icons",
     "svg",
+    "svg-icons",
+    "line-icons",
+    "solid-icons",
+    "duotone",
     "iconaut",
     "shadcn",
-    "figma"
+    "lucide-alternative",
+    "figma",
+    "tree-shakeable"
   ],
   "homepage": "https://iconaut.design",
   "repository": {
