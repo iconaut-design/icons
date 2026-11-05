@@ -1552,6 +1552,28 @@
           "added": "2026-10-28"
         },
         {
+          "name": "octagon-x",
+          "keywords": [
+            "error",
+            "stop",
+            "stop sign",
+            "failed",
+            "cancel",
+            "denied",
+            "blocked",
+            "critical",
+            "close",
+            "halt",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-05"
+        },
+        {
           "name": "palette",
           "keywords": [
             "color palette",
@@ -2752,6 +2774,26 @@
             "duo"
           ],
           "added": "2026-07-29"
+        },
+        {
+          "name": "triangle-alert",
+          "keywords": [
+            "warning",
+            "caution",
+            "attention",
+            "exclamation",
+            "danger",
+            "risk",
+            "notice",
+            "important",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-05"
         },
         {
           "name": "union",

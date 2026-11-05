@@ -12,11 +12,11 @@ import Copy from "./icons/copy.js";
 import InfoCircle from "./icons/info-circle.js";
 import Loader from "./icons/loader.js";
 import Minus from "./icons/minus.js";
-import CircleEllipsis from "./icons/circle-ellipsis.js";
-import CloseCircle from "./icons/close-circle.js";
+import SemaphoreHorizontal from "./icons/semaphore-horizontal.js";
+import OctagonX from "./icons/octagon-x.js";
 import Sidebar from "./icons/sidebar.js";
 import Search from "./icons/search.js";
-import CircleAlert from "./icons/circle-alert.js";
+import TriangleAlert from "./icons/triangle-alert.js";
 import Close from "./icons/close.js";
 
 const wrap = (C) => (props) => createElement(C, { size: 16, ...props });
@@ -32,9 +32,9 @@ export const CopyIcon = wrap(Copy);
 export const InfoIcon = wrap(InfoCircle);
 export const Loader2Icon = wrap(Loader);
 export const MinusIcon = wrap(Minus);
-export const MoreHorizontalIcon = wrap(CircleEllipsis); // closest free icon: circle-ellipsis
-export const OctagonXIcon = wrap(CloseCircle); // closest free icon: close-circle
+export const MoreHorizontalIcon = wrap(SemaphoreHorizontal);
+export const OctagonXIcon = wrap(OctagonX);
 export const PanelLeftIcon = wrap(Sidebar);
 export const SearchIcon = wrap(Search);
-export const TriangleAlertIcon = wrap(CircleAlert); // closest free icon: circle-alert
+export const TriangleAlertIcon = wrap(TriangleAlert);
 export const XIcon = wrap(Close);

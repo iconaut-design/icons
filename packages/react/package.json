@@ -1,6 +1,6 @@
 {
   "name": "iconaut-react",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "Iconaut icons as React components — one shape per icon, three styles, a real drawing at every native size.",
   "license": "MIT",
   "type": "module",
@@ -1675,6 +1675,30 @@
     "./octagon-minus-duo": {
       "types": "./icons/octagon-minus-duo.d.ts",
       "default": "./icons/octagon-minus-duo.js"
+    },
+    "./octagon-x": {
+      "types": "./icons/octagon-x.d.ts",
+      "default": "./icons/octagon-x.js"
+    },
+    "./octagon-x-solid": {
+      "types": "./icons/octagon-x-solid.d.ts",
+      "default": "./icons/octagon-x-solid.js"
+    },
+    "./octagon-x-duo": {
+      "types": "./icons/octagon-x-duo.d.ts",
+      "default": "./icons/octagon-x-duo.js"
+    },
+    "./triangle-alert": {
+      "types": "./icons/triangle-alert.d.ts",
+      "default": "./icons/triangle-alert.js"
+    },
+    "./triangle-alert-solid": {
+      "types": "./icons/triangle-alert-solid.d.ts",
+      "default": "./icons/triangle-alert-solid.js"
+    },
+    "./triangle-alert-duo": {
+      "types": "./icons/triangle-alert-duo.d.ts",
+      "default": "./icons/triangle-alert-duo.js"
     },
     "./sparkle": {
       "types": "./icons/sparkle.d.ts",
