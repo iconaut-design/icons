@@ -2,6 +2,8 @@
 
 # Iconaut icons
 
+[![npm](https://img.shields.io/npm/v/iconaut-react?label=npm&color=1D7FF1&labelColor=1a1d23)](https://www.npmjs.com/package/iconaut-react) [![license](https://img.shields.io/npm/l/iconaut-react?label=license&color=1D7FF1&labelColor=1a1d23)](LICENSE) [![Figma plugin](https://img.shields.io/badge/Figma-plugin-1D7FF1?logo=figma&logoColor=white&labelColor=1a1d23)](https://www.figma.com/community/plugin/1654947060820411920)
+
 1,263 free icons in **line, solid and duotone**, drawn on one 24px grid, with a real
 drawing at every native size. MIT licensed.
 
@@ -38,10 +40,11 @@ jsDelivr CDN straight from this repository:
 ### shadcn/ui
 
 `iconaut-react/shadcn` exports the icons under the lucide names shadcn/ui components import
-(`CheckIcon`, `ChevronDownIcon`, `XIcon`...), and every icon is also a registry item:
+(`CheckIcon`, `ChevronDownIcon`, `XIcon`...), and every icon is also an item in the
+[shadcn registry directory](https://ui.shadcn.com/docs/directory) as `@iconaut`:
 
 ```bash
-npx shadcn@latest add https://iconaut.design/r/rocket.json
+npx shadcn@latest add @iconaut/rocket
 ```
 
 ## What is in here
@@ -83,6 +86,11 @@ repository; they ship in the [Figma plugin](https://www.figma.com/community/plug
 Icon requests are welcome — [open an issue](https://github.com/iconaut-design/icons/issues) and say what you need and where
 you would use it. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull
 request: **this repository is generated**, so a patch to a file here cannot be merged.
+
+## Sponsor
+
+If Iconaut saves you time, [sponsor it on GitHub](https://github.com/sponsors/iconaut-design). Sponsorship pays for new
+free icons, redraws, and keeping the React package and the Figma library current.
 
 ## License
 
