@@ -1,8 +1,16 @@
-![Iconaut: one shape each, sharp at every size](.github/readme-banner.png)
+<p align="center">
+  <img src=".github/logo.png" width="96" height="96" alt="Iconaut">
+</p>
 
-# Iconaut icons
+<h1 align="center">Iconaut icons</h1>
 
-[![npm](https://img.shields.io/npm/v/iconaut-react?label=npm&color=1D7FF1&labelColor=1a1d23)](https://www.npmjs.com/package/iconaut-react) [![license](https://img.shields.io/npm/l/iconaut-react?label=license&color=1D7FF1&labelColor=1a1d23)](LICENSE) [![Figma plugin](https://img.shields.io/badge/Figma-plugin-1D7FF1?logo=figma&logoColor=white&labelColor=1a1d23)](https://www.figma.com/community/plugin/1654947060820411920)
+<p align="center"><b>One shape each. Sharp at every size.</b></p>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/iconaut-react"><img src="https://img.shields.io/npm/v/iconaut-react?label=npm&color=1D7FF1&labelColor=1a1d23" alt="npm"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/npm/l/iconaut-react?label=license&color=1D7FF1&labelColor=1a1d23" alt="license"></a>
+  <a href="https://www.figma.com/community/plugin/1654947060820411920"><img src="https://img.shields.io/badge/Figma-plugin-1D7FF1?logo=figma&logoColor=white&labelColor=1a1d23" alt="Figma plugin"></a>
+</p>
 
 1,263 free icons in **line, solid and duotone**, drawn on one 24px grid, with a real
 drawing at every native size. MIT licensed.
@@ -83,7 +91,7 @@ repository; they ship in the [Figma plugin](https://www.figma.com/community/plug
 
 ## Requests and contributions
 
-Icon requests are welcome — [open an issue](https://github.com/iconaut-design/icons/issues) and say what you need and where
+Icon requests are welcome: [post one in Discussions](https://github.com/iconaut-design/icons/discussions/categories/icon-requests) and say what you need and where
 you would use it. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull
 request: **this repository is generated**, so a patch to a file here cannot be merged.
 

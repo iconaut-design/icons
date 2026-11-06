@@ -10,7 +10,8 @@ That is not a brush-off. Here is what does work.
 
 ## Request an icon
 
-[Open an issue](https://github.com/iconaut-design/icons/issues) with what you need and, if you can, where you would use it.
+[Post it in the Icon requests discussions](https://github.com/iconaut-design/icons/discussions/categories/icon-requests) with what you need and, if you can, where
+you would use it.
 Concrete use cases are what decide priority: "a filter icon with a badge, for a table toolbar"
 is far more actionable than "filter variants".
 
