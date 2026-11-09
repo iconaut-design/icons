@@ -55,6 +55,14 @@ jsDelivr CDN straight from this repository:
 npx shadcn@latest add @iconaut/rocket
 ```
 
+## Use it in Figma
+
+- **[The free library file](https://www.figma.com/community/file/1687034537485391013)**: every free icon as a Figma component, in line,
+  solid and duotone, at 16, 20 and 24px, with round and sharp corners. Because each icon is one
+  shape, swapping one component for another keeps the colour you set on it.
+- **[The plugin](https://www.figma.com/community/plugin/1654947060820411920)**: search by meaning, set the style, size, stroke and duo tint
+  before you insert, and browse the Pro packs.
+
 ## What is in here
 
 | Path | What |
