@@ -13,9 +13,10 @@
 </p>
 
 1,263 free icons in **line, solid and duotone**, drawn on one 24px grid, with a real
-drawing at every native size. MIT licensed.
+drawing at every native size. MIT licensed, with zero dependencies.
 
-**[Browse them](https://iconaut.design/icons)** · [iconaut.design](https://iconaut.design) · `npm i iconaut-react`
+**[Browse them](https://iconaut.design/icons)** · [iconaut.design](https://iconaut.design) · for [React](#install),
+[React Native](#react-native), [AI agents](#ai-coding-agents-mcp), [Figma](#use-it-in-figma) and plain SVG
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset=".github/preview-dark.svg">
@@ -37,6 +38,10 @@ import { Rocket, RocketSolid, RocketDuo } from "iconaut-react";
 <Rocket className="text-blue-500" />
 ```
 
+**Zero dependencies.** `iconaut-react` installs nothing but itself: `react` (>=17) is a peer
+dependency, so your app's own copy is used. The same goes for `@iconaut/react-native` (peers: `react` and
+`react-native-svg`) and `@iconaut/mcp` (Node's standard library only).
+
 Or take the SVGs: they are plain files with no wrapper, and every path takes
 `currentColor`, so an icon inherits whatever text colour is in scope. Every file is on the
 jsDelivr CDN straight from this repository:
@@ -54,6 +59,57 @@ jsDelivr CDN straight from this repository:
 ```bash
 npx shadcn@latest add @iconaut/rocket
 ```
+
+### React Native
+
+The same icons as React Native components, drawn with
+[react-native-svg](https://github.com/software-mansion/react-native-svg), in Expo and bare
+React Native alike:
+
+```bash
+npx expo install @iconaut/react-native react-native-svg   # Expo
+npm i @iconaut/react-native react-native-svg              # bare React Native
+```
+
+```jsx
+import Rocket from "@iconaut/react-native/rocket";
+import RocketDuo from "@iconaut/react-native/rocket-duo";
+
+<Rocket />                                // the 24px fit, in black
+<Rocket size={16} color="#1D7FF1" />      // the real 16px drawing
+<RocketDuo secondaryColor="#1D7FF1" secondaryOpacity={0.3} />
+```
+
+Import each icon from its own path: Metro doesn't drop unused exports, so importing from the
+package root bundles the whole set. Every icon is also at `@iconaut/react-native/icons/rocket`, the
+same folder lucide-react-native uses. Set `color`, since React Native has no inherited text
+colour and icons default to black. Per-icon paths need Metro's package exports support
+(React Native 0.79 / Expo SDK 53 and later).
+
+### AI coding agents (MCP)
+
+An [MCP](https://modelcontextprotocol.io) server lets Claude Code, Cursor and other agents look
+an icon up instead of guessing its name. It searches the free set and returns the SVG at the
+size you ask for, the `iconaut-react` import and the shadcn/ui command. It runs locally from
+data in the package: no account, no API key.
+
+```bash
+claude mcp add iconaut -- npx -y @iconaut/mcp
+```
+
+Other clients take the same command in their MCP config:
+
+```json
+{
+  "mcpServers": {
+    "iconaut": { "command": "npx", "args": ["-y", "@iconaut/mcp"] }
+  }
+}
+```
+
+[`skills/iconaut-icons/SKILL.md`](skills/iconaut-icons/SKILL.md) is an agent skill to go with
+it: when to reach for the tools, which size and style to ask for, and how to use the result in
+React, shadcn/ui, React Native or plain SVG. In Claude Code, copy it into `.claude/skills/`.
 
 ## Use it in Figma
 

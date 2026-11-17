@@ -2,7 +2,7 @@
 import { createElement } from "react";
 
 const M0 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M5.8 7.8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0M14.2 16.2a2 2 0 1 0 4 0a2 2 0 1 0 -4 0\"/><g class=\"primary\"><path d=\"M18 6 L 6 18\"/><circle cx=\"7.8\" cy=\"7.8\" r=\"2\"/><circle cx=\"16.2\" cy=\"16.2\" r=\"2\"/></g>";
-const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M5.5 7.6a2.1 2.1 0 1 0 4.2 0a2.1 2.1 0 1 0 -4.2 0M14.299999999999999 16.4a2.1 2.1 0 1 0 4.2 0a2.1 2.1 0 1 0 -4.2 0\"/><g class=\"primary\"><path d=\"M18.5 5.5 L 5.5 18.5\"/><circle cx=\"7.6\" cy=\"7.6\" r=\"2.1\"/><circle cx=\"16.4\" cy=\"16.4\" r=\"2.1\"/></g>";
+const M1 = "<path class=\"secondary\" fill-rule=\"evenodd\" fill=\"currentColor\" fill-opacity=\"0.25\" d=\"M5.5 7.6a2.1 2.1 0 1 0 4.2 0a2.1 2.1 0 1 0 -4.2 0M14.3 16.4a2.1 2.1 0 1 0 4.2 0a2.1 2.1 0 1 0 -4.2 0\"/><g class=\"primary\"><path d=\"M18.5 5.5 L 5.5 18.5\"/><circle cx=\"7.6\" cy=\"7.6\" r=\"2.1\"/><circle cx=\"16.4\" cy=\"16.4\" r=\"2.1\"/></g>";
 // size -> [inner markup, optical stroke width]
 const F = {
   16: [M0, 1.875],

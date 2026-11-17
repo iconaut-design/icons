@@ -5,6 +5,9 @@ are derived from that same shape by the build, so the three styles can never dri
 and neither can these components, which are generated from the very SVGs the Figma plugin
 inserts.
 
+**Zero dependencies.** Installing it adds nothing else to your `node_modules`: the only
+requirement is the `react` (>=17) you already have, as a peer dependency.
+
 ```bash
 npm i iconaut-react
 ```
