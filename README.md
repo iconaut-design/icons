@@ -8,6 +8,7 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/iconaut-react"><img src="https://img.shields.io/npm/v/iconaut-react?label=npm&color=1D7FF1&labelColor=1a1d23" alt="npm"></a>
+  <a href="https://www.npmjs.com/package/iconaut-react"><img src="https://img.shields.io/npm/dt/iconaut-react?label=downloads&color=1D7FF1&labelColor=1a1d23" alt="npm downloads"></a>
   <a href="LICENSE"><img src="https://img.shields.io/npm/l/iconaut-react?label=license&color=1D7FF1&labelColor=1a1d23" alt="license"></a>
   <a href="https://www.figma.com/community/plugin/1654947060820411920"><img src="https://img.shields.io/badge/Figma-plugin-1D7FF1?logo=figma&logoColor=white&labelColor=1a1d23" alt="Figma plugin"></a>
 </p>
