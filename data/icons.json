@@ -59,6 +59,26 @@
           "added": "2026-10-12"
         },
         {
+          "name": "backspace",
+          "keywords": [
+            "delete",
+            "erase",
+            "clear",
+            "remove character",
+            "key",
+            "keyboard",
+            "undo typing",
+            "del",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
+        },
+        {
           "name": "bell",
           "keywords": [
             "notification",
@@ -893,6 +913,27 @@
           "added": "2026-04-21"
         },
         {
+          "name": "eye-closed",
+          "keywords": [
+            "hidden",
+            "hide",
+            "asleep",
+            "blink",
+            "private",
+            "unseen",
+            "conceal",
+            "password hidden",
+            "sleep",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
+        },
+        {
           "name": "eyedropper",
           "keywords": [
             "color picker",
@@ -1531,6 +1572,27 @@
           "added": "2026-10-21"
         },
         {
+          "name": "octagon-alert",
+          "keywords": [
+            "warning",
+            "error",
+            "stop",
+            "critical",
+            "danger",
+            "attention",
+            "blocked",
+            "alert sign",
+            "exclamation",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
+        },
+        {
           "name": "octagon-minus",
           "keywords": [
             "stop",
@@ -1960,6 +2022,44 @@
             "duo"
           ],
           "added": "2026-04-21"
+        },
+        {
+          "name": "search-check",
+          "keywords": [
+            "found",
+            "verified search",
+            "match",
+            "result found",
+            "confirmed",
+            "lookup done",
+            "validated",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
+        },
+        {
+          "name": "search-x",
+          "keywords": [
+            "no results",
+            "clear search",
+            "not found",
+            "cancel search",
+            "remove query",
+            "reset",
+            "empty",
+            "ui"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
         },
         {
           "name": "semaphore-horizontal",
@@ -6728,6 +6828,8 @@
             "symmetry",
             "left right",
             "flop",
+            "flip horizontal 2",
+            "reflection",
             "arrow"
           ],
           "styles": [
@@ -6736,26 +6838,6 @@
             "duo"
           ],
           "added": "2026-07-05"
-        },
-        {
-          "name": "flip-horizontal-2",
-          "keywords": [
-            "mirror",
-            "reflect",
-            "symmetry",
-            "reflection",
-            "axis",
-            "left right",
-            "mirror image",
-            "flop",
-            "arrow"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-10-12"
         },
         {
           "name": "flip-vertical",
@@ -6768,26 +6850,8 @@
             "up down",
             "upside down",
             "flip over",
-            "arrow"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-10-12"
-        },
-        {
-          "name": "flip-vertical-2",
-          "keywords": [
-            "mirror",
-            "reflect",
-            "symmetry",
+            "flip vertical 2",
             "reflection",
-            "axis",
-            "up down",
-            "mirror image",
-            "upside down",
             "arrow"
           ],
           "styles": [
@@ -7070,7 +7134,7 @@
           "added": "2026-04-28"
         },
         {
-          "name": "repeat-1",
+          "name": "repeat-once",
           "keywords": [
             "loop",
             "once",
@@ -7079,6 +7143,8 @@
             "cycle",
             "song",
             "again",
+            "repeat 1",
+            "repeat one",
             "arrow"
           ],
           "styles": [
@@ -7089,7 +7155,7 @@
           "added": "2026-07-05"
         },
         {
-          "name": "repeat-2",
+          "name": "repeat-twice",
           "keywords": [
             "loop",
             "twice",
@@ -7098,6 +7164,8 @@
             "cycle",
             "again",
             "two",
+            "repeat 2",
+            "repeat two",
             "arrow"
           ],
           "styles": [
@@ -7388,6 +7456,26 @@
           "added": "2026-05-12"
         },
         {
+          "name": "dialpad",
+          "keywords": [
+            "keypad",
+            "numpad",
+            "phone keys",
+            "dial",
+            "call",
+            "numbers",
+            "pin entry",
+            "telephone",
+            "communication"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
+        },
+        {
           "name": "foldable-book",
           "keywords": [
             "iphone duo",
@@ -7612,6 +7700,27 @@
           "added": "2026-05-12"
         },
         {
+          "name": "mail-check",
+          "keywords": [
+            "email",
+            "envelope",
+            "message",
+            "letter",
+            "sent",
+            "delivered",
+            "verified email",
+            "confirmed",
+            "read",
+            "email verified"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
+        },
+        {
           "name": "mail-dot",
           "keywords": [
             "unread email",
@@ -7631,6 +7740,26 @@
           "added": "2026-10-12"
         },
         {
+          "name": "mail-minus",
+          "keywords": [
+            "email",
+            "envelope",
+            "message",
+            "letter",
+            "remove email",
+            "unsubscribe",
+            "remove account",
+            "opt out",
+            "delete address"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
+        },
+        {
           "name": "mail-open",
           "keywords": [
             "email",
@@ -7647,6 +7776,47 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "mail-plus",
+          "keywords": [
+            "email",
+            "envelope",
+            "message",
+            "letter",
+            "new email",
+            "compose",
+            "add account",
+            "subscribe",
+            "invite"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
+        },
+        {
+          "name": "mail-x",
+          "keywords": [
+            "email",
+            "envelope",
+            "message",
+            "letter",
+            "failed",
+            "bounced",
+            "undelivered",
+            "delete email",
+            "rejected",
+            "spam"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
         },
         {
           "name": "mails",
@@ -7735,24 +7905,6 @@
             "bubble",
             "syntax",
             "dev"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-05"
-        },
-        {
-          "name": "message-circle-dashed",
-          "keywords": [
-            "chat",
-            "draft",
-            "typing",
-            "pending",
-            "bubble",
-            "placeholder",
-            "ghost"
           ],
           "styles": [
             "line",
@@ -7884,7 +8036,10 @@
             "outline",
             "dotted",
             "comment",
-            "round"
+            "round",
+            "message circle dashed",
+            "typing",
+            "ghost"
           ],
           "styles": [
             "line",
@@ -7924,26 +8079,6 @@
             "bubble",
             "romance",
             "emoji"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-02"
-        },
-        {
-          "name": "message-off",
-          "keywords": [
-            "mute",
-            "silent",
-            "disable",
-            "block",
-            "off",
-            "dnd",
-            "chat",
-            "bubble",
-            "slash"
           ],
           "styles": [
             "line",
@@ -8139,6 +8274,27 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "message-square-off",
+          "keywords": [
+            "mute",
+            "silent",
+            "disable",
+            "block",
+            "off",
+            "dnd",
+            "chat",
+            "bubble",
+            "slash",
+            "message off"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-02"
         },
         {
           "name": "message-square-plus",
@@ -8464,6 +8620,26 @@
           "added": "2026-05-12"
         },
         {
+          "name": "reply-all",
+          "keywords": [
+            "respond to all",
+            "answer everyone",
+            "group reply",
+            "email",
+            "thread",
+            "cc",
+            "respond",
+            "back",
+            "communication"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
+        },
+        {
           "name": "screen-share",
           "keywords": [
             "share screen",
@@ -8650,6 +8826,8 @@
             "broadcast",
             "receiver",
             "rabbit ears",
+            "tv aerial",
+            "yagi",
             "media"
           ],
           "styles": [
@@ -8686,7 +8864,10 @@
             "energy",
             "level",
             "device",
-            "cell"
+            "cell",
+            "battery full",
+            "charged",
+            "full"
           ],
           "styles": [
             "line",
@@ -8911,6 +9092,25 @@
           "added": "2026-06-30"
         },
         {
+          "name": "devices",
+          "keywords": [
+            "responsive",
+            "screens",
+            "desktop and mobile",
+            "cross platform",
+            "multi device",
+            "sync",
+            "breakpoints",
+            "hardware"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
+        },
+        {
           "name": "disc",
           "keywords": [
             "cd",
@@ -8968,6 +9168,25 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "eject",
+          "keywords": [
+            "remove disk",
+            "unmount",
+            "open tray",
+            "release",
+            "media",
+            "disc",
+            "safely remove",
+            "usb"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
         },
         {
           "name": "fast-forward",
@@ -9132,6 +9351,26 @@
             "duo"
           ],
           "added": "2026-07-02"
+        },
+        {
+          "name": "headset",
+          "keywords": [
+            "support",
+            "customer service",
+            "call center",
+            "agent",
+            "helpdesk",
+            "microphone",
+            "gaming",
+            "operator",
+            "media"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
         },
         {
           "name": "image",
@@ -10256,6 +10495,8 @@
             "woofer",
             "cabinet",
             "monitor",
+            "tower speaker",
+            "floorstanding",
             "media"
           ],
           "styles": [
@@ -10425,6 +10666,9 @@
             "loud",
             "unmute",
             "music",
+            "volume high",
+            "volume up",
+            "max",
             "media"
           ],
           "styles": [
@@ -10455,6 +10699,26 @@
             "duo"
           ],
           "added": "2026-07-02"
+        },
+        {
+          "name": "volume-low",
+          "keywords": [
+            "quiet",
+            "soft",
+            "volume down",
+            "turn down",
+            "sound",
+            "audio",
+            "speaker",
+            "decrease",
+            "media"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
         },
         {
           "name": "volume-mute",
@@ -10637,6 +10901,46 @@
           "added": "2026-05-26"
         },
         {
+          "name": "bookmark-check",
+          "keywords": [
+            "save",
+            "favorite",
+            "reading list",
+            "ribbon",
+            "saved",
+            "bookmarked",
+            "marked",
+            "done reading",
+            "file"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
+        },
+        {
+          "name": "bookmark-minus",
+          "keywords": [
+            "save",
+            "favorite",
+            "reading list",
+            "ribbon",
+            "remove bookmark",
+            "unsave",
+            "delete favorite",
+            "unpin page",
+            "file"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
+        },
+        {
           "name": "bookmark-off",
           "keywords": [
             "save",
@@ -10659,6 +10963,65 @@
             "duo"
           ],
           "added": "2026-07-02"
+        },
+        {
+          "name": "bookmark-plus",
+          "keywords": [
+            "save",
+            "favorite",
+            "reading list",
+            "ribbon",
+            "add bookmark",
+            "save for later",
+            "new favorite",
+            "pin page",
+            "file"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
+        },
+        {
+          "name": "bookmark-x",
+          "keywords": [
+            "save",
+            "favorite",
+            "reading list",
+            "ribbon",
+            "remove bookmark",
+            "delete",
+            "discard",
+            "clear saved",
+            "file"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
+        },
+        {
+          "name": "bookmarks",
+          "keywords": [
+            "saved items",
+            "reading list",
+            "favorites",
+            "collection",
+            "library",
+            "all bookmarks",
+            "tabs",
+            "file"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
         },
         {
           "name": "clipboard",
@@ -12838,6 +13201,27 @@
           "added": "2026-06-02"
         },
         {
+          "name": "briefcase",
+          "keywords": [
+            "work",
+            "job",
+            "business",
+            "career",
+            "office",
+            "portfolio",
+            "employment",
+            "professional",
+            "suitcase",
+            "shop"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
+        },
+        {
           "name": "calculator",
           "keywords": [
             "math",
@@ -13073,6 +13457,7 @@
             "accounting",
             "estimate",
             "quote",
+            "invoice doc",
             "shop"
           ],
           "styles": [
@@ -13213,6 +13598,8 @@
             "purchase",
             "transaction",
             "ticket",
+            "dollar",
+            "amount",
             "shop"
           ],
           "styles": [
@@ -13489,6 +13876,27 @@
       "label": "Weather",
       "icons": [
         {
+          "name": "circle-half-striped",
+          "keywords": [
+            "contrast",
+            "half",
+            "shade",
+            "opacity",
+            "dither",
+            "pattern",
+            "hatch",
+            "density",
+            "partial",
+            "weather"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
+        },
+        {
           "name": "cloud-drizzle",
           "keywords": [
             "weather",
@@ -13570,6 +13978,25 @@
           "added": "2026-06-09"
         },
         {
+          "name": "cloud-lightning-rain",
+          "keywords": [
+            "weather",
+            "thunderstorm",
+            "storm",
+            "thunder",
+            "downpour",
+            "severe weather",
+            "tempest",
+            "forecast"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
+        },
+        {
           "name": "cloud-moon",
           "keywords": [
             "weather",
@@ -13589,6 +14016,25 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "cloud-moon-lightning",
+          "keywords": [
+            "weather",
+            "thunderstorm",
+            "storm",
+            "night",
+            "thunder",
+            "evening",
+            "overnight storms",
+            "forecast"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
         },
         {
           "name": "cloud-moon-rain",
@@ -13631,6 +14077,25 @@
           "added": "2026-06-09"
         },
         {
+          "name": "cloud-rain-heavy",
+          "keywords": [
+            "weather",
+            "downpour",
+            "heavy rain",
+            "storm",
+            "pouring",
+            "torrential",
+            "flood",
+            "monsoon"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
+        },
+        {
           "name": "cloud-rain-wind",
           "keywords": [
             "weather",
@@ -13651,6 +14116,44 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "cloud-rainbow",
+          "keywords": [
+            "weather",
+            "rainbow",
+            "after rain",
+            "clearing",
+            "colorful",
+            "hope",
+            "pride",
+            "spectrum"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
+        },
+        {
+          "name": "cloud-sleet",
+          "keywords": [
+            "weather",
+            "sleet",
+            "freezing rain",
+            "wintry mix",
+            "ice",
+            "slush",
+            "cold",
+            "winter"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
         },
         {
           "name": "cloud-snow",
@@ -13690,6 +14193,25 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "cloud-sun-lightning",
+          "keywords": [
+            "weather",
+            "thunderstorm",
+            "storm",
+            "partly cloudy",
+            "day",
+            "thunder",
+            "isolated storms",
+            "forecast"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
         },
         {
           "name": "cloud-sun-rain",
@@ -13802,6 +14324,25 @@
             "duo"
           ],
           "added": "2026-06-09"
+        },
+        {
+          "name": "moon-haze",
+          "keywords": [
+            "weather",
+            "night",
+            "fog",
+            "mist",
+            "hazy",
+            "low visibility",
+            "evening",
+            "smog"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
         },
         {
           "name": "moon-star",
@@ -13987,6 +14528,25 @@
             "duo"
           ],
           "added": "2026-07-05"
+        },
+        {
+          "name": "sun-rain",
+          "keywords": [
+            "weather",
+            "sun shower",
+            "sunshower",
+            "light rain",
+            "clearing",
+            "mixed",
+            "drizzle",
+            "forecast"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
         },
         {
           "name": "sunrise",
@@ -14365,6 +14925,26 @@
           "added": "2026-07-05"
         },
         {
+          "name": "chart-radar",
+          "keywords": [
+            "chart",
+            "graph",
+            "radar",
+            "spider",
+            "polygon",
+            "metrics",
+            "data",
+            "radar chart",
+            "spider chart"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-05"
+        },
+        {
           "name": "chart-spline",
           "keywords": [
             "chart",
@@ -14558,6 +15138,25 @@
           "added": "2026-06-16"
         },
         {
+          "name": "filter-off",
+          "keywords": [
+            "clear filter",
+            "remove filter",
+            "reset",
+            "no filter",
+            "show all",
+            "unfiltered",
+            "funnel",
+            "chart"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
+        },
+        {
           "name": "gauge",
           "keywords": [
             "speed",
@@ -14648,6 +15247,26 @@
           "added": "2026-06-16"
         },
         {
+          "name": "list-filter",
+          "keywords": [
+            "filter list",
+            "sort",
+            "refine",
+            "narrow",
+            "funnel",
+            "criteria",
+            "options",
+            "reduce",
+            "chart"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
+        },
+        {
           "name": "list-tree",
           "keywords": [
             "tree",
@@ -14684,24 +15303,6 @@
             "duo"
           ],
           "added": "2026-06-16"
-        },
-        {
-          "name": "radar",
-          "keywords": [
-            "chart",
-            "graph",
-            "radar",
-            "spider",
-            "polygon",
-            "metrics",
-            "data"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-05"
         },
         {
           "name": "scatter-chart",
@@ -15607,6 +16208,7 @@
             "language",
             "planet",
             "global",
+            "globe meridians",
             "map"
           ],
           "styles": [
@@ -15664,30 +16266,6 @@
             "duo"
           ],
           "added": "2026-10-12"
-        },
-        {
-          "name": "globe-meridians",
-          "keywords": [
-            "world",
-            "earth",
-            "planet",
-            "global",
-            "international",
-            "internet",
-            "web",
-            "network",
-            "geography",
-            "sphere",
-            "latitude",
-            "longitude",
-            "map"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-02"
         },
         {
           "name": "globe-pin",
@@ -16884,6 +17462,8 @@
             "items",
             "agenda",
             "done",
+            "list todo circle",
+            "round checkbox",
             "text"
           ],
           "styles": [
@@ -16892,27 +17472,6 @@
             "duo"
           ],
           "added": "2026-07-05"
-        },
-        {
-          "name": "list-todo-circle",
-          "keywords": [
-            "checklist",
-            "tasks",
-            "todo",
-            "round checkbox",
-            "reminders",
-            "items",
-            "radio list",
-            "done",
-            "agenda",
-            "text"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-10-12"
         },
         {
           "name": "list-x",
@@ -17379,6 +17938,8 @@
             "remove link",
             "detach",
             "href",
+            "link off",
+            "broken link",
             "text"
           ],
           "styles": [
@@ -18032,6 +18593,30 @@
           "added": "2026-07-02"
         },
         {
+          "name": "steam-train",
+          "keywords": [
+            "railway",
+            "metro",
+            "subway",
+            "tram",
+            "rail",
+            "station",
+            "commute",
+            "transit",
+            "locomotive",
+            "steam",
+            "train",
+            "steam locomotive",
+            "transport"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-07-02"
+        },
+        {
           "name": "submarine",
           "keywords": [
             "vessel",
@@ -18109,28 +18694,6 @@
         {
           "name": "train",
           "keywords": [
-            "railway",
-            "metro",
-            "subway",
-            "tram",
-            "rail",
-            "station",
-            "commute",
-            "transit",
-            "locomotive",
-            "steam",
-            "transport"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-02"
-        },
-        {
-          "name": "train-front",
-          "keywords": [
             "locomotive",
             "engine",
             "rail",
@@ -18141,6 +18704,7 @@
             "commute",
             "metro",
             "subway",
+            "train front",
             "transport"
           ],
           "styles": [
@@ -21339,24 +21903,6 @@
           "added": "2026-07-03"
         },
         {
-          "name": "seedling",
-          "keywords": [
-            "sprout",
-            "plant",
-            "grow",
-            "seed",
-            "garden",
-            "young",
-            "eco"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-05"
-        },
-        {
           "name": "sheep",
           "keywords": [
             "animal",
@@ -21476,7 +22022,9 @@
             "garden",
             "organic",
             "new",
-            "eco"
+            "eco",
+            "sprout",
+            "seed"
           ],
           "styles": [
             "line",
@@ -22140,27 +22688,6 @@
           "added": "2026-07-02"
         },
         {
-          "name": "cup",
-          "keywords": [
-            "trophy",
-            "loving cup",
-            "winner",
-            "prize",
-            "champion",
-            "award",
-            "handles",
-            "goblet",
-            "victory",
-            "tournament"
-          ],
-          "styles": [
-            "line",
-            "solid",
-            "duo"
-          ],
-          "added": "2026-07-03"
-        },
-        {
           "name": "first-place",
           "keywords": [
             "1st",
@@ -22364,7 +22891,11 @@
             "winner",
             "recognition",
             "honor",
-            "decoration"
+            "decoration",
+            "seal ribbon",
+            "award seal",
+            "certified",
+            "official seal"
           ],
           "styles": [
             "line",
@@ -22406,7 +22937,9 @@
             "first",
             "tournament",
             "win",
-            "reward"
+            "reward",
+            "loving cup",
+            "goblet"
           ],
           "styles": [
             "line",
@@ -23300,6 +23833,27 @@
           "added": "2026-07-05"
         },
         {
+          "name": "curtains-open",
+          "keywords": [
+            "drapes",
+            "window",
+            "open",
+            "daylight",
+            "tied back",
+            "blinds",
+            "decor",
+            "theater",
+            "reveal",
+            "home"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
+        },
+        {
           "name": "door",
           "keywords": [
             "entrance",
@@ -23474,6 +24028,46 @@
           "added": "2026-07-02"
         },
         {
+          "name": "garage",
+          "keywords": [
+            "car port",
+            "parking",
+            "storage",
+            "home",
+            "workshop",
+            "door",
+            "driveway",
+            "vehicle",
+            "shed"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
+        },
+        {
+          "name": "garage-open",
+          "keywords": [
+            "car port",
+            "parking",
+            "open door",
+            "home",
+            "workshop",
+            "arrive",
+            "driveway",
+            "vehicle",
+            "access"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
+        },
+        {
           "name": "gripper",
           "keywords": [
             "claw",
@@ -23629,6 +24223,25 @@
             "duo"
           ],
           "added": "2026-07-02"
+        },
+        {
+          "name": "lamp-floor",
+          "keywords": [
+            "floor lamp",
+            "standing lamp",
+            "light",
+            "living room",
+            "reading",
+            "furniture",
+            "interior",
+            "tall"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
         },
         {
           "name": "level",
@@ -24216,6 +24829,104 @@
           "added": "2026-07-02"
         },
         {
+          "name": "window-awning",
+          "keywords": [
+            "top hung",
+            "hopper",
+            "vent",
+            "window",
+            "hinged",
+            "bathroom",
+            "basement",
+            "pane",
+            "home"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
+        },
+        {
+          "name": "window-awning-open",
+          "keywords": [
+            "top hung",
+            "hopper",
+            "vent",
+            "open",
+            "fresh air",
+            "ventilation",
+            "hinged",
+            "pane",
+            "home"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
+        },
+        {
+          "name": "window-horizontal",
+          "keywords": [
+            "sliding window",
+            "slider",
+            "wide",
+            "pane",
+            "glazing",
+            "home",
+            "picture window",
+            "frame"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
+        },
+        {
+          "name": "window-horizontal-open",
+          "keywords": [
+            "sliding window",
+            "slider",
+            "open",
+            "fresh air",
+            "ventilation",
+            "pane",
+            "breeze",
+            "air out",
+            "home"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
+        },
+        {
+          "name": "window-open",
+          "keywords": [
+            "casement",
+            "fresh air",
+            "ventilation",
+            "open",
+            "breeze",
+            "air out",
+            "home",
+            "pane"
+          ],
+          "styles": [
+            "line",
+            "solid",
+            "duo"
+          ],
+          "added": "2026-11-19"
+        },
+        {
           "name": "wrench",
           "keywords": [
             "tool",
@@ -24281,7 +24992,7 @@
           "added": "2026-07-14"
         },
         {
-          "name": "peace",
+          "name": "hand-peace",
           "keywords": [
             "victory",
             "two",
@@ -24290,7 +25001,9 @@
             "peace sign",
             "gesture",
             "win",
-            "yeah"
+            "yeah",
+            "peace",
+            "two fingers"
           ],
           "styles": [
             "line",

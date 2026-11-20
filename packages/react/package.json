@@ -1,6 +1,6 @@
 {
   "name": "iconaut-react",
-  "version": "1.7.5",
+  "version": "2.0.0",
   "description": "Iconaut icons as React components — one shape per icon, three styles, a real drawing at every native size.",
   "license": "MIT",
   "type": "module",
@@ -1700,6 +1700,66 @@
       "types": "./icons/triangle-alert-duo.d.ts",
       "default": "./icons/triangle-alert-duo.js"
     },
+    "./backspace": {
+      "types": "./icons/backspace.d.ts",
+      "default": "./icons/backspace.js"
+    },
+    "./backspace-solid": {
+      "types": "./icons/backspace-solid.d.ts",
+      "default": "./icons/backspace-solid.js"
+    },
+    "./backspace-duo": {
+      "types": "./icons/backspace-duo.d.ts",
+      "default": "./icons/backspace-duo.js"
+    },
+    "./eye-closed": {
+      "types": "./icons/eye-closed.d.ts",
+      "default": "./icons/eye-closed.js"
+    },
+    "./eye-closed-solid": {
+      "types": "./icons/eye-closed-solid.d.ts",
+      "default": "./icons/eye-closed-solid.js"
+    },
+    "./eye-closed-duo": {
+      "types": "./icons/eye-closed-duo.d.ts",
+      "default": "./icons/eye-closed-duo.js"
+    },
+    "./octagon-alert": {
+      "types": "./icons/octagon-alert.d.ts",
+      "default": "./icons/octagon-alert.js"
+    },
+    "./octagon-alert-solid": {
+      "types": "./icons/octagon-alert-solid.d.ts",
+      "default": "./icons/octagon-alert-solid.js"
+    },
+    "./octagon-alert-duo": {
+      "types": "./icons/octagon-alert-duo.d.ts",
+      "default": "./icons/octagon-alert-duo.js"
+    },
+    "./search-x": {
+      "types": "./icons/search-x.d.ts",
+      "default": "./icons/search-x.js"
+    },
+    "./search-x-solid": {
+      "types": "./icons/search-x-solid.d.ts",
+      "default": "./icons/search-x-solid.js"
+    },
+    "./search-x-duo": {
+      "types": "./icons/search-x-duo.d.ts",
+      "default": "./icons/search-x-duo.js"
+    },
+    "./search-check": {
+      "types": "./icons/search-check.d.ts",
+      "default": "./icons/search-check.js"
+    },
+    "./search-check-solid": {
+      "types": "./icons/search-check-solid.d.ts",
+      "default": "./icons/search-check-solid.js"
+    },
+    "./search-check-duo": {
+      "types": "./icons/search-check-duo.d.ts",
+      "default": "./icons/search-check-duo.js"
+    },
     "./sparkle": {
       "types": "./icons/sparkle.d.ts",
       "default": "./icons/sparkle.js"
@@ -3200,29 +3260,29 @@
       "types": "./icons/iteration-ccw-duo.d.ts",
       "default": "./icons/iteration-ccw-duo.js"
     },
-    "./repeat-1": {
-      "types": "./icons/repeat-1.d.ts",
-      "default": "./icons/repeat-1.js"
+    "./repeat-once": {
+      "types": "./icons/repeat-once.d.ts",
+      "default": "./icons/repeat-once.js"
     },
-    "./repeat-1-solid": {
-      "types": "./icons/repeat-1-solid.d.ts",
-      "default": "./icons/repeat-1-solid.js"
+    "./repeat-once-solid": {
+      "types": "./icons/repeat-once-solid.d.ts",
+      "default": "./icons/repeat-once-solid.js"
     },
-    "./repeat-1-duo": {
-      "types": "./icons/repeat-1-duo.d.ts",
-      "default": "./icons/repeat-1-duo.js"
+    "./repeat-once-duo": {
+      "types": "./icons/repeat-once-duo.d.ts",
+      "default": "./icons/repeat-once-duo.js"
     },
-    "./repeat-2": {
-      "types": "./icons/repeat-2.d.ts",
-      "default": "./icons/repeat-2.js"
+    "./repeat-twice": {
+      "types": "./icons/repeat-twice.d.ts",
+      "default": "./icons/repeat-twice.js"
     },
-    "./repeat-2-solid": {
-      "types": "./icons/repeat-2-solid.d.ts",
-      "default": "./icons/repeat-2-solid.js"
+    "./repeat-twice-solid": {
+      "types": "./icons/repeat-twice-solid.d.ts",
+      "default": "./icons/repeat-twice-solid.js"
     },
-    "./repeat-2-duo": {
-      "types": "./icons/repeat-2-duo.d.ts",
-      "default": "./icons/repeat-2-duo.js"
+    "./repeat-twice-duo": {
+      "types": "./icons/repeat-twice-duo.d.ts",
+      "default": "./icons/repeat-twice-duo.js"
     },
     "./rotate-cw": {
       "types": "./icons/rotate-cw.d.ts",
@@ -3427,30 +3487,6 @@
     "./flip-vertical-duo": {
       "types": "./icons/flip-vertical-duo.d.ts",
       "default": "./icons/flip-vertical-duo.js"
-    },
-    "./flip-horizontal-2": {
-      "types": "./icons/flip-horizontal-2.d.ts",
-      "default": "./icons/flip-horizontal-2.js"
-    },
-    "./flip-horizontal-2-solid": {
-      "types": "./icons/flip-horizontal-2-solid.d.ts",
-      "default": "./icons/flip-horizontal-2-solid.js"
-    },
-    "./flip-horizontal-2-duo": {
-      "types": "./icons/flip-horizontal-2-duo.d.ts",
-      "default": "./icons/flip-horizontal-2-duo.js"
-    },
-    "./flip-vertical-2": {
-      "types": "./icons/flip-vertical-2.d.ts",
-      "default": "./icons/flip-vertical-2.js"
-    },
-    "./flip-vertical-2-solid": {
-      "types": "./icons/flip-vertical-2-solid.d.ts",
-      "default": "./icons/flip-vertical-2-solid.js"
-    },
-    "./flip-vertical-2-duo": {
-      "types": "./icons/flip-vertical-2-duo.d.ts",
-      "default": "./icons/flip-vertical-2-duo.js"
     },
     "./arrow-up-right-down-left": {
       "types": "./icons/arrow-up-right-down-left.d.ts",
@@ -3956,17 +3992,17 @@
       "types": "./icons/message-square-text-duo.d.ts",
       "default": "./icons/message-square-text-duo.js"
     },
-    "./message-off": {
-      "types": "./icons/message-off.d.ts",
-      "default": "./icons/message-off.js"
+    "./message-square-off": {
+      "types": "./icons/message-square-off.d.ts",
+      "default": "./icons/message-square-off.js"
     },
-    "./message-off-solid": {
-      "types": "./icons/message-off-solid.d.ts",
-      "default": "./icons/message-off-solid.js"
+    "./message-square-off-solid": {
+      "types": "./icons/message-square-off-solid.d.ts",
+      "default": "./icons/message-square-off-solid.js"
     },
-    "./message-off-duo": {
-      "types": "./icons/message-off-duo.d.ts",
-      "default": "./icons/message-off-duo.js"
+    "./message-square-off-duo": {
+      "types": "./icons/message-square-off-duo.d.ts",
+      "default": "./icons/message-square-off-duo.js"
     },
     "./phone": {
       "types": "./icons/phone.d.ts",
@@ -4412,18 +4448,6 @@
       "types": "./icons/message-circle-off-duo.d.ts",
       "default": "./icons/message-circle-off-duo.js"
     },
-    "./message-circle-dashed": {
-      "types": "./icons/message-circle-dashed.d.ts",
-      "default": "./icons/message-circle-dashed.js"
-    },
-    "./message-circle-dashed-solid": {
-      "types": "./icons/message-circle-dashed-solid.d.ts",
-      "default": "./icons/message-circle-dashed-solid.js"
-    },
-    "./message-circle-dashed-duo": {
-      "types": "./icons/message-circle-dashed-duo.d.ts",
-      "default": "./icons/message-circle-dashed-duo.js"
-    },
     "./message-circle-lock": {
       "types": "./icons/message-circle-lock.d.ts",
       "default": "./icons/message-circle-lock.js"
@@ -4639,6 +4663,78 @@
     "./message-square-dashed-duo": {
       "types": "./icons/message-square-dashed-duo.d.ts",
       "default": "./icons/message-square-dashed-duo.js"
+    },
+    "./reply-all": {
+      "types": "./icons/reply-all.d.ts",
+      "default": "./icons/reply-all.js"
+    },
+    "./reply-all-solid": {
+      "types": "./icons/reply-all-solid.d.ts",
+      "default": "./icons/reply-all-solid.js"
+    },
+    "./reply-all-duo": {
+      "types": "./icons/reply-all-duo.d.ts",
+      "default": "./icons/reply-all-duo.js"
+    },
+    "./mail-plus": {
+      "types": "./icons/mail-plus.d.ts",
+      "default": "./icons/mail-plus.js"
+    },
+    "./mail-plus-solid": {
+      "types": "./icons/mail-plus-solid.d.ts",
+      "default": "./icons/mail-plus-solid.js"
+    },
+    "./mail-plus-duo": {
+      "types": "./icons/mail-plus-duo.d.ts",
+      "default": "./icons/mail-plus-duo.js"
+    },
+    "./mail-minus": {
+      "types": "./icons/mail-minus.d.ts",
+      "default": "./icons/mail-minus.js"
+    },
+    "./mail-minus-solid": {
+      "types": "./icons/mail-minus-solid.d.ts",
+      "default": "./icons/mail-minus-solid.js"
+    },
+    "./mail-minus-duo": {
+      "types": "./icons/mail-minus-duo.d.ts",
+      "default": "./icons/mail-minus-duo.js"
+    },
+    "./mail-check": {
+      "types": "./icons/mail-check.d.ts",
+      "default": "./icons/mail-check.js"
+    },
+    "./mail-check-solid": {
+      "types": "./icons/mail-check-solid.d.ts",
+      "default": "./icons/mail-check-solid.js"
+    },
+    "./mail-check-duo": {
+      "types": "./icons/mail-check-duo.d.ts",
+      "default": "./icons/mail-check-duo.js"
+    },
+    "./mail-x": {
+      "types": "./icons/mail-x.d.ts",
+      "default": "./icons/mail-x.js"
+    },
+    "./mail-x-solid": {
+      "types": "./icons/mail-x-solid.d.ts",
+      "default": "./icons/mail-x-solid.js"
+    },
+    "./mail-x-duo": {
+      "types": "./icons/mail-x-duo.d.ts",
+      "default": "./icons/mail-x-duo.js"
+    },
+    "./dialpad": {
+      "types": "./icons/dialpad.d.ts",
+      "default": "./icons/dialpad.js"
+    },
+    "./dialpad-solid": {
+      "types": "./icons/dialpad-solid.d.ts",
+      "default": "./icons/dialpad-solid.js"
+    },
+    "./dialpad-duo": {
+      "types": "./icons/dialpad-duo.d.ts",
+      "default": "./icons/dialpad-duo.js"
     },
     "./play": {
       "types": "./icons/play.d.ts",
@@ -5816,6 +5912,54 @@
       "types": "./icons/monitor-speaker-duo.d.ts",
       "default": "./icons/monitor-speaker-duo.js"
     },
+    "./volume-low": {
+      "types": "./icons/volume-low.d.ts",
+      "default": "./icons/volume-low.js"
+    },
+    "./volume-low-solid": {
+      "types": "./icons/volume-low-solid.d.ts",
+      "default": "./icons/volume-low-solid.js"
+    },
+    "./volume-low-duo": {
+      "types": "./icons/volume-low-duo.d.ts",
+      "default": "./icons/volume-low-duo.js"
+    },
+    "./eject": {
+      "types": "./icons/eject.d.ts",
+      "default": "./icons/eject.js"
+    },
+    "./eject-solid": {
+      "types": "./icons/eject-solid.d.ts",
+      "default": "./icons/eject-solid.js"
+    },
+    "./eject-duo": {
+      "types": "./icons/eject-duo.d.ts",
+      "default": "./icons/eject-duo.js"
+    },
+    "./headset": {
+      "types": "./icons/headset.d.ts",
+      "default": "./icons/headset.js"
+    },
+    "./headset-solid": {
+      "types": "./icons/headset-solid.d.ts",
+      "default": "./icons/headset-solid.js"
+    },
+    "./headset-duo": {
+      "types": "./icons/headset-duo.d.ts",
+      "default": "./icons/headset-duo.js"
+    },
+    "./devices": {
+      "types": "./icons/devices.d.ts",
+      "default": "./icons/devices.js"
+    },
+    "./devices-solid": {
+      "types": "./icons/devices-solid.d.ts",
+      "default": "./icons/devices-solid.js"
+    },
+    "./devices-duo": {
+      "types": "./icons/devices-duo.d.ts",
+      "default": "./icons/devices-duo.js"
+    },
     "./file": {
       "types": "./icons/file.d.ts",
       "default": "./icons/file.js"
@@ -6920,6 +7064,66 @@
       "types": "./icons/copy-off-duo.d.ts",
       "default": "./icons/copy-off-duo.js"
     },
+    "./bookmark-plus": {
+      "types": "./icons/bookmark-plus.d.ts",
+      "default": "./icons/bookmark-plus.js"
+    },
+    "./bookmark-plus-solid": {
+      "types": "./icons/bookmark-plus-solid.d.ts",
+      "default": "./icons/bookmark-plus-solid.js"
+    },
+    "./bookmark-plus-duo": {
+      "types": "./icons/bookmark-plus-duo.d.ts",
+      "default": "./icons/bookmark-plus-duo.js"
+    },
+    "./bookmark-minus": {
+      "types": "./icons/bookmark-minus.d.ts",
+      "default": "./icons/bookmark-minus.js"
+    },
+    "./bookmark-minus-solid": {
+      "types": "./icons/bookmark-minus-solid.d.ts",
+      "default": "./icons/bookmark-minus-solid.js"
+    },
+    "./bookmark-minus-duo": {
+      "types": "./icons/bookmark-minus-duo.d.ts",
+      "default": "./icons/bookmark-minus-duo.js"
+    },
+    "./bookmark-check": {
+      "types": "./icons/bookmark-check.d.ts",
+      "default": "./icons/bookmark-check.js"
+    },
+    "./bookmark-check-solid": {
+      "types": "./icons/bookmark-check-solid.d.ts",
+      "default": "./icons/bookmark-check-solid.js"
+    },
+    "./bookmark-check-duo": {
+      "types": "./icons/bookmark-check-duo.d.ts",
+      "default": "./icons/bookmark-check-duo.js"
+    },
+    "./bookmark-x": {
+      "types": "./icons/bookmark-x.d.ts",
+      "default": "./icons/bookmark-x.js"
+    },
+    "./bookmark-x-solid": {
+      "types": "./icons/bookmark-x-solid.d.ts",
+      "default": "./icons/bookmark-x-solid.js"
+    },
+    "./bookmark-x-duo": {
+      "types": "./icons/bookmark-x-duo.d.ts",
+      "default": "./icons/bookmark-x-duo.js"
+    },
+    "./bookmarks": {
+      "types": "./icons/bookmarks.d.ts",
+      "default": "./icons/bookmarks.js"
+    },
+    "./bookmarks-solid": {
+      "types": "./icons/bookmarks-solid.d.ts",
+      "default": "./icons/bookmarks-solid.js"
+    },
+    "./bookmarks-duo": {
+      "types": "./icons/bookmarks-duo.d.ts",
+      "default": "./icons/bookmarks-duo.js"
+    },
     "./credit-card": {
       "types": "./icons/credit-card.d.ts",
       "default": "./icons/credit-card.js"
@@ -7556,6 +7760,18 @@
       "types": "./icons/weight-tilde-duo.d.ts",
       "default": "./icons/weight-tilde-duo.js"
     },
+    "./briefcase": {
+      "types": "./icons/briefcase.d.ts",
+      "default": "./icons/briefcase.js"
+    },
+    "./briefcase-solid": {
+      "types": "./icons/briefcase-solid.d.ts",
+      "default": "./icons/briefcase-solid.js"
+    },
+    "./briefcase-duo": {
+      "types": "./icons/briefcase-duo.d.ts",
+      "default": "./icons/briefcase-duo.js"
+    },
     "./sun": {
       "types": "./icons/sun.d.ts",
       "default": "./icons/sun.js"
@@ -7952,6 +8168,114 @@
       "types": "./icons/star-half-duo.d.ts",
       "default": "./icons/star-half-duo.js"
     },
+    "./cloud-lightning-rain": {
+      "types": "./icons/cloud-lightning-rain.d.ts",
+      "default": "./icons/cloud-lightning-rain.js"
+    },
+    "./cloud-lightning-rain-solid": {
+      "types": "./icons/cloud-lightning-rain-solid.d.ts",
+      "default": "./icons/cloud-lightning-rain-solid.js"
+    },
+    "./cloud-lightning-rain-duo": {
+      "types": "./icons/cloud-lightning-rain-duo.d.ts",
+      "default": "./icons/cloud-lightning-rain-duo.js"
+    },
+    "./cloud-sun-lightning": {
+      "types": "./icons/cloud-sun-lightning.d.ts",
+      "default": "./icons/cloud-sun-lightning.js"
+    },
+    "./cloud-sun-lightning-solid": {
+      "types": "./icons/cloud-sun-lightning-solid.d.ts",
+      "default": "./icons/cloud-sun-lightning-solid.js"
+    },
+    "./cloud-sun-lightning-duo": {
+      "types": "./icons/cloud-sun-lightning-duo.d.ts",
+      "default": "./icons/cloud-sun-lightning-duo.js"
+    },
+    "./cloud-moon-lightning": {
+      "types": "./icons/cloud-moon-lightning.d.ts",
+      "default": "./icons/cloud-moon-lightning.js"
+    },
+    "./cloud-moon-lightning-solid": {
+      "types": "./icons/cloud-moon-lightning-solid.d.ts",
+      "default": "./icons/cloud-moon-lightning-solid.js"
+    },
+    "./cloud-moon-lightning-duo": {
+      "types": "./icons/cloud-moon-lightning-duo.d.ts",
+      "default": "./icons/cloud-moon-lightning-duo.js"
+    },
+    "./cloud-rain-heavy": {
+      "types": "./icons/cloud-rain-heavy.d.ts",
+      "default": "./icons/cloud-rain-heavy.js"
+    },
+    "./cloud-rain-heavy-solid": {
+      "types": "./icons/cloud-rain-heavy-solid.d.ts",
+      "default": "./icons/cloud-rain-heavy-solid.js"
+    },
+    "./cloud-rain-heavy-duo": {
+      "types": "./icons/cloud-rain-heavy-duo.d.ts",
+      "default": "./icons/cloud-rain-heavy-duo.js"
+    },
+    "./cloud-sleet": {
+      "types": "./icons/cloud-sleet.d.ts",
+      "default": "./icons/cloud-sleet.js"
+    },
+    "./cloud-sleet-solid": {
+      "types": "./icons/cloud-sleet-solid.d.ts",
+      "default": "./icons/cloud-sleet-solid.js"
+    },
+    "./cloud-sleet-duo": {
+      "types": "./icons/cloud-sleet-duo.d.ts",
+      "default": "./icons/cloud-sleet-duo.js"
+    },
+    "./cloud-rainbow": {
+      "types": "./icons/cloud-rainbow.d.ts",
+      "default": "./icons/cloud-rainbow.js"
+    },
+    "./cloud-rainbow-solid": {
+      "types": "./icons/cloud-rainbow-solid.d.ts",
+      "default": "./icons/cloud-rainbow-solid.js"
+    },
+    "./cloud-rainbow-duo": {
+      "types": "./icons/cloud-rainbow-duo.d.ts",
+      "default": "./icons/cloud-rainbow-duo.js"
+    },
+    "./sun-rain": {
+      "types": "./icons/sun-rain.d.ts",
+      "default": "./icons/sun-rain.js"
+    },
+    "./sun-rain-solid": {
+      "types": "./icons/sun-rain-solid.d.ts",
+      "default": "./icons/sun-rain-solid.js"
+    },
+    "./sun-rain-duo": {
+      "types": "./icons/sun-rain-duo.d.ts",
+      "default": "./icons/sun-rain-duo.js"
+    },
+    "./moon-haze": {
+      "types": "./icons/moon-haze.d.ts",
+      "default": "./icons/moon-haze.js"
+    },
+    "./moon-haze-solid": {
+      "types": "./icons/moon-haze-solid.d.ts",
+      "default": "./icons/moon-haze-solid.js"
+    },
+    "./moon-haze-duo": {
+      "types": "./icons/moon-haze-duo.d.ts",
+      "default": "./icons/moon-haze-duo.js"
+    },
+    "./circle-half-striped": {
+      "types": "./icons/circle-half-striped.d.ts",
+      "default": "./icons/circle-half-striped.js"
+    },
+    "./circle-half-striped-solid": {
+      "types": "./icons/circle-half-striped-solid.d.ts",
+      "default": "./icons/circle-half-striped-solid.js"
+    },
+    "./circle-half-striped-duo": {
+      "types": "./icons/circle-half-striped-duo.d.ts",
+      "default": "./icons/circle-half-striped-duo.js"
+    },
     "./bar-chart": {
       "types": "./icons/bar-chart.d.ts",
       "default": "./icons/bar-chart.js"
@@ -8156,17 +8480,17 @@
       "types": "./icons/chart-donut-duo.d.ts",
       "default": "./icons/chart-donut-duo.js"
     },
-    "./radar": {
-      "types": "./icons/radar.d.ts",
-      "default": "./icons/radar.js"
+    "./chart-radar": {
+      "types": "./icons/chart-radar.d.ts",
+      "default": "./icons/chart-radar.js"
     },
-    "./radar-solid": {
-      "types": "./icons/radar-solid.d.ts",
-      "default": "./icons/radar-solid.js"
+    "./chart-radar-solid": {
+      "types": "./icons/chart-radar-solid.d.ts",
+      "default": "./icons/chart-radar-solid.js"
     },
-    "./radar-duo": {
-      "types": "./icons/radar-duo.d.ts",
-      "default": "./icons/radar-duo.js"
+    "./chart-radar-duo": {
+      "types": "./icons/chart-radar-duo.d.ts",
+      "default": "./icons/chart-radar-duo.js"
     },
     "./chart-network": {
       "types": "./icons/chart-network.d.ts",
@@ -8443,6 +8767,30 @@
     "./tally-4-duo": {
       "types": "./icons/tally-4-duo.d.ts",
       "default": "./icons/tally-4-duo.js"
+    },
+    "./list-filter": {
+      "types": "./icons/list-filter.d.ts",
+      "default": "./icons/list-filter.js"
+    },
+    "./list-filter-solid": {
+      "types": "./icons/list-filter-solid.d.ts",
+      "default": "./icons/list-filter-solid.js"
+    },
+    "./list-filter-duo": {
+      "types": "./icons/list-filter-duo.d.ts",
+      "default": "./icons/list-filter-duo.js"
+    },
+    "./filter-off": {
+      "types": "./icons/filter-off.d.ts",
+      "default": "./icons/filter-off.js"
+    },
+    "./filter-off-solid": {
+      "types": "./icons/filter-off-solid.d.ts",
+      "default": "./icons/filter-off-solid.js"
+    },
+    "./filter-off-duo": {
+      "types": "./icons/filter-off-duo.d.ts",
+      "default": "./icons/filter-off-duo.js"
     },
     "./calendar-plus": {
       "types": "./icons/calendar-plus.d.ts",
@@ -8887,18 +9235,6 @@
     "./city-duo": {
       "types": "./icons/city-duo.d.ts",
       "default": "./icons/city-duo.js"
-    },
-    "./globe-meridians": {
-      "types": "./icons/globe-meridians.d.ts",
-      "default": "./icons/globe-meridians.js"
-    },
-    "./globe-meridians-solid": {
-      "types": "./icons/globe-meridians-solid.d.ts",
-      "default": "./icons/globe-meridians-solid.js"
-    },
-    "./globe-meridians-duo": {
-      "types": "./icons/globe-meridians-duo.d.ts",
-      "default": "./icons/globe-meridians-duo.js"
     },
     "./earth": {
       "types": "./icons/earth.d.ts",
@@ -9752,18 +10088,6 @@
       "types": "./icons/text-compact-duo.d.ts",
       "default": "./icons/text-compact-duo.js"
     },
-    "./list-todo-circle": {
-      "types": "./icons/list-todo-circle.d.ts",
-      "default": "./icons/list-todo-circle.js"
-    },
-    "./list-todo-circle-solid": {
-      "types": "./icons/list-todo-circle-solid.d.ts",
-      "default": "./icons/list-todo-circle-solid.js"
-    },
-    "./list-todo-circle-duo": {
-      "types": "./icons/list-todo-circle-duo.d.ts",
-      "default": "./icons/list-todo-circle-duo.js"
-    },
     "./pipe": {
       "types": "./icons/pipe.d.ts",
       "default": "./icons/pipe.js"
@@ -10052,17 +10376,17 @@
       "types": "./icons/plane-landing-duo.d.ts",
       "default": "./icons/plane-landing-duo.js"
     },
-    "./train": {
-      "types": "./icons/train.d.ts",
-      "default": "./icons/train.js"
+    "./steam-train": {
+      "types": "./icons/steam-train.d.ts",
+      "default": "./icons/steam-train.js"
     },
-    "./train-solid": {
-      "types": "./icons/train-solid.d.ts",
-      "default": "./icons/train-solid.js"
+    "./steam-train-solid": {
+      "types": "./icons/steam-train-solid.d.ts",
+      "default": "./icons/steam-train-solid.js"
     },
-    "./train-duo": {
-      "types": "./icons/train-duo.d.ts",
-      "default": "./icons/train-duo.js"
+    "./steam-train-duo": {
+      "types": "./icons/steam-train-duo.d.ts",
+      "default": "./icons/steam-train-duo.js"
     },
     "./ship": {
       "types": "./icons/ship.d.ts",
@@ -10136,17 +10460,17 @@
       "types": "./icons/train-track-duo.d.ts",
       "default": "./icons/train-track-duo.js"
     },
-    "./train-front": {
-      "types": "./icons/train-front.d.ts",
-      "default": "./icons/train-front.js"
+    "./train": {
+      "types": "./icons/train.d.ts",
+      "default": "./icons/train.js"
     },
-    "./train-front-solid": {
-      "types": "./icons/train-front-solid.d.ts",
-      "default": "./icons/train-front-solid.js"
+    "./train-solid": {
+      "types": "./icons/train-solid.d.ts",
+      "default": "./icons/train-solid.js"
     },
-    "./train-front-duo": {
-      "types": "./icons/train-front-duo.d.ts",
-      "default": "./icons/train-front-duo.js"
+    "./train-duo": {
+      "types": "./icons/train-duo.d.ts",
+      "default": "./icons/train-duo.js"
     },
     "./monorail": {
       "types": "./icons/monorail.d.ts",
@@ -12380,18 +12704,6 @@
       "types": "./icons/spider-duo.d.ts",
       "default": "./icons/spider-duo.js"
     },
-    "./seedling": {
-      "types": "./icons/seedling.d.ts",
-      "default": "./icons/seedling.js"
-    },
-    "./seedling-solid": {
-      "types": "./icons/seedling-solid.d.ts",
-      "default": "./icons/seedling-solid.js"
-    },
-    "./seedling-duo": {
-      "types": "./icons/seedling-duo.d.ts",
-      "default": "./icons/seedling-duo.js"
-    },
     "./tree-deciduous": {
       "types": "./icons/tree-deciduous.d.ts",
       "default": "./icons/tree-deciduous.js"
@@ -12931,18 +13243,6 @@
     "./trophy-star-duo": {
       "types": "./icons/trophy-star-duo.d.ts",
       "default": "./icons/trophy-star-duo.js"
-    },
-    "./cup": {
-      "types": "./icons/cup.d.ts",
-      "default": "./icons/cup.js"
-    },
-    "./cup-solid": {
-      "types": "./icons/cup-solid.d.ts",
-      "default": "./icons/cup-solid.js"
-    },
-    "./cup-duo": {
-      "types": "./icons/cup-duo.d.ts",
-      "default": "./icons/cup-duo.js"
     },
     "./rosette": {
       "types": "./icons/rosette.d.ts",
@@ -14096,6 +14396,114 @@
       "types": "./icons/gripper-duo.d.ts",
       "default": "./icons/gripper-duo.js"
     },
+    "./curtains-open": {
+      "types": "./icons/curtains-open.d.ts",
+      "default": "./icons/curtains-open.js"
+    },
+    "./curtains-open-solid": {
+      "types": "./icons/curtains-open-solid.d.ts",
+      "default": "./icons/curtains-open-solid.js"
+    },
+    "./curtains-open-duo": {
+      "types": "./icons/curtains-open-duo.d.ts",
+      "default": "./icons/curtains-open-duo.js"
+    },
+    "./garage": {
+      "types": "./icons/garage.d.ts",
+      "default": "./icons/garage.js"
+    },
+    "./garage-solid": {
+      "types": "./icons/garage-solid.d.ts",
+      "default": "./icons/garage-solid.js"
+    },
+    "./garage-duo": {
+      "types": "./icons/garage-duo.d.ts",
+      "default": "./icons/garage-duo.js"
+    },
+    "./garage-open": {
+      "types": "./icons/garage-open.d.ts",
+      "default": "./icons/garage-open.js"
+    },
+    "./garage-open-solid": {
+      "types": "./icons/garage-open-solid.d.ts",
+      "default": "./icons/garage-open-solid.js"
+    },
+    "./garage-open-duo": {
+      "types": "./icons/garage-open-duo.d.ts",
+      "default": "./icons/garage-open-duo.js"
+    },
+    "./lamp-floor": {
+      "types": "./icons/lamp-floor.d.ts",
+      "default": "./icons/lamp-floor.js"
+    },
+    "./lamp-floor-solid": {
+      "types": "./icons/lamp-floor-solid.d.ts",
+      "default": "./icons/lamp-floor-solid.js"
+    },
+    "./lamp-floor-duo": {
+      "types": "./icons/lamp-floor-duo.d.ts",
+      "default": "./icons/lamp-floor-duo.js"
+    },
+    "./window-open": {
+      "types": "./icons/window-open.d.ts",
+      "default": "./icons/window-open.js"
+    },
+    "./window-open-solid": {
+      "types": "./icons/window-open-solid.d.ts",
+      "default": "./icons/window-open-solid.js"
+    },
+    "./window-open-duo": {
+      "types": "./icons/window-open-duo.d.ts",
+      "default": "./icons/window-open-duo.js"
+    },
+    "./window-awning": {
+      "types": "./icons/window-awning.d.ts",
+      "default": "./icons/window-awning.js"
+    },
+    "./window-awning-solid": {
+      "types": "./icons/window-awning-solid.d.ts",
+      "default": "./icons/window-awning-solid.js"
+    },
+    "./window-awning-duo": {
+      "types": "./icons/window-awning-duo.d.ts",
+      "default": "./icons/window-awning-duo.js"
+    },
+    "./window-awning-open": {
+      "types": "./icons/window-awning-open.d.ts",
+      "default": "./icons/window-awning-open.js"
+    },
+    "./window-awning-open-solid": {
+      "types": "./icons/window-awning-open-solid.d.ts",
+      "default": "./icons/window-awning-open-solid.js"
+    },
+    "./window-awning-open-duo": {
+      "types": "./icons/window-awning-open-duo.d.ts",
+      "default": "./icons/window-awning-open-duo.js"
+    },
+    "./window-horizontal": {
+      "types": "./icons/window-horizontal.d.ts",
+      "default": "./icons/window-horizontal.js"
+    },
+    "./window-horizontal-solid": {
+      "types": "./icons/window-horizontal-solid.d.ts",
+      "default": "./icons/window-horizontal-solid.js"
+    },
+    "./window-horizontal-duo": {
+      "types": "./icons/window-horizontal-duo.d.ts",
+      "default": "./icons/window-horizontal-duo.js"
+    },
+    "./window-horizontal-open": {
+      "types": "./icons/window-horizontal-open.d.ts",
+      "default": "./icons/window-horizontal-open.js"
+    },
+    "./window-horizontal-open-solid": {
+      "types": "./icons/window-horizontal-open-solid.d.ts",
+      "default": "./icons/window-horizontal-open-solid.js"
+    },
+    "./window-horizontal-open-duo": {
+      "types": "./icons/window-horizontal-open-duo.d.ts",
+      "default": "./icons/window-horizontal-open-duo.js"
+    },
     "./hand": {
       "types": "./icons/hand.d.ts",
       "default": "./icons/hand.js"
@@ -14144,17 +14552,17 @@
       "types": "./icons/point-down-duo.d.ts",
       "default": "./icons/point-down-duo.js"
     },
-    "./peace": {
-      "types": "./icons/peace.d.ts",
-      "default": "./icons/peace.js"
+    "./hand-peace": {
+      "types": "./icons/hand-peace.d.ts",
+      "default": "./icons/hand-peace.js"
     },
-    "./peace-solid": {
-      "types": "./icons/peace-solid.d.ts",
-      "default": "./icons/peace-solid.js"
+    "./hand-peace-solid": {
+      "types": "./icons/hand-peace-solid.d.ts",
+      "default": "./icons/hand-peace-solid.js"
     },
-    "./peace-duo": {
-      "types": "./icons/peace-duo.d.ts",
-      "default": "./icons/peace-duo.js"
+    "./hand-peace-duo": {
+      "types": "./icons/hand-peace-duo.d.ts",
+      "default": "./icons/hand-peace-duo.js"
     },
     "./three-fingers": {
       "types": "./icons/three-fingers.d.ts",
