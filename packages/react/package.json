@@ -1,6 +1,6 @@
 {
   "name": "iconaut-react",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Iconaut icons as React components — one shape per icon, three styles, a real drawing at every native size.",
   "license": "MIT",
   "type": "module",

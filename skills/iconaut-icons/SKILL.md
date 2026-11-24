@@ -5,7 +5,7 @@ description: "Add UI icons to a web or React Native project with the free, MIT-l
 
 # Iconaut icons
 
-Iconaut is a free icon set (MIT) for product UI. The `@iconaut/mcp` server searches it and
+Iconaut is a free icon library (MIT) for product UI. The `@iconaut/mcp` server searches it and
 returns exact SVG, imports and install commands, so you never have to guess an icon name.
 
 ## Set up the MCP server (once)

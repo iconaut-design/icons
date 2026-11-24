@@ -4,7 +4,7 @@
 
 <h1 align="center">Iconaut icons</h1>
 
-<p align="center"><b>One shape each. Sharp at every size.</b></p>
+<p align="center"><b>The 2,500+ icon library. Sharp at every size.</b></p>
 
 <p align="center">
   <a href="https://www.npmjs.com/package/iconaut-react"><img src="https://img.shields.io/npm/v/iconaut-react?label=npm&color=1D7FF1&labelColor=1a1d23" alt="npm"></a>

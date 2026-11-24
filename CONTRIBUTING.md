@@ -23,7 +23,7 @@ you are using beats a description.
 
 ## Propose geometry
 
-Say so in the issue first. Every drawing has to clear the kit's own audits before it can
+Say so in the issue first. Every drawing has to clear the library's own audits before it can
 ship — the shared 24px grid, the per-size stroke, the interior counters, the solid's
 silhouette against the line's, the duotone's tint against both — and those run against the
 source, not against a file here. If you want to draw something, ask and you will get the
