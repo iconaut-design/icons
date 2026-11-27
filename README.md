@@ -31,12 +31,15 @@ npm i iconaut-react
 ```
 
 ```jsx
-import { Rocket, RocketSolid, RocketDuo } from "iconaut-react";
+import { Rocket, RocketSolid, RocketDuo, RocketDuotone } from "iconaut-react";
 
 <Rocket />                    // the 24px fit
 <Rocket size={16} />          // the REAL 16px drawing, not the 24px one scaled down
 <Rocket strokeWidth={1.25} /> // override the fit's optical stroke
 <Rocket className="text-blue-500" />
+<RocketSolid />               // fill
+<RocketDuo />                 // two-tone: a 25% tint under the line
+<RocketDuotone />             // duotone: a 25% fill under a full one, no stroke
 ```
 
 **Zero dependencies.** `iconaut-react` installs nothing but itself: `react` (>=17) is a peer
@@ -115,16 +118,16 @@ React, shadcn/ui, React Native or plain SVG. In Claude Code, copy it into `.clau
 ## Use it in Figma
 
 - **[The free library file](https://www.figma.com/community/file/1687034537485391013)**: every free icon as a Figma component, in line,
-  solid and duotone, at 16, 20 and 24px, with round and sharp corners. Because each icon is one
+  two-tone and fill (duotone isn't in the library yet), at 16, 20 and 24px, with round and sharp corners. Because each icon is one
   shape, swapping one component for another keeps the colour you set on it.
-- **[The plugin](https://www.figma.com/community/plugin/1654947060820411920)**: search by meaning, set the style, size, stroke and duo tint
-  before you insert, and browse the Pro packs.
+- **[The plugin](https://www.figma.com/community/plugin/1654947060820411920)**: search by meaning, set the style (line, two-tone, duotone or fill),
+  size, stroke and tint before you insert, and browse the Pro packs.
 
 ## What is in here
 
 | Path | What |
 |------|------|
-| `icons/<category>/<name>/<size>/{line,solid,duo}.svg` | Every icon, at its three native fits. |
+| `icons/<category>/<name>/<size>/{line,solid,duo,duotone}.svg` | Every icon in its four styles, at its three native fits: `line` is Line, `solid` is Fill, `duo` is Two-tone, `duotone` is Duotone. |
 | `data/icons.json` | Names, categories, keywords, and the per-size stroke tokens. |
 | `packages/react/` | The generated `iconaut-react` package. |
 
@@ -143,8 +146,10 @@ carry fine detail.
 
 ## One shape per icon
 
-Each icon is one closed vector shape. `line` strokes it; `solid` fills the same shape, so it
-registers exactly under the line; `duo` fills it at 25% and strokes it on top. That is also
+Each icon is one closed vector shape, and all four styles come from it. `line` strokes it;
+`solid` (Fill) fills the same shape, so it registers exactly under the line; `duo` (Two-tone)
+fills it at 25% and strokes it on top; `duotone` has no stroke at all: a 25% fill with the
+same shape on top at full strength. That is also
 what makes them swap-safe in Figma: swapping a component keeps the colours you set on it.
 
 ## 1,680 free, and the rest
