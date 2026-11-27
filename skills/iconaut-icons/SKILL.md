@@ -1,6 +1,6 @@
 ---
 name: iconaut-icons
-description: "Add UI icons to a web or React Native project with the free, MIT-licensed Iconaut set (1,263 icons in line, solid and duotone, drawn natively at 16, 20 and 24px). Use whenever the task needs an icon in code: a button, nav item, menu, empty state, status badge, form field, toolbar or shadcn/ui component, or the user asks for an SVG icon, an icon import, or to replace lucide/heroicons with Iconaut. Uses the Iconaut MCP server to look icons up instead of guessing names."
+description: "Add UI icons to a web or React Native project with the free, MIT-licensed Iconaut set (1,680 icons in line, two-tone, duotone and fill, drawn natively at 16, 20 and 24px). Use whenever the task needs an icon in code: a button, nav item, menu, empty state, status badge, form field, toolbar or shadcn/ui component, or the user asks for an SVG icon, an icon import, or to replace lucide/heroicons with Iconaut. Uses the Iconaut MCP server to look icons up instead of guessing names."
 ---
 
 # Iconaut icons
@@ -57,6 +57,8 @@ Other values return the nearest native drawing; set the rendered width and heigh
 - **duo**: a 25% tint under the line, for feature cards, empty states and illustrations.
   Not every icon has duo (marks like arrows and checks don't); `search_icons` shows which
   styles each icon has.
+- **duotone**: fills only, a 25% layer under a full-strength one, with no stroke. For
+  larger, more illustrative spots: feature cards, onboarding, empty states.
 
 Keep one style per context. Pairing `line` for inactive with `solid` for active is the
 intended use; mixing styles at random in one toolbar is not.

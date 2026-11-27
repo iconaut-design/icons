@@ -4,7 +4,7 @@ export interface IconProps extends Omit<SVGProps<SVGSVGElement>, "dangerouslySet
   /** Native fits: 16 | 20 | 24 each use their own hand-tuned stroke. Any other
    *  value renders the nearest fit at the requested pixel size. Default 24. */
   size?: number;
-  /** Override the fit's optical stroke width. No effect on *Solid components. */
+  /** Override the fit's optical stroke width. No effect on *Solid and *Duotone components. */
   strokeWidth?: number;
 }
 

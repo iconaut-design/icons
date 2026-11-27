@@ -1,7 +1,7 @@
 # iconaut-react
 
-1297 Iconaut icons as React components. One shape per icon; line, solid and duotone
-are derived from that same shape by the build, so the three styles can never drift apart —
+1680 Iconaut icons as React components. One shape per icon; line, solid, two-tone and
+duotone are derived from that same shape by the build, so the four styles can never drift apart —
 and neither can these components, which are generated from the very SVGs the Figma plugin
 inserts.
 
@@ -13,7 +13,7 @@ npm i iconaut-react
 ```
 
 ```jsx
-import { Rocket, RocketSolid, RocketDuo } from "iconaut-react";
+import { Rocket, RocketSolid, RocketDuo, RocketDuotone } from "iconaut-react";
 
 <Rocket />                    // the 24px fit
 <Rocket size={16} />          // the REAL 16px fit, not the 24px drawing scaled down
@@ -53,13 +53,20 @@ that drops repeated or secondary detail rather than letting it turn to mud.
 
 Pass any other number and the nearest fit renders at that pixel size.
 
-## Duotone
+## Two-tone and duotone
 
-`*Duo` components render two layers: `.secondary` (a 25% tint of the icon's primary
+`*Duo` components are the two-tone style: `.secondary` (a 25% tint of the icon's primary
 plane) under `.primary` (the line). Target either with CSS:
 
 ```jsx
 <RocketDuo className="[&_.secondary]:fill-blue-500/20 [&_.primary]:stroke-blue-600" />
+```
+
+`*Duotone` components are fills only: `.secondary` is one shape at 25% and `.primary` is
+the shape on top of it at full strength. There is no stroke, so `strokeWidth` has no effect.
+
+```jsx
+<RocketDuotone className="[&_.secondary]:fill-blue-500 [&_.primary]:fill-blue-700" />
 ```
 
 ## Colour
@@ -68,7 +75,7 @@ Everything is `currentColor`, so icons inherit whatever text colour is in scope.
 
 ## License
 
-MIT. These are the 1297 free Iconaut icons: use them in personal and commercial
+MIT. These are the 1680 free Iconaut icons: use them in personal and commercial
 work, modify them, ship them. The specialised Pro packs are not in this package and are
 licensed separately — see <https://iconaut.design/terms>.
 
