@@ -13,7 +13,7 @@
   <a href="https://www.figma.com/community/plugin/1654947060820411920"><img src="https://img.shields.io/badge/Figma-plugin-1D7FF1?logo=figma&logoColor=white&labelColor=1a1d23" alt="Figma plugin"></a>
 </p>
 
-1,680 free icons in **line, solid and duotone**, drawn on one 24px grid, with a real
+1,680 free icons in **line, two-tone, duotone and fill**, drawn on one 24px grid, with a real
 drawing at every native size. MIT licensed, with zero dependencies.
 
 **[Browse them](https://iconaut.design/icons)** · [iconaut.design](https://iconaut.design) · for [React](#install),
